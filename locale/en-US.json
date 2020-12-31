@@ -1,12 +1,12 @@
-[
-	"countProcess.failReason.numbersOnly": "This counting channel is in number-only mode.",
-	"countProcess.failReason.doubleCount": "**You can't count two numbers in a row.**",
-	"countProcess.failReason.wrongNumber": "**Wrong number.**",
-	"countProcess.warning.wrongNumberAlreadyZero": "Incorrect number! The next number is `1`. **No stats have been changed since the current number was 0.**",
-	"countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> You have used **1** of your saves. You have **{savesLeft}** left. The next number is **{nextNumber}**",
-	"countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> You have used **1** guild save! There are **{savesLeft}/2** guild saves left. The next number is **{nextNumber}**",
-	"countProcess.failAlert.embedDescription": "Vote [here](https://counting.duckgroup.xyz/vote) to earn saves so you can continue counting next time. See `c!help`.",
-	"countProcess.failAlert.messageContent": "<@{authorId}> RUINED IT AT **{number}**!! Next number is **1**. {failReason}",
+{
+    "countProcess.failReason.numbersOnly": "This counting channel is in number-only mode.",
+    "countProcess.failReason.doubleCount": "**You can't count two numbers in a row.**",
+    "countProcess.failReason.wrongNumber": "**Wrong number.**",
+    "countProcess.warning.wrongNumberAlreadyZero": "Incorrect number! The next number is `1`. **No stats have been changed since the current number was 0.**",
+    "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> You have used **1** of your saves. You have **{savesLeft}** left. The next number is **{nextNumber}**",
+    "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> You have used **1** guild save! There are **{savesLeft}/2** guild saves left. The next number is **{nextNumber}**",
+    "countProcess.failAlert.embedDescription": "Vote [here](https://counting.duckgroup.xyz/vote) to earn saves so you can continue counting next time. See `c!help`.",
+    "countProcess.failAlert.messageContent": "<@{authorId}> RUINED IT AT **{number}**!! Next number is **1**. {failReason}",
 
 
     "messageDeleted.messageContent": "<@{memberId}> deleted their count of `{currentNumber}`. The next number is `{nextNumber}`.",
@@ -20,11 +20,11 @@
     "commands.generic.enabled": "enabled",
     "commands.generic.disabled": "disabled",
 
-	"commands.stats.embedTitle": "Bot Stats",
-	"commands.stats.embedField.global.name": "Global",
-	"commands.stats.embedField.global.value": "**Total Bot Guilds:** `{guilds}`\n**Total Bot Shards:** `{shards}`\n**Current MPS:** `{mps}`",
-	"commands.stats.embedField.shard.name": "This Shard (ID `{shardId}`)",
-	"commands.stats.embedField.shard.value": "**Guilds On Shard:** `{guilds}`\n**Shard Started:** `{uptime}`\n**Current MPS:** `{mps}`"
+    "commands.stats.embedTitle": "Bot Stats",
+    "commands.stats.embedField.global.name": "Global",
+    "commands.stats.embedField.global.value": "**Total Bot Guilds:** `{guilds}`\n**Total Bot Shards:** `{shards}`\n**Current MPS:** `{mps}`",
+    "commands.stats.embedField.shard.name": "This Shard (ID `{shardId}`)",
+    "commands.stats.embedField.shard.value": "**Guilds On Shard:** `{guilds}`\n**Shard Started:** `{uptime}`\n**Current MPS:** `{mps}`"
 
     "commands.help.embedDescription": "__helpMessage/en-US.txt__",
     "commands.help.embedFooter": "Made by Duck#0001, Maintained by tt2468#2468 | Guilds: {guilds:,d} | Uptime: {uptime:,d}s",
@@ -76,4 +76,4 @@
     "commands.vote.embedDescription": "",
     "commands.vote.canVote": "",
     "commands.vote.cannotVote": "",
-]
+}
