@@ -1,0 +1,34 @@
+**Setup:**
+1. Make a channel with the name `#counting` **or** type `c!channel` in the channel you want to count in.
+2. Start counting in that channel.
+
+**User Commands:** *Input fields prefixed with a `?` are optional*
+• `c!cs ?[pagenumber]` - View the top ten current scores.
+• `c!lb ?[pagenumber]` - View the top ten high scores.
+• `c!ulb ?[pagenumber]` - View the top ten users.
+• `c!slb ?[pagenumber]` - View the top ten users in your guild.
+• `c!user ?[@user/user id]` - Get a user's stats.
+• `c!server` - Get the current server's stats.
+• `c!donatesave` - Donate a save to the current guild. (Adds `0.2` of a guild save.)
+• `c!transfersave [@user/user id]` - Gift one save from your balance to another user with a tax of `0.5`.
+• `c!vote` - Vote for the bot and get saves.
+• `c!stats` - Show statistics on the bot and your current shard.
+
+**Admin Commands:**
+• `c!failrole [@role/role id]` - Set a role for the bot to add to members who ruin a count. To disable, run command without specifying a role.
+• `c!channel` - Configure the bot to listen in a specific channel, instead of the default channel `#counting`
+• `c!numbersonly [on/off]` - Enable numbers-only mode. Ruins the count if any message is sent if it is not either a valid *number* or *bot command*.
+
+**Saves:**
+• Vote [here](https://counting.duckgroup.xyz/vote) to earn more saves. Check your amount of saves with `c!vote`.
+• If you have at least one save, you can continue counting when you type a number wrong.
+
+**Counting rules:**
+• One person can't count two numbers in a row.
+• No botting.
+• If you break count, a "save" will be docked from your save count if you have any. Otherwise, the count will reset.
+
+[Join our Discord](https://discord.gg/rMQDwMH) if you have any questions.
+Like the bot? [Consider contributing with Patreon.](https://www.patreon.com/counting) It helps us a bunch.
+
+[Invite the bot to your own guild.](https://counting.duckgroup.xyz/invite)

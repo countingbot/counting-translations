@@ -32,4 +32,6 @@ Contributing is simple. If you are fluent in a language, we could use your help!
 - Commit the changes to your fork
 - Open a PR for your changes to be merged!
 
-Be sure not to translate string replacements! String replacements are anything within `{}` brackets. Example: `{authorId}`
+Notes:
+- Be sure not to translate string replacements! String replacements are anything within `{}` brackets. Example: `{authorId}`
+- Discord limits messages to a maximum of 2000 characters. At the moment, the only relevant string for this is the help message, so be careful when translating to stay under this limit!
