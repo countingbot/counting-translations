@@ -1,0 +1,79 @@
+[
+	"countProcess.failReason.numbersOnly": "This counting channel is in number-only mode.",
+	"countProcess.failReason.doubleCount": "**You can't count two numbers in a row.**",
+	"countProcess.failReason.wrongNumber": "**Wrong number.**",
+	"countProcess.warning.wrongNumberAlreadyZero": "Incorrect number! The next number is `1`. **No stats have been changed since the current number was 0.**",
+	"countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> You have used **1** of your saves. You have **{savesLeft}** left. The next number is **{nextNumber}**",
+	"countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> You have used **1** guild save! There are **{savesLeft}/2** guild saves left. The next number is **{nextNumber}**",
+	"countProcess.failAlert.embedDescription": "Vote [here](https://counting.duckgroup.xyz/vote) to earn saves so you can continue counting next time. See `c!help`.",
+	"countProcess.failAlert.messageContent": "<@{authorId}> RUINED IT AT **{number}**!! Next number is **1**. {failReason}",
+
+
+    "messageDeleted.messageContent": "<@{memberId}> deleted their count of `{currentNumber}`. The next number is `{nextNumber}`.",
+
+
+    "commands.generic.error.embedTitle": "Error.",
+    "commands.generic.error.missingAdministrator": "<@{authorId}> You must have `Administrator` permissions to use this command.",
+    "commands.generic.error.authorNotFoundInDatabase": "You have not counted yet.",
+    "commands.generic.error.userNotFoundInDatabase": "Specified user not found in database. (Not counted yet?)",
+    "commands.generic.error.badUserConversion": "Unable to convert specified user: `{arg}`",
+    "commands.generic.enabled": "enabled",
+    "commands.generic.disabled": "disabled",
+
+	"commands.stats.embedTitle": "Bot Stats",
+	"commands.stats.embedField.global.name": "Global",
+	"commands.stats.embedField.global.value": "**Total Bot Guilds:** `{guilds}`\n**Total Bot Shards:** `{shards}`\n**Current MPS:** `{mps}`",
+	"commands.stats.embedField.shard.name": "This Shard (ID `{shardId}`)",
+	"commands.stats.embedField.shard.value": "**Guilds On Shard:** `{guilds}`\n**Shard Started:** `{uptime}`\n**Current MPS:** `{mps}`"
+
+    "commands.help.embedDescription": "__helpMessage/en-US.txt__",
+    "commands.help.embedFooter": "Made by Duck#0001, Maintained by tt2468#2468 | Guilds: {guilds:,d} | Uptime: {uptime:,d}s",
+
+    "commands.channel.content": "<@{authorId}> The counting channel has been updated to this channel.",
+
+    "commands.user.embedField.global.name": "Global Stats",
+    "commands.user.embedField.global.value": "Correct rate: **{correctRate}**\nTotal correct: **{totalCorrect:,d}**\nTotal incorrect: **{totalIncorrect:,d}**\nScore: **{score:,d} (#{rank:,d})**\nSaves: **{saves:g}/{saveSlots:g}**",
+    "commands.user.embedField.local.name": "Stats in `{guildName}`",
+    "commands.user.embedField.local.value": "Correct rate: **{correctRate}**\nTotal correct: **{totalCorrect:,d}**\nTotal incorrect: **{totalIncorrect:,d}**\nLast Active: **{lastActive}**\nHighest Valid Count: **{highestCount:,d} ({highestCountTime})**\nSaves Used: **{savesUsed:,d}**",
+
+    "commands.server.embedTitle": "Info for `{guildName}`",
+    "commands.server.embedDescription": "Current Number: **{currentNumber:,d}**\nLast counted by: <@{lastMember}>\nGuild Saves: **{guildSaves}/2**\nHigh Score: **{highScore:,d} ({highScoreTime})**\nRank: **{currentRank:,d}/{totalGuildEntries:,d}**\nSaves Used: **{savesUsed:,d}**\nNumbers Only Mode: **{numbersOnly}**",
+
+    "commands.lb.embedTitle": "*HIGH SCORES*",
+    "commands.lb.embedFooter": "c!help | Page {page}",
+
+    "commands.cs.embedTitle": "*CURRENT SCORES*",
+    "commands.cs.embedFooter": "c!help | Page {page}",
+
+    "commands.ulb.embedTitle": "*TOP USERS*",
+    "commands.ulb.embedFooter": "c!help | Page {page}",
+
+    "commands.slb.embedTitle": "*TOP USERS IN `{guildName}`*",
+    "commands.slb.embedFooter": "c!help | Page {page}",
+
+    "commands.donatesave.embedTitle": "Save donated!",
+    "commands.donatesave.embedDescription": "`{donatedSaves}` of your saves have been donated to this guild, adding `{addedSaves}` to its saves, for a total of `{guildSaves}/2` guild saves. (1 Guild Save = 5 User Saves)\n\nYou have `{memberSaves}` saves left.",
+    "commands.donatesave.error.notEnoughSaves": "You need to have at least `1` save in order to donate.",
+    "commands.donatesave.error.maxSavesReached": "This guild already has the maximum amount of saves! (2)",
+
+    "commands.transfersave.embedTitle": "",
+    "commands.transfersave.embedDescription": "",
+    "commands.transfersave.error.noTargetSpecified": "",
+    "commands.transfersave.error.notEnoughSaves": "",
+    "commands.transfersave.error.cannotSelfTransfer": "",
+    "commands.transfersave.error.targetHasMaxSaves": "",
+
+    "commands.failrole.roleDisabledMessage": "",
+    "commands.failrole.roleEnabledMessage": "",
+    "commands.failrole.error.botMissingPermissions": "",
+    "commands.failrole.error.roleNotFound": "",
+    "commands.failrole.error.cannotApplyRole": "",
+
+    "commands.numbersonly.embedTitle": "",
+    "commands.numbersonly.error.missingModeArgument": "",
+    "commands.numbersonly.error.invalidMode": "",
+
+    "commands.vote.embedDescription": "",
+    "commands.vote.canVote": "",
+    "commands.vote.cannotVote": "",
+]

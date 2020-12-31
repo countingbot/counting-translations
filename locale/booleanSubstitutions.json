@@ -1,0 +1,16 @@
+{
+	"global": [
+		"true": true,
+		"false": false,
+		"1": true,
+		"0": false,
+	]
+	"en-US": [
+		"enable": true,
+		"disable": false,
+		"y": true,
+		"n": false,
+		"on": true,
+		"off": false
+	]
+}
