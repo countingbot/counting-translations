@@ -1,2 +1,21 @@
 {
+    "countProcess.failReason.numbersOnly": "Ce salon est en mode nombres seulement.",
+    "countProcess.failReason.doubleCount": "**Tu ne peux pas compter deux fois à la suite**",
+    "countProcess.failReason.wrongNumber": "**Nombre incorrect.**",
+    "countProcess.warning.wrongNumberAlreadyZero": "Nombre incorrect! Le prochain nombre est `1`. **Aucun stats ont étés changés depuis que le nombre était 0.**",
+    "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> Tu as utilisé **1** de tes vies. Il te rest **{savesLeft}**. Le prochain nombre est **{nextNumber}**",
+    "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> Tu as utilisé **1** vie de serveur! Il rest **{savesLeft}/2** vies de serveur. Le prochain nombre est **{nextNumber}**",
+    "countProcess.failAlert.embedDescription": "Vote [ici](https://counting.duckgroup.xyz/vote) pour obtenir des vies que tu puisse continuer à compter la prochaine fois.  `c!help`.",
+    "countProcess.failAlert.messageContent": "<@{authorId}> A RUINE LE COMPTE A **{number}**!! Le prochain nombre est **1**. {failReason}",
+    "messageDeleted.messageContent": "<@{memberId}> a supprimé leur compte de `{currentNumber}`. Le prochain nombre est `{nextNumber}`.",
+    "commands.generic.error.embedTitle": "Erreur.",
+    "commands.generic.error.missingAdministrator": "<@{authorId}> Il te faut la permission `Administrateur` pour utiliser cette commande.",
+    "commands.generic.error.authorNotFoundInDatabase": "Tu n'as pas encore compté.",
+    "commands.generic.error.userNotFoundInDatabase": "Utilisateur pas trouvé dans la base de données.(Pas encore compté?)",
+    "commands.generic.error.badUserConversion": "Incapable de convertir utilisateur: `{arg}`",
+    "commands.generic.enabled": "activé",
+    "commands.generic.disabled": "desactivé",
+    "commands.stats.embedTitle": "Stats du bot",
+    "commands.stats.embedField.global.name": "Global",
+    "commands.stats.embedField.global.value": "**Serveurs total du bot:** `{guilds}`\n**Shards total du bot:** `{shards}`\n**MPS actuel:** `{mps}`"
 }
