@@ -1,2 +1,79 @@
 {
+    "countProcess.failReason.numbersOnly": "Dit telkanaal heeft 'alleen nummers' modus aan staan.",
+    "countProcess.failReason.doubleCount": "**Je kan niet twee keer achter elkaar tellen.**",
+    "countProcess.failReason.wrongNumber": "**Verkeerd nummer.**",
+    "countProcess.warning.wrongNumberAlreadyZero": "Verkeerd nummer! Het volgende nummber is `1`. **Je hebt geen fout erbij omdat het huidige nummer 0 was.**",
+    "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> Je hebt **1** van je saves gebruikt. Je hebt nog **{savesLeft}** *saves* over. Het volgende nummer is **{nextNumber}**",
+    "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> Je hebt **1** groepssave gebruikt! Er zijn nog **{savesLeft}/2** groepssaves over. Het volgende nummer is **{nextNumber}**",
+    "countProcess.failAlert.embedDescription": "Stem [hier](https://counting.duckgroup.xyz/vote) om saves te verdienen, zodat je de volgende keer door kan blijven tellen. Zie `c!help`.",
+    "countProcess.failAlert.messageContent": "<@{authorId}> HEEFT HET VERPEST OP **{number}**!! Het volgende nummer is **1**. {failReason}",
+
+
+    "messageDeleted.messageContent": "<@{memberId}> heeft zijn bericht van `{currentNumber}` verwijderd. Het volgende nummer is `{nextNumber}`.",
+
+
+    "commands.generic.error.embedTitle": "Error.",
+    "commands.generic.error.missingAdministrator": "<@{authorId}> Je moet `Administrator` rechten hebben om deze opdracht uit te kunnen voeren.",
+    "commands.generic.error.authorNotFoundInDatabase": "Je hebt nog niet geteld.",
+    "commands.generic.error.userNotFoundInDatabase": "Betreffende gebruiker is nog niet in de database gevonden (Heeft hij al geteld?)",
+    "commands.generic.error.badUserConversion": "De gebruiker `{arg}` kon niet omgezet worden.",
+    "commands.generic.enabled": "ingeschakeld",
+    "commands.generic.disabled": "uitgeschakeld",
+
+    "commands.stats.embedTitle": "Bot Info",
+    "commands.stats.embedField.global.name": "Globale",
+    "commands.stats.embedField.global.value": "**Totaal Aantal Groepen:** `{guilds}`\n**Totaal aantal shards:** `{shards}`\n**Huidige MPS:** `{mps}`",
+    "commands.stats.embedField.shard.name": "Deze Shard (ID `{shardId}`)",
+    "commands.stats.embedField.shard.value": "**Groepen Op Deze Shard:** `{guilds}`\n**Shard Gestart:** `{uptime}`\n**Huidige MPS:** `{mps}`",
+
+    "commands.help.embedDescription": "__helpMessage/en-US.txt__",
+    "commands.help.embedFooter": "Gemaakt door Duck#0001, Onderhouden door tt2468#2468 | Groepen: {guilds:,d} | Bedrijfstijd: {uptime:,d}s",
+
+    "commands.channel.content": "<@{authorId}> Het telkanaal is upgedate naar **dit** kanaal.",
+
+    "commands.user.embedField.global.name": "Globale Stats",
+    "commands.user.embedField.global.value": "Correct ratio: **{correctRate}**\nTotaal correct: **{totalCorrect:,d}**\nTotaal incorrect: **{totalIncorrect:,d}**\nScore: **{score:,d} (#{rank:,d})**\nSaves: **{saves:g}/{saveSlots:g}**",
+    "commands.user.embedField.local.name": "Stats in `{guildName}`",
+    "commands.user.embedField.local.value": "Correct ratio: **{correctRate}**\nTotaal correct: **{totalCorrect:,d}**\nTotaal incorrect: **{totalIncorrect:,d}**\nLaatst Actief: **{lastActive}**\nHoogst Getelde Nummer: **{highestCount:,d} ({highestCountTime})**\nSaves Gebruikt: **{savesUsed:,d}**",
+
+    "commands.server.embedTitle": "Info voor `{guildName}`",
+    "commands.server.embedDescription": "Huidig Nummer: **{currentNumber:,d}**\nLaatst geteld door: <@{lastMember}>\nGroepssaves: **{guildSaves}/2**\nHigh Score: **{highScore:,d} ({highScoreTime})**\nRank: **{currentRank:,d}/{totalGuildEntries:,d}**\nSaves Gebruikt: **{savesUsed:,d}**\nAlleen Nummers Mode: **{numbersOnly}**",
+
+    "commands.lb.embedTitle": "*HIGH SCORES*",
+    "commands.lb.embedFooter": "c!help | Pagina {page}",
+
+    "commands.cs.embedTitle": "*HUIDIGE SCORES*",
+    "commands.cs.embedFooter": "c!help | Pagina {page}",
+
+    "commands.ulb.embedTitle": "*TOP GEBRUIKERS*",
+    "commands.ulb.embedFooter": "c!help | Page {page}",
+
+    "commands.slb.embedTitle": "*TOP GEBRUIKERS IN `{guildName}`*",
+    "commands.slb.embedFooter": "c!help | Page {page}",
+
+    "commands.donatesave.embedTitle": "Save gedoneerd!",
+    "commands.donatesave.embedDescription": "`{donatedSaves}` van je saves zijn gedoneerd aan de groep, waardoor er `{addedSaves}` groepssaves bij zijn gekomen. Er zijn nu in totaal `{guildSaves}/2` groepssaves. (1 Groepssave = 5 Gebruiker saves)\n\nJe hebt `{memberSaves}` saves over.",
+    "commands.donatesave.error.notEnoughSaves": "Je hebt minstens `1` save nodig om te doneren.",
+    "commands.donatesave.error.maxSavesReached": "Deze groep heeft al het maximale aantal groepssaves! (2)",
+
+    "commands.transfersave.embedTitle": "",
+    "commands.transfersave.embedDescription": "",
+    "commands.transfersave.error.noTargetSpecified": "",
+    "commands.transfersave.error.notEnoughSaves": "",
+    "commands.transfersave.error.cannotSelfTransfer": "",
+    "commands.transfersave.error.targetHasMaxSaves": "",
+
+    "commands.failrole.roleDisabledMessage": "",
+    "commands.failrole.roleEnabledMessage": "",
+    "commands.failrole.error.botMissingPermissions": "",
+    "commands.failrole.error.roleNotFound": "",
+    "commands.failrole.error.cannotApplyRole": "",
+
+    "commands.numbersonly.embedTitle": "",
+    "commands.numbersonly.error.missingModeArgument": "",
+    "commands.numbersonly.error.invalidMode": "",
+
+    "commands.vote.embedDescription": "",
+    "commands.vote.canVote": "",
+    "commands.vote.cannotVote": "",
 }
