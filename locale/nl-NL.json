@@ -13,7 +13,7 @@
 
 
     "commands.generic.error.embedTitle": "Error.",
-    "commands.generic.error.missingAdministrator": "<@{authorId}> Je moet `Administrator` rechten hebben om deze opdracht uit te kunnen voeren.",
+    "commands.generic.error.missingAdministrator": "<@{authorId}> Je moet `Administrator` rechten hebben om dit commando uit te kunnen voeren.",
     "commands.generic.error.authorNotFoundInDatabase": "Je hebt nog niet geteld.",
     "commands.generic.error.userNotFoundInDatabase": "Betreffende gebruiker is nog niet in de database gevonden (Heeft hij al geteld?)",
     "commands.generic.error.badUserConversion": "De gebruiker `{arg}` kon niet omgezet worden.",
