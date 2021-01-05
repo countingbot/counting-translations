@@ -35,3 +35,4 @@ Contributing is simple. If you are fluent in a language, we could use your help!
 Notes:
 - Be sure not to translate string replacements! String replacements are anything within `{}` brackets. Example: `{authorId}`
 - Discord limits messages to a maximum of 2000 characters. At the moment, the only relevant string for this is the help message, so be careful when translating to stay under this limit!
+ - If translation pushes the character count of a linked file (Eg. `__helpMessage/en-US.txt__`) to over 2000 characters, find a suitable part of the translation that can be broken, and add `__MESSAGE_BREAK__` to its own line where you want to split. This will tell the bot to send multiple messages.
