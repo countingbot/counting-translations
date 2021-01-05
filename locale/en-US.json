@@ -26,7 +26,7 @@
     "commands.stats.embedField.shard.name": "This Shard (ID `{shardId}`)",
     "commands.stats.embedField.shard.value": "**Guilds On Shard:** `{guilds}`\n**Shard Started:** `{uptime}`\n**Current MPS:** `{mps}`",
 
-    "commands.help.embedDescription": "__helpMessage/en-US.txt__",
+    "commands.help.embedDescription": "__helpMessage|en-US__",
     "commands.help.embedFooter": "Made by Duck#0001, Maintained by tt2468#2468 | Guilds: {guilds:,d} | Uptime: {uptime:,d}s",
 
     "commands.channel.content": "<@{authorId}> The counting channel has been updated to this channel.",
