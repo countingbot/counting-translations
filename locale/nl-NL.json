@@ -71,8 +71,8 @@
     "commands.failrole.error.cannotApplyRole": "Ik heb de rol `{arg}` gevonden, maar ik kan hem niet toepassen. Probeer `arg` lager in de rollenlijst te zetten.",
 
     "commands.numbersonly.embedTitle": "Alleen-nummers modus is {state}.",
-    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Je moet een modus specificeren. De mogelijkheden zijn: `ingeschakeld`, `uitgeschakeld`.,
-    "commands.numbersonly.error.invalidMode": "<@{authorId}> Valid mode not found. Modes: `enable`, `disable`.",
+    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Je moet een modus specificeren. De mogelijkheden zijn: `ingeschakeld`, `uitgeschakeld`.",
+    "commands.numbersonly.error.invalidMode": "<@{authorId}> Modus niet gevonden. De mogelijkheden zijn: `ingeschakeld`, `uitgeschakeld`.",
 
     "commands.vote.embedDescription": "{descriptionPretext}Je hebt nu **{saves:g}/{saveSlots:g}** saves.\n[Klik hier om te stemmen.](https://discordbots.org/bot/510016054391734273/vote)",
     "commands.vote.canVote": "✅ Je kan nu stemmen.\n",
