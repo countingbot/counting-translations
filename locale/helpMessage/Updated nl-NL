@@ -1,0 +1,37 @@
+**Setup:**
+1. Maak een kanaal genaamd `#counting`, of stuur het commando `c!channel` in het kanaal (met een andere naam) waarin je wilt tellen.
+2. Start met tellen in dat kanaal. Het eerste nummer is `1`.
+
+**Tel regels:**
+• Je kan niet twee keer achter elkaar tellen. (Je moet een partner hebben om mee te spelen)
+• Gebruikt geen robots om voor je te tellen.
+• Als je verkeerd telt, wordt er een save gebruikt als je die hebt. Als je die niet hebt, moet je opnieuw beginnen.
+
+**Saves:**
+• Stem [hier](https://counting.duckgroup.xyz/vote) om meer saves te verdienen. Check hoeveel je hebt met `c!vote`.
+• Als je tenminste één save hebt, kan je doorgaan met tellen nadat je een verkeerd nummer gestuurd hebt.
+
+__MESSAGE_BREAK__
+
+**Gebruiker Commando's:** *Waar `?` staat, is iets invullen optioneel.*
+• `c!cs ?[paginanummer]` - Bekijk de huidige top tien van serverscores.
+• `c!lb ?[paginanummer]` - Bekijk de top tien server high scores.
+• `c!ulb ?[paginanummer]` - Bekijk de top tien gebruikers.
+• `c!slb ?[paginanummer]` - Bekijk de top tien gebruikers in jouw groep.
+• `c!user ?[@gebruiker/gebruiker's ID]` - Bekijk de stats van een gebruiker.
+• `c!server` - Bekijk de stats van de server waar je in bent.
+• `c!donatesave` - Doneer een save aan de server waar je in bent. (voegt `0.2` van een groepssave toe.)
+• `c!transfersave [@gebruiker/gebruiker's ID]` - Geef een save cadeau aan een andere gebruiker. Dit kost `0.5` save (dus `1.5` in totaal.
+• `c!vote` - Stem voor de bot en ontvang saves.
+• `c!stats` - Bekijk de statistieken voor de bot en de huidige shard.
+
+**Beheerder Commando's:**
+• `c!failrole [@rol/rol id]` - Bepaal een rol die gebruikers krijgen als ze verkeerd tellen. Stuur dit commando zonder een rol om dit terug te draaien.
+• `c!channel` - Maak van het huidige kanaal het telkanaal. Stuur dit commando in het kanaal waar je in wilt tellen, taggen (#) werkt niet.
+• `c!numbersonly [on/off]` - Schakel de alleen-nummers mode om. Dit zorgt ervoor dat je opnieuw moet beginnen als er een bericht gestuurd wordt dat niet een commando of een correct nummer is.
+• `c!language ?[code van de taal] - Stel de taal van de bot in.
+
+[Join onze Discord](https://discord.gg/rMQDwMH) als je vragen hebt.
+Vind je de bot leuk? [Overweeg te doneren met Patreon.](https://www.patreon.com/counting) Het helpt ons enorm.
+
+[Voeg de bot toe aan je eigen server.](https://counting.duckgroup.xyz/invite)
