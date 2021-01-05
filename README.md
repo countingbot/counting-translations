@@ -18,7 +18,7 @@ String translations are processed as most systems normally do. Counting takes th
 - Search appropriate language translation file for matching translation ID
   - If ID is found, return translated string
   - If ID is not found, return string recorded in `en-US.json`
-- Determine if retreived string is a redirect and replace. (Eg. `__helpMessage|en-US__`)
+- Determine if retreived string is a redirect and replace. (Eg. `__helpMessage__`)
 - Return string
 
 Counting will then do further string replacement for variables.
