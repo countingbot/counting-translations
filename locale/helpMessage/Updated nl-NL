@@ -10,9 +10,7 @@
 **Saves:**
 • Stem [hier](https://counting.duckgroup.xyz/vote) om meer saves te verdienen. Check hoeveel je hebt met `c!vote`.
 • Als je tenminste één save hebt, kan je doorgaan met tellen nadat je een verkeerd nummer gestuurd hebt.
-
 __MESSAGE_BREAK__
-
 **Gebruiker Commando's:** *Waar `?` staat, is iets invullen optioneel.*
 • `c!cs ?[paginanummer]` - Bekijk de huidige top tien van serverscores.
 • `c!lb ?[paginanummer]` - Bekijk de top tien server high scores.
