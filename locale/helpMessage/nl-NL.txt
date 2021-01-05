@@ -18,7 +18,7 @@
 • `c!failrole [@role/role id]` - Bepaal een rol die gebruikers krijgen als ze verkeerd tellen. Stuur dit commando zonder een rol om dit terug te draaien.
 • `c!channel` - Maak van het huidige kanaal het telkanaal.
 • `c!numbersonly [on/off]` - Schakel de alleen-nummers mode om. Dit zorgt ervoor dat je opnieuw moet beginnen als er een bericht gestuurd wordt dat niet een commando of een correct nummer is.
-
+__MESSAGE_BREAK__
 **Saves:**
 • Stem [hier](https://counting.duckgroup.xyz/vote) om meer saves te verdienen. Check hoeveel je hebt met `c!vote`.
 • Als je tenminste één save hebt, kan je doorgaan met tellen nadat je een verkeerd nummer gestuurd hebt.
