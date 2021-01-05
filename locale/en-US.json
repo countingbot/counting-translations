@@ -75,5 +75,12 @@
 
     "commands.vote.embedDescription": "{descriptionPretext}You currently have **{saves:g}/{saveSlots:g}** saves.\n[Click here to vote.](https://discordbots.org/bot/510016054391734273/vote)",
     "commands.vote.canVote": "✅ You can vote now.\n",
-    "commands.vote.cannotVote": "❌ You have already voted.\nYou can vote again in **{hoursLeft:g} hours**.\n"
+    "commands.vote.cannotVote": "❌ You have already voted.\nYou can vote again in **{hoursLeft:g} hours**.\n",
+
+    "commands.language.embedTitle": "The bot language has been changed to `{arg}` in this guild.",
+    "commands.language.argumentMissing.embedTitle": "Available languages:",
+    "commands.language.argumentMissing.embedDescription": "Use the corrosponding language code in your command to set the bot language in this guild. `c!language [code]`",
+    "commands.language.argumentMissing.embedField.codes.name": "Language Code",
+    "commands.language.argumentMissing.embedField.descriptions.name": "Description",
+    "commands.language.error.invalidCode": "Unknown language code: `{arg}`"
 }
