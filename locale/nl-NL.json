@@ -21,7 +21,7 @@
     "commands.generic.disabled": "uitgeschakeld",
 
     "commands.stats.embedTitle": "Bot Info",
-    "commands.stats.embedField.global.name": "Globale",
+    "commands.stats.embedField.global.name": "Globaal",
     "commands.stats.embedField.global.value": "**Totaal Aantal Groepen:** `{guilds}`\n**Totaal aantal shards:** `{shards}`\n**Huidige MPS:** `{mps}`",
     "commands.stats.embedField.shard.name": "Deze Shard (ID `{shardId}`)",
     "commands.stats.embedField.shard.value": "**Groepen Op Deze Shard:** `{guilds}`\n**Shard Gestart:** `{uptime}`\n**Huidige MPS:** `{mps}`",
