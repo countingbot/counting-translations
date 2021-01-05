@@ -80,7 +80,7 @@
 
     "commands.language.embedTitle": "De taal van de bot is veranderd naar `{arg}` in deze server.",
     "commands.language.argumentMissing.embedTitle": "Mogelijke talen:",
-    "commands.language.argumentMissing.embedDescription": "Gebruik de bijhorende taalcode in je commando om de taal van de bot in deze server te veranderen `c!language [code]`.,
+    "commands.language.argumentMissing.embedDescription": "Gebruik de bijhorende taalcode in je commando om de taal van de bot in deze server te veranderen `c!language [code]`.",
     "commands.language.argumentMissing.embedField.codes.name": "Taalcode",
     "commands.language.argumentMissing.embedField.descriptions.name": "Beschrijving",
     "commands.language.error.invalidCode": "Onbekende taalcode: `{arg}`"
