@@ -1,2 +1,10 @@
 {
+    "countProcess.failReason.numbersOnly": "Questo canale di conteggio è in modo solo numero.",
+    "countProcess.failReason.doubleCount": "**Non puoi contare due numeri di seguito.**",
+    "countProcess.failReason.wrongNumber": "**Numero sbagliato.**",
+    "countProcess.warning.wrongNumberAlreadyZero": "Numero errato! Il numero successivo è '1'. ** Nessuna statistica è stata modificata perché il numero corrente era 0.**",
+    "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> Hai utilizzato ** 1 ** dei tuoi salvataggi. Ti restano ** {savesLeft} **. Il numero successivo è **{nextNumber}**",
+    "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> Hai utilizzato ** 1 ** salvataggio di gilda! Sono rimasti ** {savesLeft} / 2 ** salvataggi di gilda. Il numero successivo è **{nextNumber}**",
+    "countProcess.failAlert.embedDescription": "Vota [qui] (https://counting.duckgroup.xyz/vote) per guadagnare un salvataggio in modo da poter continuare a contare la prossima volta. Vedi "c!Help".",
+    "countProcess.failAlert.messageContent": "<@{authorId}> ROVINATO A ** {number} ** !! Il numero successivo è **1**. {failReason}",
 }
