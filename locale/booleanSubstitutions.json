@@ -12,5 +12,15 @@
 		"n": false,
 		"on": true,
 		"off": false
+	},
+	"nl-NL": {
+		"ingeschakeld": true,
+		"uitgeschakeld": false,
+		"aan": true,
+		"uit": false,
+		"ja": true,
+		"nee": false,
+		"waar": true,
+		"niet waar": false
 	}
 }
