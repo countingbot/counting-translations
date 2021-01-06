@@ -5,6 +5,14 @@
 		"1": true,
 		"0": false
 	},
+	"de-DE": {
+		"aktiviert": true,
+		"deaktiviert": false,
+		"an": true,
+		"aus": false,
+		"ja": true,
+		"nein": false
+	},
 	"en-US": {
 		"enable": true,
 		"disable": false,
