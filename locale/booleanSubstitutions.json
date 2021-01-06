@@ -6,8 +6,8 @@
 		"0": false
 	},
 	"de-DE": {
-		"aktiviert": true,
-		"deaktiviert": false,
+		"aktivieren": true,
+		"deaktivieren": false,
 		"an": true,
 		"aus": false,
 		"ja": true,
