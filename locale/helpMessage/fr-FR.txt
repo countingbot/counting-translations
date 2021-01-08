@@ -18,14 +18,14 @@ __MESSAGE_BREAK__
 • `c!slb ?[pageNumber]` - Voir les dix meilleurs compteurs de votre guilde
 • `c!user ?[@user/userId]` - Voir les statistiques d'un joueur.
 • `c!server` - Voir les statistiques du serveur actuel.
-• `c!donatesave` - Donner un sauvegarde à la guilde actuelle. (Rajoute `0.2` aux sauvegardes de la guilde)
-• `c!transfersave [@user/userId]` - Offre à un autre joueur une sauvegarde de votre épargne, pour un côut de `0.5`
+• `c!donatesave` - Donner une sauvegarde à la guilde actuelle. (Rajoute `0.2` aux sauvegardes de la guilde)
+• `c!transfersave [@user/userId]` - Offrir une sauvegarde de votre épargne à un autre joueur, pour un coût de `0.5`
 • `c!vote` - Voter pour le bot et obtenir des sauvegardes
 • `c!stats` - Afficher dles statistiques du bot et votre fragment actuel
 
 **Commandes Administrateur:**
 • `c!failrole [@role/role id]` - Spécifier au bot un rôle à attribuer aux joueurs qui ont gâché le compte en cours. Pour le désactiver, lancez la commande sans spécifier de rôle
-• `c!channel` - Spécifier au bot dans quel canal écouter, plutôt que dans le canal par défaut `#counting`
+• `c!channel` - Spécifier au bot dans quel canal écouter, plutôt que dans `#counting`, le canal par défaut 
 • `c!numbersonly [on/off]` - Activer le mode Nombre-Exclusif. Gâche le compte en cours si le moindre message envoyé n'est ni un *nombre* valide ou une *commande de bot*
 • `c!language ?[languageCode]` - Spécifier au bot sa langue d'usage dans votre guilde
 
