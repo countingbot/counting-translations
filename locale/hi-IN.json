@@ -25,5 +25,22 @@
     "commands.channel.content": "<@{authorId}> गिनती इस चैनल में अपडेट कर दी गयी है।",
     "commands.user.embedField.global.name": "विश्व स्टैट्स",
     "commands.user.embedField.global.value": "सही प्रतिशत: **{correctRate}**\nसम्पूर्ण सही: **{totalCorrect:,d}**\nसम्पूर्ण गलत: **{totalIncorrect:,d}**\nस्कोर: **{score:,d} (#{rank:,d})**\nसेव: **{saves:g}/{saveSlots:g}**",
-    "commands.user.embedField.local.name": "`{guildName}` समाज में स्टैट्स"
+    "commands.user.embedField.local.name": "`{guildName}` समाज में स्टैट्स",
+    "commands.user.embedField.local.value": "सही प्रतिशत: **{correctRate}**\nसम्पूर्ण सही: **{totalCorrect:,d}**\nसम्पूर्ण गलत: **{totalIncorrect:,d}**\nआखिरी क्रिय: **{lastActive}**\nअधिकतम सही संख्या: **{highestCount:,d} ({highestCountTime})**\nउपयुक्त सेव: **{savesUsed:,d}**",
+    "commands.server.embedTitle": "`{guildName}` के लिए जानकारी",
+    "commands.server.embedDescription": "वर्तमान संख्या: **{currentNumber:,d}**\nआखिरी गिनती: <@{lastMember}>\nसमाज सेव: **{guildSaves}/2**\nअधिकतम स्कोर: **{highScore:,d} ({highScoreTime})**\nपद: **{currentRank:,d}/{totalGuildEntries:,d}**\nउपयुक्त सेव: **{savesUsed:,d}**\nकेवल अंक मोड: **{numbersOnly}**",
+    "commands.lb.embedTitle": "*उच्चतम स्कोर*",
+    "commands.lb.embedFooter": "c!help | पेज {page}",
+    "commands.cs.embedTitle": "*वर्तमान स्कोर*",
+    "commands.cs.embedFooter": "c!help | पेज {page}",
+    "commands.ulb.embedTitle": "*उच्चतम उसेर्स*",
+    "commands.ulb.embedFooter": "c!help | पेज {page}",
+    "commands.slb.embedTitle": "*`{guildName}` में उच्चतम उसेर्स*",
+    "commands.slb.embedFooter": "c!help | पेज {page}",
+    "commands.donatesave.embedTitle": "सेव दान हो चूका है!",
+    "commands.donatesave.error.notEnoughSaves": "दान करने के लिए आपके पास काम से काम `1` सेव होना चाहिए।",
+    "commands.donatesave.error.maxSavesReached": "इस समाज के पास पूरे समाज सेव है! (2)",
+    "commands.transfersave.embedTitle": "सेव भेजा जा चूका है!",
+    "commands.transfersave.embedDescription": "आपने `{transferredSaves}` सेव <@{targetId}> को भेज दिए है। आपके खाते से `{deductedSaves}` सेव निकाल लिए गए है। \n\nआपके पास `{savesLeft}` सेव बाकी है।",
+    "commands.transfersave.error.noTargetSpecified": "आपको सेव देने के लिए यूजर को उल्लिखित करना होगा।"
 }

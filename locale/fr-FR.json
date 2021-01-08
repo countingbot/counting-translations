@@ -35,7 +35,7 @@
     "commands.cs.embedFooter": "c!help | Page {page}",
     "commands.ulb.embedTitle": "*MEILLEURS UTILISATEURS*",
     "commands.ulb.embedFooter": "c!help | Page {page}",
-    "commands.slb.embedTitle": "*MEILLEURS UTILISATEURS POUR `{guildName}`*",
+    "commands.slb.embedTitle": "*MEILLEURS JOUEURS POUR `{guildName}`*",
     "commands.slb.embedFooter": "c!help | Page {page}",
     "commands.donatesave.embedTitle": "Sauvegarde donnée!",
     "commands.donatesave.embedDescription": "`{donatedSaves}` de vos sauvegardes a été donnée à la guilde, afin de rajouter `{addedSaves}` à ses sauvegardes, pour un total de `{guildSaves}/2` guild saves. (1 Sauvegarde de Guilde = 5 Sauvegardes d'Utilisateurs)\n\nVous avez `{memberSaves}` sauvegardes restantes.",
