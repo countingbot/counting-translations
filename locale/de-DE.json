@@ -1,2 +1,86 @@
 {
+    "countProcess.failReason.numbersOnly": "Dieser Zählkanal ist im \"Nur-Zahlen-Modus\".",
+    "countProcess.failReason.doubleCount": "**Du darfts nicht zweimal hintereinander Zählen.**",
+    "countProcess.failReason.wrongNumber": "**Falsche Zahl.**",
+    "countProcess.warning.wrongNumberAlreadyZero": "Falsche Zahl! Die nächste Zahl ist `1`. **Es wurde nichts geändert, da die aktuelle Zahl 0 war.**",
+    "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> Du hast **1** deiner Sicherungen benutzt. Du hast noch **{savesLeft}** über. Die nächste Zahl ist **{nextNumber}**.",
+    "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> Du hast **1** Serversicherung benutzt! Es ist/sind noch **{savesLeft}/2** Serversicherung/en. Die nächste Zahl ist **{nextNumber}**.",
+    "countProcess.failAlert.embedDescription": "Stimme [hier](https://counting.duckgroup.xyz/vote) für den Bot ab um Sicherungen zu bekommen, damit du nächstes Mal weiterzählen kannst. Siehe `c!help`.",
+    "countProcess.failAlert.messageContent": "<@{authorId}> HAT DIE REIHE BEI **{number}** RUINIERT!! Die nächste Zahl ist **{nextNumber}**. {failReason}",
+
+
+    "messageDeleted.messageContent": "<@memberId> hat ihre/seine Zahl `{currentNumber}` gelöscht. Die nächste Zahl ist **{nextNumber}**.",
+
+
+    "commands.generic.error.embedTitle": "Fehler.",
+    "commands.generic.error.missingAdministrator": "<@{authorId}> Du brauchst die `Administrator` Berechtigung, damit du diesen Befehl ausführen kannst.",
+    "commands.generic.error.authorNotFoundInDatabase": "Du hast bisher noch nicht gezählt.",
+    "commands.generic.error.userNotFoundInDatabase": "Der angegebene Nutzer wurde nicht gefunden. (Noch nicht gezählt?)",
+    "commands.generic.error.badUserConversion": "Der angegebene Nuzer konnte nicht umgewandelt werden: `{arg}`",
+    "commands.generic.enabled": "Aktiviert",
+    "commands.generic.disabled": "Deaktiviert",
+
+    "commands.stats.embedTitle": "Statistiken vom Bot",
+    "commands.stats.embedField.global.name": "Global",
+    "commands.stats.embedField.global.value": "**Insgesammte Bot Server:** `{guilds}`\n**Insgesammte Bot Shards:** `{shards}`\n**Aktuelle MPS:** `{mps}`",
+    "commands.stats.embedField.shard.name": "Dieser Shard (ID `{shardId}`)",
+    "commands.stats.embedField.shard.value": "**Server im Shard:** `{guilds}`\n**Shard gestartet:** `{uptime}`\n**Aktuelle MPS:** `{mps}`",
+
+    "commands.help.embedDescription": "__helpMessage__",
+    "commands.help.embedFooter": "Wurde erstellt von Duck#0001; Wird betrieben von tt2468#2468 | Server: {guilds:,d} | Online seit: {uptime:,d}s",
+
+    "commands.channel.content": "<@{authorId}> Dieser Kanal ist nun der Zählkanal.",
+
+    "commands.user.embedField.global.name": "Globale Statistiken",
+    "commands.user.embedField.global.value": "Erfolgsquote: **{correctRate}**\nInsgesammt richtig: **{totalCorrect:,d}**\nInsgesammt falsch: **{totalIncorrect:,d}**\nPunkte: **{score:,d} (#{rank:,d})**\nSicherungen: **{saves:g}/{saveSlots:g}**",
+    "commands.user.embedField.local.name": "Statistiken in `{guildName}`",
+    "commands.user.embedField.local.value": "Erfolgsquote: **{correctRate}**\nInsgesammt richtig: **{totalCorrect:,d}**\nInsgesammt falsch: **{totalIncorrect:,d}**\nZuletzt aktiv: **{lastActive}**\nHöchste richtige Zahl: **{highestCount:,d} ({highestCountTime})**\nSicherungen genutzt: **{savesUsed:,d}**",
+
+    "commands.server.embedTitle": "Info für `{guildName}`",
+    "commands.server.embedDescription": "Aktuelle Zahl: **{currentNumber:,d}**\nLetzte Zahl von: <@{lastMember}>\nServersicherung: **{guildSaves}/2**\nHighscore: **{highScore:,d} ({highScoreTime})**\nRang: **{currentRank:,d}/{totalGuildEntries:,d}**\nSicherungen genutzt: **{savesUsed:,d}**\n Nur-Zahlen-Modus: **{numbersOnly}**",
+
+    "commands.lb.embedTitle": "*HIGHSCORES*",
+    "commands.lb.embedFooter": "c!help | Seite {page}",
+
+    "commands.cs.embedTitle": "*AKTUELLE PUNKTE*",
+    "commands.cs.embedFooter": "c!help | Seite {page}",
+
+    "commands.ulb.embedTitle": "*BESTE SPIELER*",
+    "commands.ulb.embedFooter": "c!help | Seite {page}",
+
+    "commands.slb.embedTitle": "*BESTE SPIELER IN `{guildName}`*",
+    "commands.slb.embedFooter": "c!help | Seite {page}",
+
+    "commands.donatesave.embedTitle": "Sicherung gespendet!",
+    "commands.donatesave.embedDescription": "`{donatedSaves}` von deinen Sicherungen wurde an diesen Server gespendet. Nach dem hinzufügen von `{addedSaves}` Sicherungen, hat dieser Server insgesammt `{guildSaves}/2` Serversicherung. (5 Nutzersicherung = 1 Serversicherung)\n\nDu hast noch `{memberSaves}` übrig.",
+    "commands.donatesave.error.notEnoughSaves": "Du musst mindestens `1` Sicherung besitzen um spenden zu können.",
+    "commands.donatesave.error.maxSavesReached": "Dieser Server hat bereits das Maximum an Sicherungen erreicht! (2)",
+
+    "commands.transfersave.embedTitle": "Sicherung übertragen!",
+    "commands.transfersave.embedDescription": "Du hast `{transferredSaves}` an <@{targetId}> übertragen. Es wurden `{deductedSaves}` Sicherungen von deinem Account abgezogen.\n\nDu hast `{savesLeft}` Sicherungen übrig.",
+    "commands.transfersave.error.noTargetSpecified": "Du musst einen Nutzer angeben, dem du Sicherungen übertragen möchtest.",
+    "commands.transfersave.error.notEnoughSaves": "Du brauchst mindestens `1.5` Sicherungen, um welche zu übertragen.",
+    "commands.transfersave.error.cannotSelfTransfer": "Du kannst dir selbst keine Sicherungen geben!",
+    "commands.transfersave.error.targetHasMaxSaves": "Der angegebene Nutzer hat bereits das Maximum an Sicherungen!",
+
+    "commands.failrole.roleDisabledMessage": "Die Fehler Rolle wurde deaktiviert.",
+    "commands.failrole.roleEnabledMessage": "Die Fehler Rolle wurde aktualisiert. ID: `{roleId}` | Rollenname: `{roleName}`",
+    "commands.failrole.error.botMissingPermissions": "Ich habe nicht die `Rollen verwalten` Berechtigung.",
+    "commands.failrole.error.roleNotFound": "Die angegebene Rolle wurde nicht gefunden: `{arg}`",
+    "commands.failrole.error.cannotApplyRole": "Es wurde die angegebene Rolle gefunden (`{arg}`), aber ich habe nicht die Berechtigung um diese zu verwenden. Versuche die Rolle weiter nach unten zu verschieben.",
+
+    "commands.numbersonly.embedTitle": "Der \"Nur-Zahlen-Modus\" wurde jetzt: {state}",
+    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Du musst einen Modus angeben. Möglich sind: `aktivieren`, `deaktivieren`.",
+    "commands.numbersonly.error.invalidMode": "<@{authorId}> Ungültiger Modus. Möglich sind: `aktivieren`, `deaktivieren`.",
+
+    "commands.vote.embedDescription": "{descriptionPretext}Du hast aktuell **{saves:g}/{saveSlots:g}** Sicherungen.\n[Stimme hier für den Bot ab.](https://discordbots.org/bot/510016054391734273/vote)",
+    "commands.vote.canVote": "✅ Du kannst jetzt abstimmen.\n",
+    "commands.vote.cannotVote": "❌ Du hast bereits abgestimmt.\nDu kannst wieder in **{hoursLeft:g} Stunden** abstimmen.\n",
+
+    "commands.language.embedTitle": "Die Sprache vom Bot wurde zu `{arg}` auf diesem Server geändert.",
+    "commands.language.argumentMissing.embedTitle": "Verfügbare Sprachen:",
+    "commands.language.argumentMissing.embedDescription": "Benutze den entsprechenden Sprach-Code in dem Befehl, um die Sprache des Bots auf diesem Server festzulegen. `c!language [Sprach-Code]`",
+    "commands.language.argumentMissing.embedField.codes.name": "Sprach-Code",
+    "commands.language.argumentMissing.embedField.descriptions.name": "Beschreibung",
+    "commands.language.error.invalidCode": "Unbekannter Sprach-Code: `{arg}`"
 }
