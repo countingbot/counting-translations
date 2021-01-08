@@ -1,1 +1,87 @@
-{}
+{
+    "countProcess.failReason.numbersOnly": "Этот канал находится в режмие \"только числа\".",
+    "countProcess.failReason.doubleCount": "**Вы не можете считать два раза подряд.**",
+    "countProcess.failReason.wrongNumber": "**Не то число.**",
+    "countProcess.warning.wrongNumberAlreadyZero": "Не то число! Следующее число - `1`. **Так как текущее число было 0, это не повлияло на статистику.**"
+    "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> Вы использовали **1** из ваших сохранений. У вас осталось **{savesLeft}**. Следующее число - **{nextNumber}**",
+    "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> Вы использовали **1** из сохранений сервера! Всего их осталось **{savesLeft}/2**. Следующее число - **{nextNumber}**",
+    "countProcess.failAlert.embedDescription": "Голосуйте [здесь](https://counting.duckgroup.xyz/vote), чтобы получить сохранения. См. `c!help`.",
+    "countProcess.failAlert.messageContent": "<@{authorId}> испортил счёт на **{number}**!! Следующее число - **1**. {failReason}",
+
+
+    "messageDeleted.messageContent": "<@{memberId}> удалил своё сообщение с числом `{currentNumber}`. Следующее число - `{nextNumber}`.",
+
+
+    "commands.generic.error.embedTitle": "Ошибка.",
+    "commands.generic.error.missingAdministrator": "<@{authorId}> У вас должны быть привилегии `администратора`, чтобы использовать эту команду.",
+    "commands.generic.error.authorNotFoundInDatabase": "Вы ещё не считали.",
+    "commands.generic.error.userNotFoundInDatabase": "Этот пользователь не был найден в базе данных. (Возможно, он ещё не считал)",
+    "commands.generic.error.badUserConversion": "Не удалось сконвертировать пользователя `{arg}`",
+    "commands.generic.enabled": "включено",
+    "commands.generic.disabled": "выключено",
+
+    "commands.stats.embedTitle": "Статистика бота",
+    "commands.stats.embedField.global.name": "Глобальные",
+    "commands.stats.embedField.global.value": "**Всего серверов бота:** `{guilds}`\n**Всего процессов бота:** `{shards}`\n**Текущее MPS:** `{mps}`",
+    "commands.stats.embedField.shard.name": "This Shard (ID `{shardId}`)",
+    "commands.stats.embedField.shard.value": "**Серверов на данном процессе:** `{guilds}`\n**Процесс запущен:** `{uptime}`\n**Текущее MPS:** `{mps}`",
+
+    "commands.help.embedDescription": "__helpMessage__",
+    "commands.help.embedFooter": "Сделано Duck#0001, поддерживается tt2468#2468 | Сервера: {guilds:,d} | Время работы: {uptime:,d}с",
+
+    "commands.channel.content": "<@{authorId}> Теперь вы можете считать здесь.",
+
+    "commands.user.embedField.global.name": "Глобальная статистика",
+    "commands.user.embedField.global.value": "Процент верных чисел: **{correctRate}**\nВсего верных: **{totalCorrect:,d}**\nВсего неверных: **{totalIncorrect:,d}**\nСчёт: **{score:,d} (#{rank:,d})**\nСохранения: **{saves:g}/{saveSlots:g}**",
+    "commands.user.embedField.local.name": "Статистика в `{guildName}`",
+    "commands.user.embedField.local.value": "Процент верных чисел: **{correctRate}**\nВсего верных: **{totalCorrect:,d}**\nВсего неверных: **{totalIncorrect:,d}**\nСчитал в последний раз: **{lastActive}**\nМаксимальный счёт: **{highestCount:,d} ({highestCountTime})**\nИспользовано сохранений: **{savesUsed:,d}**",
+
+    "commands.server.embedTitle": "Информация для `{guildName}`",
+    "commands.server.embedDescription": "Текущее число: **{currentNumber:,d}**\nПоследний человек: <@{lastMember}>\nСохранения сервера: **{guildSaves}/2**\nРекорд: **{highScore:,d} ({highScoreTime})**\nМесто: **{currentRank:,d}/{totalGuildEntries:,d}**\nИспользовано сохранений: **{savesUsed:,d}**\nРежим \"только числа\": **{numbersOnly}**",
+
+    "commands.lb.embedTitle": "*РЕКОРДЫ*",
+    "commands.lb.embedFooter": "c!help | Страница {page}",
+
+    "commands.cs.embedTitle": "*ТЕКУЩИЙ СЧЁТ*",
+    "commands.cs.embedFooter": "c!help | Страница {page}",
+
+    "commands.ulb.embedTitle": "*ЛУЧШИЕ СЧИТАТЕЛИ*",
+    "commands.ulb.embedFooter": "c!help | Страница {page}",
+
+    "commands.slb.embedTitle": "*ЛУЧШИЕ СЧИТАТЕЛИ В `{guildName}`*",
+    "commands.slb.embedFooter": "c!help | Страница {page}",
+
+    "commands.donatesave.embedTitle": "Сохранение пожертвовано!",
+    "commands.donatesave.embedDescription": "`{donatedSaves}` ваших сохранений было пожертвовано этому серверу, добавляя `{addedSaves}` к сохранениям сервера. Теперь у этого сервера `{guildSaves}/2` сохранений. (1 сохранение сервера = 5 сохранений пользователя)\n\nУ вас осталось `{memberSaves}` сохранений.",
+    "commands.donatesave.error.notEnoughSaves": "У вас должно быть как минимум `1` сохранений, чтобы их жертвовать.",
+    "commands.donatesave.error.maxSavesReached": "У этого сервера уже есть максимальное количество сохранений! (2)",
+
+    "commands.transfersave.embedTitle": "Сохранение перенесено!",
+    "commands.transfersave.embedDescription": "Вы перенесли `{transferredSaves}` сохранений <@{targetId}>. `{deductedSaves}` сохранений были вычтены с вашего аккаунта.\n\nУ вас осталось `{savesLeft}` сохранений.",
+    "commands.transfersave.error.noTargetSpecified": "Вы должны указать пользователя, которому вы хотите перенести сохранения.",
+    "commands.transfersave.error.notEnoughSaves": "У вас должно быть как минимум `1.5` сохранений, чтобы их переносить.",
+    "commands.transfersave.error.cannotSelfTransfer": "Вы не можете переносить сохранения самому себе!",
+    "commands.transfersave.error.targetHasMaxSaves": "У него уже есть максимальное количество сохранений!",
+
+    "commands.failrole.roleDisabledMessage": "Роль поражения была выключена.",
+    "commands.failrole.roleEnabledMessage": "Роль поражения была изменена. ID: `{roleId}` | Имя роли: `{roleName}`",
+    "commands.failrole.error.botMissingPermissions": "У меня нет доступа к ролям.",
+    "commands.failrole.error.roleNotFound": "Не могу найти роль: `{arg}`",
+    "commands.failrole.error.cannotApplyRole": "Нашёл роль `{arg}`, но у меня нет возможности добавлять её к пользователям. Пожалуйста, пододвиньте роль ниже по списку.",
+
+    "commands.numbersonly.embedTitle": "Режим \"только числа\" был {state}.",
+    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Нужно указать режим. Возможные режимы: `enable`, `disable`.",
+    "commands.numbersonly.error.invalidMode": "<@{authorId}> Неизвестный режим. Возможные режимы: `enable`, `disable`.",
+
+    "commands.vote.embedDescription": "{descriptionPretext}У вас сейчас **{saves:g}/{saveSlots:g}** сохранений.\n[Здесь можно проголосовать.](https://discordbots.org/bot/510016054391734273/vote)",
+    "commands.vote.canVote": "✅ Вы можете сейчас голосовать.\n",
+    "commands.vote.cannotVote": "❌ Вы уже проголосовали.\nВы можете проголосовать за бота опять через **{hoursLeft:g} часов**.\n",
+
+    "commands.language.embedTitle": "Язык бота в этом сервере был изменён на `{arg}`.",
+    "commands.language.argumentMissing.embedTitle": "Доступные языки:",
+    "commands.language.argumentMissing.embedDescription": "Используйте нужный код языка в команде, чтобы задать язык на червере. `c!language [code]`\nЧтобы помочь переводу бота на ваш язык, читайте [здесь](https://github.com/tt2468/counting-translations/blob/main/README.md)",
+    "commands.language.argumentMissing.embedField.codes.name": "Код языка",
+    "commands.language.argumentMissing.embedField.descriptions.name": "Описание",
+    "commands.language.argumentMissing.embedField.needsTranslation.name": "Необходим перевод",
+    "commands.language.error.invalidCode": "Неизвестный код языка: `{arg}`"
+}
