@@ -5,7 +5,7 @@
 **Les règles pour compter:**
 • Une personne ne peut pas compter deux fois d'affilée. (I faut alterner avec un ami/partenaire)
 • Interdiction d'utiliser un bot.
-• Si vous vous trompez dans la suite de nombres, une "sauvegarde" sera déduite de vôtre épargne, si vous en possèdez une. Sinon, la suite reprendra de zéro.
+• Si vous vous trompez dans la suite de nombres, une "sauvegarde" sera déduite de votre épargne, si vous en possèdez une. Sinon, la suite reprendra de zéro.
 
 **Sauvegardes:**
 • Votez [ici](https://counting.duckgroup.xyz/vote) pour gagner plus de sauvegardes. Contrôlez votre total de sauvegardes avec `c!vote`.
