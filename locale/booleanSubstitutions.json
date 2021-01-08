@@ -44,5 +44,13 @@
 	"pl-PL": {
 		"włączony": true,
 		"wyłączony": false
+	},
+	"ru-RU": {
+		"включено": true,
+		"выключено": false,
+		"вкл": true,
+		"выкл": false,
+		"да": true,
+		"нет": false
 	}
 }
