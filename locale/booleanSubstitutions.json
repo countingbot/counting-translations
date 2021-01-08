@@ -18,6 +18,8 @@
 		"disable": false,
 		"y": true,
 		"n": false,
+		"yes": true,
+		"no": false,
 		"on": true,
 		"off": false
 	},
