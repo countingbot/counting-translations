@@ -1,35 +1,35 @@
 **Setup:**
-1. Make a channel with the name `#counting` **or** type `c!channel` in the channel you want to count in if you want to use a different name.
-2. Start counting in the channel, beginning with `1`.
+1. Créez un canal avec le nom `#counting` **ou** tapez `c!channel` dans le canal où vous souhaitez compter si vous vouler utiliser un nom différent.
+2. Commencez à compter dans le canal, en partant de `1`.
 
-**Counting rules:**
-• One person can't count two numbers in a row. (A friend/partner is required)
-• No botting.
-• If you break count, a "save" will be docked from your save count if you have any. Otherwise, the count will reset.
+**Les règles pour compter:**
+• Une personne ne peut pas compter deux fois d'affilée. (I faut alterner avec un ami/partenaire)
+• Interdiction d'utiliser un bot.
+• Si vous vous tromper dans la suite de nombres, une "sauvegarde" sera déduite de vôtre épargne, si vous en possèdez une. Sinon, la suite reprendra de zéro.
 
-**Saves:**
-• Vote [here](https://counting.duckgroup.xyz/vote) to earn more saves. Check your amount of saves with `c!vote`.
-• If you have at least one save, you can continue counting when you type a number wrong.
+**Sauvegardes:**
+• Votez [ici](https://counting.duckgroup.xyz/vote) pour gagner plus de sauvegardes. Contrôlez votre total de sauvegardes avec `c!vote`.
+• Si vous avez au moins une sauvegarde, vous pourrez continuer à compter lorsque vous saisissez un nombre incorrect.
 __MESSAGE_BREAK__
-**User Commands:** *Input fields prefixed with a `?` are optional*
-• `c!cs ?[pageNumber]` - View the top ten current scores
-• `c!lb ?[pageNumber]` - View the top ten high scores
-• `c!ulb ?[pageNumber]` - View the top ten users
-• `c!slb ?[pageNumber]` - View the top ten users in your guild
-• `c!user ?[@user/userId]` - Get a user's stats
-• `c!server` - Get the current server's stats
-• `c!donatesave` - Donate a save to the current guild. (Adds `0.2` of a guild save)
-• `c!transfersave [@user/userId]` - Gift one save from your balance to another user with a tax of `0.5`
-• `c!vote` - Vote for the bot and get saves
-• `c!stats` - Show statistics on the bot and your current shard
+**Commandes Utilisateur:** *Les champs préfixés avec un `?` sont optionnels*
+• `c!cs ?[pageNumber]` - Voir les 10 meilleurs scores en cours
+• `c!lb ?[pageNumber]` - Voir les 10 meilleurs scores 
+• `c!ulb ?[pageNumber]` - Voir les dix meilleurs compteurs
+• `c!slb ?[pageNumber]` - Voir les dix meilleurs compteurs de votre guilde
+• `c!user ?[@user/userId]` - Voir les statistiques d'un joueur.
+• `c!server` - Voir les statistiques du serveur actuel.
+• `c!donatesave` - Donner un sauvegarde à la guilde actuelle. (Rajoute `0.2` aux sauvegardes de la guilde)
+• `c!transfersave [@user/userId]` - Offre à un autre joueur une sauvegarde de votre épargne, pour un côut de `0.5`
+• `c!vote` - Voter pour le bot et obtenir des sauvegardes
+• `c!stats` - Afficher dles statistiques du bot et votre fragment actuel
 
-**Admin Commands:**
-• `c!failrole [@role/role id]` - Set a role for the bot to add to members who ruin a count. To disable, run command without specifying a role
-• `c!channel` - Configure the bot to listen in a specific channel, instead of the default channel `#counting`
-• `c!numbersonly [on/off]` - Enable numbers-only mode. Ruins the count if any message is sent if it is not either a valid *number* or *bot command*
-• `c!language ?[languageCode]` - Set the language that the bot responds in in your guild
+**Commandes Administrateur:**
+• `c!failrole [@role/role id]` - Spécifier au bot un rôle à attribuer aux joueurs qui gâché le comptage en cours. Pour le désactiver, lancez la commande sans spécifier de rôle
+• `c!channel` - Spécifier au bot dans quel canal écouter, plutôt que dans le canal par défaut `#counting`
+• `c!numbersonly [on/off]` - Activer le mode Nombre-Exclusif. Gâche le compte en cours si le moindre message envoyé n'est ni un *nombre* valide ou une *commande de bot*
+• `c!language ?[languageCode]` - Spécifier au bot sa langue d'usage dans votre guilde
 
-[Join our Discord](https://discord.gg/rMQDwMH) if you have any questions.
-[Like the bot? Consider contributing with Patreon.](https://www.patreon.com/counting) It helps us a bunch.
+[Rejoignez notre Discord](https://discord.gg/rMQDwMH) si vous avez la moindre question.
+[Vous aimez le bot? Vous pouvez nous soutenir avec notre Patreon.](https://www.patreon.com/counting) Celà nous aidera grandement.
 
-[Invite the bot to your own guild.](https://counting.duckgroup.xyz/invite)
+[Invitez le bot dans votre guilde.](https://counting.duckgroup.xyz/invite)
