@@ -21,6 +21,14 @@
 		"on": true,
 		"off": false
 	},
+	"fr-FR": {
+		"activé": true,
+		"désactivé": false,
+		"o": true,
+		"n": false,
+		"marche": true,
+		"arrêt": false
+	},
 	"nl-NL": {
 		"ingeschakeld": true,
 		"uitgeschakeld": false,
