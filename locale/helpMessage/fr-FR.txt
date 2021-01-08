@@ -1,6 +1,6 @@
 **Setup:**
-1. Créez un canal avec le nom `#counting` **ou** tapez `c!channel` dans le canal où vous souhaitez compter si vous voulez utiliser un nom différent.
-2. Commencez à compter dans le canal, en partant de `1`.
+1. Créez un salon avec le nom `#counting` **ou** tapez `c!channel` dans le salon où vous souhaitez compter si vous voulez utiliser un nom différent.
+2. Commencez à compter dans le salon, en partant de `1`.
 
 **Les règles pour compter:**
 • Une personne ne peut pas compter deux fois d'affilée. (I faut alterner avec un ami/partenaire)
@@ -25,7 +25,7 @@ __MESSAGE_BREAK__
 
 **Commandes Administrateur:**
 • `c!failrole [@role/role id]` - Spécifier au bot un rôle à attribuer aux joueurs qui ont gâché le compte en cours. Pour le désactiver, lancez la commande sans spécifier de rôle
-• `c!channel` - Spécifier au bot dans quel canal écouter, plutôt que dans `#counting`, le canal par défaut 
+• `c!channel` - Spécifier au bot dans quel salon écouter, plutôt que dans `#counting`, le salon par défaut 
 • `c!numbersonly [on/off]` - Activer le mode Nombre-Exclusif. Gâche le compte en cours si le moindre message envoyé n'est ni un *nombre* valide ou une *commande de bot*
 • `c!language ?[languageCode]` - Spécifier au bot sa langue d'usage dans votre guilde
 
