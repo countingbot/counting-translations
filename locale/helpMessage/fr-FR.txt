@@ -1,11 +1,11 @@
 **Setup:**
-1. Créez un canal avec le nom `#counting` **ou** tapez `c!channel` dans le canal où vous souhaitez compter si vous vouler utiliser un nom différent.
+1. Créez un canal avec le nom `#counting` **ou** tapez `c!channel` dans le canal où vous souhaitez compter si vous voulez utiliser un nom différent.
 2. Commencez à compter dans le canal, en partant de `1`.
 
 **Les règles pour compter:**
 • Une personne ne peut pas compter deux fois d'affilée. (I faut alterner avec un ami/partenaire)
 • Interdiction d'utiliser un bot.
-• Si vous vous tromper dans la suite de nombres, une "sauvegarde" sera déduite de vôtre épargne, si vous en possèdez une. Sinon, la suite reprendra de zéro.
+• Si vous vous trompez dans la suite de nombres, une "sauvegarde" sera déduite de vôtre épargne, si vous en possèdez une. Sinon, la suite reprendra de zéro.
 
 **Sauvegardes:**
 • Votez [ici](https://counting.duckgroup.xyz/vote) pour gagner plus de sauvegardes. Contrôlez votre total de sauvegardes avec `c!vote`.
@@ -24,7 +24,7 @@ __MESSAGE_BREAK__
 • `c!stats` - Afficher dles statistiques du bot et votre fragment actuel
 
 **Commandes Administrateur:**
-• `c!failrole [@role/role id]` - Spécifier au bot un rôle à attribuer aux joueurs qui gâché le comptage en cours. Pour le désactiver, lancez la commande sans spécifier de rôle
+• `c!failrole [@role/role id]` - Spécifier au bot un rôle à attribuer aux joueurs qui ont gâché le compte en cours. Pour le désactiver, lancez la commande sans spécifier de rôle
 • `c!channel` - Spécifier au bot dans quel canal écouter, plutôt que dans le canal par défaut `#counting`
 • `c!numbersonly [on/off]` - Activer le mode Nombre-Exclusif. Gâche le compte en cours si le moindre message envoyé n'est ni un *nombre* valide ou une *commande de bot*
 • `c!language ?[languageCode]` - Spécifier au bot sa langue d'usage dans votre guilde
