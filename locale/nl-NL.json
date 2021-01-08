@@ -7,80 +7,62 @@
     "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> Je hebt **1** groepssave gebruikt! Er zijn nog **{savesLeft}/2** groepssaves over. Het volgende nummer is **{nextNumber}**",
     "countProcess.failAlert.embedDescription": "Stem [hier](https://counting.duckgroup.xyz/vote) om saves te verdienen, zodat je de volgende keer door kan blijven tellen. Zie `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> HEEFT HET VERPEST OP **{number}**!! Het volgende nummer is **1**. {failReason}",
-
-
     "messageDeleted.messageContent": "<@{memberId}> heeft zijn bericht van `{currentNumber}` verwijderd. Het volgende nummer is `{nextNumber}`.",
-
-
-    "commands.generic.error.embedTitle": "Error.",
+    "commands.generic.error.embedTitle": "Fout.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Je moet `Administrator` rechten hebben om dit commando uit te kunnen voeren.",
     "commands.generic.error.authorNotFoundInDatabase": "Je hebt nog niet geteld.",
     "commands.generic.error.userNotFoundInDatabase": "Betreffende gebruiker is nog niet in de database gevonden (Heeft hij al geteld?)",
     "commands.generic.error.badUserConversion": "De gebruiker `{arg}` kon niet omgezet worden.",
     "commands.generic.enabled": "ingeschakeld",
     "commands.generic.disabled": "uitgeschakeld",
-
     "commands.stats.embedTitle": "Bot Info",
     "commands.stats.embedField.global.name": "Globaal",
     "commands.stats.embedField.global.value": "**Totaal Aantal Groepen:** `{guilds}`\n**Totaal aantal shards:** `{shards}`\n**Huidige MPS:** `{mps}`",
     "commands.stats.embedField.shard.name": "Deze Shard (ID `{shardId}`)",
     "commands.stats.embedField.shard.value": "**Groepen Op Deze Shard:** `{guilds}`\n**Shard Gestart:** `{uptime}`\n**Huidige MPS:** `{mps}`",
-
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "Gemaakt door Duck#0001, Onderhouden door tt2468#2468 | Groepen: {guilds:,d} | Bedrijfstijd: {uptime:,d}s",
-
     "commands.channel.content": "<@{authorId}> Het telkanaal is upgedate naar **dit** kanaal.",
-
     "commands.user.embedField.global.name": "Globale Stats",
     "commands.user.embedField.global.value": "Correct ratio: **{correctRate}**\nTotaal correct: **{totalCorrect:,d}**\nTotaal incorrect: **{totalIncorrect:,d}**\nScore: **{score:,d} (#{rank:,d})**\nSaves: **{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "Stats in `{guildName}`",
     "commands.user.embedField.local.value": "Correct ratio: **{correctRate}**\nTotaal correct: **{totalCorrect:,d}**\nTotaal incorrect: **{totalIncorrect:,d}**\nLaatst Actief: **{lastActive}**\nHoogst Getelde Nummer: **{highestCount:,d} ({highestCountTime})**\nSaves Gebruikt: **{savesUsed:,d}**",
-
     "commands.server.embedTitle": "Info voor `{guildName}`",
     "commands.server.embedDescription": "Huidig Nummer: **{currentNumber:,d}**\nLaatst geteld door: <@{lastMember}>\nGroepssaves: **{guildSaves}/2**\nHigh Score: **{highScore:,d} ({highScoreTime})**\nRank: **{currentRank:,d}/{totalGuildEntries:,d}**\nSaves Gebruikt: **{savesUsed:,d}**\nAlleen Nummers Mode: **{numbersOnly}**",
-
     "commands.lb.embedTitle": "*HIGH SCORES*",
     "commands.lb.embedFooter": "c!help | Pagina {page}",
-
     "commands.cs.embedTitle": "*HUIDIGE SCORES*",
     "commands.cs.embedFooter": "c!help | Pagina {page}",
-
     "commands.ulb.embedTitle": "*TOP GEBRUIKERS*",
-    "commands.ulb.embedFooter": "c!help | Page {page}",
-
+    "commands.ulb.embedFooter": "c!help | Pagina {page}",
     "commands.slb.embedTitle": "*TOP GEBRUIKERS IN `{guildName}`*",
-    "commands.slb.embedFooter": "c!help | Page {page}",
-
+    "commands.slb.embedFooter": "c!help | Pagina {page}",
     "commands.donatesave.embedTitle": "Save gedoneerd!",
     "commands.donatesave.embedDescription": "`{donatedSaves}` van je saves zijn gedoneerd aan de groep, waardoor er `{addedSaves}` groepssaves bij zijn gekomen. Er zijn nu in totaal `{guildSaves}/2` groepssaves. (1 Groepssave = 5 Gebruiker saves)\n\nJe hebt `{memberSaves}` saves over.",
     "commands.donatesave.error.notEnoughSaves": "Je hebt minstens `1` save nodig om te doneren.",
     "commands.donatesave.error.maxSavesReached": "Deze groep heeft al het maximale aantal groepssaves! (2)",
-
     "commands.transfersave.embedTitle": "Save cadeau gegeven!",
     "commands.transfersave.embedDescription": "Je hebt `{transferredSaves}` saves aan <@{targetId}> gegeven. Er zijn `{deductedSaves}` saves van je account af gegaan.\n\nJe hebt nog `{savesLeft}` saves over.",
     "commands.transfersave.error.noTargetSpecified": "Je moet specificeren aan wie je een save wilt geven.",
     "commands.transfersave.error.notEnoughSaves": "Je moet ten minste `1.5` saves hebben om een save cadeau te kunnen doen.",
     "commands.transfersave.error.cannotSelfTransfer": "Je kan jezelf geen saves geven!",
     "commands.transfersave.error.targetHasMaxSaves": "Deze gebruiker heeft al het maximale aantal saves!",
-
     "commands.failrole.roleDisabledMessage": "De faalrol is uitgeschakeld.",
     "commands.failrole.roleEnabledMessage": "De faalrol is upgedate. ID: `{roleId}` | Naam van de rol: `{roleName}`",
     "commands.failrole.error.botMissingPermissions": "Ik ben niet gemachtigd om rollen te beheren. Geef me de `Rollen Beheren` permission.",
     "commands.failrole.error.roleNotFound": "Ik kan deze rol niet vinden: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "Ik heb de rol `{arg}` gevonden, maar ik kan hem niet toepassen. Probeer `arg` lager in de rollenlijst te zetten.",
-
     "commands.numbersonly.embedTitle": "Alleen-nummers modus is {state}.",
     "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Je moet een modus specificeren. De mogelijkheden zijn: `ingeschakeld`, `uitgeschakeld`.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> Modus niet gevonden. De mogelijkheden zijn: `ingeschakeld`, `uitgeschakeld`.",
-
     "commands.vote.embedDescription": "{descriptionPretext}Je hebt nu **{saves:g}/{saveSlots:g}** saves.\n[Klik hier om te stemmen.](https://discordbots.org/bot/510016054391734273/vote)",
     "commands.vote.canVote": "✅ Je kan nu stemmen.\n",
     "commands.vote.cannotVote": "❌ Je hebt al gestemd.\nJe kan opnieuw stemmen in **{hoursLeft:g} uur**.\n",
-
     "commands.language.embedTitle": "De taal van de bot is veranderd naar `{arg}` in deze server.",
     "commands.language.argumentMissing.embedTitle": "Mogelijke talen:",
-    "commands.language.argumentMissing.embedDescription": "Gebruik de bijhorende taalcode in je commando om de taal van de bot in deze server te veranderen `c!language [code]`.",
+    "commands.language.argumentMissing.embedDescription": "Gebruik de bijbehorende taalcode in je commando om de taal van de bot in deze server te veranderen. `c!language [code]`\nWil je helpen de bot te vertalen naar jouw taal? [Klik hier](https://github.com/tt2468/counting-translations/blob/main/README.md)",
     "commands.language.argumentMissing.embedField.codes.name": "Taalcode",
     "commands.language.argumentMissing.embedField.descriptions.name": "Beschrijving",
+    "commands.language.argumentMissing.embedField.needsTranslation.name": "Vertaling Nodig",
     "commands.language.error.invalidCode": "Onbekende taalcode: `{arg}`"
 }

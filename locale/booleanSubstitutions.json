@@ -18,6 +18,8 @@
 		"disable": false,
 		"y": true,
 		"n": false,
+		"yes": true,
+		"no": false,
 		"on": true,
 		"off": false
 	},
@@ -38,5 +40,9 @@
 		"nee": false,
 		"waar": true,
 		"niet waar": false
+	},
+	"pl-PL": {
+		"włączony": true,
+		"wyłączony": false
 	}
 }
