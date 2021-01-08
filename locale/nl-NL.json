@@ -25,9 +25,11 @@
     "commands.channel.content": "<@{authorId}> Het telkanaal is upgedate naar **dit** kanaal.",
     "commands.user.embedField.global.name": "Globale Stats",
     "commands.user.embedField.global.value": "Correct ratio: **{correctRate}**\nTotaal correct: **{totalCorrect:,d}**\nTotaal incorrect: **{totalIncorrect:,d}**\nScore: **{score:,d} (#{rank:,d})**\nSaves: **{saves:g}/{saveSlots:g}**",
+    "commands.user.embedField.local.name": "Stats in `{guildName}`",
     "commands.user.embedField.local.value": "Correct ratio: **{correctRate}**\nTotaal correct: **{totalCorrect:,d}**\nTotaal incorrect: **{totalIncorrect:,d}**\nLaatst Actief: **{lastActive}**\nHoogst Getelde Nummer: **{highestCount:,d} ({highestCountTime})**\nSaves Gebruikt: **{savesUsed:,d}**",
     "commands.server.embedTitle": "Info voor `{guildName}`",
     "commands.server.embedDescription": "Huidig Nummer: **{currentNumber:,d}**\nLaatst geteld door: <@{lastMember}>\nGroepssaves: **{guildSaves}/2**\nHigh Score: **{highScore:,d} ({highScoreTime})**\nRank: **{currentRank:,d}/{totalGuildEntries:,d}**\nSaves Gebruikt: **{savesUsed:,d}**\nAlleen Nummers Mode: **{numbersOnly}**",
+    "commands.lb.embedTitle": "*HIGH SCORES*",
     "commands.lb.embedFooter": "c!help | Pagina {page}",
     "commands.cs.embedTitle": "*HUIDIGE SCORES*",
     "commands.cs.embedFooter": "c!help | Pagina {page}",
@@ -58,7 +60,9 @@
     "commands.vote.cannotVote": "❌ Je hebt al gestemd.\nJe kan opnieuw stemmen in **{hoursLeft:g} uur**.\n",
     "commands.language.embedTitle": "De taal van de bot is veranderd naar `{arg}` in deze server.",
     "commands.language.argumentMissing.embedTitle": "Mogelijke talen:",
+    "commands.language.argumentMissing.embedDescription": "Gebruik de bijbehorende taalcode in je commando om de taal van de bot in deze server te veranderen. `c!language [code]`\nWil je helpen de bot te vertalen naar jouw taal? [Klik hier](https://github.com/tt2468/counting-translations/blob/main/README.md)",
     "commands.language.argumentMissing.embedField.codes.name": "Taalcode",
     "commands.language.argumentMissing.embedField.descriptions.name": "Beschrijving",
+    "commands.language.argumentMissing.embedField.needsTranslation.name": "Vertaling Nodig",
     "commands.language.error.invalidCode": "Onbekende taalcode: `{arg}`"
 }
