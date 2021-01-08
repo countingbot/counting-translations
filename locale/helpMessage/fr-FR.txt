@@ -21,7 +21,7 @@ __MESSAGE_BREAK__
 • `c!donatesave` - Donner une sauvegarde à la guilde actuelle. (Rajoute `0.2` aux sauvegardes de la guilde)
 • `c!transfersave [@user/userId]` - Offrir une sauvegarde de votre épargne à un autre joueur, pour un coût de `0.5`
 • `c!vote` - Voter pour le bot et obtenir des sauvegardes
-• `c!stats` - Afficher dles statistiques du bot et votre fragment actuel
+• `c!stats` - Afficher les statistiques du bot et votre fragment actuel
 
 **Commandes Administrateur:**
 • `c!failrole [@role/role id]` - Spécifier au bot un rôle à attribuer aux joueurs qui ont gâché le compte en cours. Pour le désactiver, lancez la commande sans spécifier de rôle
