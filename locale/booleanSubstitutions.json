@@ -38,5 +38,9 @@
 		"nee": false,
 		"waar": true,
 		"niet waar": false
+	},
+	"pl-PL": {
+		"włączony": true,
+		"wyłączony": false
 	}
 }
