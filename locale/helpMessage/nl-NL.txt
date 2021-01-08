@@ -18,8 +18,8 @@ __MESSAGE_BREAK__
 • `c!slb ?[paginanummer]` - Bekijk de top tien gebruikers in jouw groep.
 • `c!user ?[@gebruiker/gebruiker's ID]` - Bekijk de stats van een gebruiker.
 • `c!server` - Bekijk de stats van de server waar je in bent.
-• `c!donatesave` - Doneer een save aan de server waar je in bent. (voegt `0.2` van een groepssave toe.)
-• `c!transfersave [@gebruiker/gebruiker's ID]` - Geef een save cadeau aan een andere gebruiker. Dit kost `0.5` save (dus `1.5` in totaal.
+• `c!donatesave` - Doneer een save aan de server waar je in bent. (voegt `0.2` van een groepssave toe)
+• `c!transfersave [@gebruiker/gebruiker's ID]` - Geef een save cadeau aan een andere gebruiker. Dit kost `0.5` save (dus `1.5` in totaal).
 • `c!vote` - Stem voor de bot en ontvang saves.
 • `c!stats` - Bekijk de statistieken voor de bot en de huidige shard.
 
@@ -30,6 +30,6 @@ __MESSAGE_BREAK__
 • `c!language ?[code van de taal] - Stel de taal van de bot in.
 
 [Join onze Discord](https://discord.gg/rMQDwMH) als je vragen hebt.
-Vind je de bot leuk? [Overweeg te doneren met Patreon.](https://www.patreon.com/counting) Het helpt ons enorm.
+Vind je de bot leuk? [Overweeg te doneren met Patreon](https://www.patreon.com/counting). Het helpt ons enorm.
 
 [Voeg de bot toe aan je eigen server.](https://counting.duckgroup.xyz/invite)
