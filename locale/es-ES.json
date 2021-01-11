@@ -1,1 +1,22 @@
-{}
+{
+    "countProcess.failReason.numbersOnly": "Este canal de chatear de conteo está en modo de sólo números.",
+    "countProcess.failReason.doubleCount": "**No puedes contar dos números en una fila.**",
+    "countProcess.failReason.wrongNumber": "**Número incorrecto.**",
+    "countProcess.warning.wrongNumberAlreadyZero": "¡Número incorrecto! El siguiente número es `1`. **No se han cambiado las estadísticas desde que el número actual era 0.**",
+    "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> Has usado **1** de tus salvos. Te quedan **{savesLeft}**. El siguiente número es **{nextNumber}**",
+    "countProcess.failAlert.messageContent": "<@{authorId}> LO ARRUINASTE EN **{number}**!! El siguiente número es **1**. {failReason}",
+    "commands.generic.error.embedTitle": "Error.",
+    "commands.generic.error.missingAdministrator": "<@{authorId}> Debes tener permisos de `Administrador` para usar este comando.",
+    "commands.generic.error.authorNotFoundInDatabase": "Aún no has contado.",
+    "commands.generic.error.userNotFoundInDatabase": "Usuario especificado no encontrado en la base de datos. (¿Aún no se ha contado?)",
+    "commands.generic.enabled": "activado",
+    "commands.generic.disabled": "desactivado",
+    "commands.stats.embedField.global.name": "Global",
+    "commands.help.embedDescription": "__helpMessage__",
+    "commands.help.embedFooter": "Hecho por Duck#0001, Mantenido por tt2468#2468 | Guilds: {guilds:,d} | Tiempo Restante: {uptime:,d}s",
+    "commands.lb.embedFooter": "c!ayuda | Página {page}",
+    "commands.cs.embedFooter": "c!ayuda | Página {page}",
+    "commands.ulb.embedFooter": "c!ayuda | Página {page}",
+    "commands.slb.embedFooter": "c!ayuda | Página {page}",
+    "commands.donatesave.embedTitle": "¡Salvo donado!"
+}
