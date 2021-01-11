@@ -13,6 +13,12 @@
 		"ja": true,
 		"nein": false
 	},
+	"en-UD": {
+		"ʎ": true,
+		"u": false,
+		"ǝןqɐuǝ": true,
+		"ǝןqɐsıp": false
+	},
 	"en-US": {
 		"enable": true,
 		"disable": false,
