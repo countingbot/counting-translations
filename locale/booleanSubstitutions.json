@@ -29,6 +29,10 @@
 		"on": true,
 		"off": false
 	},
+	"es-ES": {
+		"activado": true,
+		"desactivado": false
+	},
 	"fr-FR": {
 		"activé": true,
 		"désactivé": false,
