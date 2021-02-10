@@ -5,13 +5,49 @@
 		"1": true,
 		"0": false
 	},
+	"de-DE": {
+		"aktivieren": true,
+		"deaktivieren": false,
+		"an": true,
+		"aus": false,
+		"ja": true,
+		"nein": false
+	},
+	"en-UD": {
+		"ʎ": true,
+		"u": false,
+		"ǝןqɐuǝ": true,
+		"ǝןqɐsıp": false
+	},
 	"en-US": {
 		"enable": true,
 		"disable": false,
 		"y": true,
 		"n": false,
+		"yes": true,
+		"no": false,
 		"on": true,
 		"off": false
+	},
+	"vi-VN": {
+		"bật": true,
+		"tắt": false,
+		"bat": true,
+		"tat": false,
+		"b": true,
+		"t": false
+	},
+	"es-ES": {
+		"activado": true,
+		"desactivado": false
+	},
+	"fr-FR": {
+		"activé": true,
+		"désactivé": false,
+		"o": true,
+		"n": false,
+		"marche": true,
+		"arrêt": false
 	},
 	"nl-NL": {
 		"ingeschakeld": true,
@@ -22,5 +58,17 @@
 		"nee": false,
 		"waar": true,
 		"niet waar": false
+	},
+	"pl-PL": {
+		"włączony": true,
+		"wyłączony": false
+	},
+	"ru-RU": {
+		"включено": true,
+		"выключено": false,
+		"вкл": true,
+		"выкл": false,
+		"да": true,
+		"нет": false
 	}
 }
