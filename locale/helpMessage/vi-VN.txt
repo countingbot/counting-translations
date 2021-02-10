@@ -27,7 +27,7 @@ __MESSAGE_BREAK__
 • `c!failrole [@role/Id role đó]` - Đặt một Role để BOT gán cho người dùng khi họ làm hỏng chuỗi đếm. Để tắt, nhập lệnh này mà không để một vai trò nào cả
 • `c!channel` - Chỉnh Bot sẽ chấp nhận đếm ở kênh nào, thay vì là kênh mặc định `#counting`
 • `c!numbersonly [on/off]` - Bật chế độ Chỉ-có-số. Sẽ phá chuỗi đếm nếu có tin nhắn được gửi không phải là một *số* hợp lệ hoặc *lệnh Bot*
-• `c!language ?[languageCode]` - Đặt ngôn ngữ mà Bot sẽ phản hồi trong Máy chủ này
+• `c!language ?[MãNgônNgữ]` - Đặt ngôn ngữ mà Bot sẽ phản hồi trong Máy chủ này
 
 [Tham gia Discord](https://discord.gg/rMQDwMH) if you have any questions.
 [Thích Bot này? Hãy thử Ủng hộ trên Patreon.](https://www.patreon.com/counting) Nó giúp chúng tôi rất nhiều.
