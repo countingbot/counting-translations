@@ -1,0 +1,35 @@
+**Thiết lập:**
+1. Tạo một Kênh với tên `#counting` **hoặc** nhập `c!channel` ở trong kênh mà bạn muốn dùng nếu bạn muốn tên kênh khác.
+2. Bắt đầu Đếm ở trong Kênh đó, bắt đầu từ `1`.
+
+**Luật:**
+• Một người không thể Đếm hai số liên tiếp. (Cần một người bạn đếm cùng)
+• Không botting. (không chắc là tôi hiểu)
+• Nếu bạn đếm sai, một "thế mạng" sẽ bị trừ khỏi số Thế mạng của bạn nếu có. Còn không thì sẽ phải đếm lại từ đầu.
+
+**Thế mạng:**
+• Vote [ở đây](https://counting.duckgroup.xyz/vote) để kiếm Thế mạng. Kiểm tra số thế mạng hiện có bằng lệnh `c!vote`.
+• Nếu bạn có ít nhất 1 thế mạng, bạn có thể tiếp tục đếm khi bạn đếm sai.
+__MESSAGE_BREAK__
+**Các lệnh người dùng:** *Những phần điền có để `?` ở trước là không bắt buộc.*
+• `c!cs ?[sốTrang]` - Xem Top 10 điểm cao hiện tại
+• `c!lb ?[sốTrang]` - Xem Top 10 điểm cao
+• `c!ulb ?[pageNumber]` - Xem Top 10 Người dùng
+• `c!slb ?[pageNumber]` - Xem Top 10 Người dùng trong máy chủ của bạn.
+• `c!user ?[@user/userId]` - Get a user's stats
+• `c!server` - Get the current server's stats
+• `c!donatesave` - Donate a save to the current guild. (Adds `0.2` of a guild save)
+• `c!transfersave [@user/userId]` - Gift one save from your balance to another user with a tax of `0.5`
+• `c!vote` - Vote for the bot and get saves
+• `c!stats` - Show statistics on the bot and your current shard
+
+**Admin Commands:**
+• `c!failrole [@role/role id]` - Set a role for the bot to add to members who ruin a count. To disable, run command without specifying a role
+• `c!channel` - Configure the bot to listen in a specific channel, instead of the default channel `#counting`
+• `c!numbersonly [on/off]` - Enable numbers-only mode. Ruins the count if any message is sent if it is not either a valid *number* or *bot command*
+• `c!language ?[languageCode]` - Set the language that the bot responds in in your guild
+
+[Join our Discord](https://discord.gg/rMQDwMH) if you have any questions.
+[Like the bot? Consider contributing with Patreon.](https://www.patreon.com/counting) It helps us a bunch.
+
+[Invite the bot to your own guild.](https://counting.duckgroup.xyz/invite)
