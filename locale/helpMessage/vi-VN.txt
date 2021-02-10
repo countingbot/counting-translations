@@ -20,11 +20,11 @@ __MESSAGE_BREAK__
 • `c!server` - Lấy thông số của Máy chủ này
 • `c!donatesave` - Ủng hộ Thế mạng cho Máy chủ hiện tại. (Thêm `0.2` vào Thế mạng của chung)
 • `c!transfersave [@ngườiDùng/IdNgườiDùng]` - Tặng 1 thế mạng của bạn cho người khác với phí là `0.5`
-• `c!vote` - Vote cho BOT và Nhận một ít Thế mạng
+• `c!vote` - Vote cho Bot và Nhận một ít Thế mạng
 • `c!stats` - Hiện thống kê của BOT và Shard hiện tại
 
 **Các lệnh Quản trị:**
-• `c!failrole [@role/Id role đó]` - Đặt một Role để BOT gán cho người dùng khi họ làm hỏng chuỗi đếm. Để tắt, nhập lệnh này mà không để một vai trò nào cả
+• `c!failrole [@vai trò/Id vai trò đó]` - Đặt một Vai trò để Bot gán cho người dùng khi họ làm hỏng chuỗi đếm. Để tắt, nhập lệnh này và để trống vế sau
 • `c!channel` - Chỉnh Bot sẽ chấp nhận đếm ở kênh nào, thay vì là kênh mặc định `#counting`
 • `c!numbersonly [on/off]` - Bật chế độ Chỉ-có-số. Sẽ phá chuỗi đếm nếu có tin nhắn được gửi không phải là một *số* hợp lệ hoặc *lệnh Bot*
 • `c!language ?[MãNgônNgữ]` - Đặt ngôn ngữ mà Bot sẽ phản hồi trong Máy chủ này
