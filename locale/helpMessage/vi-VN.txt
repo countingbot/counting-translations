@@ -29,7 +29,7 @@ __MESSAGE_BREAK__
 • `c!numbersonly [on/off]` - Bật chế độ Chỉ-có-số. Sẽ phá chuỗi đếm nếu có tin nhắn được gửi không phải là một *số* hợp lệ hoặc *lệnh Bot*
 • `c!language ?[MãNgônNgữ]` - Đặt ngôn ngữ mà Bot sẽ phản hồi trong Máy chủ này
 
-[Tham gia Discord](https://discord.gg/rMQDwMH) if you have any questions.
+[Tham gia Discord](https://discord.gg/rMQDwMH) nếu bạn có bất kỳ câu hỏi nào.
 [Thích Bot này? Hãy thử Ủng hộ trên Patreon.](https://www.patreon.com/counting) Nó giúp chúng tôi rất nhiều.
 
 [Mời Bot này về Máy chủ của bạn.](https://counting.duckgroup.xyz/invite)
