@@ -24,7 +24,7 @@
     "commands.stats.embedField.global.name": "Tổng thể",
     "commands.stats.embedField.global.value": "**Tổng số Máy chủ:** `{guilds}`\n**Tổng số Khu vực:** `{shards}`\n**MPS hiện tại:** `{mps}`",
     "commands.stats.embedField.shard.name": "Khu vực này (ID `{shardId}`)",
-    "commands.stats.embedField.shard.value": "**Máy chủ trên Khu vực:** `{guilds}`\n**Shard Started:** `{uptime}`\n**MPS hiện tại:** `{mps}`",
+    "commands.stats.embedField.shard.value": "**Máy chủ trên Khu vực:** `{guilds}`\n**Máy chủ Khởi động:** `{uptime}`\n**MPS hiện tại:** `{mps}`",
 
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "Tạo bởi Duck#0001, Duy trì bởi tt2468#2468 | Máy chủ: {guilds:,d} | Thời gian hoạt động: {uptime:,d}s",
