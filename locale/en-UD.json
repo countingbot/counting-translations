@@ -60,7 +60,7 @@
     "commands.vote.cannotVote": "\n˙**sɹnoɥ {hoursLeft:g}** uı uıɐƃɐ ǝʇoʌ uɐɔ noʎ\n˙pǝʇoʌ ʎpɐǝɹןɐ ǝʌɐɥ noʎ ❌",
     "commands.language.embedTitle": "˙pןınƃ sıɥʇ uı `{arg}` oʇ pǝƃuɐɥɔ uǝǝq sɐɥ ǝƃɐnƃuɐן ʇoq ǝɥ⊥",
     "commands.language.argumentMissing.embedTitle": ":sǝƃɐnƃuɐן ǝןqɐןıɐʌ∀",
-    "commands.language.argumentMissing.embedDescription": "[ǝɹǝɥ](https://github.com/tt2468/counting-translations/blob/main/README.md) ǝǝs 'ǝƃɐnƃuɐן ɹnoʎ oʇuı ʇoq ǝɥʇ ǝʇɐןsuɐɹʇ dןǝɥ o⊥\n`[ǝpoɔ] ǝƃɐnƃuɐן¡ɔ` ˙pןınƃ sıɥʇ uı ǝƃɐnƃuɐן ʇoq ǝɥʇ ʇǝs oʇ puɐɯɯoɔ ɹnoʎ uı ǝpoɔ ǝƃɐnƃuɐן ƃuıpuodsoɹɹoɔ ǝɥʇ ǝs∩",
+    "commands.language.argumentMissing.embedDescription": "[ǝɹǝɥ](https://github.com/tt2468/counting-translations/blob/main/README.md) ǝǝs 'ǝƃɐnƃuɐן ɹnoʎ oʇuı ʇoq ǝɥʇ ǝʇɐןsuɐɹʇ dןǝɥ o⊥\n`[ǝpoɔ] ǝƃɐnƃuɐן¡ɔ` ˙pןınƃ sıɥʇ uı ǝƃɐnƃuɐן ʇoq ǝɥʇ ʇǝs oʇ puɐɯɯoɔ ɹnoʎ uı ǝpoɔ ǝƃɐnƃuɐן ƃuıpuodsǝɹɹoɔ ǝɥʇ ǝs∩",
     "commands.language.argumentMissing.embedField.codes.name": "ǝpoϽ ǝƃɐnƃuɐ˥",
     "commands.language.argumentMissing.embedField.descriptions.name": "uoıʇdıɹɔsǝᗡ",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "uoıʇɐןsuɐɹ⊥ spǝǝN",
