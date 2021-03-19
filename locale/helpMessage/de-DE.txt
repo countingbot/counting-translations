@@ -1,0 +1,35 @@
+**Konfiguration:**
+1. Erstelle einen Textkanal mit dem Namen `#counting` oder schreibe `c!channel` in dem Textkanal in dem du zählen möchtest, wenn du einen anderen Namen verwenden möchtest.
+2. Fange in dem Kanal mit `1` an zu zählen.
+
+**Zähl-Regeln:**
+• Eine Nutzer darf nicht zweimal hintereinander zählen. (Ein Freund/Partner wird benötigt)
+• Bots sind nicht erlaubt.
+• Wenn du eine Zählreihe unterbrichst wird eine "Sicherung" von deinem Account entfernt, wenn du mindestens `1` besitzt.
+
+**Sicherungen:**
+• Stimme [hier](https://counting.duckgroup.xyz/vote) für den Bot ab, um Sicherungen zu bekommen. Du kannst sehen wie viele Sicherungen du besitzt, indem du `c!vote` eingibst.
+• Wenn du mindestens `1` Sicherung besitzt, kannst du weiterzählen nachdem du einen Fehler gamacht hast.
+__MESSAGE_BREAK__
+**Nutzer Befehle:** *Die mit einem `?` markierten Felder sind optional*
+• `c!cs ?[Seitennummer]` - Zeige die 10 besten aktuellen Punkte.
+• `c!lb ?[Seitennummer]` - Zeige die 10 besten Highscores.
+• `c!ulb ?[Seitennummer]` - Zeige die 10 besten Nutzer.
+• `c!slb ?[Seitennummer]` - Zeige die 10 besten Nutzer dieses Servers.
+• `c!user ?[@Nutzerer/NutzerID]` - Hol dir die Statistiken von einem Nutzer.
+• `c!server` - Hol dir die aktuellen Statistiken von diesem Server.
+• `c!donatesave` - Spende eine Sicherung an diesen Server. (Fügt `0.2` Serversicherungen pro gespendete Nutzersicherung hinzu).
+• `c!transfersave [@Nutzerer/NutzerID]` - Schenke eine Sicherung von deinem Konto an einen anderen Nutzer mit einer Steuer von `0.5`.
+• `c!vote` - Stimme für den Bot ab und bekomme Sicherungen.
+• `c!stats` - Zeige Statistiken vom Bot und deinem aktuellen Shard.
+
+**Admin Befehle:**
+• `c!failrole [@Rolle/RollenID]` - Lege eine Rolle fest, die der Bot den Nutzern geben soll, die eine Zählreihe unterbrechen. Um dies zu deaktivieren, führe den Befehl ohne angegebene Rolle aus.
+• `c!channel` - Lege einen Textkanal fest, in dem gezählt werden soll, wenn es nicht der Standardkanal `#counting` sein soll.
+• `c!numbersonly [an/aus]` - Aktiviert den Nur-Zahlen-Modus. Unterbricht eine Zählereihe auch, wenn es sich bei der gesendeten Nachricht nicht um eine *Zahl* oder ein *Bot-Befehl* handelt.
+• `c!language ?[Sprach-Code]` - Lege die Sprache fest, in der der Bot auf diesem Server antworten soll.
+
+[Trete dem Discord-Server bei](https://discord.gg/rMQDwMH), wenn du irgendwelche Fragen hast (oder du Freunde zum Zählen brauchst).
+[Gefällt dir der Bot? Unterstütze uns mit Patreon.](https://www.patreon.com/counting) Es hilft uns sehr.
+
+[Lade den Bot auf deinen eigenen Server ein.](https://counting.duckgroup.xyz/invite)

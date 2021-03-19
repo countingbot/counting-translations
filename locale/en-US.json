@@ -79,8 +79,9 @@
 
     "commands.language.embedTitle": "The bot language has been changed to `{arg}` in this guild.",
     "commands.language.argumentMissing.embedTitle": "Available languages:",
-    "commands.language.argumentMissing.embedDescription": "Use the corrosponding language code in your command to set the bot language in this guild. `c!language [code]`",
+    "commands.language.argumentMissing.embedDescription": "Use the corresponding language code in your command to set the bot language in this guild. `c!language [code]`\nTo help translate the bot into your language, see [here](https://github.com/tt2468/counting-translations/blob/main/README.md)",
     "commands.language.argumentMissing.embedField.codes.name": "Language Code",
     "commands.language.argumentMissing.embedField.descriptions.name": "Description",
+    "commands.language.argumentMissing.embedField.needsTranslation.name": "Needs Translation",
     "commands.language.error.invalidCode": "Unknown language code: `{arg}`"
 }
