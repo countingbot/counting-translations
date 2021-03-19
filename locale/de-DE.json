@@ -6,7 +6,7 @@
     "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> Du hast **1** deiner Sicherungen benutzt. Du hast noch **{savesLeft}** über. Die nächste Zahl ist **{nextNumber}**.",
     "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> Du hast **1** Serversicherung benutzt! Es ist/sind noch **{savesLeft}/2** Serversicherung/en. Die nächste Zahl ist **{nextNumber}**.",
     "countProcess.failAlert.embedDescription": "Stimme [hier](https://counting.duckgroup.xyz/vote) für den Bot ab um Sicherungen zu bekommen, damit du nächstes Mal weiterzählen kannst. Siehe `c!help`.",
-    "countProcess.failAlert.messageContent": "<@{authorId}> HAT DIE REIHE BEI **{number}** RUINIERT!! Die nächste Zahl ist **{nextNumber}**. {failReason}",
+    "countProcess.failAlert.messageContent": "<@{authorId}> HAT DIE REIHE BEI **{number}** RUINIERT!! Die nächste Zahl ist **1**. {failReason}",
     "messageDeleted.messageContent": "<@memberId> hat ihre/seine Zahl `{currentNumber}` gelöscht. Die nächste Zahl ist **{nextNumber}**.",
     "commands.generic.error.embedTitle": "Fehler.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Du brauchst die `Administrator` Berechtigung, damit du diesen Befehl ausführen kannst.",
