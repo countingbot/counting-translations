@@ -1,0 +1,87 @@
+{
+    "countProcess.failReason.numbersOnly": "Kênh đếm này thuộc chế độ Chỉ-có-số.",
+    "countProcess.failReason.doubleCount": "**Bạn không thể đếm hai số liên tiếp được.**",
+    "countProcess.failReason.wrongNumber": "**Đếm sai số.**",
+    "countProcess.warning.wrongNumberAlreadyZero": "Đếm sai số rồi! Số tiếp theo là `1`. **Không có thông số nào bị thay đổi vì số hiện tại là 0.**",
+    "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> Bạn đã sử dụng **1** trong tổng số Thế mạng của bạn. Bạn còn lại **{savesLeft}** Thế mạng. Số tiếp theo là **{nextNumber}**",
+    "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> Bạn đã sử dụng **1** Thế mạng của Chung! Hiện còn lại **{savesLeft}/2** Thế mạng của Chung. Số tiếp theo là **{nextNumber}**",
+    "countProcess.failAlert.embedDescription": "Vote [tại đây](https://counting.duckgroup.xyz/vote) để kiếm Thế mạng, nó sẽ giúp bạn tiếp tục đếm khi sai. Xem `c!help`.",
+    "countProcess.failAlert.messageContent": "<@{authorId}> ĐÃ PHÁ CHUỖI Ở SỐ **{number}**!! Số tiếp theo là **1**. {failReason}",
+
+
+    "messageDeleted.messageContent": "<@{memberId}> đã xoá tin nhắn đếm số `{currentNumber}` của mình. Số tiếp theo là `{nextNumber}`.",
+
+
+    "commands.generic.error.embedTitle": "Lỗi.",
+    "commands.generic.error.missingAdministrator": "<@{authorId}> Bạn phải có quyền `Người quản lý` để sử dụng câu lệnh này.",
+    "commands.generic.error.authorNotFoundInDatabase": "Bạn vẫn chưa đếm.",
+    "commands.generic.error.userNotFoundInDatabase": "Người dùng đó không có trên cơ sở dữ liệu. (Chưa đếm chăng?)",
+    "commands.generic.error.badUserConversion": "Không thể Chuyển đổi người dùng đã chọn: `{arg}`",
+    "commands.generic.enabled": "bật",
+    "commands.generic.disabled": "tắt",
+
+    "commands.stats.embedTitle": "Thông số Bot",
+    "commands.stats.embedField.global.name": "Tổng thể",
+    "commands.stats.embedField.global.value": "**Tổng số Máy chủ:** `{guilds}`\n**Tổng số Khu vực:** `{shards}`\n**MPS hiện tại:** `{mps}`",
+    "commands.stats.embedField.shard.name": "Khu vực này (ID `{shardId}`)",
+    "commands.stats.embedField.shard.value": "**Máy chủ trên Khu vực:** `{guilds}`\n**Máy chủ Khởi động:** `{uptime}`\n**MPS hiện tại:** `{mps}`",
+
+    "commands.help.embedDescription": "__helpMessage__",
+    "commands.help.embedFooter": "Tạo bởi Duck#0001, Duy trì bởi tt2468#2468 | Máy chủ: {guilds:,d} | Thời gian hoạt động: {uptime:,d}s",
+
+    "commands.channel.content": "<@{authorId}> Kênh đếm đã được cập nhật sang kênh này.",
+
+    "commands.user.embedField.global.name": "Thông số Tổng thể",
+    "commands.user.embedField.global.value": "Tỉ lệ chính xác: **{correctRate}**\nTổng đếm chính xác: **{totalCorrect:,d}**\nTổng đếm sai: **{totalIncorrect:,d}**\nĐiểm số: **{score:,d} (#{rank:,d})**\nThế mạng: **{saves:g}/{saveSlots:g}**",
+    "commands.user.embedField.local.name": "Thông số trong `{guildName}`",
+    "commands.user.embedField.local.value": "Tỉ lệ chính xác: **{correctRate}**\nTổng đếm chính xác: **{totalCorrect:,d}**\nTổng đếm sai: **{totalIncorrect:,d}**\nHoạt động lần cuối: **{lastActive}**\nSố đếm Hợp lệ Cao nhất: **{highestCount:,d} ({highestCountTime})**\nThế mạng đã dùng: **{savesUsed:,d}**",
+
+    "commands.server.embedTitle": "Thông tin cho `{guildName}`",
+    "commands.server.embedDescription": "Số Hiện tại: **{currentNumber:,d}**\nNgười đếm cuối cùng: <@{lastMember}>\nThế mạng của Chung: **{guildSaves}/2**\nĐiểm cao: **{highScore:,d} ({highScoreTime})**\nThứ hạng: **{currentRank:,d}/{totalGuildEntries:,d}**\nThế mạng đã dùng: **{savesUsed:,d}**\nChế độ chỉ có số: **{numbersOnly}**",
+
+    "commands.lb.embedTitle": "*ĐIỂM CAO*",
+    "commands.lb.embedFooter": "c!help | Trang {page}",
+
+    "commands.cs.embedTitle": "*ĐIỂM HIỆN TẠI*",
+    "commands.cs.embedFooter": "c!help | Trang {page}",
+
+    "commands.ulb.embedTitle": "*TOP NGƯỜI DÙNG*",
+    "commands.ulb.embedFooter": "c!help | Trang {page}",
+
+    "commands.slb.embedTitle": "*TOP NGƯỜI DÙNG TRONG `{guildName}`*",
+    "commands.slb.embedFooter": "c!help | Trang {page}",
+
+    "commands.donatesave.embedTitle": "Đã ủng hộ thế mạng!",
+    "commands.donatesave.embedDescription": "`{donatedSaves}` Thế mạng của bạn đã được ủng hộ cho Máy chủ, sẽ thêm `{addedSaves}` vào Thế mạng của Chung, với tổng mới là `{guildSaves}/2`. (1 Thế mạng của Chung = 5 Thế mạng của Người dùng)\n\nBạn hiện còn `{memberSaves}` Thế mạng.",
+    "commands.donatesave.error.notEnoughSaves": "Bạn cần ít nhất `1` Thế mạng nếu muốn ủng hộ.",
+    "commands.donatesave.error.maxSavesReached": "Máy chủ này đã đạt số Thế mạng của Chung tối đa! (2)",
+
+    "commands.transfersave.embedTitle": "Đã chuyển giao Thế mạng!",
+    "commands.transfersave.embedDescription": "Bạn đã chuyển `{transferredSaves}` Thế mạng cho <@{targetId}>. `{deductedSaves}` Thế mạng đã bị trừ khỏi bạn.\n\nBạn còn `{savesLeft}` Thế mạng.",
+    "commands.transfersave.error.noTargetSpecified": "Bạn phải chỉ rõ người bạn muốn chuyển Thế mạng cho.",
+    "commands.transfersave.error.notEnoughSaves": "Bạn cần ít nhất `1.5` Thế mạng nếu muốn chuyển giao.",
+    "commands.transfersave.error.cannotSelfTransfer": "Bạn không thể chuyển giao Thế mạng cho chính bản thân!",
+    "commands.transfersave.error.targetHasMaxSaves": "Người dùng bạn chọn đã đạt số Thế mạng tối đa!",
+
+    "commands.failrole.roleDisabledMessage": "Vai trò đếm sai đã được Tắt.",
+    "commands.failrole.roleEnabledMessage": "Vai trò đếm sai đã được cập nhật. ID: `{roleId}` | Tên Vai trò: `{roleName}`",
+    "commands.failrole.error.botMissingPermissions": "Bot không có quyền `manage_roles`(quản lý vai trò).",
+    "commands.failrole.error.roleNotFound": "Không thể tìm thấy vai trò: `{arg}`",
+    "commands.failrole.error.cannotApplyRole": "Đã thấy vai trò `{arg}` nhưng Bot không có quyền gán nó. Hãy thử kéo Vai trò đó thấp xuống.",
+
+    "commands.numbersonly.embedTitle": "Chế độ Chỉ-có-số đã {state}.",
+    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Bạn phải đưa ra chế độ cụ thể. Các chế độ: `enable`(bật), `disable`(tắt).",
+    "commands.numbersonly.error.invalidMode": "<@{authorId}> Chế độ đó không hợp lệ. Các chế độ: `enable`(bật), `disable`(tắt).",
+
+    "commands.vote.embedDescription": "{descriptionPretext}Bạn hiện có **{saves:g}/{saveSlots:g}** Thế mạng.\n[Nhấn để vote.](https://discordbots.org/bot/510016054391734273/vote)",
+    "commands.vote.canVote": "✅ Giờ bạn đã có thể Vote.\n",
+    "commands.vote.cannotVote": "❌ Bạn đã vote rồi.\nBạn có thể vote tiếp sau **{hoursLeft:g} giờ**.\n",
+
+    "commands.language.embedTitle": "Ngôn ngữ của BOT đã chuyển sang `{arg}` trong Máy chủ này.",
+    "commands.language.argumentMissing.embedTitle": "Các ngôn ngữ có sẵn:",
+    "commands.language.argumentMissing.embedDescription": "Sử dụng mã ngôn ngữ tương ứng trong câu lệnh của bạn để thiết đặt ngôn ngữ của Bot trong máy chủ này. `c!language [code]`",
+    "commands.language.argumentMissing.embedField.codes.name": "Mã Ngôn ngữ",
+    "commands.language.argumentMissing.embedField.descriptions.name": "Mô tả",
+    "commands.language.argumentMissing.embedField.needsTranslation.name": "Cần dịch",
+    "commands.language.error.invalidCode": "Mã ngôn ngữ không rõ: `{arg}`"
+}

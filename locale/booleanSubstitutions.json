@@ -29,6 +29,14 @@
 		"on": true,
 		"off": false
 	},
+	"vi-VN": {
+		"bật": true,
+		"tắt": false,
+		"bat": true,
+		"tat": false,
+		"b": true,
+		"t": false
+	},
 	"es-ES": {
 		"activado": true,
 		"desactivado": false

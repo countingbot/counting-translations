@@ -1,0 +1,35 @@
+**Thiết lập:**
+1. Tạo một Kênh với tên `#counting` **hoặc** nhập `c!channel` ở trong kênh mà bạn muốn dùng nếu bạn muốn tên kênh khác.
+2. Bắt đầu Đếm ở trong Kênh đó, bắt đầu từ `1`.
+
+**Luật:**
+• Một người không thể Đếm hai số liên tiếp. (Cần một người bạn đồng hành đếm cùng)
+• Không "botting".
+• Nếu bạn đếm sai, một "thế mạng" sẽ bị trừ khỏi số Thế mạng của bạn nếu có. Còn không thì sẽ phải đếm lại từ đầu.
+
+**Thế mạng:**
+• Vote [ở đây](https://counting.duckgroup.xyz/vote) để kiếm Thế mạng. Kiểm tra số thế mạng hiện có bằng lệnh `c!vote`.
+• Nếu bạn có ít nhất 1 thế mạng, bạn có thể tiếp tục đếm khi bạn đếm sai.
+__MESSAGE_BREAK__
+**Các lệnh người dùng:** *Những phần điền có để `?` ở trước là không bắt buộc.*
+• `c!cs ?[sốTrang]` - Xem Top 10 điểm cao hiện tại
+• `c!lb ?[sốTrang]` - Xem Top 10 điểm cao
+• `c!ulb ?[sốTrang]` - Xem Top 10 Người dùng
+• `c!slb ?[sốTrang]` - Xem Top 10 Người dùng trong máy chủ của bạn
+• `c!user ?[@ngườiDùng/IdNgườiDùng]` - Lấy Thông số của người dùng
+• `c!server` - Lấy thông số của Máy chủ này
+• `c!donatesave` - Ủng hộ Thế mạng cho Máy chủ hiện tại. (Thêm `0.2` vào Thế mạng của chung)
+• `c!transfersave [@ngườiDùng/IdNgườiDùng]` - Tặng 1 thế mạng của bạn cho người khác với phí là `0.5`
+• `c!vote` - Vote cho Bot và Nhận một ít Thế mạng
+• `c!stats` - Hiện thống kê của BOT và Shard hiện tại
+
+**Các lệnh Quản trị:**
+• `c!failrole [@vai trò/Id vai trò đó]` - Đặt một Vai trò để Bot gán cho người dùng khi họ làm hỏng chuỗi đếm. Để tắt, nhập lệnh này và để trống vế sau
+• `c!channel` - Chỉnh Bot sẽ chấp nhận đếm ở kênh nào, thay vì là kênh mặc định `#counting`
+• `c!numbersonly [on/off]` - Bật chế độ Chỉ-có-số. Sẽ phá chuỗi đếm nếu có tin nhắn được gửi không phải là một *số* hợp lệ hoặc *lệnh Bot*
+• `c!language ?[MãNgônNgữ]` - Đặt ngôn ngữ mà Bot sẽ phản hồi trong Máy chủ này
+
+[Tham gia Discord](https://discord.gg/rMQDwMH) nếu bạn có bất kỳ câu hỏi nào.
+[Thích Bot này? Hãy thử Ủng hộ trên Patreon.](https://www.patreon.com/counting) Nó giúp chúng tôi rất nhiều.
+
+[Mời Bot này về Máy chủ của bạn.](https://counting.duckgroup.xyz/invite)
