@@ -14,7 +14,6 @@
 
     "commands.generic.error.embedTitle": "Error.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> You must have `Administrator` permissions to use this command.",
-    "commands.generic.error.authorNotFoundInDatabase": "You have not counted yet.",
     "commands.generic.error.userNotFoundInDatabase": "Specified user not found in database. (Not counted yet?)",
     "commands.generic.error.badUserConversion": "Unable to convert specified user: `{arg}`",
     "commands.generic.enabled": "enabled",
