@@ -10,7 +10,6 @@
     "messageDeleted.messageContent": "<@{memberId}> deletou sua mensagem com o número `{currentNumber}`. O próximo número é `{nextNumber}`.",
     "commands.generic.error.embedTitle": "Erro.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Você precisa ter permissões de `Administrator` para usar esse comando.",
-    "commands.generic.error.authorNotFoundInDatabase": "Você ainda não contou.",
     "commands.generic.error.userNotFoundInDatabase": "Usuário especificado não encontrado na base de dados. (Talvez não contou ainda?)",
     "commands.generic.error.badUserConversion": "Não foi possível converter o usuário especificado: `{arg}`",
     "commands.generic.enabled": "habilitado",
