@@ -62,6 +62,6 @@
     "commands.language.argumentMissing.embedDescription": "명령에서 올바른 언어 코드를 사용하여 서버에서 봇 언어를 설정하세요. `c!language [code]`\n봇을 여러분의 언어로 번역하는 데 도움을 주고 싶다면, [here](https://github.com/tt2468/counting-translations/blob/main/README.md)를 확인해주세요.",
     "commands.language.argumentMissing.embedField.codes.name": "언어 코드",
     "commands.language.argumentMissing.embedField.descriptions.name": "설명",
-    "commands.language.argumentMissing.embedField.needsTranslation.name": "번역 필요",
+    "commands.language.argumentMissing.embedField.needsTranslation.name": "번역이 필요합니다.",
     "commands.language.error.invalidCode": "알 수 없는 언어 코드: `{arg}`"
 }
