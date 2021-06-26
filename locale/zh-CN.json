@@ -12,7 +12,7 @@
     "commands.generic.error.missingAdministrator": "<@{authorId}> 你必须具备 `管理员` 权力才可以使用此指令。",
     "commands.generic.error.userNotFoundInDatabase": "在资料库中找不到指定的用户。 （还没统计？）",
     "commands.generic.error.badUserConversion": "无法更换指定用户：`{arg}`",
-    "commands.generic.enabled": "启用了",
+    "commands.generic.enabled": "启用",
     "commands.generic.disabled": "禁用",
     "commands.stats.embedTitle": "机器人统计",
     "commands.stats.embedField.global.name": "全球",
