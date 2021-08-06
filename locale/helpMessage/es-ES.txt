@@ -1,6 +1,7 @@
 **Configuración:**
-1. Cree un canal con el nombre de `#counting` **o** escribe `c!channel` en el canal donde deseas contar si piensas usar uno diferente.
-2. Inicia el conteo en el canal, comenzando con `1`.
+1. Create a channel that you would like to count in.
+1. Type `c!channel` in that channel. (You must have `Administrator` permissions)
+2. Start counting in the channel, beginning with `1`.
 
 **Reglas de Counting:**
 • Una persona no puede contar dos veces consecutivas. (Un amigo/compañero es necesario)

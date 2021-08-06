@@ -1,5 +1,6 @@
 **Setup:**
-1. Make a channel with the name `#counting` **or** type `c!channel` in the channel you want to count in if you want to use a different name.
+1. Create a channel that you would like to count in.
+1. Type `c!channel` in that channel. (You must have `Administrator` permissions)
 2. Start counting in the channel, beginning with `1`.
 
 **Counting rules:**

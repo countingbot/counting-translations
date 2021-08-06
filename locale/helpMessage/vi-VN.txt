@@ -1,6 +1,7 @@
 **Thiết lập:**
-1. Tạo một Kênh với tên `#counting` **hoặc** nhập `c!channel` ở trong kênh mà bạn muốn dùng nếu bạn muốn tên kênh khác.
-2. Bắt đầu Đếm ở trong Kênh đó, bắt đầu từ `1`.
+1. Create a channel that you would like to count in.
+1. Type `c!channel` in that channel. (You must have `Administrator` permissions)
+2. Start counting in the channel, beginning with `1`.
 
 **Luật:**
 • Một người không thể Đếm hai số liên tiếp. (Cần một người bạn đồng hành đếm cùng)

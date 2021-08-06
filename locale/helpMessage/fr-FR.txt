@@ -1,6 +1,7 @@
 **Setup:**
-1. Créez un salon avec le nom `#counting` **ou** tapez `c!channel` dans le salon où vous souhaitez compter si vous voulez utiliser un nom différent.
-2. Commencez à compter dans le salon, en partant de `1`.
+1. Create a channel that you would like to count in.
+1. Type `c!channel` in that channel. (You must have `Administrator` permissions)
+2. Start counting in the channel, beginning with `1`.
 
 **Les règles pour compter:**
 • Une personne ne peut pas compter deux fois d'affilée. (I faut alterner avec un ami/partenaire)

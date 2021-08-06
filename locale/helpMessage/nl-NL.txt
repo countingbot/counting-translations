@@ -1,6 +1,7 @@
 **Setup:**
-1. Maak een kanaal genaamd `#counting`, of stuur het commando `c!channel` in het kanaal (met een andere naam) waarin je wilt tellen.
-2. Start met tellen in dat kanaal. Het eerste nummer is `1`.
+1. Create a channel that you would like to count in.
+1. Type `c!channel` in that channel. (You must have `Administrator` permissions)
+2. Start counting in the channel, beginning with `1`.
 
 **Tel regels:**
 • Je kan niet twee keer achter elkaar tellen. (Je moet een partner hebben om mee te spelen)

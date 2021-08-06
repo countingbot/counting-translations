@@ -1,6 +1,7 @@
 **Konfiguration:**
-1. Erstelle einen Textkanal mit dem Namen `#counting` oder schreibe `c!channel` in dem Textkanal in dem du zählen möchtest, wenn du einen anderen Namen verwenden möchtest.
-2. Fange in dem Kanal mit `1` an zu zählen.
+1. Create a channel that you would like to count in.
+1. Type `c!channel` in that channel. (You must have `Administrator` permissions)
+2. Start counting in the channel, beginning with `1`.
 
 **Zähl-Regeln:**
 • Eine Nutzer darf nicht zweimal hintereinander zählen. (Ein Freund/Partner wird benötigt)
