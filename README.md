@@ -30,7 +30,7 @@ Contributing is simple. If you are fluent in a language, we could use your help!
 - Click on your language
 - Click on the `en-US.json` file
 - Go through and translate whichever strings you feel
-  - We take advantage of Discord's markdown formatting. Be mindful of things like [links](https://google.com) `[links](https://google.com)` and `code boxes` `\`code boxes\``.
+  - We take advantage of Discord's markdown formatting. Be mindful of things like [links](https://google.com) `[links](https://google.com)` and `code boxes` ``code boxes\``.
   - We perform string replacement on the translated values. Be sure that your strings contain all string replacements that the original English string does. String replacements are encapsulated within `{}`, like `{authorId}`. Be sure not to translate string replacements!
   - For organizational purposes, we have variable features in our translation files. This allows one string ID to link to another within the same file. You can see this being used in the help message, as `__helpMessage__` gets replaced with the value of the `variable.helpMessage` string ID.
 
