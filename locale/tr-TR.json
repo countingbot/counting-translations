@@ -1,0 +1,93 @@
+{
+    "countProcess.failReason.numbersOnly": "Bu sayı sayma kanalı sadece sayı için.",
+    "countProcess.failReason.doubleCount": "**Üst üste iki kez sayamazsınız.**",
+    "countProcess.failReason.wrongNumber": "**Yanlış sayı.**",
+    "countProcess.warning.wrongNumberAlreadyZero": "Yanlış sayı! Sonraki sayı `1`. **Mevcut sayı 0 olduğundan hiçbir istatistik değiştirilmedi.**",
+    "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> siz **1** tane kurtarışınızı kullandınız. Şimdi  **{savesLeft}** kurtarışınız kaldı. Sonraki sayı **{nextNumber}**",
+    "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> siz  **1** sunucu kurtarıcı kullandı! Şimdi **{savesLeft}/2** sunucu kurtarıcı kaldı. Sonraki sayı **{nextNumber}**",
+    "countProcess.failAlert.embedDescription": "Burdan oy [vererek](https://counting.duckgroup.xyz/vote) yeni kurtarıcılar kazanın, böylece saymaya devam edin. `c!help` komutunu kullanın.",
+    "countProcess.failAlert.messageContent": "<@{authorId}> **{number}**. sayıda mahvetti! Sonraki sayı **1**. {failReason}",
+
+
+    "messageDeleted.messageContent": "<@{memberId}> yazdığı `{currentNumber}`. sayıyı sildi. Sonraki sayı `{nextNumber}`.",
+
+
+    "commands.generic.error.embedTitle": "Hata.",
+    "commands.generic.error.missingAdministrator": "<@{authorId}> siz komutu kullanmak için `Yönetici` yetkisine sahip olmalısınız.",
+    "commands.generic.error.userNotFoundInDatabase": "Belirtilen kullanıcı veritabanınıda bulunaadı. (Henüz saymadı?)",
+    "commands.generic.error.badUserConversion": "Belirtilen kullanıcıyı dönüştüremedik: `{arg}`",
+    "commands.generic.enabled": "açık",
+    "commands.generic.disabled": "kapalı",
+
+    "commands.stats.embedTitle": "Bot İstatistikleri",
+    "commands.stats.embedField.global.name": "Global",
+    "commands.stats.embedField.global.value": "**Botu kullanan sunucu:** `{guilds}`\n**Toplam shard:** `{shards}`\n**Şu anki MPS:** `{mps}`",
+    "commands.stats.embedField.clusterMember.name": "Bu Clusterdeki Kullanıcı (Shards {assignedShards})",
+    "commands.stats.embedField.clusterMember.value": "**Paylaşılan Shardda Olan Sunucular:** `{guildCount}`\n **Başladı:** `{uptime}`\n**Şu anki MPS:** `{mps}`\n**Bu sunucunun Shard ID:** `{shardId}`",
+
+    "commands.help.embedDescription": "__helpMessage__",
+    "commands.help.embedFooter": "Duck#0001 tarafından yapıldı, tt2468#2468 tarafından sürdürüldü | Sunucular: {guilds:,d} | Çalışma süresi: {uptime:,d}s",
+
+    "commands.channel.content": "<@{authorId}> sayı sayma kanalı bu kanala güncellendi.",
+
+    "commands.user.embedField.global.name": "Toplam İstatistikler",
+    "commands.user.embedField.global.value": "Doğruluk Oranı: **{correctRate}**\nToplam Doğru: **{totalCorrect:,d}**\nToplam Yanlış: **{totalIncorrect:,d}**\nSkor: **{score:,d} (#{rank:,d})**\nKurtarmalar: **{saves:g}/{saveSlots:g}**",
+    "commands.user.embedField.local.name": "`{guildName}` 'da olan istatistikler",
+    "commands.user.embedField.local.value": "Doğruluk Oranı: **{correctRate}**\nToplam Doğru: **{totalCorrect:,d}**\nToplam Yanlış: **{totalIncorrect:,d}**\nSon Aktif: **{lastActive}**\nEn Yüksek Sayı: **{highestCount:,d} ({highestCountTime})**\nKurtarma Kullanıldı: **{savesUsed:,d}**",
+
+    "commands.server.embedTitle": "Info for `{guildName}`",
+    "commands.server.embedDescription": "Current Number: **{currentNumber:,d}**\nLast counted by: <@{lastMember}>\nGuild Saves: **{guildSaves}/2**\nHigh Score: **{highScore:,d} ({highScoreTime})**\nRank: **{currentRank:,d}/{totalGuildEntries:,d}**\nSaves Used: **{savesUsed:,d}**\nNumbers Only Mode: **{numbersOnly}**",
+
+    "commands.lb.embedTitle": "*EN YÜKSEK SKORLAR*",
+    "commands.lb.embedFooter": "c!help | Page {page}",
+
+    "commands.cs.embedTitle": "*ŞU ANKİ SKORLAR*",
+    "commands.cs.embedFooter": "c!help | Page {page}",
+
+    "commands.ulb.embedTitle": "*EN İYİ KULLANICILAR*",
+    "commands.ulb.embedFooter": "c!help | Page {page}",
+
+    "commands.slb.embedTitle": "*`{guildName}`* 'DA OLAN EN İYİ KULLANICILAR",
+    "commands.slb.embedFooter": "c!help | Page {page}",
+
+    "commands.donatesave.embedTitle": "Kurtarma bağışlandı!",
+    "commands.donatesave.embedDescription": "`{donatedSaves}` kurtarman bu sunucuya bağışlandı, `{addedSaves}` bağış ekleniyor, Bu sunucunun toplam `{guildSaves}/2` kurtarması var. (1 Sunucu Kurtarması = 5 Kullanıcı Kurtarması)\n\nŞimdi `{memberSaves}` kurtarman kaldı.",
+    "commands.donatesave.error.notEnoughSaves": "Bağış için en az `1` kurtarman olmalı.",
+    "commands.donatesave.error.maxSavesReached": "Bu sunucu zaten maksimum kurtarmaya sahip! (2)",
+
+    "commands.transfersave.embedTitle": "Bağış transfer edildi!",
+    "commands.transfersave.embedDescription": "Sen `{transferredSaves}` kurtarmanı <@{targetId}> 'ye bağışladın. `{deductedSaves}` kurtarman hesabından çıkıldı.\n\nSenin artık `{savesLeft}` kurtarman kaldı.",
+    "commands.transfersave.error.noTargetSpecified": "Transfer etmek için kullanıcının ismini yazman gerek.",
+    "commands.transfersave.error.notEnoughSaves": "En az `1.5` kurtarmanın olması gerek transfer için.",
+    "commands.transfersave.error.cannotSelfTransfer": "Kendine transfer edemezsin!",
+    "commands.transfersave.error.targetHasMaxSaves": "Transfer edeceğin kişi maksimum kurtarmaya sahip!",
+
+    "commands.failrole.roleDisabledMessage": "Başarısız rolü kapatıldı.",
+    "commands.failrole.roleEnabledMessage": "Başarısız rolü güncellendi. ID: `{roleId}` | Rol İsmi: `{roleName}`",
+    "commands.failrole.error.botMissingPermissions": "Sunucuda `manage_roles` yetkisine sahip değilim.",
+    "commands.failrole.error.roleNotFound": "Var olan rolu bulamadım: `{arg}`",
+    "commands.failrole.error.cannotApplyRole": "`{arg}` rolunu buldum fakat bunu vermem için gerekli yetkiye sahip değilim. O rolü rol listesinde aşağıya çek veya benim rolümü yükselt.",
+
+    "commands.numbersonly.embedTitle": "Sadece numaralar modu {state}.",
+    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> bir mod girmen gerek. Modlar: `açık`, `kapalı`.",
+    "commands.numbersonly.error.invalidMode": "<@{authorId}> böyle bir mod bulunamadı. Modlar: `açık`, `kapalı`.",
+
+    "commands.vote.embedTitle": "Kurtarma kazanmak için oy ver",
+    "commands.vote.embedDescription": "Şuan **{saves:g}/{saveSlots:g}** kurtarman var.",
+    "commands.vote.embedField.discords.name": "Discords.com 'da oy vererek 0.5 kurtarma kazan",
+    "commands.vote.embedField.discords.value.canVote": "✅ Şimdi oy verebilirsin. [Oy ver](https://discords.com/bots/bot/510016054391734273/vote)",
+    "commands.vote.embedField.discords.value.cannotVote": "❌ Sen zaten oy verdin.\nTekrar oy vermek için **{hoursLeft:g} saat** beklemelisin.",
+    "commands.vote.embedField.topgg.name": "top.gg 'de oy vererek 0.25 kurtarma kazan",
+    "commands.vote.embedField.topgg.value.canVote": "✅ Şimdi oy verebilirsin. [Oy ver](https://discordbots.org/bot/510016054391734273/vote)",
+    "commands.vote.embedField.topgg.value.cannotVote": "❌ Sen zaten oy verdin.\nTekrar oy vermek için **{hoursLeft:g} saat** beklemelisin.",
+
+    "commands.language.embedTitle": "Botun dili başarılıyla `{arg}` diline ayarlandı.",
+    "commands.language.argumentMissing.embedTitle": "Mevcut Diller:",
+    "commands.language.argumentMissing.embedDescription": "Bu sunucuda bot dilini ayarlamak için kendi dil kodunuzu kullanın. `c!language [kod]`\nBotu kendi dilinize çevirmekte katkı bulunmak için, buraya [bakın](https://github.com/tt2468/counting-translations/blob/main/README.md). Çeviri ile ilgili hataları raporlamak için, [destek sunucumuzda olan](https://discord.gg/2saFDCd) `#report-translation-issues` kanalına gidin.",
+    "commands.language.argumentMissing.embedField.codes.name": "Dil Kodu",
+    "commands.language.argumentMissing.embedField.descriptions.name": "Açıklama",
+    "commands.language.argumentMissing.embedField.needsTranslation.name": "Çeviriye İhtiyacı Var",
+    "commands.language.error.invalidCode": "Bilinmeyen Dil Kodu: `{arg}`",
+
+    "variables.helpMessage": "**Setup:**\r\n1. Hangi kanalda sayılmasını istiyorsanız o kanala ayarlayın.\r\n1. O kanalda `c!channel` komutunu kullanın. (Sizin `Yönetici` yetkisine ihtiyacınız var)\r\n2. Kanalda `1` yazarak saymaya başlayın.\r\n\r\n**Sayma kuralları:**\r\n\u2022 Bir kişi üst üste iki kez sayamaz. (Arkadaş\/ortak gerekli)\r\n\u2022 Bot kullanmayın.\r\n\u2022 Bir sayıyı bozarsanız, bir kurtarmanız varsa \"kurtarmanız\" kullanılacak ve kurtarma sayınız azalacak. Eğer yoksa, sayı sıfırlanıcak.\r\n\r\n**Kurtarmalar:**\r\n\u2022 Kurtarma kazanmak için burdan oy [verin](https:\/\/counting.duckgroup.xyz\/vote). Kurtarmalarınızı görmek için `c!vote` komutunu kullanın.\r\n\u2022 Eğer en az bir kurtarmanız varsa, yanlış numarayı yazarsanız bir şey olmaz ve kurtarmanız azalır.\r\n__MESSAGE_BREAK__\r\n**Kullanıcı Komutları:** *`?` prefixi isteğe bağlıdır*\r\n\u2022 `c!cs ?[sayfaNumarası]` - En yüksek skorlar\r\n\u2022 `c!lb ?[sayfaNumarası]` - En yüksek 10 skor\r\n\u2022 `c!ulb ?[sayfaNumarası]` - En iyi 10 kullanıcı\r\n\u2022 `c!slb ?[sayfaNumarası]` - Sunucudaki en iyi 10 kullanıcı\r\n\u2022 `c!user ?[@kullanıcı\/ID]` - Kullanıcının istatistiğini almak \r\n\u2022 `c!server` - Sunucunun şu anki istatistiğini almak\r\n\u2022 `c!donatesave` - Bulunduğunuz sunucuya kurtarma bağışlamak. (Sunucuya `0.2` kurtarma ekler)\r\n\u2022 `c!transfersave [@kullanıcı\/ID]` - `0.5` vergiyle başka birisine kurtarma bağışla\r\n\u2022 `c!vote` - Bota oy ver ve kurtarma kazan\r\n\u2022 `c!stats` - Botun istatistikleri ve bulunduğunuz shard istatistikleri\r\n\r\n**Admin Komutları:**\r\n\u2022 `c!failrole [@rol\/ID]` - Sayıyı bozan birisine rol vermek. Durdurmak için komutu rol eklemeden kullanın.\r\n\u2022 `c!channel` - Botu belirlenmiş kanalda çalıştırmak için kullanın.\r\n\u2022 `c!numbersonly [on\/off]` - Sadece numaralar modunu açın. Eğer birisi doğru sayı ve bot komut hariç bir şey yazarsa sayı bozulur.\r\n\u2022 `c!language ?[dilKodu]` - Botun sunucudaki dilini ayarlayın\r\n\r\nEğer bir sorunuz varsa, Discord sunucumzua [katılın](https:\/\/discord.gg\/rMQDwMH).\r\n[Botu sevdiniz mi? Patreon ile bağış yapın.](https:\/\/www.patreon.com\/counting) Bu bize çok fazla yardım sağlar.\r\n\r\n[Botu kendi sunucunuza ekleyin.](https:\/\/counting.duckgroup.xyz\/invite)\r\n"
+}
