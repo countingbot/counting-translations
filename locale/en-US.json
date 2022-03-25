@@ -74,7 +74,7 @@
 
     "commands.vote.embedTitle": "Vote for Counting to earn saves",
     "commands.vote.embedDescription": "You currently have **{saves:g}/{saveSlots:g}** saves.",
-    "commands.vote.embedField.discords.name": "Vote on Discords.com to earn 0.5 saves",
+    "commands.vote.embedField.discords.name": "Vote on Discords.com to earn 0.25 saves",
     "commands.vote.embedField.discords.value.canVote": "✅ You can vote now. [Vote](https://discords.com/bots/bot/510016054391734273/vote)",
     "commands.vote.embedField.discords.value.cannotVote": "❌ You have already voted.\nYou can vote again in **{hoursLeft:g} hours**.",
     "commands.vote.embedField.topgg.name": "Vote on top.gg to earn 0.25 saves",
