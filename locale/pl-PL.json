@@ -51,6 +51,8 @@
     "commands.numbersonly.embedTitle": "Tryb 'tylko liczby' został {state}.",
     "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Musisz sprecyzować opcję. Opcje: `włączony`, `wyłączony`.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> Nie znaleziono opcji. Opcje: `włączony`, `wyłączony`.",
+    "commands.vote.embedField.discords.value.canVote": "✅ Możesz zagłosować teraz. [Vote](https://discords.com/bots/bot/510016054391734273/vote)",
+    "commands.vote.embedField.discords.value.cannotVote": "❌ Już zagłosowałeś/aś.\nMożesz zagłosować ponownie za **{hoursLeft:g} godzin**.",
     "commands.language.embedTitle": "Język bota został zmieniony na `{arg}` w tej gildii.",
     "commands.language.argumentMissing.embedTitle": "Dostępne języki:",
     "commands.language.argumentMissing.embedField.codes.name": "Kod języka",
