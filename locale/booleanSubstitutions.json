@@ -2,6 +2,8 @@
 	"global": {
 		"enable": true,
 		"disable": false,
+		"on": true,
+		"off": false,
 		"true": true,
 		"false": false,
 		"1": true,
@@ -25,9 +27,7 @@
 		"y": true,
 		"n": false,
 		"yes": true,
-		"no": false,
-		"on": true,
-		"off": false
+		"no": false
 	},
 	"vi-VN": {
 		"bật": true,
