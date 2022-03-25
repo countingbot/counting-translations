@@ -70,5 +70,11 @@
 		"выкл": false,
 		"да": true,
 		"нет": false
+	},
+	"ko-KR": {
+		"켜기": true,
+		"끄기": false,
+		"활성화": true,
+		"비활성화": false
 	}
 }
