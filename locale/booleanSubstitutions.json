@@ -1,5 +1,7 @@
 {
 	"global": {
+		"enable": true,
+		"disable": false,
 		"true": true,
 		"false": false,
 		"1": true,
@@ -20,8 +22,6 @@
 		"ǝןqɐsıp": false
 	},
 	"en-US": {
-		"enable": true,
-		"disable": false,
 		"y": true,
 		"n": false,
 		"yes": true,
