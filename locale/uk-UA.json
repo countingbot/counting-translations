@@ -1,7 +1,7 @@
 {
     "countProcess.failReason.numbersOnly": "Цей канал рахування наразі в режимі тільки числа.",
     "countProcess.failReason.doubleCount": "**Ви не можете рахувати два числа поспіль.**",
-    "countProcess.failReason.wrongNumber": "**Не вірне число.**",
+    "countProcess.failReason.wrongNumber": "**Неправильне число.**",
     "countProcess.warning.wrongNumberAlreadyZero": "Не вірне число! Наступне число - `1`. **Нічого не змінилося оскільки поточне число було 0**",
     "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> Ви використали **1** з ваших збережень. У вас залишилося **{savesLeft}**. Наступне число - **{nextNumber}**",
     "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> Ви використали **1** збереження сервера! Всього їх залишилося **{savesLeft}/2**. Наступне число - **{nextNumber}**",
