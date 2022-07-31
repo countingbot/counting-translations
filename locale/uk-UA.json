@@ -62,8 +62,8 @@
     "commands.transfersave.error.cannotSelfTransfer": "Ви не можете передавати збереження собі!",
     "commands.transfersave.error.targetHasMaxSaves": "Обраний користувач вже має максимальну кількість збережень!",
     
-    "commands.failrole.roleDisabledMessage": "Роль перервавшего відключена.",
-    "commands.failrole.roleEnabledMessage": "Роль перервавшего оновлена. ID: `{roleId}` | Назва ролі: `{roleName}`",
+    "commands.failrole.roleDisabledMessage": "Роль дурника відключена.",
+    "commands.failrole.roleEnabledMessage": "Роль дурника оновлена. ID: `{roleId}` | Назва ролі: `{roleName}`",
     "commands.failrole.error.botMissingPermissions": "Я не маю прав на керування ролями.",
     "commands.failrole.error.roleNotFound": "Неможливо знайти роль: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "Знайдено роль `{arg}`, але я не маю дозволу видавати її. Будь ласка, перемістіть роль нижче у переліку.",
