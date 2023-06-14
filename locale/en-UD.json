@@ -5,6 +5,8 @@
     "countProcess.warning.wrongNumberAlreadyZero": "**˙0 sɐʍ ɹǝqɯnu ʇuǝɹɹnɔ ǝɥʇ ǝɔuıs pǝƃuɐɥɔ uǝǝq ǝʌɐɥ sʇɐʇs oN** ˙`1` sı ɹǝqɯnu ʇxǝu ǝɥ⊥ ¡ɹǝqɯnu ʇɔǝɹɹoɔuI",
     "countProcess.warning.memberSaveUsed": "**{nextNumber}** sı ɹǝqɯnu ʇxǝu ǝɥ⊥ ˙ʇɟǝן **{savesLeft}** ǝʌɐɥ noʎ ˙sǝʌɐs ɹnoʎ ɟo **1** pǝsn ǝʌɐɥ noʎ <@{authorId}> ⚠",
     "countProcess.warning.guildSaveUsed": "**{nextNumber}** sı ɹǝqɯnu ʇxǝu ǝɥ⊥ ˙ʇɟǝן sǝʌɐs pןınƃ **2/{savesLeft}** ǝɹɐ ǝɹǝɥ⊥ ¡ǝʌɐs pןınƃ **1** pǝsn ǝʌɐɥ noʎ <@{authorId}> ⚠",
+    "countProcess.warning.nextNumberIs": "˙**{nextNumber:,d}** sᴉ ɹǝqɯnu ʇxǝu ǝɥ┴",
+    "countProcess.warning.waitForSomeoneElse": "˙**{nextNumber:,d}** puǝs oʇ ǝslǝ ǝuoǝɯos ɹoɟ ʇᴉɐM <@{authorId}>",
     "countProcess.failAlert.embedDescription": "˙`dןǝɥ¡ɔ` ǝǝS ˙ǝɯıʇ ʇxǝu ƃuıʇunoɔ ǝnuıʇuoɔ uɐɔ noʎ os sǝʌɐs uɹɐǝ oʇ [ǝɹǝɥ](https://counting.duckgroup.xyz/vote) ǝʇoΛ",
     "countProcess.failAlert.messageContent": "{failReason} ˙**1** sı ɹǝqɯnu ʇxǝN ¡¡**{number}** ⊥∀ ⊥I ᗡƎNI∩ᴚ <@{authorId}>",
     "messageDeleted.messageContent": "˙`{nextNumber}` sı ɹǝqɯnu ʇxǝu ǝɥ⊥ ˙`{currentNumber}` ɟo ʇunoɔ ɹıǝɥʇ pǝʇǝןǝp <@{memberId}>",

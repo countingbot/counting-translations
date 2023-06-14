@@ -5,6 +5,8 @@
     "countProcess.warning.wrongNumberAlreadyZero": "數錯了！下一個數字是 `1`。**由於當前的數字為 0 ，所以玩家數據並未改變**",
     "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> 你用了 **1** 次復活。尚餘 **{savesLeft}** 次復活。下一個數字是 **{nextNumber}**",
     "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> 你用了 **1** 次伺服器復活。尚餘 **{savesLeft}/2** 次伺服器復活。下一個數字是 **{nextNumber}**",
+    "countProcess.warning.nextNumberIs": "下一個數字是 **{nextNumber:,d}**。",
+    "countProcess.warning.waitForSomeoneElse": "<@{authorId}> 等待其他人傳送 **{nextNumber:,d}**。",
     "countProcess.failAlert.embedDescription": "投票 [here](https://counting.duckgroup.xyz/vote) 以賺取復活次數讓你下次能繼續數數。請查看 `c!help`。",
     "countProcess.failAlert.messageContent": "<@{authorId}> 在 **{number}** 之後數錯了！！下一個數字是 **1**。{failReason}",
     "messageDeleted.messageContent": "<@{memberId}> 刪除了他/她所數的 `{currentNumber}`。下一個數字是 `{nextNumber}`。",

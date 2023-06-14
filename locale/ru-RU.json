@@ -5,6 +5,8 @@
     "countProcess.warning.wrongNumberAlreadyZero": "Не то число! Следующее число - `1`. **Так как текущее число было 0, это не повлияло на статистику.**",
     "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> Вы использовали **1** из ваших сохранений. У вас осталось **{savesLeft}**. Следующее число - **{nextNumber}**",
     "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> Вы использовали **1** сохранение сервера! Всего их осталось **{savesLeft}/2**. Следующее число - **{nextNumber}**",
+    "countProcess.warning.nextNumberIs": "Следующее число - **{nextNumber:,d}**.",
+    "countProcess.warning.waitForSomeoneElse": "<@{authorId}> Подождите, пока кто-то отправит **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "Голосуйте [здесь](https://counting.duckgroup.xyz/vote), чтобы получить сохранения. См. `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> испортил счёт на **{number}**!! Следующее число - **1**. {failReason}",
     "messageDeleted.messageContent": "<@{memberId}> удалил своё сообщение с числом `{currentNumber}`. Следующее число - `{nextNumber}`.",

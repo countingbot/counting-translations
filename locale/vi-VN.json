@@ -5,6 +5,8 @@
     "countProcess.warning.wrongNumberAlreadyZero": "Đếm sai số rồi! Số tiếp theo là `1`. **Không có thông số nào bị thay đổi vì số hiện tại là 0.**",
     "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> Bạn đã sử dụng **1** trong tổng số Thế mạng của bạn. Bạn còn lại **{savesLeft}** Thế mạng. Số tiếp theo là **{nextNumber}**",
     "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> Bạn đã sử dụng **1** Thế mạng của Chung! Hiện còn lại **{savesLeft}/2** Thế mạng của Chung. Số tiếp theo là **{nextNumber}**",
+    "countProcess.warning.nextNumberIs": "Số tiếp theo là **{nextNumber:,d}**.",
+    "countProcess.warning.waitForSomeoneElse": "<@{authorId}> Chờ đợi người khác gửi **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "Vote [tại đây](https://counting.duckgroup.xyz/vote) để kiếm Thế mạng, nó sẽ giúp bạn tiếp tục đếm khi sai. Xem `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> ĐÃ PHÁ CHUỖI Ở SỐ **{number}**!! Số tiếp theo là **1**. {failReason}",
     "messageDeleted.messageContent": "<@{memberId}> đã xoá tin nhắn đếm số `{currentNumber}` của mình. Số tiếp theo là `{nextNumber}`.",

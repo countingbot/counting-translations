@@ -5,6 +5,8 @@
     "countProcess.warning.wrongNumberAlreadyZero": "Incorrect number! The next number is `1`. **No stats have been changed since the current number was 0.**",
     "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> You have used **1** of your saves. You have **{savesLeft}** left. The next number is **{nextNumber}**",
     "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> You have used **1** guild save! There are **{savesLeft}/2** guild saves left. The next number is **{nextNumber}**",
+    "countProcess.warning.nextNumberIs": "The next number is **{nextNumber:,d}**.",
+    "countProcess.warning.waitForSomeoneElse": "<@{authorId}> Wait for someone else to send **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "Vote [here](https://counting.duckgroup.xyz/vote) to earn saves so you can continue counting next time. See `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> RUINED IT AT **{number}**!! Next number is **1**. {failReason}",
 

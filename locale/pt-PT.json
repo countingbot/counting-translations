@@ -5,6 +5,8 @@
     "countProcess.warning.wrongNumberAlreadyZero": "Número incorreto! O próximo número é `1`. **Nenhuma estatística foi alterada desde o início dessa contagem.**",
     "countProcess.warning.memberSaveUsed": "⚠ <@{authorId}> Você usou **1** de seus saves. Você tem **{savesLeft}** saves restando. O próximo número é **{nextNumber}**",
     "countProcess.warning.guildSaveUsed": "⚠ <@{authorId}> Você usou **1** de seus saves de servidor! Você tem **{savesLeft}/2** saves de servidor restando. O próximo número é **{nextNumber}**",
+    "countProcess.warning.nextNumberIs": "O próximo número é **{nextNumber:,d}**.",
+    "countProcess.warning.waitForSomeoneElse": "<@{authorId}> Espere alguém mais enviar **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "Vote [aqui](https://counting.duckgroup.xyz/vote) para ganhar saves e continuar contando na próxima vez. Veja `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> ARRUINOU TUDO EM **{number}**!! O próximo número é **1**. {failReason}",
     "messageDeleted.messageContent": "<@{memberId}> deletou sua mensagem com o número `{currentNumber}`. O próximo número é `{nextNumber}`.",
