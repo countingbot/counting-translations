@@ -9,7 +9,7 @@
     "countProcess.warning.waitForSomeoneElse": "<@{authorId}> किसी और व्यक्ति की प्रतीक्षा करें जो **{nextNumber:,d}** भेजता है।",
     "countProcess.failAlert.embedDescription": "[here](https://counting.duckgroup.xyz/vote) इधर वोट करे ताकि आप सेव पाए और अगली बार गिनती जारी रख सके। `c!help` को देखे।",
     "countProcess.failAlert.messageContent": "<@{authorId}> ने गिनती **{number:,d}** पर तबाह की!! अगली संख्या **1** है। {failReason}",
-    "messageDeleted.messageContent": "<@{memberId}> ने अपना `{currentNumber}` डिलीट किया। अगली संख्या `{nextNumber:,d}` है।",
+    "messageDeleted.messageContent": "<@{memberId}> ने अपना `{currentNumber:,d}` डिलीट किया। अगली संख्या `{nextNumber:,d}` है।",
     "commands.generic.error.embedTitle": "भूल।",
     "commands.generic.error.missingAdministrator": "<@{authorId}> इस कमांड का उपयोग करने के लिए आपके पास एडमिनिस्ट्रेटर अनुमति होनी चाहिए।",
     "commands.generic.error.userNotFoundInDatabase": "निर्दिष्ट यूजर डेटाबेस में नहीं मिल पाए। (अभी तक गिनती नहीं की ?)",

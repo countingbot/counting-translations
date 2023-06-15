@@ -9,7 +9,7 @@
     "countProcess.warning.waitForSomeoneElse": "<@{authorId}> Wacht tot iemand anders **{nextNumber:,d}** stuurt.",
     "countProcess.failAlert.embedDescription": "Stem [hier](https://counting.duckgroup.xyz/vote) om saves te verdienen, zodat je de volgende keer door kan blijven tellen. Zie `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> HEEFT HET VERPEST OP **{number:,d}**!! Het volgende nummer is **1**. {failReason}",
-    "messageDeleted.messageContent": "<@{memberId}> heeft zijn bericht van `{currentNumber}` verwijderd. Het volgende nummer is `{nextNumber:,d}`.",
+    "messageDeleted.messageContent": "<@{memberId}> heeft zijn bericht van `{currentNumber:,d}` verwijderd. Het volgende nummer is `{nextNumber:,d}`.",
     "commands.generic.error.embedTitle": "Fout.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Je moet `Administrator` rechten hebben om dit commando uit te kunnen voeren.",
     "commands.generic.error.userNotFoundInDatabase": "Betreffende gebruiker is nog niet in de database gevonden (Heeft hij al geteld?)",

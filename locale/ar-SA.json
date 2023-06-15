@@ -9,7 +9,7 @@
     "countProcess.warning.waitForSomeoneElse": "<@{authorId}> انتظر شخصًا آخر يرسل **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "صوت [here](https://counting.duckgroup.xyz/vote) لكسب فرصة المساعدة حتى تتمكن من متابعة العد في المرة القادمة. شاهد `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> لقد قمت بالتخريب تحديدًا في **{number:,d}**!! المرة القادمة الرقم هو **1**. {failReason}",
-    "messageDeleted.messageContent": "<@{memberId}> حذف عدده من `{currentNumber}`. الرقم التالي هو `{nextNumber:,d}`.",
+    "messageDeleted.messageContent": "<@{memberId}> حذف عدده من `{currentNumber:,d}`. الرقم التالي هو `{nextNumber:,d}`.",
     "commands.generic.error.embedTitle": "خطأ.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> يجب أن تملك صلاحية `Administrator` لاستعمال هذا الأمر.",
     "commands.generic.error.userNotFoundInDatabase": "المستخدم المحدد غير موجود في قاعدة البيانات. (ألم تقم بالعد بعد؟)",

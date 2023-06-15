@@ -9,7 +9,7 @@
     "countProcess.warning.waitForSomeoneElse": "<@{authorId}> Подождите, пока кто-то отправит **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "Голосуйте [здесь](https://counting.duckgroup.xyz/vote), чтобы получить сохранения. См. `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> испортил счёт на **{number:,d}**!! Следующее число - **1**. {failReason}",
-    "messageDeleted.messageContent": "<@{memberId}> удалил своё сообщение с числом `{currentNumber}`. Следующее число - `{nextNumber:,d}`.",
+    "messageDeleted.messageContent": "<@{memberId}> удалил своё сообщение с числом `{currentNumber:,d}`. Следующее число - `{nextNumber:,d}`.",
     "commands.generic.error.embedTitle": "Ошибка.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> У вас должны быть права `администратора`, чтобы использовать эту команду.",
     "commands.generic.error.userNotFoundInDatabase": "Этот пользователь не был найден в базе данных. (Возможно, он ещё не считал)",

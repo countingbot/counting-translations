@@ -9,7 +9,7 @@
     "countProcess.warning.waitForSomeoneElse": "<@{authorId}> Poczekaj, aż ktoś inny wyśle **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "Głosuj [tutaj](https://counting.duckgroup.xyz/vote) by zdobyć save'y, dzięki którym następnym razem będziesz mógł/a kontynuować liczenie. Zobacz także `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> ZEPSUŁ/A LICZENIE NA **{number:,d}**!! Następną liczbą jest **1**. {failReason}",
-    "messageDeleted.messageContent": "<@{memberId}> usunął/a policzoną przez siebie liczbę `{currentNumber}`. Następną liczbą jest `{nextNumber:,d}`.",
+    "messageDeleted.messageContent": "<@{memberId}> usunął/a policzoną przez siebie liczbę `{currentNumber:,d}`. Następną liczbą jest `{nextNumber:,d}`.",
     "commands.generic.error.embedTitle": "Błąd.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Musisz mieć uprawnienie `Administrator` by użyć tej komendy.",
     "commands.generic.error.userNotFoundInDatabase": "Wymieniony użytkownik nie znaleziony w bazie danych (Jeszcze nie liczył/a?)",

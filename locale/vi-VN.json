@@ -9,7 +9,7 @@
     "countProcess.warning.waitForSomeoneElse": "<@{authorId}> Chờ đợi người khác gửi **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "Vote [tại đây](https://counting.duckgroup.xyz/vote) để kiếm Thế mạng, nó sẽ giúp bạn tiếp tục đếm khi sai. Xem `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> ĐÃ PHÁ CHUỖI Ở SỐ **{number:,d}**!! Số tiếp theo là **1**. {failReason}",
-    "messageDeleted.messageContent": "<@{memberId}> đã xoá tin nhắn đếm số `{currentNumber}` của mình. Số tiếp theo là `{nextNumber:,d}`.",
+    "messageDeleted.messageContent": "<@{memberId}> đã xoá tin nhắn đếm số `{currentNumber:,d}` của mình. Số tiếp theo là `{nextNumber:,d}`.",
     "commands.generic.error.embedTitle": "Lỗi.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Bạn phải có quyền `Người Quản Lý` để sử dụng câu lệnh này.",
     "commands.generic.error.userNotFoundInDatabase": "Người dùng đó không có trên cơ sở dữ liệu. (Chưa đếm chăng?)",

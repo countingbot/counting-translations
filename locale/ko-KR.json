@@ -9,7 +9,7 @@
     "countProcess.warning.waitForSomeoneElse": "<@{authorId}> 다른 사람이 **{nextNumber:,d}**를 보낼 때까지 기다려주세요.",
     "countProcess.failAlert.embedDescription": "다음에 계속 셀 수 있도록 [here](https://counting.duckgroup.xyz/vote)에서 투표하세요.",
     "countProcess.failAlert.messageContent": "<@{authorId}> **{number:,d}**에서 망쳤습니다!! 다음 숫자는 **1** 입니다. {failReason}",
-    "messageDeleted.messageContent": "<@{memberId}> 가 센 숫자인 `{currentNumber}` 을(를) 지웠습니다. 다음 숫자는 `{nextNumber:,d}` 입니다.",
+    "messageDeleted.messageContent": "<@{memberId}> 가 센 숫자인 `{currentNumber:,d}` 을(를) 지웠습니다. 다음 숫자는 `{nextNumber:,d}` 입니다.",
     "commands.generic.error.embedTitle": "오류",
     "commands.generic.error.missingAdministrator": "<@{authorId}> 이 명령어를 사용하려면 `관리자` 권한이 필요합니다.",
     "commands.generic.error.userNotFoundInDatabase": "해당 사용자가 데이터베이스에서 발견되지 않았습니다. (해당 사용자가 센 적이 있는지 확인해주세요.)",

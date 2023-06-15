@@ -9,7 +9,7 @@
     "countProcess.warning.waitForSomeoneElse": "˙**{nextNumber:,d}** puǝs oʇ ǝslǝ ǝuoǝɯos ɹoɟ ʇᴉɐM <@{authorId}>",
     "countProcess.failAlert.embedDescription": "˙`dןǝɥ¡ɔ` ǝǝS ˙ǝɯıʇ ʇxǝu ƃuıʇunoɔ ǝnuıʇuoɔ uɐɔ noʎ os sǝʌɐs uɹɐǝ oʇ [ǝɹǝɥ](https://counting.duckgroup.xyz/vote) ǝʇoΛ",
     "countProcess.failAlert.messageContent": "{failReason} ˙**1** sı ɹǝqɯnu ʇxǝN ¡¡**{number:,d}** ⊥∀ ⊥I ᗡƎNI∩ᴚ <@{authorId}>",
-    "messageDeleted.messageContent": "˙`{nextNumber:,d}` sı ɹǝqɯnu ʇxǝu ǝɥ⊥ ˙`{currentNumber}` ɟo ʇunoɔ ɹıǝɥʇ pǝʇǝןǝp <@{memberId}>",
+    "messageDeleted.messageContent": "˙`{nextNumber:,d}` sı ɹǝqɯnu ʇxǝu ǝɥ⊥ ˙`{currentNumber:,d}` ɟo ʇunoɔ ɹıǝɥʇ pǝʇǝןǝp <@{memberId}>",
     "commands.generic.error.embedTitle": "˙ɹoɹɹƎ",
     "commands.generic.error.missingAdministrator": "˙puɐɯɯoɔ sıɥʇ ǝsn oʇ suoıssıɯɹǝd `ɹoʇɐɹʇsıuıɯp∀` ǝʌɐɥ ʇsnɯ noʎ <@{authorId}>",
     "commands.generic.error.userNotFoundInDatabase": "(¿ʇǝʎ pǝʇunoɔ ʇoN) ˙ǝsɐqɐʇɐp uı punoɟ ʇou ɹǝsn pǝıɟıɔǝdS",

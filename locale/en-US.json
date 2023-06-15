@@ -11,7 +11,7 @@
     "countProcess.failAlert.messageContent": "<@{authorId}> RUINED IT AT **{number:,d}**!! Next number is **1**. {failReason}",
 
 
-    "messageDeleted.messageContent": "<@{memberId}> deleted their count of `{currentNumber}`. The next number is `{nextNumber:,d}`.",
+    "messageDeleted.messageContent": "<@{memberId}> deleted their count of `{currentNumber:,d}`. The next number is `{nextNumber:,d}`.",
 
 
     "commands.generic.error.embedTitle": "Error.",

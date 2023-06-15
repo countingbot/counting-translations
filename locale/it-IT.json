@@ -9,7 +9,7 @@
     "countProcess.warning.waitForSomeoneElse": "<@{authorId}> Aspetta che qualcun altro invii **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "Vota [qui](https://counting.duckgroup.xyz/vote) per ottenere dei saves per poter continuare a contare la prossima volta. Vedi \"c!help\".",
     "countProcess.failAlert.messageContent": "<@{authorId}> L'HA ROVINATO A **{number:,d}**!! Prossimo numero è **1**. {failReason}",
-    "messageDeleted.messageContent": "<@{memberId}> ha cancellato il numero `{currentNumber}`. Il prossimo numero è `{nextNumber:,d}`.",
+    "messageDeleted.messageContent": "<@{memberId}> ha cancellato il numero `{currentNumber:,d}`. Il prossimo numero è `{nextNumber:,d}`.",
     "commands.generic.error.embedTitle": "Errore.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Devi avere i permessi `Amministratore` per usare questo comando.",
     "commands.generic.error.userNotFoundInDatabase": "L'utente specificato non è nel database. (Non ha ancora contato?)",

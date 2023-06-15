@@ -9,7 +9,7 @@
     "countProcess.warning.waitForSomeoneElse": "<@{authorId}> Warte, bis jemand anderes **{nextNumber:,d}** sendet.",
     "countProcess.failAlert.embedDescription": "Stimme [hier](https://counting.duckgroup.xyz/vote) für den Bot ab um Sicherungen zu bekommen, damit du nächstes Mal weiterzählen kannst. Siehe `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> HAT DIE REIHE BEI **{number:,d}** RUINIERT!! Die nächste Zahl ist **1**. {failReason}",
-    "messageDeleted.messageContent": "<@memberId> hat ihre/seine Zahl `{currentNumber}` gelöscht. Die nächste Zahl ist **{nextNumber:,d}**.",
+    "messageDeleted.messageContent": "<@memberId> hat ihre/seine Zahl `{currentNumber:,d}` gelöscht. Die nächste Zahl ist **{nextNumber:,d}**.",
     "commands.generic.error.embedTitle": "Fehler.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Du brauchst die `Administrator` Berechtigung, damit du diesen Befehl ausführen kannst.",
     "commands.generic.error.userNotFoundInDatabase": "Der angegebene Nutzer wurde nicht gefunden. (Noch nicht gezählt?)",

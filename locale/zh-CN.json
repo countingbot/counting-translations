@@ -9,7 +9,7 @@
     "countProcess.warning.waitForSomeoneElse": "<@{authorId}> 等待其他人发送 **{nextNumber:,d}**。",
     "countProcess.failAlert.embedDescription": "投票 [点击这里](https://counting.duckgroup.xyz/vote) 保存以便下一次继续使用。帮助 `c!help`。",
     "countProcess.failAlert.messageContent": "<@{authorId}> 在 **{number:,d}** 毁了它！下一个号码是 **1**。{failReason}",
-    "messageDeleted.messageContent": "<@{memberId}> 删除了`{currentNumber}`。下一个号码是`{nextNumber:,d}`。",
+    "messageDeleted.messageContent": "<@{memberId}> 删除了`{currentNumber:,d}`。下一个号码是`{nextNumber:,d}`。",
     "commands.generic.error.embedTitle": "错误。",
     "commands.generic.error.missingAdministrator": "<@{authorId}> 你必须具备 `管理员` 权力才可以使用此指令。",
     "commands.generic.error.userNotFoundInDatabase": "在资料库中找不到指定的用户。 （还没统计？）",
