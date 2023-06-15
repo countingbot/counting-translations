@@ -74,7 +74,7 @@
     "commands.numbersonly.error.missingModeArgument": "<@{authorId}> You must specify a mode. Modes: `enable`, `disable`.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> Valid mode not found. Modes: `enable`, `disable`.",
 
-    "commands.vote.embedTitle": "Vote for Counting to earn saves",
+    "commands.vote.embedTitle": "Vote for counting to earn saves",
     "commands.vote.embedDescription": "You currently have **{saves:g}/{saveSlots:g}** saves.",
     "commands.vote.embedField.discords.name": "Vote on Discords.com to earn 0.25 saves",
     "commands.vote.embedField.discords.value.canVote": "✅ You can vote now. [Vote](https://discords.com/bots/bot/510016054391734273/vote)",
@@ -82,6 +82,9 @@
     "commands.vote.embedField.topgg.name": "Vote on top.gg to earn 0.25 saves",
     "commands.vote.embedField.topgg.value.canVote": "✅ You can vote now. [Vote](https://discordbots.org/bot/510016054391734273/vote)",
     "commands.vote.embedField.topgg.value.cannotVote": "❌ You have already voted.\nYou can vote again in **{hoursLeft:g} hours**.",
+    "commands.vote.embedField.name": "Vote on {websiteName} to earn {voteReward} saves",
+    "commands.vote.embedField.value.canVote": "You can vote now. [**Vote here.**]({voteURL})",
+    "commands.vote.embedField.value.cannotVote": "You have already voted.\nYou can vote again {timeLeft}.",
 
     "commands.language.embedTitle": "The bot language has been changed to `{arg}` in this guild.",
     "commands.language.argumentMissing.embedTitle": "Available languages:",
