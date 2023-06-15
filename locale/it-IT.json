@@ -34,6 +34,8 @@
     "commands.lb.embedFooter": "c!help | Pagina {page}",
     "commands.cs.embedTitle": "*PUNTEGGI ATTUALI*",
     "commands.cs.embedFooter": "c!help | Pagina {page}",
+    "commands.tlb.embedTitle": "*PUNTEGGI TOTALI*",
+    "commands.tlb.embedFooter": "c!help | Pagina {page}",
     "commands.ulb.embedTitle": "*TOP UTENTI*",
     "commands.ulb.embedFooter": "c!help | Pagina {page}",
     "commands.slb.embedTitle": "*TOP UTENTE DI `{guildName}`*",

@@ -33,6 +33,8 @@
     "commands.lb.embedFooter": "c!help | الصفحة {page}",
     "commands.cs.embedTitle": "*مجموع النقاط الحالي*",
     "commands.cs.embedFooter": "c!help | الصفحة {page}",
+    "commands.tlb.embedTitle": "*مجموع الدرجات*",
+    "commands.tlb.embedFooter": "c!help | الصفحة {page}",
     "commands.ulb.embedTitle": "*أفضل مستخدمين*",
     "commands.ulb.embedFooter": "c!help | الصفحة {page}",
     "commands.slb.embedTitle": "*أفضل مستخدمين في `{guildName}`*",

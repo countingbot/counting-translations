@@ -34,6 +34,8 @@
     "commands.lb.embedFooter": "c!help | Página {page}",
     "commands.cs.embedTitle": "*PUNTOS ACTUALES*",
     "commands.cs.embedFooter": "c!help | Página {page}",
+    "commands.tlb.embedTitle": "*PUNTUACIONES TOTALES*",
+    "commands.tlb.embedFooter": "c!help | Página {page}",
     "commands.ulb.embedTitle": "*MEJORES USUARIOS*",
     "commands.ulb.embedFooter": "c!help | Página {page}",
     "commands.slb.embedTitle": "*MEJORES USUARIOS EN `{guildName}`*",

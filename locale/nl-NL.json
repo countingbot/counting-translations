@@ -33,6 +33,8 @@
     "commands.lb.embedFooter": "c!help | Pagina {page}",
     "commands.cs.embedTitle": "*HUIDIGE SCORES*",
     "commands.cs.embedFooter": "c!help | Pagina {page}",
+    "commands.tlb.embedTitle": "*TOTAALSCORES*",
+    "commands.tlb.embedFooter": "c!help | Pagina {page}",
     "commands.ulb.embedTitle": "*TOP GEBRUIKERS*",
     "commands.ulb.embedFooter": "c!help | Pagina {page}",
     "commands.slb.embedTitle": "*TOP GEBRUIKERS IN `{guildName}`*",

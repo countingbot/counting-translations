@@ -34,6 +34,8 @@
     "commands.lb.embedFooter": "c!help | 第 {page} 頁",
     "commands.cs.embedTitle": "*當前分數*",
     "commands.cs.embedFooter": "c!help | 第 {page} 頁",
+    "commands.tlb.embedTitle": "*總分*",
+    "commands.tlb.embedFooter": "c!help | 第 {page} 頁",
     "commands.ulb.embedTitle": "*最高分玩家*",
     "commands.ulb.embedFooter": "c!help | 第 {page} 頁",
     "commands.slb.embedTitle": "*`{guildName}` 中的最高分玩家*",

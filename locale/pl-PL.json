@@ -31,6 +31,8 @@
     "commands.lb.embedFooter": "c!help | Page {page}",
     "commands.cs.embedTitle": "*AKTUALNE WYNIKI*",
     "commands.cs.embedFooter": "c!help | Page {page}",
+    "commands.tlb.embedTitle": "*WYNIKI CAŁKOWITE*",
+    "commands.tlb.embedFooter": "c!help | Page {page}",
     "commands.ulb.embedTitle": "*NAJLEPSI UŻYTKOWNICY*",
     "commands.ulb.embedFooter": "c!help | Page {page}",
     "commands.slb.embedTitle": "*NAJLEPSI UŻYTKOWNICY W `{guildName}`*",

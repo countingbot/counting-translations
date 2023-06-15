@@ -34,6 +34,8 @@
     "commands.lb.embedFooter": "{page} ǝƃɐԀ | dןǝɥ¡ɔ",
     "commands.cs.embedTitle": "*SƎᴚOϽS ⊥NƎᴚᴚ∩Ͻ*",
     "commands.cs.embedFooter": "{page} ǝƃɐԀ | dןǝɥ¡ɔ",
+    "commands.tlb.embedTitle": "*SƎɹOƆS ˥∀┴O┴*",
+    "commands.tlb.embedFooter": "{page} ǝƃɐԀ | dןǝɥ¡ɔ",
     "commands.ulb.embedTitle": "*SᴚƎS∩ ԀO⊥*",
     "commands.ulb.embedFooter": "{page} ǝƃɐԀ | dןǝɥ¡ɔ",
     "commands.slb.embedTitle": "*`{guildName}` NI SᴚƎS∩ ԀO⊥*",

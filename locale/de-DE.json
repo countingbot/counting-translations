@@ -34,6 +34,8 @@
     "commands.lb.embedFooter": "c!help | Seite {page}",
     "commands.cs.embedTitle": "*AKTUELLE PUNKTE*",
     "commands.cs.embedFooter": "c!help | Seite {page}",
+    "commands.tlb.embedTitle": "*GESAMTERGEBNISSE*",
+    "commands.tlb.embedFooter": "c!help | Seite {page}",
     "commands.ulb.embedTitle": "*BESTE SPIELER*",
     "commands.ulb.embedFooter": "c!help | Seite {page}",
     "commands.slb.embedTitle": "*BESTE SPIELER IN `{guildName}`*",

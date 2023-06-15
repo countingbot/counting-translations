@@ -34,6 +34,8 @@
     "commands.lb.embedFooter": "c!help | 页数 {page}",
     "commands.cs.embedTitle": "*当前分数*",
     "commands.cs.embedFooter": "c!help | 页数 {page}",
+    "commands.tlb.embedTitle": "*总分*",
+    "commands.tlb.embedFooter": "c!help | 页数 {page}",
     "commands.ulb.embedTitle": "*顶级用户*",
     "commands.ulb.embedFooter": "c!help | 页数 {page}",
     "commands.slb.embedTitle": "*`{guildName}` 中的高级用户*",

@@ -34,6 +34,8 @@
     "commands.lb.embedFooter": "c!help | 페이지 {page}",
     "commands.cs.embedTitle": "*현재 점수*",
     "commands.cs.embedFooter": "c!help | 페이지 {page}",
+    "commands.tlb.embedTitle": "*총 점수*",
+    "commands.tlb.embedFooter": "c!help | 페이지 {page}",
     "commands.ulb.embedTitle": "*최고 득점*",
     "commands.ulb.embedFooter": "c!help | 페이지 {page}",
     "commands.slb.embedTitle": "*`{guildName}` 의 최고 득점*",

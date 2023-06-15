@@ -34,6 +34,8 @@
     "commands.lb.embedFooter": "c!help | Page {page}",
     "commands.cs.embedTitle": "*SCORES ACTUELS*",
     "commands.cs.embedFooter": "c!help | Page {page}",
+    "commands.tlb.embedTitle": "*SCORES TOTAUX*",
+    "commands.tlb.embedFooter": "c!help | Page {page}",
     "commands.ulb.embedTitle": "*MEILLEURS JOUEURS*",
     "commands.ulb.embedFooter": "c!help | Page {page}",
     "commands.slb.embedTitle": "*MEILLEURS JOUEURS POUR `{guildName}`*",
