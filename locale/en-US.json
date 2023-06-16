@@ -36,6 +36,12 @@
     "commands.user.embedField.global.value": "Correct rate: **{correctRate}**\nTotal correct: **{totalCorrect:,d}**\nTotal incorrect: **{totalIncorrect:,d}**\nScore: **{score:,d} (#{rank:,d})**\nSaves: **{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "Stats in `{guildName}`",
     "commands.user.embedField.local.value": "Correct rate: **{correctRate}**\nTotal correct: **{totalCorrect:,d}**\nTotal incorrect: **{totalIncorrect:,d}**\nLast Active: **{lastActive}**\nHighest Valid Count: **{highestCount:,d} ({highestCountTime})**\nSaves Used: **{savesUsed:,d}**",
+    "commands.user.correctRate": "Correct Rate:",
+    "commands.user.score": "Score:",
+    "commands.user.saves": "Saves:",
+    "commands.user.lastActive": "Last Active:",
+    "commands.user.highestCount": "Highest Valid Count:",
+    "commands.user.savesUsed": "Saves Used:",
 
     "commands.server.embedTitle": "Info for `{guildName}`",
     "commands.server.embedDescription": "Current Number: **{currentNumber:,d}**\nLast counted by: <@{lastMember}>\nGuild Saves: **{guildSaves:g}/2**\nHigh Score: **{highScore:,d} ({highScoreTime})**\nRank: **{currentRank:,d}/{totalGuildEntries:,d}**\nSaves Used: **{savesUsed:,d}**\nNumbers Only Mode: **{numbersOnly}**",
