@@ -45,6 +45,15 @@
 
     "commands.server.embedTitle": "Info for `{guildName}`",
     "commands.server.embedDescription": "Current Number: **{currentNumber:,d}**\nLast counted by: <@{lastMember}>\nGuild Saves: **{guildSaves:g}/2**\nHigh Score: **{highScore:,d} ({highScoreTime})**\nRank: **{currentRank:,d}/{totalGuildEntries:,d}**\nSaves Used: **{savesUsed:,d}**\nNumbers Only Mode: **{numbersOnly}**",
+    "commands.server.currentNumber": "Current Number:",
+    "commands.server.lastCounter": "Last counted by:",
+    "commands.server.guildSaves": "Guild Saves:",
+    "commands.server.highScore": "High Score:",
+    "commands.server.totalScore": "Total Score:",
+    "commands.server.rank": "Rank:",
+    "commands.server.savesUsed": "Saves Used:",
+    "commands.server.numbersOnly": "Numbers Only Mode:",
+    "commands.server.maths": "Maths:",
 
     "commands.lb.embedTitle": "*HIGH SCORES*",
     "commands.lb.embedFooter": "c!help | Page {page}",
