@@ -72,6 +72,7 @@
     "commands.numbersonly.embedTitle": "حالة وضع الأرقام فقط {state}.",
     "commands.numbersonly.error.missingModeArgument": "<@{authorId}> يجب أن تلمّح إلى وضع. الأوضاع: `0`، `1`.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> الوضع الصالح غير موجود. الأوضاع: `0`، `1`.",
+    "commands.disablemaths.embedTitle": "الرياضيات {state}.",
     "commands.vote.embedTitle": "التصويت للعد لكسب تصديات",
     "commands.vote.embedDescription": "لديك حاليًا ** {saves:g} / {saveSlots:g} ** حفظ.",
     "commands.vote.embedField.discords.name": "قم بالتصويت على Discords.com لتربح 0.25 تم حفظ",

@@ -70,6 +70,7 @@
     "commands.numbersonly.embedTitle": "Tryb 'tylko liczby' został {state}.",
     "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Musisz sprecyzować opcję. Opcje: `włączony`, `wyłączony`.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> Nie znaleziono opcji. Opcje: `włączony`, `wyłączony`.",
+    "commands.disablemaths.embedTitle": "Matematyka jest {state}.",
     "commands.vote.embedTitle": "Zagłosuj na counting, aby otrzymać save'y",
     "commands.vote.embedDescription": "Aktualnie masz **{saves:g}/{saveSlots:g}** save'ów.",
     "commands.vote.embedField.discords.name": "Zagłosuj na Discords.com, aby otrzymać 0,25 save'a",

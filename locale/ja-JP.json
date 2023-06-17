@@ -69,6 +69,7 @@
     "commands.numbersonly.embedTitle": "ナンバーオンリーモードは{state}です。",
     "commands.numbersonly.error.missingModeArgument": "<@{authorId}> モードを指定する必要があります。モード: `enable`, `disable`。",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> 有効なモードが見つかりませんでした。モード: `1`, `0`。",
+    "commands.disablemaths.embedTitle": "数学は {state}。",
     "commands.vote.embedTitle": "セーブを獲得するためにカウントに投票する",
     "commands.vote.embedDescription": "現在、**{saves:g}/{saveSlots:g} **の保存があります。",
     "commands.vote.embedField.discords.name": "Discords.comに投票して、0.25セーブを獲得しましょう",

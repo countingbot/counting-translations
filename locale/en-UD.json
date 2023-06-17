@@ -73,6 +73,7 @@
     "commands.numbersonly.embedTitle": ".{state} uǝǝq sɐɥ ǝpoɯ ʎןuo-sɹǝqɯnN",
     "commands.numbersonly.error.missingModeArgument": "˙`ǝןqɐsıp` '`ǝןqɐuǝ` :sǝpoW ˙ǝpoɯ ɐ ʎɟıɔǝds ʇsnɯ noʎ <@{authorId}>",
     "commands.numbersonly.error.invalidMode": "˙`ǝןqɐsıp` '`ǝןqɐuǝ` :sǝpoW ˙punoɟ ʇou ǝpoɯ pıןɐΛ <@{authorId}>",
+    "commands.disablemaths.embedTitle": "˙{state} sᴉ sɥʇɐW",
     "commands.vote.embedTitle": "Sǝʌɐs uɹɐǝ oʇ ƃuᴉʇunoɔ ɹoɟ ǝʇoΛ",
     "commands.vote.embedDescription": "˙sǝʌɐs **{saveSlots:g}/{saves:g}** ǝʌɐɥ ʎlʇuǝɹɹnɔ no⅄.",
     "commands.vote.embedField.discords.name": "sǝʌɐs ϛᄅ˙0 uɹɐǝ oʇ ɯoɔ˙spɹoɔsᴉp uo ǝʇoΛ",

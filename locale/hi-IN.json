@@ -69,6 +69,7 @@
     "commands.numbersonly.embedTitle": "केवल अंक मोड अभी {state} है।",
     "commands.numbersonly.error.missingModeArgument": "<@{authorId}> आपको एक मोड को उल्लिखित करना होगा। मोड: `1`, `0`.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> मान्य मोड नहीं मिल पाया। मोड: `1`, `0`.",
+    "commands.disablemaths.embedTitle": "गणित {state} है।",
     "commands.vote.embedTitle": "गिनती के लिए वोट करें और सेव प्राप्त करें",
     "commands.vote.embedDescription": "आपके पास वर्तमान में **{saves:g}/{saveSlots:g}** सेवें हैं।",
     "commands.vote.embedField.name": "{websiteName} पर वोट करें और {voteReward} सेव प्राप्त करें",
