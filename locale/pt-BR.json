@@ -1,0 +1,118 @@
+{
+    "countProcess.failReason.numbersOnly": "Este canal de contagem está no modo somente números.",
+    "countProcess.failReason.doubleCount": "**Você não pode contar dois números seguidos.**",
+    "countProcess.failReason.wrongNumber": "**Número errado.**",
+    "countProcess.warning.wrongNumberAlreadyZero": "Número incorreto! O próximo número é `1`. **Nenhuma estatística foi alterada, pois o número atual era 0.**",
+    "countProcess.warning.memberSaveUsed": "<@{authorId}> Você usou **1** de seus saves. Você tem **{savesLeft:g}** restante(s).",
+    "countProcess.warning.guildSaveUsed": "<@{authorId}> Você usou **1** save do servidor! Restam **{savesLeft:g}/2** saves do servidor.",
+    "countProcess.warning.nextNumberIs": "O próximo número é **{nextNumber:,d}**.",
+    "countProcess.warning.waitForSomeoneElse": "Aguarde alguém enviar **{nextNumber:,d}**.",
+    "countProcess.failAlert.embedDescription": "Vote [aqui](https://counting.duckgroup.xyz/vote) para ganhar saves e continuar contando na próxima vez. Veja `c!help`.",
+    "countProcess.failAlert.messageContent": "<@{authorId}> ARRUINOU NO NÚMERO **{number:,d}**!! Próximo número é **1**. {failReason}",
+
+
+    "messageDeleted.messageContent": "<@{memberId}> deletou sua contagem de `{currentNumber:,d}`. O próximo número é `{nextNumber:,d}`.",
+
+
+    "commands.generic.error.embedTitle": "Erro.",
+    "commands.generic.error.missingAdministrator": "<@{authorId}> Você precisa ter permissões de `Administrador` para usar este comando.",
+    "commands.generic.error.userNotFoundInDatabase": "Usuário especificado não encontrado no banco de dados. (Ainda não contou?)",
+    "commands.generic.error.badUserConversion": "Não foi possível converter o usuário especificado: `{arg}`",
+    "commands.generic.enabled": "habilitado",
+    "commands.generic.disabled": "desabilitado",
+
+    "commands.stats.embedTitle": "Estatísticas do Bot",
+    "commands.stats.embedField.global.name": "Global",
+    "commands.stats.embedField.global.value": "**Total de servidores do bot:** `{guilds}`\n**Total de shards do bot:** `{shards}`\n**MPS atual:** `{mps}`",
+    "commands.stats.embedField.clusterMember.name": "Este Membro Cluster (Shards {assignedShards})",
+    "commands.stats.embedField.clusterMember.value": "**Servidores em shards atribuídos:** `{guildCount}`\n**Iniciado:** `{uptime}`\n**MPS atual:** `{mps}`\n**ID do shard deste servidor:** `{shardId}`",
+
+    "commands.help.embedDescription": "__helpMessage__",
+    "commands.help.embedFooter": "Feito por Duck#0001, Mantido por tt2468#2468 | Servidores: {guilds:,d} | Tempo ativo: {uptime:,d}s",
+
+    "commands.channel.content": "<@{authorId}> O canal de contagem foi atualizado para este canal.",
+
+    "commands.user.embedField.global.name": "Estatísticas Globais",
+    "commands.user.embedField.global.value": "Taxa correta: **{correctRate}**\nTotal correto: **{totalCorrect:,d}**\nTotal incorreto: **{totalIncorrect:,d}**\nPontuação: **{score:,d} (#{rank:,d})**\nSaves: **{saves:g}/{saveSlots:g}**",
+    "commands.user.embedField.local.name": "Estatísticas em `{guildName}`",
+    "commands.user.embedField.local.value": "Taxa correta: **{correctRate}**\nTotal correto: **{totalCorrect:,d}**\nTotal incorreto: **{totalIncorrect:,d}**\nÚltima atividade: **{lastActive}**\nMaior contagem válida: **{highestCount:,d} ({highestCountTime})**\nSaves usados: **{savesUsed:,d}**",
+    "commands.user.correctRate": "Taxa correta:",
+    "commands.user.score": "Pontuação:",
+    "commands.user.saves": "Saves:",
+    "commands.user.lastActive": "Última atividade:",
+    "commands.user.highestCount": "Maior contagem válida:",
+    "commands.user.savesUsed": "Saves usados:",
+
+    "commands.server.embedTitle": "Info para `{guildName}`",
+    "commands.server.embedDescription": "Número atual: **{currentNumber:,d}**\nÚltima contagem por: <@{lastMember}>\nSaves do servidor: **{guildSaves:g}/2**\nRecord: **{highScore:,d} ({highScoreTime})**\nPosição: **{currentRank:,d}/{totalGuildEntries:,d}**\nSaves usados: **{savesUsed:,d}**\nModo somente números: **{numbersOnly}**",
+    "commands.server.currentNumber": "Número atual:",
+    "commands.server.lastCounter": "Última contagem por:",
+    "commands.server.guildSaves": "Saves do servidor:",
+    "commands.server.highScore": "Record:",
+    "commands.server.totalScore": "Pontuação total:",
+    "commands.server.rank": "Posição:",
+    "commands.server.savesUsed": "Saves usados:",
+    "commands.server.numbersOnly": "Modo somente números:",
+    "commands.server.maths": "Matemáticas:",
+
+    "commands.lb.embedTitle": "*RECORDS*",
+    "commands.lb.embedFooter": "c!help | Página {page}",
+
+    "commands.cs.embedTitle": "*PONTUAÇÕES ATUAIS*",
+    "commands.cs.embedFooter": "c!help | Página {page}",
+
+    "commands.tlb.embedTitle": "*PONTUAÇÕES TOTAIS*",
+    "commands.tlb.embedFooter": "c!help | Página {page}",
+
+    "commands.ulb.embedTitle": "*MELHORES USUÁRIOS*",
+    "commands.ulb.embedFooter": "c!help | Página {page}",
+
+    "commands.slb.embedTitle": "*MELHORES USUÁRIOS EM `{guildName}`*",
+    "commands.slb.embedFooter": "c!help | Página {page}",
+
+    "commands.donatesave.embedTitle": "Save doado!",
+    "commands.donatesave.embedDescription": "`{donatedSaves:g}` dos seus saves foram doados para este servidor, adicionando `{addedSaves:g}` aos saves dela, totalizando `{guildSaves:g}/2` saves do servidor. (1 Save do Servidor = 5 Saves do Usuário)\n\nVocê tem `{memberSaves:g}` saves restantes.",
+    "commands.donatesave.error.notEnoughSaves": "Você precisa ter pelo menos `1` save para poder doar.",
+    "commands.donatesave.error.maxSavesReached": "Este servidor já tem a quantidade máxima de saves! (2)",
+
+    "commands.transfersave.embedTitle": "Save transferido!",
+    "commands.transfersave.embedDescription": "Você transferiu `{transferredSaves:g}` saves para <@{targetId}>. `{deductedSaves:g}` saves foram deduzidos da sua conta.\n\nVocê tem `{savesLeft:g}` saves restantes.",
+    "commands.transfersave.error.noTargetSpecified": "Você precisa especificar um usuário para dar um save.",
+    "commands.transfersave.error.notEnoughSaves": "Você precisa ter pelo menos `1.5` saves para transferir.",
+    "commands.transfersave.error.cannotSelfTransfer": "Você não pode transferir saves para si mesmo!",
+    "commands.transfersave.error.targetHasMaxSaves": "O usuário alvo já tem a quantidade máxima de saves!",
+
+    "commands.failrole.roleDisabledMessage": "O cargo de falha foi desabilitado.",
+    "commands.failrole.roleEnabledMessage": "O cargo de falha foi atualizado. ID: `{roleId}` | Nome do cargo: `{roleName}`",
+    "commands.failrole.error.botMissingPermissions": "Eu não tenho permissões de `gerenciar_cargos`.",
+    "commands.failrole.error.roleNotFound": "Não foi possível encontrar o cargo existente: `{arg}`",
+    "commands.failrole.error.cannotApplyRole": "Cargo encontrado para `{arg}`, mas eu não tenho permissões para aplicá-lo. Tente mover o cargo para mais abaixo na lista.",
+
+    "commands.numbersonly.embedTitle": "O modo somente números foi {state}.",
+    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Você deve especificar um modo. Modos: `enable`, `disable`.",
+    "commands.numbersonly.error.invalidMode": "<@{authorId}> Modo válido não encontrado. Modos: `enable`, `disable`.",
+
+    "commands.disablemaths.embedTitle": "Matemáticas está {state}.",
+
+    "commands.vote.embedTitle": "Vote no counting para ganhar saves",
+    "commands.vote.embedDescription": "Atualmente você tem **{saves:g}/{saveSlots:g}** saves.",
+    "commands.vote.embedField.discords.name": "Vote no Discords.com para ganhar 0.25 saves",
+    "commands.vote.embedField.discords.value.canVote": "✅ Você pode votar agora. [Vote](https://discords.com/bots/bot/510016054391734273/vote)",
+    "commands.vote.embedField.discords.value.cannotVote": "❌ Você já votou.\nVocê pode votar novamente em **{hoursLeft:g} horas**.",
+    "commands.vote.embedField.topgg.name": "Vote no top.gg para ganhar 0.25 saves",
+    "commands.vote.embedField.topgg.value.canVote": "✅ Você pode votar agora. [Vote](https://discordbots.org/bot/510016054391734273/vote)",
+    "commands.vote.embedField.topgg.value.cannotVote": "❌ Você já votou.\nVocê pode votar novamente em **{hoursLeft:g} horas**.",
+    "commands.vote.embedField.name": "Vote no {websiteName} para ganhar {voteReward} saves",
+    "commands.vote.embedField.value.canVote": "Você pode votar agora. [**Vote aqui.**]({voteURL})",
+    "commands.vote.embedField.value.cannotVote": "Você já votou.\nVocê pode votar novamente {timeLeft}.",
+
+    "commands.language.embedTitle": "A linguagem do bot foi alterada para `{arg}` neste servidor.",
+    "commands.language.argumentMissing.embedTitle": "Idiomas disponíveis:",
+    "commands.language.argumentMissing.embedDescription": "Use o código do idioma correspondente no seu comando para definir a linguagem do bot neste servidor. `c!language [código]`\nPara ajudar a traduzir o bot para o seu idioma, veja [aqui](https://github.com/tt2468/counting-translations/blob/main/README.md). Se você quiser relatar problemas com uma tradução, vá para `#report-translation-issues` no nosso [servidor de suporte](https://discord.gg/2saFDCd).",
+    "commands.language.argumentMissing.embedField.codes.name": "Código do Idioma",
+    "commands.language.argumentMissing.embedField.descriptions.name": "Descrição",
+    "commands.language.argumentMissing.embedField.needsTranslation.name": "Precisa de Tradução",
+    "commands.language.error.invalidCode": "Código de idioma desconhecido: `{arg}`",
+
+    "variables.helpMessage": "**Configuração:**\r\n1. Crie um canal em que gostaria de contar.\r\n1. Digite `c!channel` nesse canal. (Você deve ter permissões de `Administrador`)\r\n2. Comece a contar no canal, começando com `1`.\r\n\r\n**Regras de contagem:**\r\n\u2022 Uma pessoa não pode contar dois números seguidos. (Um amigo/parceiro é necessário)\r\n\u2022 Sem uso de bots.\r\n\u2022 Se você quebrar a contagem, um \"save\" será descontado do seu saldo de saves, se você tiver algum. Caso contrário, a contagem será reiniciada.\r\n\r\n**Saves:**\r\n\u2022 Vote [aqui](https:\/\/counting.duckgroup.xyz\/vote) para ganhar mais saves. Verifique a quantidade de seus saves com `c!vote`.\r\n\u2022 Se você tiver pelo menos um save, você pode continuar contando quando digitar um número errado.\r\n__MESSAGE_BREAK__\r\n**Comandos de usuário:** *Campos de entrada prefixados com um `?` são opcionais*\r\n\u2022 `c!cs ?[pageNumber]` - Ver as dez maiores pontuações atuais\r\n\u2022 `c!lb ?[pageNumber]` - Ver os dez maiores records\r\n\u2022 `c!tlb ?[pageNumber]` - Ver as dez maiores pontuações totais\r\n\u2022 `c!ulb ?[pageNumber]` - Ver os dez melhores usuários\r\n\u2022 `c!slb ?[pageNumber]` - Ver os dez melhores usuários da seu servidor\r\n\u2022 `c!user ?[@user\/userId]` - Obter as estatísticas de um usuário\r\n\u2022 `c!server` - Obter as estatísticas do servidor atual\r\n\u2022 `c!donatesave` - Doe um save para o servidor atual. (Adiciona `0.2` de um save do servidor)\r\n\u2022 `c!transfersave [@user\/userId]` - Presenteie um save do seu saldo para outro usuário com uma taxa de `0.5`\r\n\u2022 `c!vote` - Vote no bot e ganhe saves\r\n\u2022 `c!stats` - Mostrar estatísticas sobre o bot e seu shard atual\r\n\r\n**Comandos de administrador:**\r\n\u2022 `c!failrole [@role\/role id]` - Defina um cargo para o bot adicionar aos membros que estragam uma contagem. Para desabilitar, execute o comando sem especificar um cargo\r\n\u2022 `c!channel` - Configure o bot para ouvir um canal específico, em vez do canal padrão `#counting`\r\n\u2022 `c!disablemaths [on\/off]` - Desabilite a contagem com matemática. Mensagens como `1+1` não serão contadas como um número válido.\r\n\u2022 `c!numbersonly [on\/off]` - Ative o modo somente números. A contagem será estragada se qualquer mensagem for enviada que não seja um *número* válido ou um *comando de bot*\r\n\u2022 `c!language ?[códigoDaLinguagem]` - Defina o idioma que o bot responde no seu servidor\r\n\r\n[Entre no nosso Discord](https:\/\/discord.gg\/rMQDwMH) se tiver alguma dúvida.\r\n[Gosta do bot? Considere contribuir com Patreon.](https:\/\/www.patreon.com\/counting) Isso nos ajuda muito.\r\n\r\n[Convide o bot para o seu próprio servidor.](https:\/\/counting.duckgroup.xyz\/invite)\r\n\r\nNossa Política de Privacidade: [Aqui](https://gist.github.com/tt2468/2fa093d75aa3ad5a6a32d42729931c33)"
+}
