@@ -1,0 +1,118 @@
+{
+    "countProcess.failReason.numbersOnly": "Ez a számoló csatorna csak számokat fogad el.",
+    "countProcess.failReason.doubleCount": "**Egymást követően nem számolhatsz két számot.**",
+    "countProcess.failReason.wrongNumber": "**Rossz szám.**",
+    "countProcess.warning.wrongNumberAlreadyZero": "Nem megfelelő szám! A következő szám `1`. **Nem változtak statisztikák, mióta az aktuális szám 0 volt.**",
+    "countProcess.warning.memberSaveUsed": "<@{authorId}> **1** mentési lehetőséget felhasználtál. **{savesLeft:g}** mentési lehetőséged maradt.",
+    "countProcess.warning.guildSaveUsed": "<@{authorId}> **1** szervermentési lehetőséget felhasználtál! **{savesLeft:g}/2** szervermentési lehetőséged maradt.",
+    "countProcess.warning.nextNumberIs": "A következő szám **{nextNumber:,d}**.",
+    "countProcess.warning.waitForSomeoneElse": "Várj valaki másra, hogy beküldje a következő számot: **{nextNumber:,d}**",
+    "countProcess.failAlert.embedDescription": "Szavazz [itt](https://counting.duckgroup.xyz/vote) hogy mentési lehetőségeket szerezz és folytathasd a számolást legközelebb. See `c!help`.",
+    "countProcess.failAlert.messageContent": "<@{authorId}> ELRONTOTTA A KÖVETKEZŐ SZÁMNÁL: **{number:,d}**!! A következő szám **1**. {failReason}",
+
+
+    "messageDeleted.messageContent": "<@{memberId}> törölte a számolását `{currentNumber:,d}` számnál. A következő szám `{nextNumber:,d}`.",
+
+
+    "commands.generic.error.embedTitle": "Hiba.",
+    "commands.generic.error.missingAdministrator": "<@{authorId}> ennek a parancsnak a használatához `Administrator` jogogosultság szükséges.",
+    "commands.generic.error.userNotFoundInDatabase": "Az adott felhasználó nem található az adatbázisban. (Még nem számolt?)",
+    "commands.generic.error.badUserConversion": "Az adott felhasználó nem konvertálható: `{arg}`",
+    "commands.generic.enabled": "bekapcsolva",
+    "commands.generic.disabled": "kikapcsolva",
+
+    "commands.stats.embedTitle": "Bot statisztikák",
+    "commands.stats.embedField.global.name": "Globális",
+    "commands.stats.embedField.global.value": "**Teljes bot szerverlista:** `{guilds}`\n**Összes bot egység:** `{shards}`\n**Jelenlegi MPS:** `{mps}`",
+    "commands.stats.embedField.clusterMember.name": "Ez a klaszter tag (Shards {assignedShards})",
+    "commands.stats.embedField.clusterMember.value": "**Szerverek egységek szerint:** `{guildCount}`\n**Elindítva:** `{uptime}`\n**Jelenlegi MPS:** `{mps}`\n**Ezen szerver egység ID-ja:** `{shardId}`",
+
+    "commands.help.embedDescription": "__helpMessage__",
+    "commands.help.embedFooter": "Készítette: Duck#0001, Fenntartja: tt2468#2468 | Szerverek: {guilds:,d} | Üzemidő: {uptime:,d}s",
+
+    "commands.channel.content": "<@{authorId}> A számolás mostantól erre a csatornára lett állítva.",
+
+    "commands.user.embedField.global.name": "Globális statisztikák",
+    "commands.user.embedField.global.value": "Helyességi ráta: **{correctRate}**\nÖsszhelyesség: **{totalCorrect:,d}**\nÖsszhelytelenség: **{totalIncorrect:,d}**\nPontszám: **{score:,d} (#{rank:,d})**\nMentések: **{saves:g}/{saveSlots:g}**",
+    "commands.user.embedField.local.name": "Statisztikák `{guildName}` szerveren",
+    "commands.user.embedField.local.value": "Helyességi ráta: **{correctRate}**\nÖsszhelyesség: **{totalCorrect:,d}**\nÖsszhelytelenség: **{totalIncorrect:,d}**\nUtoljára aktív: **{lastActive}**\nLegnagyobb helyes számolás: **{highestCount:,d} ({highestCountTime})**\nHasznált mentések: **{savesUsed:,d}**",
+    "commands.user.correctRate": "Helyességi ráta:",
+    "commands.user.score": "Pontszám:",
+    "commands.user.saves": "Mentések:",
+    "commands.user.lastActive": "Utoljára aktív:",
+    "commands.user.highestCount": "Legnagyobb helyes számolás:",
+    "commands.user.savesUsed": "Használt mentések:",
+
+    "commands.server.embedTitle": Információ `{guildName}` szerverről",
+    "commands.server.embedDescription": "Jelenlegi szám: **{currentNumber:,d}**\nUtolsó számoló: <@{lastMember}>\nSzerver mentések: **{guildSaves:g}/2**\nLegnagyobb pontszám: **{highScore:,d} ({highScoreTime})**\nRang: **{currentRank:,d}/{totalGuildEntries:,d}**\nHasznált mentések: **{savesUsed:,d}**\nCsak-számok mód: **{numbersOnly}**",
+    "commands.server.currentNumber": "Jelenlegi szám:",
+    "commands.server.lastCounter": "Utolsó számoló:",
+    "commands.server.guildSaves": "Szerver mentések:",
+    "commands.server.highScore": "Legmagasabb pontszámok:",
+    "commands.server.totalScore": "Teljes pontszám:",
+    "commands.server.rank": "Rang:",
+    "commands.server.savesUsed": "Használt mentések:",
+    "commands.server.numbersOnly": "Csak-számok mód:",
+    "commands.server.maths": "Matek:",
+
+    "commands.lb.embedTitle": "*LEGNAGYOBB PONTSZÁMOK*",
+    "commands.lb.embedFooter": "c!help | Oldalszám {page}",
+
+    "commands.cs.embedTitle": "*JELENLEGI PONTSZÁMOK*",
+    "commands.cs.embedFooter": "c!help | Oldalszám {page}",
+
+    "commands.tlb.embedTitle": "*ÖSSZESÍTETT PONTSZÁMOK*",
+    "commands.tlb.embedFooter": "c!help | Oldalszám {page}",
+
+    "commands.ulb.embedTitle": "*LEGJOBB FELHASZNÁLÓK*",
+    "commands.ulb.embedFooter": "c!help | Oldalszám {page}",
+
+    "commands.slb.embedTitle": "*LEGJOBBAK `{guildName}` SZERVEREN*",
+    "commands.slb.embedFooter": "c!help | Oldalszám {page}",
+
+    "commands.donatesave.embedTitle": "Mentés átadományozva!",
+    "commands.donatesave.embedDescription": "`{donatedSaves:g}` mentési lehetőséged át lett adományozva ennek a szervernek, hozzáadva `{addedSaves:g}` a mentési lehetőségeihez, így összesen `{guildSaves:g}/2` mentési lehetőség lett. (1 Guild Save = 5 User Saves)\n\n`{memberSaves:g}` mentési lehetőséged van.",
+    "commands.donatesave.error.notEnoughSaves": "Szükséged van legalább `1` mentési lehetőségre az adományozáshoz.",
+    "commands.donatesave.error.maxSavesReached": "Ez a szerver már rendelkezik a mentési lehetőségek maximális mennyiségével! (2)",
+
+    "commands.transfersave.embedTitle": "Mentési lehetőség átadva!",
+    "commands.transfersave.embedDescription": "Átadtál `{transferredSaves:g}` mentési lehetőséget <@{targetId}> felhasználónak. `{deductedSaves:g}` mentési mennyiség levonva a fiókodról.\n\n `{savesLeft:g}` mentési lehetőséged maradt.",
+    "commands.transfersave.error.noTargetSpecified": "Meg kell határoznod, hogy melyik felhasználónak szeretnél mentési lehetőséget átadni.",
+    "commands.transfersave.error.notEnoughSaves": "Legalább `1.5` mentési lehetőségednek kell lenni, hogy átadhass másnak.",
+    "commands.transfersave.error.cannotSelfTransfer": "Nem adhatsz át mentéseket magadnak!",
+    "commands.transfersave.error.targetHasMaxSaves": "A célfelhasználónak már megvan a maximum mentési lehetőség mennyiség!",
+
+    "commands.failrole.roleDisabledMessage": "A bukott rang kikapcsolva.",
+    "commands.failrole.roleEnabledMessage": "A bukott rang frissítve. ID: `{roleId}` | Rangnév: `{roleName}`",
+    "commands.failrole.error.botMissingPermissions": "Nincsen `manage_roles` jogosultságom.",
+    "commands.failrole.error.roleNotFound": "Nem található a következő rang: `{arg}`",
+    "commands.failrole.error.cannotApplyRole": "`{arg}` rang megtalálva, de nincs jogosultságom, hogy tagokra alkalmazzam. Próbáld az egyedi rangom alá mozgatni a listában.",
+
+    "commands.numbersonly.embedTitle": "A csak-számok mód {state}.",
+    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Meg kell határoznod egy módot. Módok: `bekapcsolva`, `kikapcsolva`.",
+    "commands.numbersonly.error.invalidMode": "<@{authorId}> Ilyen mód nem található. Módok: `bekapcsolva`, `kikapcsolva`.",
+
+    "commands.disablemaths.embedTitle": "A matek {state}.",
+
+    "commands.vote.embedTitle": "Szavazz a botra hogy mentéseket szerezz",
+    "commands.vote.embedDescription": "Jelenleg **{saves:g}/{saveSlots:g}** mentésed van.",
+    "commands.vote.embedField.discords.name": "Szavazz a Discords.com oldalon, hogy 0.25 mentést szerezz",
+    "commands.vote.embedField.discords.value.canVote": "✅ Már szavazhatsz. [Vote](https://discords.com/bots/bot/510016054391734273/vote)",
+    "commands.vote.embedField.discords.value.cannotVote": "❌ Már szavaztál.\n **{hoursLeft:g} órán belül** újra szavazhatsz.",
+    "commands.vote.embedField.topgg.name": "Szavazz a top.gg oldalon, hogy 0.25 mentést szerezz",
+    "commands.vote.embedField.topgg.value.canVote": "✅ Már szavazhatsz. [Vote](https://discordbots.org/bot/510016054391734273/vote)",
+    "commands.vote.embedField.topgg.value.cannotVote": "❌ Már szavaztál.\n **{hoursLeft:g} órán belül** újra szavazhatsz.",
+    "commands.vote.embedField.name": "Szavazz a {websiteName} oldalon, hogy {voteReward} mentést szerezz",
+    "commands.vote.embedField.value.canVote": "Már szavazhatsz. [**Vote here.**]({voteURL})",
+    "commands.vote.embedField.value.cannotVote": "Már szavaztál.\n {timeLeft} órán belül újra szavazhatsz.",
+
+    "commands.language.embedTitle": "A bot nyelvezete `{arg}` nyelvezetre váltott ezen a felületen.",
+    "commands.language.argumentMissing.embedTitle": "Elérhető nyelvezetek:",
+    "commands.language.argumentMissing.embedDescription": "Használd a megfelelő nyelvi kódot, hogy átállítsd a bot nyelvezetét ezen a szerveren. `c!language [code]`\nHa segíteni szeretnéd a bot saját nyelvedre történő fordítását [kattints ide](https://github.com/tt2468/counting-translations/blob/main/README.md). Ha fordítási problémákat szeretnél jelenteni a bottal kapcsolatosan, keresd fel a `#report-translation-issues` csatornát a [szerverünkön](https://discord.gg/2saFDCd).",
+    "commands.language.argumentMissing.embedField.codes.name": "Nyelvi kód",
+    "commands.language.argumentMissing.embedField.descriptions.name": "Leírás",
+    "commands.language.argumentMissing.embedField.needsTranslation.name": "Fordítás szükséges",
+    "commands.language.error.invalidCode": "Ismeretlen nyelvi kód: `{arg}`",
+
+    "variables.helpMessage": "**Beállítás:**\r\n1. Hozz létre egy csatornát, ahol számolni szeretnél.\r\n1. Add ki a `c!channel` parancsot arra a csatornára. (`Administrator` jogosultság szükséges)\r\n2. Kezdj számolni az adott csatornán, kezdve az `1`-es számmal.\r\n\r\n**Számolási szabályok:**\r\n\u2022 Egy személy nem számolhat kétszer egymást követően. (Egy barát\/partner szükséges)\r\n\u2022 Nincs botolás.\r\n\u2022 Ha megszakítod a számolást, egy \"mentés\" szolgáltatva lesz, ha van még felhasználható mentési lehetőséged. Máskülönben a számolás kezdődik előlről.\r\n\r\n**Mentések:**\r\n\u2022 Szavazz [itt](https:\/\/counting.duckgroup.xyz\/vote) hogy mentési lehetőséget szerezz. A `c!vote` parancs használatával ellenőrizheted a mentési lehetőségeid számát.\r\n\u2022 Ha van legalább egy mentési lehetőséged, egy rossz szám beírása után még folytathatod a számolást.\r\n__MESSAGE_BREAK__\r\n**Felhasználói parancsok:** *A `?` szimbólummal prefixált beviteli mezők opcionálisak.*\r\n\u2022 `c!cs ?[pageNumber]` - A jelenlegi tíz legjobb pontszám megtekintése\r\n\u2022 `c!lb ?[pageNumber]` - A jelenlegi tíz legjobb pontszám megtekintése\r\n\u2022 `c!tlb ?[pageNumber]` - A jelenlegi tíz legjobb teljes pontszám megtekintése\r\n\u2022 `c!ulb ?[pageNumber]` - A tíz legjobb felhasználó megtekintése\r\n\u2022 `c!slb ?[pageNumber]` - A szerveren lévő tíz legjobb felhasználó megtekintése\r\n\u2022 `c!user ?[@user\/userId]` - Felhasználói statisztikák lekérése\r\n\u2022 `c!server` - Jelenlegi szerverstatisztikák lekérése\r\n\u2022 `c!donatesave` - A jelenlegi szerver mentési lehetőséggel való támogatása. (Hozzáad `0.2` szervermentési lehetőséget)\r\n\u2022 `c!transfersave [@user\/userId]` - Egy mentést adományoz az egyenlegedből `0.5`\r\n\u2022 adózással `c!vote` - Szavazz a botra, hogy mentéseket szerezz\r\n\u2022 `c!stats` - Show statistics on the bot and your current shard\r\n\r\n**Admin parancsok:**\r\n\u2022 `c!failrole [@role\/role id]` - Set a role for the bot to add to members who ruin a count. To disable, run command without specifying a role\r\n\u2022 `c!channel` - Configure the bot to listen in a specific channel, instead of the default channel `#counting`\r\n\u2022 `c!disablemaths [on\/off]` - Disable counting with maths. Messages like `1+1` will not count as a valid number.\r\n\u2022 `c!numbersonly [on\/off]` - Enable numbers-only mode. Ruins the count if any message is sent if it is not either a valid *number* or *bot command*\r\n\u2022 `c!language ?[languageCode]` - Set the language that the bot responds in in your guild\r\n\r\n[Join our Discord](https:\/\/discord.gg\/rMQDwMH) if you have any questions.\r\n[Like the bot? Consider contributing with Patreon.](https:\/\/www.patreon.com\/counting) It helps us a bunch.\r\n\r\n[Invite the bot to your own guild.](https:\/\/counting.duckgroup.xyz\/invite)\r\n\r\nOur Privacy Policy: [Here](https://gist.github.com/tt2468/2fa093d75aa3ad5a6a32d42729931c33)"
+}
