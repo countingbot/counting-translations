@@ -7,7 +7,7 @@
     "countProcess.warning.guildSaveUsed": "<@ {authorId}> ** 1 **ギルドセーブを使用しました！ ** {savesLeft:g} / 2 **ギルドセーブが残っています。",
     "countProcess.warning.nextNumberIs": "次の数字は **{nextNumber:,d}** です。",
     "countProcess.warning.waitForSomeoneElse": "他の人が **{nextNumber:,d}** を送るのを待ってください。",
-    "countProcess.failAlert.embedDescription": "[ここ](https://counting.duckgroup.xyz/vote)に投票してセーブを獲得し、次はカウントを続けられるようにしましょう。`c!help`を参照。",
+    "countProcess.failAlert.embedDescription": "[ここ](https://countingbot.com/vote)に投票してセーブを獲得し、次はカウントを続けられるようにしましょう。`c!help`を参照。",
     "countProcess.failAlert.messageContent": "<@{authorId}> ** {number:,d} **で台無しになりました!! 次の番号は** 1 **です。 {failReason}",
     "messageDeleted.messageContent": "<@{memberId}>は `{currentNumber:,d}`のカウントを削除しました。次の番号は `{nextNumber:,d}`です。",
     "commands.generic.error.embedTitle": "エラー。",

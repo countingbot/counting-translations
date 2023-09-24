@@ -2,7 +2,7 @@
 Translations files for counting.
 
 ## About
-These are the translations for the Discord bot [counting](https://counting.duckgroup.xyz/invite). I understand that it is not in a standard translations format. Just how we decided to implement it, as there were no libraries which we determined to be good contenders.
+These are the translations for the Discord bot [counting](https://countingbot.com/invite). I understand that it is not in a standard translations format. Just how we decided to implement it, as there were no libraries which we determined to be good contenders.
 
 ## File Structure
 Anyway, the format is pretty simple. All normal strings should be referenced from `en-US.json`. If an English string is changed, we will be removing all existing translations expecting them to be rewritten.
