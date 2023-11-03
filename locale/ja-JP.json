@@ -58,7 +58,7 @@
     "commands.donatesave.error.maxSavesReached": "このギルドは既に最大数のセーブを持っています! (2)",
     "commands.transfersave.embedTitle": "セーブが転送されました!",
     "commands.transfersave.error.noTargetSpecified": "セーブを転送するユーザーを指定する必要があります。",
-    "commands.transfersave.error.notEnoughSaves": "セーブを転送するには、少なくとも`1.5`セーブが必要です。",
+    "commands.transfersave.error.notEnoughSaves": "セーブを転送するには、少なくとも`{minimumSaves}`セーブが必要です。",
     "commands.transfersave.error.cannotSelfTransfer": "自分自身にセーブを転送することはできません!",
     "commands.transfersave.error.targetHasMaxSaves": "指定されたユーザーは既に最大数のセーブを持っています!",
     "commands.failrole.roleDisabledMessage": "失敗の役割は無効になっています。",

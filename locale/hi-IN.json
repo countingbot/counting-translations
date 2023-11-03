@@ -58,7 +58,7 @@
     "commands.transfersave.embedTitle": "सेव भेजा जा चूका है!",
     "commands.transfersave.embedDescription": "आपने `{transferredSaves:g}` सेव <@{targetId}> को भेज दिए है। आपके खाते से `{deductedSaves:g}` सेव निकाल लिए गए है। \n\nआपके पास `{savesLeft:g}` सेव बाकी है।",
     "commands.transfersave.error.noTargetSpecified": "आपको सेव देने के लिए यूजर को उल्लिखित करना होगा।",
-    "commands.transfersave.error.notEnoughSaves": "सेव भेजने के लिए आपके पास कम से कम 1.5 सेव होने चाहिए।",
+    "commands.transfersave.error.notEnoughSaves": "सेव भेजने के लिए आपके पास कम से कम {minimumSaves} सेव होने चाहिए।",
     "commands.transfersave.error.cannotSelfTransfer": "आपको खुद को सेव नहीं भेज सकते।",
     "commands.transfersave.error.targetHasMaxSaves": "जिन्हे आप सेव भेज रहे है, उनके पास अधिक सेव है।",
     "commands.failrole.roleDisabledMessage": "फ़ैल रोले हटा दिया गया है।",

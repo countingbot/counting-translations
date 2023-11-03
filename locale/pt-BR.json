@@ -71,14 +71,14 @@
     "commands.slb.embedFooter": "c!help | Página {page}",
 
     "commands.donatesave.embedTitle": "Save doado!",
-    "commands.donatesave.embedDescription": "`{donatedSaves:g}` dos seus saves foram doados para este servidor, adicionando `{addedSaves:g}` aos saves dela, totalizando `{guildSaves:g}/2` saves do servidor. (1 Save do Servidor = 5 Saves do Usuário)\n\nVocê tem `{memberSaves:g}` saves restantes.",
+    "commands.donatesave.embedDescription": "`{donatedSaves:g}` dos seus saves foram doados para este servidor, adicionando `{addedSaves:g}` aos saves dela, totalizando `{guildSaves:g}/2` saves do servidor.\n\nVocê tem `{memberSaves:g}` saves restantes.",
     "commands.donatesave.error.notEnoughSaves": "Você precisa ter pelo menos `1` save para poder doar.",
     "commands.donatesave.error.maxSavesReached": "Este servidor já tem a quantidade máxima de saves! (2)",
 
     "commands.transfersave.embedTitle": "Save transferido!",
     "commands.transfersave.embedDescription": "Você transferiu `{transferredSaves:g}` saves para <@{targetId}>. `{deductedSaves:g}` saves foram deduzidos da sua conta.\n\nVocê tem `{savesLeft:g}` saves restantes.",
     "commands.transfersave.error.noTargetSpecified": "Você precisa especificar um usuário para dar um save.",
-    "commands.transfersave.error.notEnoughSaves": "Você precisa ter pelo menos `1.5` saves para transferir.",
+    "commands.transfersave.error.notEnoughSaves": "Você precisa ter pelo menos `{minimumSaves}` saves para transferir.",
     "commands.transfersave.error.cannotSelfTransfer": "Você não pode transferir saves para si mesmo!",
     "commands.transfersave.error.targetHasMaxSaves": "O usuário alvo já tem a quantidade máxima de saves!",
 

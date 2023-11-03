@@ -71,14 +71,14 @@
     "commands.slb.embedFooter": "c!help | Oldalszám {page}",
 
     "commands.donatesave.embedTitle": "Mentés átadományozva!",
-    "commands.donatesave.embedDescription": "`{donatedSaves:g}` mentési lehetőséged át lett adományozva ennek a szervernek, hozzáadva `{addedSaves:g}` a mentési lehetőségeihez, így összesen `{guildSaves:g}/2` mentési lehetőség lett. (1 Guild Save = 5 User Saves)\n\n`{memberSaves:g}` mentési lehetőséged van.",
+    "commands.donatesave.embedDescription": "`{donatedSaves:g}` mentési lehetőséged át lett adományozva ennek a szervernek, hozzáadva `{addedSaves:g}` a mentési lehetőségeihez, így összesen `{guildSaves:g}/2` mentési lehetőség lett.\n\n`{memberSaves:g}` mentési lehetőséged van.",
     "commands.donatesave.error.notEnoughSaves": "Szükséged van legalább `1` mentési lehetőségre az adományozáshoz.",
     "commands.donatesave.error.maxSavesReached": "Ez a szerver már rendelkezik a mentési lehetőségek maximális mennyiségével! (2)",
 
     "commands.transfersave.embedTitle": "Mentési lehetőség átadva!",
     "commands.transfersave.embedDescription": "Átadtál `{transferredSaves:g}` mentési lehetőséget <@{targetId}> felhasználónak. `{deductedSaves:g}` mentési mennyiség levonva a fiókodról.\n\n `{savesLeft:g}` mentési lehetőséged maradt.",
     "commands.transfersave.error.noTargetSpecified": "Meg kell határoznod, hogy melyik felhasználónak szeretnél mentési lehetőséget átadni.",
-    "commands.transfersave.error.notEnoughSaves": "Legalább `1.5` mentési lehetőségednek kell lenni, hogy átadhass másnak.",
+    "commands.transfersave.error.notEnoughSaves": "Legalább `{minimumSaves}` mentési lehetőségednek kell lenni, hogy átadhass másnak.",
     "commands.transfersave.error.cannotSelfTransfer": "Nem adhatsz át mentéseket magadnak!",
     "commands.transfersave.error.targetHasMaxSaves": "A célfelhasználónak már megvan a maximum mentési lehetőség mennyiség!",
 

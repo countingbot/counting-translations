@@ -71,14 +71,14 @@
     "commands.slb.embedFooter": "c!help | Page {page}",
 
     "commands.donatesave.embedTitle": "Save donated!",
-    "commands.donatesave.embedDescription": "`{donatedSaves:g}` of your saves have been donated to this guild, adding `{addedSaves:g}` to its saves, for a total of `{guildSaves:g}/2` guild saves. (1 Guild Save = 5 User Saves)\n\nYou have `{memberSaves:g}` saves left.",
+    "commands.donatesave.embedDescription": "`{donatedSaves:g}` of your saves have been donated to this guild, adding `{addedSaves:g}` to its saves, for a total of `{guildSaves:g}/2` guild saves.\n\nYou have `{memberSaves:g}` saves left.",
     "commands.donatesave.error.notEnoughSaves": "You need to have at least `1` save in order to donate.",
     "commands.donatesave.error.maxSavesReached": "This guild already has the maximum amount of saves! (2)",
 
     "commands.transfersave.embedTitle": "Save transferred!",
     "commands.transfersave.embedDescription": "You have transferred `{transferredSaves:g}` saves to <@{targetId}>. `{deductedSaves:g}` saves have been deducted from your account.\n\nYou have `{savesLeft:g}` saves left.",
     "commands.transfersave.error.noTargetSpecified": "You must specify a user to give a save to.",
-    "commands.transfersave.error.notEnoughSaves": "You need to have at least `1.5` saves in order to transfer.",
+    "commands.transfersave.error.notEnoughSaves": "You need to have at least `{minimumSaves}` saves in order to transfer.",
     "commands.transfersave.error.cannotSelfTransfer": "You cannot transfer saves to yourself!",
     "commands.transfersave.error.targetHasMaxSaves": "Target user already has maximum amount of saves!",
 
