@@ -20,7 +20,7 @@
     "commands.stats.embedField.global.name": "विश्व",
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "Duck#0001 द्वारा बनाया गया, tt2468#2468 द्वारा संभाला गया | समाज: {guilds:,d} | अपटाइम: {uptime:,d}s",
-    "commands.channel.content": "<@{authorId}> गिनती इस चैनल में अपडेट कर दी गयी है।",
+    "commands.channel.content": "मतगणना चैनल को <#{channelID}> पर सेट किया गया है।",
     "commands.user.embedField.global.name": "विश्व स्टैट्स",
     "commands.user.embedField.global.value": "सही प्रतिशत: **{correctRate}**\nसम्पूर्ण सही: **{totalCorrect:,d}**\nसम्पूर्ण गलत: **{totalIncorrect:,d}**\nस्कोर: **{score:,d} (#{rank:,d})**\nसेव: **{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "`{guildName}` समाज में स्टैट्स",
@@ -42,6 +42,7 @@
     "commands.server.savesUsed": "उपयुक्त सेव:",
     "commands.server.numbersOnly": "केवल अंक मोड:",
     "commands.server.maths": "गणित:",
+    "commands.lb.empty": "दिखाने के लिए कुछ नहीं।",
     "commands.lb.embedTitle": "*उच्चतम स्कोर*",
     "commands.lb.embedFooter": "c!help | पेज {page}",
     "commands.cs.embedTitle": "*वर्तमान स्कोर*",
@@ -62,7 +63,7 @@
     "commands.transfersave.error.cannotSelfTransfer": "आपको खुद को सेव नहीं भेज सकते।",
     "commands.transfersave.error.targetHasMaxSaves": "जिन्हे आप सेव भेज रहे है, उनके पास अधिक सेव है।",
     "commands.failrole.roleDisabledMessage": "फ़ैल रोले हटा दिया गया है।",
-    "commands.failrole.roleEnabledMessage": "फ़ैल रोल अपडेट कर दिया गया है । ID: `{roleId}` | रोल का नाम: `{roleName}`",
+    "commands.failrole.roleEnabledMessage": "विफल भूमिका को <@&{roleID}> पर सेट कर दिया गया है।",
     "commands.failrole.error.botMissingPermissions": "मेरे पास `manage_roles` की अनुमति नहीं है।",
     "commands.failrole.error.roleNotFound": "मौजूदा रोल को खोजने में असफल: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "`{arg}` के लिए रोल मिल गया पर लगाने के लिए अनुमति नहीं है। उससे लिस्ट में नीचे लाइए।",
@@ -80,5 +81,7 @@
     "commands.language.argumentMissing.embedField.codes.name": "भाषा का कोड",
     "commands.language.argumentMissing.embedField.descriptions.name": "वर्णन",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "अनुवाद की ज़रुरत",
-    "commands.language.error.invalidCode": "अनजान भाषा कोड: `{arg}`"
+    "commands.language.error.invalidCode": "अनजान भाषा कोड: `{arg}`",
+    "commands.calc.error.failedToEvaluate": "मूल्यांकन करने में विफल रहा।",
+    "commands.invite.embedDescription" : "{{ .botName }} को आमंत्रित करने के लिए यहां एक लिंक दिया गया है।"
 }

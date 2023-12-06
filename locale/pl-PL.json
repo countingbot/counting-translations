@@ -20,7 +20,7 @@
     "commands.stats.embedField.global.name": "Globalne",
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "Stworzony przez Duck#0001, utrzymywany przez tt2468#2468 | Gildie: {guilds:,d} | Od uruchomienia: {uptime:,d}s",
-    "commands.channel.content": "<@{authorId}> Kanał do liczenia został zaktualizowany i jest nim ten kanał.",
+    "commands.channel.content": "Kanał zliczania został ustawiony na <#{channelID}>.",
     "commands.user.embedField.global.name": "Globalne statystyki",
     "commands.user.embedField.global.value": "Procent prawidłowych: **{correctRate}**\nŁącznie prawidłowych: **{totalCorrect:,d}**\nŁącznie nieprawidłowych: **{totalIncorrect:,d}**\nPunkty: **{score:,d} (#{rank:,d})**\nSave'y: **{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "Statystyki w `{guildName}`",
@@ -42,6 +42,7 @@
     "commands.server.savesUsed": "Użyte save'y:",
     "commands.server.numbersOnly": "Tryb 'tylko liczby':",
     "commands.server.maths": "Matematyka:",
+    "commands.lb.empty": "Nic do pokazania.",
     "commands.lb.embedTitle": "*NAJWYŻSZE WYNIKI*",
     "commands.lb.embedFooter": "c!help | Page {page}",
     "commands.cs.embedTitle": "*AKTUALNE WYNIKI*",
@@ -63,7 +64,7 @@
     "commands.transfersave.error.cannotSelfTransfer": "Nie możesz oddać save'ów samemu/ej sobie!",
     "commands.transfersave.error.targetHasMaxSaves": "Użytkownik docelowy ma już maksymalną liczbę save'ów!",
     "commands.failrole.roleDisabledMessage": "Rola psuja została usunięta.",
-    "commands.failrole.roleEnabledMessage": "Rola psuja została zaktualizowana. ID: `{roleId}` | Nazwa roli: `{roleName}`",
+    "commands.failrole.roleEnabledMessage": "Rola niepowodzenia została ustawiona na <@&{roleID}>.",
     "commands.failrole.error.botMissingPermissions": "Nie mam uprawnienia `manage_roles`.",
     "commands.failrole.error.roleNotFound": "Nie udało się odnaleźć roli: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "Odnaleziono rolę `{arg}`, ale nie mam uprawnień, by ją nadać. Spróbuj przesunąć rolę w dół listy.",
@@ -87,5 +88,7 @@
     "commands.language.argumentMissing.embedField.codes.name": "Kod języka",
     "commands.language.argumentMissing.embedField.descriptions.name": "Opis",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "Potrzebuje tłumaczenia",
-    "commands.language.error.invalidCode": "Nieznany kod języka: `{arg}`"
+    "commands.language.error.invalidCode": "Nieznany kod języka: `{arg}`",
+    "commands.calc.error.failedToEvaluate": "Nie udało się ocenić.",
+    "commands.invite.embedDescription" : "Oto link do zaproszenia {{ .botName }}."
 }

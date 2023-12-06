@@ -23,7 +23,7 @@
     "commands.stats.embedField.clusterMember.value": "**Guildes sur les partitions attribuées :** `{guildCount}`\n **Démarré :** `{uptime}`\n**MPS actuel :** `{mps}`\n**ID de partition de cette guilde :** `{shardId}`",
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "Codé par Duck#0001, Maintenu par tt2468#2468 | Guildes: {guilds:,d} | Démarré depuis: {uptime:,d}s",
-    "commands.channel.content": "<@{authorId}> Le salon des compteurs a été mis à jour pour ce salon.",
+    "commands.channel.content": "Le canal de comptage a été défini sur <#{channelID}>.",
     "commands.user.embedField.global.name": "Stastistiques Globales",
     "commands.user.embedField.global.value": "Taux correct: **{correctRate}**\nTotal correct: **{totalCorrect:,d}**\nTotal incorrect: **{totalIncorrect:,d}**\nScore: **{score:,d} (#{rank:,d})**\nSauvegardes: **{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "Statistiques pour `{guildName}`",
@@ -45,6 +45,7 @@
     "commands.server.savesUsed": "Savegardes Utilisées:",
     "commands.server.numbersOnly": "Mode Nombre Uniquement:",
     "commands.server.maths": "Mathématiques:",
+    "commands.lb.empty": "Rien à montrer.",
     "commands.lb.embedTitle": "*MEILLEURS SCORES*",
     "commands.lb.embedFooter": "c!help | Page {page}",
     "commands.cs.embedTitle": "*SCORES ACTUELS*",
@@ -66,7 +67,7 @@
     "commands.transfersave.error.cannotSelfTransfer": "Vous ne pouvez pas vous transférer de sauvegarde!",
     "commands.transfersave.error.targetHasMaxSaves": "Le joueur cible est déjà au maximum de ses sauvegardes!",
     "commands.failrole.roleDisabledMessage": "Le rôle échec a été désactivé.",
-    "commands.failrole.roleEnabledMessage": "Le rôle échec a été mis à jour. ID: `{roleId}` | Nom du Rôle: `{roleName}`",
+    "commands.failrole.roleEnabledMessage": "Le rôle d'échec a été défini sur <@&{roleID}>.",
     "commands.failrole.error.botMissingPermissions": "Je n'ai pas les permissions pour `manage_roles`.",
     "commands.failrole.error.roleNotFound": "Impossible de trouver le rôle existant: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "J'ai trouvé le rôle pour `{arg}` mais je n'ai pas les permissions pour l'appliquer. Essayez de déplacer ce rôle plus bas dans la liste.",
@@ -92,5 +93,7 @@
     "commands.language.argumentMissing.embedField.descriptions.name": "Description",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "Besoin d'une traduction",
     "commands.language.error.invalidCode": "Code langue inconnu: `{arg}`",
+    "commands.calc.error.failedToEvaluate": "Échec de l'évaluation.",
+    "commands.invite.embedDescription" : "Voici un lien pour inviter {{ .botName }}.",
     "variables.helpMessage": "**Setup:**\n1. Create a channel that you would like to count in.\n1. Type `c!channel` in that channel. (You must have `Administrator` permissions)\n2. Start counting in the channel, beginning with `1`.\n\n**Les règles pour compter:**\n• Une personne ne peut pas compter deux fois d'affilée. (I faut alterner avec un ami/partenaire)\n• Interdiction d'utiliser un bot.\n• Si vous vous trompez dans la suite de nombres, une \"sauvegarde\" sera déduite de votre épargne, si vous en possèdez une. Sinon, la suite reprendra de zéro.\n\n**Sauvegardes:**\n• Votez [ici](https://countingbot.com/vote) pour gagner plus de sauvegardes. Contrôlez votre total de sauvegardes avec `c!vote`.\n• Si vous avez au moins une sauvegarde, vous pourrez continuer à compter lorsque vous saisissez un nombre incorrect.\n__MESSAGE_BREAK__\n**Commandes Utilisateur:** *Les champs préfixés avec un `?` sont optionnels*\n• `c!cs ?[pageNumber]` - Voir les 10 meilleurs scores en cours\n• `c!lb ?[pageNumber]` - Voir les 10 meilleurs scores \n• `c!tlb ?[pageNumber]` - Voir les dix meilleurs scores totaux \n• `c!ulb ?[pageNumber]` - Voir les dix meilleurs compteurs\n• `c!slb ?[pageNumber]` - Voir les dix meilleurs compteurs de votre guilde\n• `c!user ?[@user/userId]` - Voir les statistiques d'un joueur.\n• `c!server` - Voir les statistiques du serveur actuel.\n• `c!donatesave` - Donner une sauvegarde à la guilde actuelle. (Rajoute `0.2` aux sauvegardes de la guilde)\n• `c!transfersave [@user/userId]` - Offrir une sauvegarde de votre épargne à un autre joueur, pour un coût de `0.5`\n• `c!vote` - Voter pour le bot et obtenir des sauvegardes\n• `c!stats` - Afficher les statistiques du bot et votre fragment actuel\n\n**Commandes Administrateur:**\n• `c!failrole [@role/role id]` - Spécifier au bot un rôle à attribuer aux joueurs qui ont gâché le compte en cours. Pour le désactiver, lancez la commande sans spécifier de rôle\n• `c!channel` - Spécifier au bot dans quel salon écouter, plutôt que dans `#counting`, le salon par défaut \n• `c!disablemaths [on/off]` - Désactiver le comptage avec les maths. Les messages comme `1+1` ne seront pas comptés comme un nombre valide.\n• `c!numbersonly [on/off]` - Activer le mode Nombre-Exclusif. Gâche le compte en cours si le moindre message envoyé n'est ni un *nombre* valide ou une *commande de bot*\n• `c!language ?[languageCode]` - Spécifier au bot sa langue d'usage dans votre guilde\n\n[Rejoignez notre Discord](https://discord.gg/rMQDwMH) si vous avez la moindre question.\n[Vous aimez le bot? Vous pouvez nous soutenir avec notre Patreon.](https://www.patreon.com/counting) Celà nous aidera grandement.\n\n[Invitez le bot dans votre guilde.](https://countingbot.com/invite)\n"
 }

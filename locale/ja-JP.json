@@ -22,7 +22,7 @@
     "commands.stats.embedField.clusterMember.value": "**割り当てられたシャード全体のギルド：** `{guildCount}`\n **開始：** `{uptime}`\n**現在のMPS：** `{mps}`\n**このギルドのシャードID：** `{shardId}`",
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "Duck＃0001製、tt2468＃2468による保守|ギルド：{guilds:,d} |稼働時間：{uptime:,d}s",
-    "commands.channel.content": "<@{authorId}>カウントチャネルがこのチャネルに更新されました。",
+    "commands.channel.content": "カウント チャネルは <#{channelID}> に設定されています。",
     "commands.user.embedField.global.name": "グローバル統計",
     "commands.user.embedField.global.value": "正しいレート：** {correctRate} **\n正解：**{totalCorrect:,d} **\n合計が正しくありません：**{totalIncorrect:,d}**\nスコア：**{score:,d} (#{rank:,d})**\n保存：** {saves:g} / {saveSlots:g}**",
     "commands.user.embedField.local.name": "`{guildName}`の統計",
@@ -43,6 +43,7 @@
     "commands.server.savesUsed": "使用したセーブ：",
     "commands.server.numbersOnly": "ナンバーオンリーモード：",
     "commands.server.maths": "数学：",
+    "commands.lb.empty": "何も表示されません。",
     "commands.lb.embedTitle": "*ハイスコア*",
     "commands.lb.embedFooter": "c!help | ページ{page}",
     "commands.cs.embedTitle": "*現在のスコア*",
@@ -62,7 +63,7 @@
     "commands.transfersave.error.cannotSelfTransfer": "自分自身にセーブを転送することはできません!",
     "commands.transfersave.error.targetHasMaxSaves": "指定されたユーザーは既に最大数のセーブを持っています!",
     "commands.failrole.roleDisabledMessage": "失敗の役割は無効になっています。",
-    "commands.failrole.roleEnabledMessage": "失敗の役割が更新されました。 ID： `{roleId}` |役割名： `{roleName}`",
+    "commands.failrole.roleEnabledMessage": "失敗の役割は <@&{roleID}> に設定されています。",
     "commands.failrole.error.botMissingPermissions": "`ロールの管理`権限がありません。",
     "commands.failrole.error.roleNotFound": "既存の役割が見つかりません： `{arg}`",
     "commands.failrole.error.cannotApplyRole": "`{arg}`のロールが見つかりましたが、適用する権限がありません。ロールをリストの下の方に移動してみてください。",
@@ -84,5 +85,7 @@
     "commands.language.argumentMissing.embedField.codes.name": "言語コード",
     "commands.language.argumentMissing.embedField.descriptions.name": "説明",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "翻訳が必要",
-    "commands.language.error.invalidCode": "不明な言語コード: `{arg}`"
+    "commands.language.error.invalidCode": "不明な言語コード: `{arg}`",
+    "commands.calc.error.failedToEvaluate": "評価に失敗しました。",
+    "commands.invite.embedDescription" : "ここに{{ .botName }}を招待するためのリンクがあります。"
 }

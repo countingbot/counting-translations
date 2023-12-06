@@ -23,7 +23,7 @@
     "commands.stats.embedField.clusterMember.value": "**分片中的伺服器：**`{guildCount}` \n**分片运行时间　：**`{uptime}` \n**当前每秒讯息数：**`{mps}\n**伺服器分片 ID ：** `{shardId}`",
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "由 Duck#0001 制作，由 tt2468#2468 维护，由 Ker#1193 翻译此语言 | 群主: {guilds:,d} | 在线时间:  {uptime:,d}",
-    "commands.channel.content": "<@{authorId}> 此频道已被认定为数数频道",
+    "commands.channel.content": "计数通道已设置为 <#{channelID}>。",
     "commands.user.embedField.global.name": "全球统计",
     "commands.user.embedField.global.value": "正确率:**{correctRate}**\n总正确率:**{totalCorrect:,d}**\n总不正确:**{totalIncorrect:,d}**\n分数:**{score:,d} (#{rank:,d})**\n保存:**{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "`{guildName}` 统计数据",
@@ -45,6 +45,7 @@
     "commands.server.savesUsed": "使用的保存：",
     "commands.server.numbersOnly": "仅数字模式：",
     "commands.server.maths": "数学：",
+    "commands.lb.empty": "没有什么可展示的。",
     "commands.lb.embedTitle": "*高分数*",
     "commands.lb.embedFooter": "c!help | 页数 {page}",
     "commands.cs.embedTitle": "*当前分数*",
@@ -66,7 +67,7 @@
     "commands.transfersave.error.cannotSelfTransfer": "您不能将保存转移给自己！",
     "commands.transfersave.error.targetHasMaxSaves": "目标用户已拥有最大保存量！",
     "commands.failrole.roleDisabledMessage": "身份已被禁用。",
-    "commands.failrole.roleEnabledMessage": "身份已更新。ID: `{roleId}` | 身份名字: `{roleName}`",
+    "commands.failrole.roleEnabledMessage": "失败角色已设置为 <@&{roleID}>。",
     "commands.failrole.error.botMissingPermissions": "我没有 `管理角色` 的权限。",
     "commands.failrole.error.roleNotFound": "无法找到现有身份: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "找到了 `{arg}` 的角色，但我无权力使用它。尝试将列表中的身份移到较低的位置。",
@@ -92,5 +93,7 @@
     "commands.language.argumentMissing.embedField.descriptions.name": "介绍",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "需要翻译",
     "commands.language.error.invalidCode": "未知语言代码: `{arg}`",
+    "commands.calc.error.failedToEvaluate": "评价失败。",
+    "commands.invite.embedDescription" : "这是邀请 {{ .botName }} 的链接。",
     "variables.helpMessage": "**设置：**\n1. 创建一个您想要计入的频道。\n1. 在该频道中输入 `c!channel`。 （您必须具有“管理员”权限）\n2.在通道中开始计数，从`1`开始。\n\n**计数规则：**\n• 一个人不能连续数出两个数字。 （需要朋友/合作伙伴）\n• 没有 botting。\n• 如果您打破计数，“保存”将从您的保存计数中停靠（如果有）。否则，计数将重置。\n\n**保存：**\n• 投票[here](https://countingbot.com/vote) 以获得更多优惠。使用“c!vote”检查您的储蓄金额。\n• 如果您至少保存了一次，您可以在输入错误的数字时继续计数。\n__MESSAGE_BREAK__\n**用户命令：** *以“?”为前缀的输入字段是可选的*\n• `c!cs ?[pageNumber]` - 查看当前排名前十的分数\n• `c!lb ?[pageNumber]` - 查看前十名的高分\n• `c!tlb ?[pageNumber]` - 查看总分前十\n• `c!ulb ?[pageNumber]` - 查看前十名用户\n• `c!slb ?[pageNumber]` - 查看公会中的前十名用户\n• `c!user ?[@user/userId]` - 获取用户的统计信息\n• `c!server` - 获取当前服务器的统计信息\n• `c!donatesave` - 向当前公会捐赠一次存档。 （添加公会存档的`0.2`）\n• `c!transfersave [@user/userId]` - 将您余额中的一个保存给另一个用户，税费为 `0.5`\n• `c!vote` - 为机器人投票并获得保存\n• `c!stats` - 显示机器人和当前分片的统计信息\n\n**管理命令：**\n• `c!failrole [@role/role id]` - 为机器人设置一个角色以添加到破坏计数的成员中。要禁用，请在不指定角色的情况下运行命令\n• `c!channel` - 将机器人配置为在特定频道中侦听，而不是默认频道 `#counting`\n• `c!disablemaths [on/off]` - 禁用数学计算。像 `1+1` 这样的消息将不会被视为有效数字。\n• `c!numbersonly [on/off]` - 启用仅数字模式。如果发送的任何消息不是有效的 *number* 或 *bot 命令*，则破坏计数\n• `c!language ?[languageCode]` - 设置机器人在您的公会中响应的语言\n\n[加入我们的 Discord](https://discord.gg/rMQDwMH) 如果您有任何问题。\n[喜欢机器人？考虑与 Patreon 一起贡献。](https://www.patreon.com/counting) 它对我们有很大帮助。\n\n[邀请机器人加入你自己的公会。](https://countingbot.com/invite)"
 }

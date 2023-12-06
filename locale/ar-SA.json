@@ -22,7 +22,7 @@
     "commands.stats.embedField.clusterMember.name": "عضو الكتلة هذا (الأجزاء {assignedShards})",
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "صنع بواسطة Duck#0001، تم إصلاحه بواسطة tt2468#2468 | النقابات: {guilds:,d} | مدة التشغيل {uptime:,d}ث",
-    "commands.channel.content": "<@{authorId}> تم تحديث روم العد إلى هذه الروم.",
+    "commands.channel.content": "تم ضبط قناة العد على <#{channelID}>.",
     "commands.user.embedField.global.name": "الإحصائيات العالمية",
     "commands.user.embedField.global.value": "معدل الصحيح: **{correctRate}**\nمجموع الصحيح: **{totalCorrect:,d}**\nمجموع الأخطاء: **{totalIncorrect:,d}**\nالنقاط: **{score:,d} (#{rank:,d})** \nالمساعدات: **{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "الإحصائيات في `{guildName}`",
@@ -44,6 +44,7 @@
     "commands.server.savesUsed": "استعمالات للمساعده:",
     "commands.server.numbersOnly": "وضع الأرقام فقط:",
     "commands.server.maths": "رياضيات:",
+    "commands.lb.empty": "لا شيء للعرض.",
     "commands.lb.embedTitle": "*أعلى مجموع للنقاط*",
     "commands.lb.embedFooter": "c!help | الصفحة {page}",
     "commands.cs.embedTitle": "*مجموع النقاط الحالي*",
@@ -65,7 +66,7 @@
     "commands.transfersave.error.cannotSelfTransfer": "لا يمكنك تحويل المساعدات لنفسك!",
     "commands.transfersave.error.targetHasMaxSaves": "هذا الشخص يمتلك الحد الأقصى من المساعدات!",
     "commands.failrole.roleDisabledMessage": "تم تعطيل رتبة الفشل.",
-    "commands.failrole.roleEnabledMessage": "تم تحديث رتبة الفشل. المعرف: `{roleId}` | إسم الرتبة: `{roleName}`",
+    "commands.failrole.roleEnabledMessage": "تم تعيين دور الفشل على <@&{roleID}>.",
     "commands.failrole.error.botMissingPermissions": "أنا لا أمتلك خاصية `manage_roles`.",
     "commands.failrole.error.roleNotFound": "تعذر العثور على هذه الرتبة: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "تم العثور على رتبة إلى `{arg}` لكن ليس لدي الإذن للتطبيق، حاول بتحريك الرتبة إلى الأسفل.",
@@ -88,5 +89,7 @@
     "commands.language.argumentMissing.embedField.codes.name": "رمز اللغة",
     "commands.language.argumentMissing.embedField.descriptions.name": "الوصف",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "يحتاج إلى الترجمة",
-    "commands.language.error.invalidCode": "هذا رمز اللغة الذي قمت بإدخاله غير معروف: `{arg}`"
+    "commands.language.error.invalidCode": "هذا رمز اللغة الذي قمت بإدخاله غير معروف: `{arg}`",
+    "commands.calc.error.failedToEvaluate": "فشل التقييم.",
+    "commands.invite.embedDescription" : "إليك رابط لدعوة {{ .botName }}."
 }
