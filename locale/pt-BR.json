@@ -9,9 +9,10 @@
     "countProcess.warning.waitForSomeoneElse": "Aguarde alguém enviar **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "Vote [aqui](https://countingbot.com/vote) para ganhar saves e continuar contando na próxima vez. Veja `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> ARRUINOU NO NÚMERO **{number:,d}**!! Próximo número é **1**. {failReason}",
+    "countProcess.newHighScore.messageContent": "Nova pontuação recorde de **{highScore:,d}**!",
 
 
-    "messageDeleted.messageContent": "<@{memberId}> deletou sua contagem de `{currentNumber:,d}`. O próximo número é `{nextNumber:,d}`.",
+    "messageDeleted.messageContent": "<@{userID}> apagou o número deles: ```{deletedNumber:,d}```",
 
 
     "commands.generic.error.embedTitle": "Erro.",
@@ -89,6 +90,7 @@
     "commands.failrole.error.botMissingPermissions": "Eu não tenho permissões de `gerenciar_cargos`.",
     "commands.failrole.error.roleNotFound": "Não foi possível encontrar o cargo existente: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "Cargo encontrado para `{arg}`, mas eu não tenho permissões para aplicá-lo. Tente mover o cargo para mais abaixo na lista.",
+    "commands.failrole.error.failedToAddRole": "O papel de falha <@&{roleID}> não pôde ser adicionado. O bot pode estar sem permissão para adicionar papéis. O papel de falha foi desativado.",
 
     "commands.numbersonly.embedTitle": "O modo somente números foi {state}.",
     "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Você deve especificar um modo. Modos: `enable`, `disable`.",

@@ -9,9 +9,10 @@
     "countProcess.warning.waitForSomeoneElse": "Várj valaki másra, hogy beküldje a következő számot: **{nextNumber:,d}**",
     "countProcess.failAlert.embedDescription": "Legközelebb szavazz [itt](https://countingbot.com/vote), hogy mentési lehetőségeket szerezz és folytathasd a számolást. Lásd `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> ELRONTOTTA ITT: **{number:,d}**!! A következő szám **1**. {failReason}",
+    "countProcess.newHighScore.messageContent":  "Új legmagasabb pontszám: **{highScore:,d}**!",
 
 
-    "messageDeleted.messageContent": "<@{memberId}> törölte a számolását `{currentNumber:,d}` számnál. A következő szám `{nextNumber:,d}`.",
+    "messageDeleted.messageContent": "<@{userID}> törölte a számát: ```{deletedNumber:,d}```",
 
 
     "commands.generic.error.embedTitle": "Hiba.",
@@ -89,6 +90,7 @@
     "commands.failrole.error.botMissingPermissions": "Nincsen `manage_roles` jogosultságom.",
     "commands.failrole.error.roleNotFound": "Nem található a következő rang: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "`{arg}` rang megtalálva, de nincs jogosultságom, hogy tagokra alkalmazzam. Próbáld az egyedi rangom alá mozgatni a listában.",
+    "commands.failrole.error.failedToAddRole": "A hibás szerep <@&{roleID}> nem adható hozzá. A botnak lehet, hogy nincs jogosultsága szerepek hozzáadásához. A hibás szerep letiltva lett.",
 
     "commands.numbersonly.embedTitle": "A csak-számok mód {state}.",
     "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Meg kell határoznod egy módot. Módok: `bekapcsolva`, `kikapcsolva`.",

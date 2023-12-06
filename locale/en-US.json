@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "This counting channel is in number-only mode.",
+    "countProcess.failReason.numbersOnly": "This counting channel is in numbers-only mode.",
     "countProcess.failReason.doubleCount": "**You can't count two numbers in a row.**",
     "countProcess.failReason.wrongNumber": "**Wrong number.**",
     "countProcess.warning.wrongNumberAlreadyZero": "Incorrect number! The next number is `1`. **No stats have been changed since the current number was 0.**",
@@ -9,9 +9,10 @@
     "countProcess.warning.waitForSomeoneElse": "Wait for someone else to send **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "Vote [here](https://countingbot.com/vote) to earn saves so you can continue counting next time. See `c!help`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> RUINED IT AT **{number:,d}**!! Next number is **1**. {failReason}",
+    "countProcess.newHighScore.messageContent": "New high score of **{highScore:,d}**!",
 
 
-    "messageDeleted.messageContent": "<@{memberId}> deleted their count of `{currentNumber:,d}`. The next number is `{nextNumber:,d}`.",
+    "messageDeleted.messageContent": "<@{userID}> has deleted their number: ```{deletedNumber:,d}```",
 
 
     "commands.generic.error.embedTitle": "Error.",
@@ -89,6 +90,7 @@
     "commands.failrole.error.botMissingPermissions": "I don't have `manage_roles` permissions.",
     "commands.failrole.error.roleNotFound": "Unable to find existing role: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "Found role for `{arg}` but I don't have permissions to apply it. Try moving the role lower in the list.",
+    "commands.failrole.error.failedToAddRole": "The fail role <@&{roleID}> could not be added. The bot may be missing the permission to add roles. The fail role has been disabled.",
 
     "commands.numbersonly.embedTitle": "Numbers-only mode has been {state}.",
     "commands.numbersonly.error.missingModeArgument": "<@{authorId}> You must specify a mode. Modes: `enable`, `disable`.",
