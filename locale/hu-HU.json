@@ -7,7 +7,7 @@
     "countProcess.warning.guildSaveUsed": "<@{authorId}> **1** szervermentési lehetőséget felhasználtál! **{savesLeft:g}/2** szervermentési lehetőséged maradt.",
     "countProcess.warning.nextNumberIs": "A következő szám **{nextNumber:,d}**.",
     "countProcess.warning.waitForSomeoneElse": "Várj valaki másra, hogy beküldje a következő számot: **{nextNumber:,d}**",
-    "countProcess.failAlert.embedDescription": "Legközelebb szavazz [itt](https://countingbot.com/vote), hogy mentési lehetőségeket szerezz és folytathasd a számolást. Lásd `c!help`.",
+    "countProcess.failAlert.embedDescription": "Legközelebb szavazz [itt](https://countingbot.com/vote), hogy mentési lehetőségeket szerezz és folytathasd a számolást. Lásd `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> ELRONTOTTA ITT: **{number:,d}**!! A következő szám **1**. {failReason}",
     "countProcess.newHighScore.messageContent":  "Új legmagasabb pontszám: **{highScore:,d}**!",
 

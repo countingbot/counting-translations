@@ -7,7 +7,7 @@
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Você usou **1** save do servidor! Restam **{savesLeft:g}/2** saves do servidor.",
     "countProcess.warning.nextNumberIs": "O próximo número é **{nextNumber:,d}**.",
     "countProcess.warning.waitForSomeoneElse": "Aguarde alguém enviar **{nextNumber:,d}**.",
-    "countProcess.failAlert.embedDescription": "Vote [aqui](https://countingbot.com/vote) para ganhar saves e continuar contando na próxima vez. Veja `c!help`.",
+    "countProcess.failAlert.embedDescription": "Vote [aqui](https://countingbot.com/vote) para ganhar saves e continuar contando na próxima vez. Veja `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> ARRUINOU NO NÚMERO **{number:,d}**!! Próximo número é **1**. {failReason}",
     "countProcess.newHighScore.messageContent": "Nova pontuação recorde de **{highScore:,d}**!",
 

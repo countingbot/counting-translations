@@ -7,7 +7,7 @@
     "countProcess.warning.guildSaveUsed": "<@{authorId}> 你用了 **1** 次伺服器復活。尚餘 **{savesLeft:g}/2** 次伺服器復活。",
     "countProcess.warning.nextNumberIs": "下一個數字是 **{nextNumber:,d}**。",
     "countProcess.warning.waitForSomeoneElse": "等待其他人傳送 **{nextNumber:,d}**。",
-    "countProcess.failAlert.embedDescription": "投票 [here](https://countingbot.com/vote) 以賺取復活次數讓你下次能繼續數數。請查看 `c!help`。",
+    "countProcess.failAlert.embedDescription": "投票 [here](https://countingbot.com/vote) 以賺取復活次數讓你下次能繼續數數。請查看 `{helpCmd}`。",
     "countProcess.failAlert.messageContent": "<@{authorId}> 在 **{number:,d}** 之後數錯了！！下一個數字是 **1**。{failReason}",
     "countProcess.newHighScore.messageContent": "新的最高分數為 **{highScore:,d}**!",
     "messageDeleted.messageContent": "<@{userID}> 刪除了他們的號碼： ```{deletedNumber:,d}```",

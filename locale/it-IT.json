@@ -7,7 +7,7 @@
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Hai utilizzato **1** guild save! Sono rimasti **{savesLeft:g}/2** guild saves.",
     "countProcess.warning.nextNumberIs": "Il numero successivo è **{nextNumber:,d}**.",
     "countProcess.warning.waitForSomeoneElse": "Aspetta che qualcun altro invii **{nextNumber:,d}**.",
-    "countProcess.failAlert.embedDescription": "Vota [qui](https://countingbot.com/vote) per ottenere dei saves per poter continuare a contare la prossima volta. Vedi \"c!help\".",
+    "countProcess.failAlert.embedDescription": "Vota [qui](https://countingbot.com/vote) per ottenere dei saves per poter continuare a contare la prossima volta. Vedi `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> L'HA ROVINATO A **{number:,d}**!! Prossimo numero è **1**. {failReason}",
     "countProcess.newHighScore.messageContent": "Nuovo record di **{highScore:,d}**!",
     "messageDeleted.messageContent": "<@{userID}> ha eliminato il proprio numero: ```{deletedNumber:,d}```",

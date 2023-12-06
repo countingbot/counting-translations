@@ -7,7 +7,7 @@
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Bạn đã sử dụng **1** Điểm hồi sinh của Chung! Hiện còn lại **{savesLeft:g}/2** Điểm hồi sinh của Chung.",
     "countProcess.warning.nextNumberIs": "Số tiếp theo là **{nextNumber:,d}**.",
     "countProcess.warning.waitForSomeoneElse": "Chờ đợi người khác gửi **{nextNumber:,d}**.",
-    "countProcess.failAlert.embedDescription": "Vote [tại đây](https://countingbot.com/vote) để kiếm Điểm hồi sinh, nó sẽ giúp bạn tiếp tục đếm khi sai. Xem `c!help`.",
+    "countProcess.failAlert.embedDescription": "Vote [tại đây](https://countingbot.com/vote) để kiếm Điểm hồi sinh, nó sẽ giúp bạn tiếp tục đếm khi sai. Xem `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> ĐÃ PHÁ CHUỖI Ở SỐ **{number:,d}**!! Số tiếp theo là **1**. {failReason}",
     "countProcess.newHighScore.messageContent": "Điểm số mới cao nhất của **{highScore:,d}**!",
     "messageDeleted.messageContent": "<@{userID}> đã xóa số của họ: ```{deletedNumber:,d}```",

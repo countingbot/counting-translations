@@ -7,7 +7,7 @@
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Je hebt **1** groepssave gebruikt! Er zijn nog **{savesLeft:g}/2** groepssaves over.",
     "countProcess.warning.nextNumberIs": "Het volgende nummer is **{nextNumber:,d}**.",
     "countProcess.warning.waitForSomeoneElse": "Wacht tot iemand anders **{nextNumber:,d}** stuurt.",
-    "countProcess.failAlert.embedDescription": "Stem [hier](https://countingbot.com/vote) om saves te verdienen, zodat je de volgende keer door kan blijven tellen. Zie `c!help`.",
+    "countProcess.failAlert.embedDescription": "Stem [hier](https://countingbot.com/vote) om saves te verdienen, zodat je de volgende keer door kan blijven tellen. Zie `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> HEEFT HET VERPEST OP **{number:,d}**!! Het volgende nummer is **1**. {failReason}",
     "countProcess.newHighScore.messageContent": "Nieuwe topscore van **{highScore:,d}**!",
     "messageDeleted.messageContent": "<@{userID}> heeft hun nummer verwijderd: ```{deletedNumber:,d}```",

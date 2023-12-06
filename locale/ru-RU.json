@@ -7,7 +7,7 @@
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Вы использовали **1** сохранение сервера! Всего их осталось **{savesLeft:g}/2**.",
     "countProcess.warning.nextNumberIs": "Следующее число - **{nextNumber:,d}**.",
     "countProcess.warning.waitForSomeoneElse": "Подождите, пока кто-то отправит **{nextNumber:,d}**.",
-    "countProcess.failAlert.embedDescription": "Голосуйте [здесь](https://countingbot.com/vote), чтобы получить сохранения. См. `c!help`.",
+    "countProcess.failAlert.embedDescription": "Голосуйте [здесь](https://countingbot.com/vote), чтобы получить сохранения. См. `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> испортил счёт на **{number:,d}**!! Следующее число - **1**. {failReason}",
     "countProcess.newHighScore.messageContent": "Новый высокий счет **{highScore:,d}**!",
     "messageDeleted.messageContent": "<@{userID}> удалил свой номер: ```{deletedNumber:,d}```",

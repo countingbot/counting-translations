@@ -7,7 +7,7 @@
     "countProcess.warning.guildSaveUsed": "<@{authorId}> 你使用了**1** 公开存檔。有**{savesLeft:g}/2** 公开保存离开。",
     "countProcess.warning.nextNumberIs": "下一个数字是 **{nextNumber:,d}**。",
     "countProcess.warning.waitForSomeoneElse": "等待其他人发送 **{nextNumber:,d}**。",
-    "countProcess.failAlert.embedDescription": "投票 [点击这里](https://countingbot.com/vote) 保存以便下一次继续使用。帮助 `c!help`。",
+    "countProcess.failAlert.embedDescription": "投票 [点击这里](https://countingbot.com/vote) 保存以便下一次继续使用。帮助 `{helpCmd}`。",
     "countProcess.failAlert.messageContent": "<@{authorId}> 在 **{number:,d}** 毁了它！下一个号码是 **1**。{failReason}",
     "countProcess.newHighScore.messageContent": "新的最高分数为 **{highScore:,d}**!",
     "messageDeleted.messageContent": "<@{userID}> 删除了他们的号码：```{deletedNumber:,d}```",

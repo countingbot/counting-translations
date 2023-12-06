@@ -7,7 +7,7 @@
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Użyłeś/aś **1** save gildii! Pozostało **{savesLeft:g}/2** save'ów gildii.",
     "countProcess.warning.nextNumberIs": "Następną liczbą jest **{nextNumber:,d}**.",
     "countProcess.warning.waitForSomeoneElse": "Poczekaj, aż ktoś inny wyśle **{nextNumber:,d}**.",
-    "countProcess.failAlert.embedDescription": "Głosuj [tutaj](https://countingbot.com/vote) by zdobyć save'y, dzięki którym następnym razem będziesz mógł/a kontynuować liczenie. Zobacz także `c!help`.",
+    "countProcess.failAlert.embedDescription": "Głosuj [tutaj](https://countingbot.com/vote) by zdobyć save'y, dzięki którym następnym razem będziesz mógł/a kontynuować liczenie. Zobacz także `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> ZEPSUŁ/A LICZENIE NA **{number:,d}**!! Następną liczbą jest **1**. {failReason}",
     "countProcess.newHighScore.messageContent": "Nowy najwyższy wynik: **{highScore:,d}**!",
     "messageDeleted.messageContent": "<@{userID}> usunął swój numer: ```{deletedNumber:,d}```",
