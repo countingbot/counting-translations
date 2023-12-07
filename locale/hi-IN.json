@@ -2,7 +2,6 @@
     "countProcess.failReason.numbersOnly": "**इस गिनती चैनल मई केवल अंक भेजने की अनुमति है।**",
     "countProcess.failReason.doubleCount": "**एक खिलाडी लगातार दो संख्या नहीं भेज सकता।**",
     "countProcess.failReason.wrongNumber": "**गलत संख्या।**",
-    "countProcess.warning.wrongNumberAlreadyZero": "गलत संख्या! अगला संख्या `1` है। **आपके स्टैट्स मई कोई बदलाव नहीं आया है क्यूंकि पिछले संख्या 0 था।**",
     "countProcess.warning.memberSaveUsed": "<@{authorId}> ने अपने **1** सेव का उपयोग कर लिया है। आपके पास **{savesLeft:g}** बाकी है।",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> ने **1** समाज सेव का उपयोग कर लिया है! अब **{savesLeft:g}/2** समाज सावेश बाकी है।",
     "countProcess.warning.nextNumberIs": "अगली संख्या **{nextNumber:,d}** है।",
@@ -10,39 +9,42 @@
     "countProcess.failAlert.embedDescription": "[here](https://countingbot.com/vote) इधर वोट करे ताकि आप सेव पाए और अगली बार गिनती जारी रख सके। `{helpCmd}` को देखे।",
     "countProcess.failAlert.messageContent": "<@{authorId}> ने गिनती **{number:,d}** पर तबाह की!! अगली संख्या **1** है। {failReason}",
     "countProcess.newHighScore.messageContent": "**{highScore:,d}** के नए उच्चतम स्कोर!",
+
     "messageDeleted.messageContent": "<@{userID}> ने उनका नंबर हटा दिया है: ```{deletedNumber:,d}```",
+
     "commands.generic.error.embedTitle": "भूल।",
     "commands.generic.error.missingAdministrator": "<@{authorId}> इस कमांड का उपयोग करने के लिए आपके पास एडमिनिस्ट्रेटर अनुमति होनी चाहिए।",
     "commands.generic.error.userNotFoundInDatabase": "निर्दिष्ट यूजर डेटाबेस में नहीं मिल पाए। (अभी तक गिनती नहीं की ?)",
     "commands.generic.error.badUserConversion": "निर्दिष्ट यूजर को परिवर्तित करने में असफल: `{arg}`",
     "commands.generic.enabled": "सक्षम",
     "commands.generic.disabled": "असक्षम",
+
     "commands.stats.embedTitle": "बोत स्टैट्स",
     "commands.stats.embedField.global.name": "विश्व",
+
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "Duck#0001 द्वारा बनाया गया, tt2468#2468 द्वारा संभाला गया | समाज: {guilds:,d} | अपटाइम: {uptime:,d}s",
+
     "commands.channel.content": "मतगणना चैनल को <#{channelID}> पर सेट किया गया है।",
+
     "commands.user.embedField.global.name": "विश्व स्टैट्स",
-    "commands.user.embedField.global.value": "सही प्रतिशत: **{correctRate}**\nसम्पूर्ण सही: **{totalCorrect:,d}**\nसम्पूर्ण गलत: **{totalIncorrect:,d}**\nस्कोर: **{score:,d} (#{rank:,d})**\nसेव: **{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "`{guildName}` समाज में स्टैट्स",
-    "commands.user.embedField.local.value": "सही प्रतिशत: **{correctRate}**\nसम्पूर्ण सही: **{totalCorrect:,d}**\nसम्पूर्ण गलत: **{totalIncorrect:,d}**\nआखिरी क्रिय: **{lastActive}**\nअधिकतम सही संख्या: **{highestCount:,d} ({highestCountTime})**\nउपयुक्त सेव: **{savesUsed:,d}**",
     "commands.user.correctRate": "सही प्रतिशत:",
     "commands.user.score": "स्कोर:",
     "commands.user.saves": "सेव:",
     "commands.user.lastActive": "आखिरी क्रिय:",
     "commands.user.highestCount": "अधिकतम सही संख्या:",
     "commands.user.savesUsed": "उपयुक्त सेव:",
-    "commands.server.embedTitle": "`{guildName}` के लिए जानकारी",
-    "commands.server.embedDescription": "वर्तमान संख्या: **{currentNumber:,d}**\nआखिरी गिनती: <@{lastMember}>\nसमाज सेव: **{guildSaves:g}/2**\nअधिकतम स्कोर: **{highScore:,d} ({highScoreTime})**\nपद: **{currentRank:,d}/{totalGuildEntries:,d}**\nउपयुक्त सेव: **{savesUsed:,d}**\nकेवल अंक मोड: **{numbersOnly}**",
+
     "commands.server.currentNumber": "वर्तमान संख्या:",
     "commands.server.lastCounter": "आखिरी गिनती:",
     "commands.server.guildSaves": "समाज सेव:",
     "commands.server.highScore": "अधिकतम स्कोर:",
     "commands.server.totalScore": "कुल स्कोर:",
-    "commands.server.rank": "पद:",
     "commands.server.savesUsed": "उपयुक्त सेव:",
     "commands.server.numbersOnly": "केवल अंक मोड:",
     "commands.server.maths": "गणित:",
+
     "commands.lb.empty": "दिखाने के लिए कुछ नहीं।",
     "commands.lb.embedTitle": "*उच्चतम स्कोर*",
     "commands.lb.embedFooter": "{helpCmd} | पेज {page}",
@@ -50,36 +52,44 @@
     "commands.tlb.embedTitle": "*कुल स्कोर*",
     "commands.ulb.embedTitle": "*उच्चतम उसेर्स*",
     "commands.slb.embedTitle": "*`{guildName}` में उच्चतम उसेर्स*",
+
     "commands.donatesave.embedTitle": "सेव दान हो चूका है!",
     "commands.donatesave.error.notEnoughSaves": "दान करने के लिए आपके पास काम से काम `1` सेव होना चाहिए।",
     "commands.donatesave.error.maxSavesReached": "इस समाज के पास पूरे समाज सेव है! (2)",
+
     "commands.transfersave.embedTitle": "सेव भेजा जा चूका है!",
     "commands.transfersave.embedDescription": "आपने `{transferredSaves:g}` सेव <@{targetId}> को भेज दिए है। आपके खाते से `{deductedSaves:g}` सेव निकाल लिए गए है। \n\nआपके पास `{savesLeft:g}` सेव बाकी है।",
     "commands.transfersave.error.noTargetSpecified": "आपको सेव देने के लिए यूजर को उल्लिखित करना होगा।",
     "commands.transfersave.error.notEnoughSaves": "सेव भेजने के लिए आपके पास कम से कम {minimumSaves} सेव होने चाहिए।",
     "commands.transfersave.error.cannotSelfTransfer": "आपको खुद को सेव नहीं भेज सकते।",
     "commands.transfersave.error.targetHasMaxSaves": "जिन्हे आप सेव भेज रहे है, उनके पास अधिक सेव है।",
+
     "commands.failrole.roleDisabledMessage": "फ़ैल रोले हटा दिया गया है।",
     "commands.failrole.roleEnabledMessage": "विफल भूमिका को <@&{roleID}> पर सेट कर दिया गया है।",
     "commands.failrole.error.botMissingPermissions": "मेरे पास `manage_roles` की अनुमति नहीं है।",
     "commands.failrole.error.roleNotFound": "मौजूदा रोल को खोजने में असफल: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "`{arg}` के लिए रोल मिल गया पर लगाने के लिए अनुमति नहीं है। उससे लिस्ट में नीचे लाइए।",
     "commands.failrole.error.failedToAddRole": "विफल भूमिका <@&{roleID}> जोड़ी नहीं जा सकी। हो सकता है कि बॉट में भूमिकाएं जोड़ने की अनुमति न हो. विफल भूमिका अक्षम कर दी गई है।",
+
     "commands.numbersonly.embedTitle": "केवल अंक मोड अभी {state} है।",
-    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> आपको एक मोड को उल्लिखित करना होगा। मोड: `1`, `0`.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> मान्य मोड नहीं मिल पाया। मोड: `1`, `0`.",
+
     "commands.disablemaths.embedTitle": "गणित {state} है।",
+
     "commands.vote.embedTitle": "गिनती के लिए वोट करें और सेव प्राप्त करें",
     "commands.vote.embedDescription": "आपके पास वर्तमान में **{saves:g}/{saveSlots:g}** सेवें हैं।",
     "commands.vote.embedField.name": "{websiteName} पर वोट करें और {voteReward} सेव प्राप्त करें",
     "commands.vote.embedField.value.canVote": "आप अब वोट कर सकते हैं। [**यहां वोट करें।**]({voteURL})",
     "commands.vote.embedField.value.cannotVote": "आप पहले ही वोट कर चुके हैं।\nआप फिर से वोट कर सकते हैं {timeLeft}.",
+
     "commands.language.embedTitle": "इस समाज मै बोत की भाषा `{arg}` मै अपडेट कर दी गयी है।",
     "commands.language.argumentMissing.embedTitle": "उपलब्ध भाषाएँ:",
     "commands.language.argumentMissing.embedField.codes.name": "भाषा का कोड",
     "commands.language.argumentMissing.embedField.descriptions.name": "वर्णन",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "अनुवाद की ज़रुरत",
     "commands.language.error.invalidCode": "अनजान भाषा कोड: `{arg}`",
+
     "commands.calc.error.failedToEvaluate": "मूल्यांकन करने में विफल रहा।",
+    
     "commands.invite.embedDescription" : "{{ .botName }} को आमंत्रित करने के लिए यहां एक लिंक दिया गया है।"
 }

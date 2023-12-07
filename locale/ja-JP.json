@@ -2,7 +2,6 @@
     "countProcess.failReason.numbersOnly": "**このカウントチャンネルは数字のみのモードです。**",
     "countProcess.failReason.doubleCount": "**2つの数を連続して数えることはできません。**",
     "countProcess.failReason.wrongNumber": "番号が違う",
-    "countProcess.warning.wrongNumberAlreadyZero": "番号が間違っています！次の番号は `1`です。 **現在の番号が0であったため、統計は変更されていません。**",
     "countProcess.warning.memberSaveUsed": "<@ {authorId}>保存の** 1 **を使用しました。 ** {savesLeft:g} **が残っています。",
     "countProcess.warning.guildSaveUsed": "<@ {authorId}> ** 1 **ギルドセーブを使用しました！ ** {savesLeft:g} / 2 **ギルドセーブが残っています。",
     "countProcess.warning.nextNumberIs": "次の数字は **{nextNumber:,d}** です。",
@@ -10,22 +9,27 @@
     "countProcess.failAlert.embedDescription": "[ここ](https://countingbot.com/vote)に投票してセーブを獲得し、次はカウントを続けられるようにしましょう。`{helpCmd}`を参照。",
     "countProcess.failAlert.messageContent": "<@{authorId}> ** {number:,d} **で台無しになりました!! 次の番号は** 1 **です。 {failReason}",
     "countProcess.newHighScore.messageContent": "新しい最高得点は**{highScore:,d}**です!",
+
     "messageDeleted.messageContent": "<@{userID}> は番号を削除しました: ```{deletedNumber:,d}```",
+
     "commands.generic.error.embedTitle": "エラー。",
     "commands.generic.error.missingAdministrator": "<@{authorId}> このコマンドを使用するには、`管理者`権限が必要です。",
     "commands.generic.error.userNotFoundInDatabase": "指定されたユーザーがデータベースに見つかりませんでした。(まだカウントしていませんか?)",
     "commands.generic.error.badUserConversion": "指定されたユーザーを変換できません: `{arg}`",
     "commands.generic.enabled": "有効",
     "commands.generic.disabled": "無効",
+
     "commands.stats.embedTitle": "ボット統計",
     "commands.stats.embedField.global.name": "グローバル",
     "commands.stats.embedField.clusterMember.name": "このクラスターメンバー（Shards {assignedShards}）",
     "commands.stats.embedField.clusterMember.value": "**割り当てられたシャード全体のギルド：** `{guildCount}`\n **開始：** `{uptime}`\n**現在のMPS：** `{mps}`\n**このギルドのシャードID：** `{shardId}`",
+
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "Duck＃0001製、tt2468＃2468による保守|ギルド：{guilds:,d} |稼働時間：{uptime:,d}s",
+
     "commands.channel.content": "カウント チャネルは <#{channelID}> に設定されています。",
+
     "commands.user.embedField.global.name": "グローバル統計",
-    "commands.user.embedField.global.value": "正しいレート：** {correctRate} **\n正解：**{totalCorrect:,d} **\n合計が正しくありません：**{totalIncorrect:,d}**\nスコア：**{score:,d} (#{rank:,d})**\n保存：** {saves:g} / {saveSlots:g}**",
     "commands.user.embedField.local.name": "`{guildName}`の統計",
     "commands.user.correctRate": "正しいレート：",
     "commands.user.score": "スコア：",
@@ -33,17 +37,16 @@
     "commands.user.lastActive": "最後にログインした時：",
     "commands.user.highestCount": "最大有効数：",
     "commands.user.savesUsed": "使用された保存：",
-    "commands.server.embedTitle": "`{guildName}`の情報",
-    "commands.server.embedDescription": "現在の数: **{currentNumber:,d}**\n最後にカウントしたユーザー: <@{lastMember}>\nギルドセーブ: **{guildSaves:g}/2**\nハイスコア: **{highScore:,d} ({highScoreTime})**\n順位: **{currentRank:,d}/{totalGuildEntries:,d}**\n使用したセーブ: **{savesUsed:,d}**\nナンバーオンリーモード: **{numbersOnly}**",
+
     "commands.server.currentNumber": "現在の数：",
     "commands.server.lastCounter": "最後にカウントしたユーザー：",
     "commands.server.guildSaves": "ギルドセーブ：",
     "commands.server.highScore": "ハイスコア：",
     "commands.server.totalScore": "合計スコア：",
-    "commands.server.rank": "順位：",
     "commands.server.savesUsed": "使用したセーブ：",
     "commands.server.numbersOnly": "ナンバーオンリーモード：",
     "commands.server.maths": "数学：",
+
     "commands.lb.empty": "何も表示されません。",
     "commands.lb.embedTitle": "*ハイスコア*",
     "commands.lb.embedFooter": "{helpCmd} | ページ{page}",
@@ -51,32 +54,35 @@
     "commands.tlb.embedTitle": "*総合スコア*",
     "commands.ulb.embedTitle": "*トップユーザー*",
     "commands.slb.embedTitle": "* `{guildName}`のトップユーザー*",
+
     "commands.donatesave.embedTitle": "セーブが寄付されました!",
     "commands.donatesave.error.notEnoughSaves": "セーブを寄付するには、少なくとも`1`セーブが必要です。",
     "commands.donatesave.error.maxSavesReached": "このギルドは既に最大数のセーブを持っています! (2)",
+
     "commands.transfersave.embedTitle": "セーブが転送されました!",
     "commands.transfersave.error.noTargetSpecified": "セーブを転送するユーザーを指定する必要があります。",
     "commands.transfersave.error.notEnoughSaves": "セーブを転送するには、少なくとも`{minimumSaves}`セーブが必要です。",
     "commands.transfersave.error.cannotSelfTransfer": "自分自身にセーブを転送することはできません!",
     "commands.transfersave.error.targetHasMaxSaves": "指定されたユーザーは既に最大数のセーブを持っています!",
+
     "commands.failrole.roleDisabledMessage": "失敗の役割は無効になっています。",
     "commands.failrole.roleEnabledMessage": "失敗の役割は <@&{roleID}> に設定されています。",
     "commands.failrole.error.botMissingPermissions": "`ロールの管理`権限がありません。",
     "commands.failrole.error.roleNotFound": "既存の役割が見つかりません： `{arg}`",
     "commands.failrole.error.cannotApplyRole": "`{arg}`のロールが見つかりましたが、適用する権限がありません。ロールをリストの下の方に移動してみてください。",
     "commands.failrole.error.failedToAddRole": "失敗したロール <@&{roleID}> を追加できませんでした。 ボットにロールを追加する権限がない可能性があります。 失敗の役割は無効になっています。",
+
     "commands.numbersonly.embedTitle": "ナンバーオンリーモードは{state}です。",
-    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> モードを指定する必要があります。モード: `enable`, `disable`。",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> 有効なモードが見つかりませんでした。モード: `1`, `0`。",
+
     "commands.disablemaths.embedTitle": "数学は {state}。",
+
     "commands.vote.embedTitle": "セーブを獲得するためにカウントに投票する",
     "commands.vote.embedDescription": "現在、**{saves:g}/{saveSlots:g} **の保存があります。",
-    "commands.vote.embedField.discords.name": "Discords.comに投票して、0.25セーブを獲得しましょう",
-    "commands.vote.embedField.discords.value.canVote": "✅今すぐ投票できます。 [Vote](https://discords.com/bots/bot/510016054391734273/vote)",
-    "commands.vote.embedField.discords.value.cannotVote": "❌あなたはすでに投票しました。\n** {hoursLeft:g}時間**で再度投票できます。**",
     "commands.vote.embedField.name": "{websiteName} で投票して {voteReward} セーブを獲得する",
     "commands.vote.embedField.value.canVote": "今すぐ投票できます。[**ここで投票してください。**]({voteURL})",
     "commands.vote.embedField.value.cannotVote": "既に投票済みです。\n{timeLeft} に再度投票できます。",
+
     "commands.language.embedTitle": "このギルドでのボットの言語は`{arg}`に変更されました。",
     "commands.language.argumentMissing.embedTitle": "利用可能な言語:",
     "commands.language.argumentMissing.embedDescription": "コマンドで対応する言語コードを使用して、このギルドでボット言語を設定します。 `c!language \n[code]`\nボットをあなたの言語に翻訳するのを手伝うために、を見てください [here](https://github.com/tt2468/countingtranslations/blob/main/README.md). 翻訳に関する問題を報告したい場合は、にアクセスしてください。`#report-translation-issues` 私たちの [support server](https://discord.gg/2saFDCd).",
@@ -84,6 +90,8 @@
     "commands.language.argumentMissing.embedField.descriptions.name": "説明",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "翻訳が必要",
     "commands.language.error.invalidCode": "不明な言語コード: `{arg}`",
+
     "commands.calc.error.failedToEvaluate": "評価に失敗しました。",
+    
     "commands.invite.embedDescription" : "ここに{{ .botName }}を招待するためのリンクがあります。"
 }

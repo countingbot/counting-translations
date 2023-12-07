@@ -2,7 +2,6 @@
     "countProcess.failReason.numbersOnly": "**Этот канал находится в режиме \"только числа\".**",
     "countProcess.failReason.doubleCount": "**Вы не можете считать два раза подряд.**",
     "countProcess.failReason.wrongNumber": "**Не то число.**",
-    "countProcess.warning.wrongNumberAlreadyZero": "Не то число! Следующее число - `1`. **Так как текущее число было 0, это не повлияло на статистику.**",
     "countProcess.warning.memberSaveUsed": "<@{authorId}> Вы использовали **1** из ваших сохранений. У вас осталось **{savesLeft:g}**.",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Вы использовали **1** сохранение сервера! Всего их осталось **{savesLeft:g}/2**.",
     "countProcess.warning.nextNumberIs": "Следующее число - **{nextNumber:,d}**.",
@@ -10,42 +9,45 @@
     "countProcess.failAlert.embedDescription": "Голосуйте [здесь](https://countingbot.com/vote), чтобы получить сохранения. См. `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> испортил счёт на **{number:,d}**!! Следующее число - **1**. {failReason}",
     "countProcess.newHighScore.messageContent": "Новый высокий счет **{highScore:,d}**!",
+
     "messageDeleted.messageContent": "<@{userID}> удалил свой номер: ```{deletedNumber:,d}```",
+
     "commands.generic.error.embedTitle": "Ошибка.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> У вас должны быть права `администратора`, чтобы использовать эту команду.",
     "commands.generic.error.userNotFoundInDatabase": "Этот пользователь не был найден в базе данных. (Возможно, он ещё не считал)",
     "commands.generic.error.badUserConversion": "Не удалось преобразовать пользователя `{arg}`",
     "commands.generic.enabled": "включено",
     "commands.generic.disabled": "отключено",
+
     "commands.stats.embedTitle": "Статистика бота",
     "commands.stats.embedField.global.name": "Общие",
     "commands.stats.embedField.global.value": "**Всего серверов бота:** `{guilds}`\n**Всего шардов бота:** `{shards}`\n**Текущий MPS:** `{mps}`",
     "commands.stats.embedField.clusterMember.name": "Этот Член Кластера (Осколки {assignedShards})",
     "commands.stats.embedField.clusterMember.value": "**Гильдии по назначенным осколкам:** `{guildCount}`\n **Начатый:** `{uptime}`\n**Нынешние депутаты:** `{mps}`\n**Идентификатор осколка этой гильдии:** `{shardId}`",
+
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "Сделано Duck#0001, поддерживается tt2468#2468 | Серверов: {guilds:,d} | Время работы: {uptime:,d}с",
+
     "commands.channel.content": "Канал подсчета установлен на <#{channelID}>.",
+
     "commands.user.embedField.global.name": "Глобальная статистика",
-    "commands.user.embedField.global.value": "Процент верных чисел: **{correctRate}**\nВсего верных: **{totalCorrect:,d}**\nВсего неверных: **{totalIncorrect:,d}**\nСчёт: **{score:,d} (#{rank:,d})**\nСохранения: **{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "Статистика в `{guildName}`",
-    "commands.user.embedField.local.value": "Процент верных чисел: **{correctRate}**\nВсего верных: **{totalCorrect:,d}**\nВсего неверных: **{totalIncorrect:,d}**\nСчитал в последний раз: **{lastActive}**\nМаксимальный счёт: **{highestCount:,d} ({highestCountTime})**\nИспользовано сохранений: **{savesUsed:,d}**",
     "commands.user.correctRate": "Процент верных чисел:",
     "commands.user.score": "Счёт:",
     "commands.user.saves": "Сохранения:",
     "commands.user.lastActive": "Считал в последний раз:",
     "commands.user.highestCount": "Максимальный счёт:",
     "commands.user.savesUsed": "Использовано сохранений:",
-    "commands.server.embedTitle": "Информация для `{guildName} ` `",
-    "commands.server.embedDescription": "Текущее число: **{currentNumber:,d}**\nПоследним считал: <@{lastMember}>\nСохранения сервера: **{guildSaves:g}/2**\nРекорд: **{highScore:,d} ({highScoreTime})**\nМесто: **{currentRank:,d}/{totalGuildEntries:,d}**\nИспользовано сохранений: **{savesUsed:,d}**\nРежим \"только числа\": **{numbersOnly}**",
+
     "commands.server.currentNumber": "Текущее число:",
     "commands.server.lastCounter": "Последним считал:",
     "commands.server.guildSaves": "Сохранения сервера:",
     "commands.server.highScore": "Рекорд:",
     "commands.server.totalScore": "Общий счет:",
-    "commands.server.rank": "Место:",
     "commands.server.savesUsed": "Использовано сохранений:",
     "commands.server.numbersOnly": "Режим \"только числа\":",
     "commands.server.maths": "Математика:",
+
     "commands.lb.empty": "Нечего показывать.",
     "commands.lb.embedTitle": "*РЕКОРДЫ*",
     "commands.lb.embedFooter": "{helpCmd} | Страница {page}",
@@ -53,37 +55,37 @@
     "commands.tlb.embedTitle": "*ОБЩИЙ БАЛЛ*",
     "commands.ulb.embedTitle": "*ЛУЧШИЕ СЧИТАТЕЛИ*",
     "commands.slb.embedTitle": "*ЛУЧШИЕ СЧИТАТЕЛИ В `{guildName}`*",
+
     "commands.donatesave.embedTitle": "Сохранение пожертвовано!",
     "commands.donatesave.embedDescription": "`{donatedSaves:g}` ваших сохранений было пожертвовано этому серверу, добавляя `{addedSaves:g}` к сохранениям сервера. Теперь у этого сервера `{guildSaves:g}/2` сохранений.\n\nУ вас осталось `{memberSaves:g}` сохранений.",
     "commands.donatesave.error.notEnoughSaves": "У вас должно быть как минимум `1` сохранение, чтобы их жертвовать.",
     "commands.donatesave.error.maxSavesReached": "У этого сервера уже есть максимальное количество сохранений! (2)",
+
     "commands.transfersave.embedTitle": "Сохранение перенесено!",
     "commands.transfersave.embedDescription": "Вы перенесли `{transferredSaves:g}` сохранений <@{targetId}>. `{deductedSaves:g}` сохранений были вычтены с вашего аккаунта.\n\nУ вас осталось `{savesLeft:g}` сохранений.",
     "commands.transfersave.error.noTargetSpecified": "Вы должны указать пользователя, которому вы хотите перенести сохранения.",
     "commands.transfersave.error.notEnoughSaves": "У вас должно быть как минимум `{minimumSaves}` сохранений, чтобы их переносить.",
     "commands.transfersave.error.cannotSelfTransfer": "Вы не можете переносить сохранения самому себе!",
     "commands.transfersave.error.targetHasMaxSaves": "У него уже есть максимальное количество сохранений!",
+
     "commands.failrole.roleDisabledMessage": "Роль сбоя отключена.",
     "commands.failrole.roleEnabledMessage": "Роль сбоя была установлена на <@&{roleID}>.",
     "commands.failrole.error.botMissingPermissions": "У меня нет прав на управление ролями.",
     "commands.failrole.error.roleNotFound": "Не могу найти роль: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "Нашёл роль `{arg}`, но у меня нет возможности добавлять её к пользователям. Пожалуйста, передвиньте роль ниже по списку.",
     "commands.failrole.error.failedToAddRole": "Не удалось добавить неудачную роль <@&{roleID}>. У бота может отсутствовать разрешение на добавление ролей. Роль отказа отключена.",
+
     "commands.numbersonly.embedTitle": "Режим \"только числа\" был {state}.",
-    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Нужно указать режим. Возможные режимы: `1`, `0`.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> Неизвестный режим. Возможные режимы: `1`, `0`.",
+
     "commands.disablemaths.embedTitle": "Математика {state}.",
+
     "commands.vote.embedTitle": "Голосуйте за бота counting, чтобы получать сохранения",
     "commands.vote.embedDescription": "На данный момент у Вас **{saves:g}** сохранений из **{saveSlots:g}**.",
-    "commands.vote.embedField.discords.name": "Голосуйте на Discords.com, чтобы заработать 0,25 сохранений",
-    "commands.vote.embedField.discords.value.canVote": "✅ Вы можете теперь голосовать. [Голосовать](https://discords.com/bots/bot/510016054391734273/vote)",
-    "commands.vote.embedField.discords.value.cannotVote": "❌ Вы уже голосовали.\nВы можете голосовать опять через **{hoursLeft:g} часов**.",
-    "commands.vote.embedField.topgg.name": "Голосуйте на top.gg, чтобы заработать 0,25 сохранений",
-    "commands.vote.embedField.topgg.value.canVote": "✅ Вы можете теперь голосовать. [Голосовать](https://discordbots.org/bot/510016054391734273/vote)",
-    "commands.vote.embedField.topgg.value.cannotVote": "❌ Вы уже голосовали.\nВы сможете голосовать опять через **{hoursLeft:g} часов**.",
     "commands.vote.embedField.name": "Проголосуйте на {websiteName} и получите {voteReward} сохранений",
     "commands.vote.embedField.value.canVote": "Вы можете проголосовать сейчас. [**Проголосуйте здесь.**]({voteURL})",
     "commands.vote.embedField.value.cannotVote": "Вы уже проголосовали.\nВы можете проголосовать снова {timeLeft}.",
+
     "commands.language.embedTitle": "Язык бота в этом сервере был изменён на `{arg}`.",
     "commands.language.argumentMissing.embedTitle": "Доступные языки:",
     "commands.language.argumentMissing.embedDescription": "Используйте соответствующий код языка в команде чтобы установить язык бота на этой гильдии. `c!language [код]`\nЧтобы помочь в переводе бота на Ваш язык, посмотрите [это](https://github.com/tt2468/counting-translations/blob/main/README.md). Если Вы хотите пожаловаться на проблемы в переводе, зайдите в канал `#report-translation-issues` на нашем [сервере поддержки](https://discord.gg/2saFDCd).",
@@ -91,7 +93,10 @@
     "commands.language.argumentMissing.embedField.descriptions.name": "Описание",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "Необходим перевод",
     "commands.language.error.invalidCode": "Неизвестный код языка: `{arg}`",
+
     "commands.calc.error.failedToEvaluate": "Не удалось оценить.",
+
     "commands.invite.embedDescription" : "Вот ссылка для приглашения {{ .botName }}.",
+    
     "variables.helpMessage": "**Настройка:**\n1. Создайте канал, в котором вы хотите вести счет.\n1. Введите `c!channel` в этом канале. (Вы должны обладать правами `Администратора`)\n2. Начните счет в канале, начиная с `1`.\n\n**Правила счета:**\n• Один человек не может сосчитать два числа подряд. (Необходим друг/партнер)\n• Никакого боттинга.\n• Если вы нарушаете счет, \"сохранение\" будет вычтен из вашего счета сохранений, если они у вас есть. В противном случае счет обнуляется.\n\n**Сохранения:**\n• Голосуйте [здесь](https://countingbot.com/vote), чтобы заработать больше сохранений. Проверьте количество своих сохранений с помощью `c!vote`.\n• Если у вас есть хотя бы одно сохранение, вы можете продолжить подсчет при неправильном вводе числа.\n__MESSAGE_BREAK__\n**Пользовательские команды:** *Поля ввода с префиксом `?` являются необязательными*\n• `c!cs ?[pageNumber]` - Просмотр десяти лучших текущих результатов\n• `c!lb ?[pageNumber]` - Просмотр десяти лучших результатов\n• `c!tlb ?[pageNumber]` - Просмотреть десять лучших общих баллов\n• `c!ulb ?[pageNumber]` - Просмотр десяти лучших пользователей\n• `c!slb ?[pageNumber]` - Просмотр десяти лучших пользователей в этой гильдии\n• `c!user ?[@user/userId]` - Получить статистику пользователя\n• `c!donatesave` - Пожертвовать сохранение текущей гильдии. (Добавляет 0.2 сохранения гильдии)\n• `c!transfersave [@user/userId]` - Подарить одно сохранение с вашего баланса другому пользователю с налогом 0.5.\n• `c!vote` - Проголосовать за бота и получить сохранения\n• `c!stats` - Показать статистику по боту и вашему текущему шарду\n\n**Админ-команды:**\n• `c!failrole [@role/role id]` - Установить роль, которую бот будет добавлять к пользователям, разрушающим счет. Чтобы отключить, выполните команду без указания роли\n• `c!channel` - Настроить бота на прослушивание определенного канала, вместо канала по умолчанию `#counting`\n• `c!disablemaths [on/off]` - Отключить подсчет с помощью математики. Сообщения вроде `1+1` не будут считаться допустимым числом.\n• `c!numbersonly [on/off]` - Включить режим \"только номера\". Разрушает счетчик, если отправляется любое сообщение, не являющееся ни действительным *номером*, ни *командой бота*\n• `c!language ?[languageCode]` - Установите язык, на котором отвечает бот в вашей гильдии\n\n[Присоединяйтесь к нашему Discord](https://discord.gg/rMQDwMH) если у вас есть вопросы.\n[Нравится бот? Рассмотрите возможность пожертвования через Patreon.](https://www.patreon.com/counting) Это очень помогает нам.\n\n[Пригласите бота в свою гильдию.](https://countingbot.com/invite)\n"
 }

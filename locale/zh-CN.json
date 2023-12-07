@@ -2,7 +2,6 @@
     "countProcess.failReason.numbersOnly": "**这个数数频道是在只数字模式。**",
     "countProcess.failReason.doubleCount": "**你不能连数两个数字。**",
     "countProcess.failReason.wrongNumber": "**错数。**",
-    "countProcess.warning.wrongNumberAlreadyZero": "错误数字！ 下一个数字是“ 1”。**统计没变因为当前的号码是0。**",
     "countProcess.warning.memberSaveUsed": "<@{authorId}> 你使用了**1** 存檔。你有**{savesLeft:g}** 离开。",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> 你使用了**1** 公开存檔。有**{savesLeft:g}/2** 公开保存离开。",
     "countProcess.warning.nextNumberIs": "下一个数字是 **{nextNumber:,d}**。",
@@ -10,42 +9,45 @@
     "countProcess.failAlert.embedDescription": "投票 [点击这里](https://countingbot.com/vote) 保存以便下一次继续使用。帮助 `{helpCmd}`。",
     "countProcess.failAlert.messageContent": "<@{authorId}> 在 **{number:,d}** 毁了它！下一个号码是 **1**。{failReason}",
     "countProcess.newHighScore.messageContent": "新的最高分数为 **{highScore:,d}**!",
+
     "messageDeleted.messageContent": "<@{userID}> 删除了他们的号码：```{deletedNumber:,d}```",
+
     "commands.generic.error.embedTitle": "错误。",
     "commands.generic.error.missingAdministrator": "<@{authorId}> 你必须具备 `管理员` 权力才可以使用此指令。",
     "commands.generic.error.userNotFoundInDatabase": "在资料库中找不到指定的用户。 （还没统计？）",
     "commands.generic.error.badUserConversion": "无法更换指定用户：`{arg}`",
     "commands.generic.enabled": "启用了",
     "commands.generic.disabled": "禁用",
+
     "commands.stats.embedTitle": "机器人统计",
     "commands.stats.embedField.global.name": "全球",
     "commands.stats.embedField.global.value": "**群主机器人数量:** `{guilds}`\n**群主机器人总数量:** `{shards}`\n**当前MPS:** `{mps}`",
     "commands.stats.embedField.clusterMember.name": "群主成员 (总数量 {assignedShards})",
     "commands.stats.embedField.clusterMember.value": "**分片中的伺服器：**`{guildCount}` \n**分片运行时间　：**`{uptime}` \n**当前每秒讯息数：**`{mps}\n**伺服器分片 ID ：** `{shardId}`",
+
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "由 Duck#0001 制作，由 tt2468#2468 维护，由 Ker#1193 翻译此语言 | 群主: {guilds:,d} | 在线时间:  {uptime:,d}",
+
     "commands.channel.content": "计数通道已设置为 <#{channelID}>。",
+
     "commands.user.embedField.global.name": "全球统计",
-    "commands.user.embedField.global.value": "正确率:**{correctRate}**\n总正确率:**{totalCorrect:,d}**\n总不正确:**{totalIncorrect:,d}**\n分数:**{score:,d} (#{rank:,d})**\n保存:**{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "`{guildName}` 统计数据",
-    "commands.user.embedField.local.value": "正确率:**{correctRate}**\n总正确率:**{totalCorrect:,d}**\n总不正确:**{totalIncorrect:,d}**\n上次活动:**{lastActive}**\n最高有效计数:**{highestCount:,d} ({highestCountTime})**\n使用的保存:**{savesUsed:,d}**",
     "commands.user.correctRate": "正确率：",
     "commands.user.score": "分数：",
     "commands.user.saves": "保存：",
     "commands.user.lastActive": "上次活动：",
     "commands.user.highestCount": "最高有效计数：",
     "commands.user.savesUsed": "使用的保存：",
-    "commands.server.embedTitle": "`{guildName}` 的信息",
-    "commands.server.embedDescription": "当前号码:**{currentNumber:,d}**\n最后计数者:<@{lastMember}>\n公会存档:**{guildSaves:g}/2**\n高分:**{highScore:,d} ({highScoreTime})**\n等级:**{currentRank:,d}/{totalGuildEntries:,d}**\n使用的保存:**{savesUsed:,d}**\n仅数字模式:**{numbersOnly}**",
+
     "commands.server.currentNumber": "当前号码：",
     "commands.server.lastCounter": "最后计数者：",
     "commands.server.guildSaves": "公会存档：",
     "commands.server.highScore": "高分：",
     "commands.server.totalScore": "总得分：",
-    "commands.server.rank": "等级：",
     "commands.server.savesUsed": "使用的保存：",
     "commands.server.numbersOnly": "仅数字模式：",
     "commands.server.maths": "数学：",
+
     "commands.lb.empty": "没有什么可展示的。",
     "commands.lb.embedTitle": "*高分数*",
     "commands.lb.embedFooter": "{helpCmd} | 页数 {page}",
@@ -53,37 +55,37 @@
     "commands.tlb.embedTitle": "*总分*",
     "commands.ulb.embedTitle": "*顶级用户*",
     "commands.slb.embedTitle": "*`{guildName}` 中的高级用户*",
+
     "commands.donatesave.embedTitle": "保存捐款！",
     "commands.donatesave.embedDescription": "`{donatedSaves:g}` 你的存档已经捐赠给了这个群主，在它的存档中添加了 `{addedSaves:g}`，总共有 `{guildSaves:g}/2` 群主存档。\n\n你有 `{memberSaves:g}` 保存中",
     "commands.donatesave.error.notEnoughSaves": "您需要至少保存`1`才能捐款",
     "commands.donatesave.error.maxSavesReached": "这个群主已经拥有了最大的保存量！（2）",
+
     "commands.transfersave.embedTitle": "保存语言",
     "commands.transfersave.embedDescription": "您已将 `{transferredSaves:g}` 保存转移到 <@{targetId}>。 `{deductedSaves:g}` 保存已从您的帐户中扣除。\n\n你`{savesLeft:g}` 保存离开。",
     "commands.transfersave.error.noTargetSpecified": "您必须指定要保存的用户。",
     "commands.transfersave.error.notEnoughSaves": "你需要至少保存 '{minimumSaves}' 才能传输。",
     "commands.transfersave.error.cannotSelfTransfer": "您不能将保存转移给自己！",
     "commands.transfersave.error.targetHasMaxSaves": "目标用户已拥有最大保存量！",
+
     "commands.failrole.roleDisabledMessage": "身份已被禁用。",
     "commands.failrole.roleEnabledMessage": "失败角色已设置为 <@&{roleID}>。",
     "commands.failrole.error.botMissingPermissions": "我没有 `管理角色` 的权限。",
     "commands.failrole.error.roleNotFound": "无法找到现有身份: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "找到了 `{arg}` 的角色，但我无权力使用它。尝试将列表中的身份移到较低的位置。",
     "commands.failrole.error.failedToAddRole": "无法添加失败角色 <@&{roleID}>。 机器人可能缺少添加角色的权限。 失败角色已被禁用。",
+
     "commands.numbersonly.embedTitle": "仅数字模式已成为 {state}。",
-    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> 你必须在特定的模式中使用。模式: `1`,`0`。",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> 未找到有效模式。模式: `1`,`0`。",
+
     "commands.disablemaths.embedTitle": "数学是 {state}。",
+
     "commands.vote.embedTitle": "投票 counting 以获得保存",
     "commands.vote.embedDescription": "您目前有 **{saves:g}/{saveSlots:g}** 個保存。",
-    "commands.vote.embedField.discords.name": "在 Discords.com 上投票以获得 0.25 次保存",
-    "commands.vote.embedField.discords.value.canVote": "✅ 现在就可以投票了。 [Vote](https://discords.com/bots/bot/510016054391734273/vote)",
-    "commands.vote.embedField.discords.value.cannotVote": "❌ 你已经投票了。\n你可以在 **{hoursLeft:g} 小时**后再次投票。",
-    "commands.vote.embedField.topgg.name": "在 top.gg 上投票以获得 0.25 次保存",
-    "commands.vote.embedField.topgg.value.canVote": "✅ 现在就可以投票了。 [Vote](https://discords.com/bots/bot/510016054391734273/vote)",
-    "commands.vote.embedField.topgg.value.cannotVote": "❌ 你已经投票了。\n你可以在 **{hoursLeft:g} 小时**后再次投票。",
     "commands.vote.embedField.name": "在{websiteName}上投票以获得{voteReward}个保存",
     "commands.vote.embedField.value.canVote": "您现在可以投票。[**在此处投票。**]({voteURL})",
     "commands.vote.embedField.value.cannotVote": "您已经投过票了。\n您可以再次投票 {timeLeft}.",
+
     "commands.language.embedTitle": "此群主中的机器人语言已更改为“{arg}”。",
     "commands.language.argumentMissing.embedTitle": "可用语言：",
     "commands.language.argumentMissing.embedDescription": "在您的命令中使用相应的语言代码来设置此公会中的机器人语言。 `c!language [代码]`\n要帮助将机器人翻译成您的语言，请参阅 [此处](https://github.com/tt2468/counting-translations/blob/main/README.md)。 如果您想报告翻译问题，请转至我们的 [支持服务器](https://discord.gg/2saFDCd) 中的“#report-translation-issues”。",
@@ -91,7 +93,10 @@
     "commands.language.argumentMissing.embedField.descriptions.name": "介绍",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "需要翻译",
     "commands.language.error.invalidCode": "未知语言代码: `{arg}`",
+
     "commands.calc.error.failedToEvaluate": "评价失败。",
+
     "commands.invite.embedDescription" : "这是邀请 {{ .botName }} 的链接。",
+    
     "variables.helpMessage": "**设置：**\n1. 创建一个您想要计入的频道。\n1. 在该频道中输入 `c!channel`。 （您必须具有“管理员”权限）\n2.在通道中开始计数，从`1`开始。\n\n**计数规则：**\n• 一个人不能连续数出两个数字。 （需要朋友/合作伙伴）\n• 没有 botting。\n• 如果您打破计数，“保存”将从您的保存计数中停靠（如果有）。否则，计数将重置。\n\n**保存：**\n• 投票[here](https://countingbot.com/vote) 以获得更多优惠。使用“c!vote”检查您的储蓄金额。\n• 如果您至少保存了一次，您可以在输入错误的数字时继续计数。\n__MESSAGE_BREAK__\n**用户命令：** *以“?”为前缀的输入字段是可选的*\n• `c!cs ?[pageNumber]` - 查看当前排名前十的分数\n• `c!lb ?[pageNumber]` - 查看前十名的高分\n• `c!tlb ?[pageNumber]` - 查看总分前十\n• `c!ulb ?[pageNumber]` - 查看前十名用户\n• `c!slb ?[pageNumber]` - 查看公会中的前十名用户\n• `c!user ?[@user/userId]` - 获取用户的统计信息\n• `c!server` - 获取当前服务器的统计信息\n• `c!donatesave` - 向当前公会捐赠一次存档。 （添加公会存档的`0.2`）\n• `c!transfersave [@user/userId]` - 将您余额中的一个保存给另一个用户，税费为 `0.5`\n• `c!vote` - 为机器人投票并获得保存\n• `c!stats` - 显示机器人和当前分片的统计信息\n\n**管理命令：**\n• `c!failrole [@role/role id]` - 为机器人设置一个角色以添加到破坏计数的成员中。要禁用，请在不指定角色的情况下运行命令\n• `c!channel` - 将机器人配置为在特定频道中侦听，而不是默认频道 `#counting`\n• `c!disablemaths [on/off]` - 禁用数学计算。像 `1+1` 这样的消息将不会被视为有效数字。\n• `c!numbersonly [on/off]` - 启用仅数字模式。如果发送的任何消息不是有效的 *number* 或 *bot 命令*，则破坏计数\n• `c!language ?[languageCode]` - 设置机器人在您的公会中响应的语言\n\n[加入我们的 Discord](https://discord.gg/rMQDwMH) 如果您有任何问题。\n[喜欢机器人？考虑与 Patreon 一起贡献。](https://www.patreon.com/counting) 它对我们有很大帮助。\n\n[邀请机器人加入你自己的公会。](https://countingbot.com/invite)"
 }

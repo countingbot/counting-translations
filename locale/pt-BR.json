@@ -2,7 +2,6 @@
     "countProcess.failReason.numbersOnly": "**Este canal de contagem está no modo somente números.**",
     "countProcess.failReason.doubleCount": "**Você não pode contar dois números seguidos.**",
     "countProcess.failReason.wrongNumber": "**Número errado.**",
-    "countProcess.warning.wrongNumberAlreadyZero": "Número incorreto! O próximo número é `1`. **Nenhuma estatística foi alterada, pois o número atual era 0.**",
     "countProcess.warning.memberSaveUsed": "<@{authorId}> Você usou **1** de seus saves. Você tem **{savesLeft:g}** restante(s).",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Você usou **1** save do servidor! Restam **{savesLeft:g}/2** saves do servidor.",
     "countProcess.warning.nextNumberIs": "O próximo número é **{nextNumber:,d}**.",
@@ -11,9 +10,7 @@
     "countProcess.failAlert.messageContent": "<@{authorId}> ARRUINOU NO NÚMERO **{number:,d}**!! Próximo número é **1**. {failReason}",
     "countProcess.newHighScore.messageContent": "Nova pontuação recorde de **{highScore:,d}**!",
 
-
     "messageDeleted.messageContent": "<@{userID}> apagou o número deles: ```{deletedNumber:,d}```",
-
 
     "commands.generic.error.embedTitle": "Erro.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Você precisa ter permissões de `Administrador` para usar este comando.",
@@ -34,9 +31,7 @@
     "commands.channel.content": "O canal de contagem foi definido como <#{channelID}>.",
 
     "commands.user.embedField.global.name": "Estatísticas Globais",
-    "commands.user.embedField.global.value": "Taxa correta: **{correctRate}**\nTotal correto: **{totalCorrect:,d}**\nTotal incorreto: **{totalIncorrect:,d}**\nPontuação: **{score:,d} (#{rank:,d})**\nSaves: **{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "Estatísticas em `{guildName}`",
-    "commands.user.embedField.local.value": "Taxa correta: **{correctRate}**\nTotal correto: **{totalCorrect:,d}**\nTotal incorreto: **{totalIncorrect:,d}**\nÚltima atividade: **{lastActive}**\nMaior contagem válida: **{highestCount:,d} ({highestCountTime})**\nSaves usados: **{savesUsed:,d}**",
     "commands.user.correctRate": "Taxa correta:",
     "commands.user.score": "Pontuação:",
     "commands.user.saves": "Saves:",
@@ -44,29 +39,21 @@
     "commands.user.highestCount": "Maior contagem válida:",
     "commands.user.savesUsed": "Saves usados:",
 
-    "commands.server.embedTitle": "Info para `{guildName}`",
-    "commands.server.embedDescription": "Número atual: **{currentNumber:,d}**\nÚltima contagem por: <@{lastMember}>\nSaves do servidor: **{guildSaves:g}/2**\nRecord: **{highScore:,d} ({highScoreTime})**\nPosição: **{currentRank:,d}/{totalGuildEntries:,d}**\nSaves usados: **{savesUsed:,d}**\nModo somente números: **{numbersOnly}**",
     "commands.server.currentNumber": "Número atual:",
     "commands.server.lastCounter": "Última contagem por:",
     "commands.server.guildSaves": "Saves do servidor:",
     "commands.server.highScore": "Record:",
     "commands.server.totalScore": "Pontuação total:",
-    "commands.server.rank": "Posição:",
     "commands.server.savesUsed": "Saves usados:",
     "commands.server.numbersOnly": "Modo somente números:",
     "commands.server.maths": "Matemáticas:",
 
     "commands.lb.empty": "Nada a exibir.",
-
     "commands.lb.embedTitle": "*RECORDS*",
     "commands.lb.embedFooter": "{helpCmd} | Página {page}",
-
     "commands.cs.embedTitle": "*PONTUAÇÕES ATUAIS*",
-
     "commands.tlb.embedTitle": "*PONTUAÇÕES TOTAIS*",
-
     "commands.ulb.embedTitle": "*MELHORES USUÁRIOS*",
-
     "commands.slb.embedTitle": "*MELHORES USUÁRIOS EM `{guildName}`*",
 
     "commands.donatesave.embedTitle": "Save doado!",
@@ -89,19 +76,12 @@
     "commands.failrole.error.failedToAddRole": "O papel de falha <@&{roleID}> não pôde ser adicionado. O bot pode estar sem permissão para adicionar papéis. O papel de falha foi desativado.",
 
     "commands.numbersonly.embedTitle": "O modo somente números foi {state}.",
-    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Você deve especificar um modo. Modos: `enable`, `disable`.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> Modo válido não encontrado. Modos: `enable`, `disable`.",
 
     "commands.disablemaths.embedTitle": "Matemáticas está {state}.",
 
     "commands.vote.embedTitle": "Vote no counting para ganhar saves",
     "commands.vote.embedDescription": "Atualmente você tem **{saves:g}/{saveSlots:g}** saves.",
-    "commands.vote.embedField.discords.name": "Vote no Discords.com para ganhar 0.25 saves",
-    "commands.vote.embedField.discords.value.canVote": "✅ Você pode votar agora. [Vote](https://discords.com/bots/bot/510016054391734273/vote)",
-    "commands.vote.embedField.discords.value.cannotVote": "❌ Você já votou.\nVocê pode votar novamente em **{hoursLeft:g} horas**.",
-    "commands.vote.embedField.topgg.name": "Vote no top.gg para ganhar 0.25 saves",
-    "commands.vote.embedField.topgg.value.canVote": "✅ Você pode votar agora. [Vote](https://discordbots.org/bot/510016054391734273/vote)",
-    "commands.vote.embedField.topgg.value.cannotVote": "❌ Você já votou.\nVocê pode votar novamente em **{hoursLeft:g} horas**.",
     "commands.vote.embedField.name": "Vote no {websiteName} para ganhar {voteReward} saves",
     "commands.vote.embedField.value.canVote": "Você pode votar agora. [**Vote aqui.**]({voteURL})",
     "commands.vote.embedField.value.cannotVote": "Você já votou.\nVocê pode votar novamente {timeLeft}.",

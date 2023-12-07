@@ -2,7 +2,6 @@
     "countProcess.failReason.numbersOnly": "**Ten kanał do liczenia jest w trybie 'tylko liczby'.**",
     "countProcess.failReason.doubleCount": "**Nie możesz liczyć dwukrotnie pod rząd.**",
     "countProcess.failReason.wrongNumber": "**Niewłaściwa liczba.**",
-    "countProcess.warning.wrongNumberAlreadyZero": "Niewłaściwa liczba! Następną liczbą jest `1`. **Statystyki nie uległy zmianie, jako że aktualną liczbą było 0.**",
     "countProcess.warning.memberSaveUsed": "<@{authorId}> Użyłeś/aś **1** ze swoich save'ów. Masz jeszcze **{savesLeft:g}**.",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Użyłeś/aś **1** save gildii! Pozostało **{savesLeft:g}/2** save'ów gildii.",
     "countProcess.warning.nextNumberIs": "Następną liczbą jest **{nextNumber:,d}**.",
@@ -10,39 +9,42 @@
     "countProcess.failAlert.embedDescription": "Głosuj [tutaj](https://countingbot.com/vote) by zdobyć save'y, dzięki którym następnym razem będziesz mógł/a kontynuować liczenie. Zobacz także `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> ZEPSUŁ/A LICZENIE NA **{number:,d}**!! Następną liczbą jest **1**. {failReason}",
     "countProcess.newHighScore.messageContent": "Nowy najwyższy wynik: **{highScore:,d}**!",
+
     "messageDeleted.messageContent": "<@{userID}> usunął swój numer: ```{deletedNumber:,d}```",
+
     "commands.generic.error.embedTitle": "Błąd.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Musisz mieć uprawnienie `Administrator` by użyć tej komendy.",
     "commands.generic.error.userNotFoundInDatabase": "Wymieniony użytkownik nie znaleziony w bazie danych (Jeszcze nie liczył/a?)",
     "commands.generic.error.badUserConversion": "Nie udało się skonwertować użytkownika `{arg}`",
     "commands.generic.enabled": "włączony",
     "commands.generic.disabled": "wyłączony",
+
     "commands.stats.embedTitle": "Statystyki bota",
     "commands.stats.embedField.global.name": "Globalne",
+
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "Stworzony przez Duck#0001, utrzymywany przez tt2468#2468 | Gildie: {guilds:,d} | Od uruchomienia: {uptime:,d}s",
+
     "commands.channel.content": "Kanał zliczania został ustawiony na <#{channelID}>.",
+    
     "commands.user.embedField.global.name": "Globalne statystyki",
-    "commands.user.embedField.global.value": "Procent prawidłowych: **{correctRate}**\nŁącznie prawidłowych: **{totalCorrect:,d}**\nŁącznie nieprawidłowych: **{totalIncorrect:,d}**\nPunkty: **{score:,d} (#{rank:,d})**\nSave'y: **{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "Statystyki w `{guildName}`",
-    "commands.user.embedField.local.value": "Procent prawidłowych: **{correctRate}**\nŁącznie prawidłowych: **{totalCorrect:,d}**\nŁącznie nieprawidłowych: **{totalIncorrect:,d}**\nOstatnio aktywny/a: **{lastActive}**\nNajwyższa prawidłowo policzona liczba: **{highestCount:,d} ({highestCountTime})**\nUżyte save'y: **{savesUsed:,d}**",
     "commands.user.correctRate": "Procent prawidłowych:",
     "commands.user.score": "Punkty:",
     "commands.user.saves": "Save'y:",
     "commands.user.lastActive": "Ostatnio aktywny/a:",
     "commands.user.highestCount": "Najwyższa prawidłowo policzona liczba:",
     "commands.user.savesUsed": "Użyte save'y:",
-    "commands.server.embedTitle": "Informacje o `{guildName}`",
-    "commands.server.embedDescription": "Aktualna liczba: **{currentNumber:,d}**\nOstatnio liczone przez: <@{lastMember}>\nSave'y gildii **{guildSaves:g}/2**\nNajwyższy wynik: **{highScore:,d} ({highScoreTime})**\nPozycja w rankingu: **{currentRank:,d}/{totalGuildEntries:,d}**\nUżyte save'y: **{savesUsed:,d}**\nTryb 'tylko liczby': **{numbersOnly}**",
+
     "commands.server.currentNumber": "Aktualna liczba:",
     "commands.server.lastCounter": "Ostatnio liczone przez:",
     "commands.server.guildSaves": "Save'y gildii:",
     "commands.server.highScore": "Najwyższy wynik:",
     "commands.server.totalScore": "Całkowita punktacja:",
-    "commands.server.rank": "Pozycja w rankingu:",
     "commands.server.savesUsed": "Użyte save'y:",
     "commands.server.numbersOnly": "Tryb 'tylko liczby':",
     "commands.server.maths": "Matematyka:",
+
     "commands.lb.empty": "Nic do pokazania.",
     "commands.lb.embedTitle": "*NAJWYŻSZE WYNIKI*",
     "commands.lb.embedFooter": "{helpCmd} | Page {page}",
@@ -50,43 +52,45 @@
     "commands.tlb.embedTitle": "*WYNIKI CAŁKOWITE*",
     "commands.ulb.embedTitle": "*NAJLEPSI UŻYTKOWNICY*",
     "commands.slb.embedTitle": "*NAJLEPSI UŻYTKOWNICY W `{guildName}`*",
+
     "commands.donatesave.embedTitle": "Save przeniesiony!",
     "commands.donatesave.embedDescription": "\"`{donatedSaves:g}` z twoich save'ów zostało przeniesione do tej gildii, dodając `{addedSaves:g}` do jej save'ów, dając łącznie `{guildSaves:g}/2` save'y gildii.\n\nMasz jeszcze `{memberSaves:g}` save'ów.",
     "commands.donatesave.error.notEnoughSaves": "Potrzebujesz przynajmniej `1` save'a, by móc go przenieść.",
     "commands.donatesave.error.maxSavesReached": "Ta gildia ma już maksymalną liczbę save'ów! (2)",
+
     "commands.transfersave.embedTitle": "Save oddany!",
     "commands.transfersave.embedDescription": "Oddano `{transferredSaves:g}` twoich save'ów do <@{targetId}>. `{deductedSaves:g}` save'ów zostało odjętych z Twojego konta.\n\nMasz jeszcze `{savesLeft:g}` save'y.",
     "commands.transfersave.error.noTargetSpecified": "Musisz podać użytkownika, któremu chcesz oddać save'y.",
     "commands.transfersave.error.notEnoughSaves": "Potrzebujesz przynajmniej `{minimumSaves}` save'a, by móc go oddać.",
     "commands.transfersave.error.cannotSelfTransfer": "Nie możesz oddać save'ów samemu/ej sobie!",
     "commands.transfersave.error.targetHasMaxSaves": "Użytkownik docelowy ma już maksymalną liczbę save'ów!",
+
     "commands.failrole.roleDisabledMessage": "Rola psuja została usunięta.",
     "commands.failrole.roleEnabledMessage": "Rola niepowodzenia została ustawiona na <@&{roleID}>.",
     "commands.failrole.error.botMissingPermissions": "Nie mam uprawnienia `manage_roles`.",
     "commands.failrole.error.roleNotFound": "Nie udało się odnaleźć roli: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "Odnaleziono rolę `{arg}`, ale nie mam uprawnień, by ją nadać. Spróbuj przesunąć rolę w dół listy.",
     "commands.failrole.error.failedToAddRole": "Nie można dodać roli zakończonej niepowodzeniem <@&{roleID}>. Bot może nie mieć uprawnień do dodawania ról. Rola niepowodzenia została wyłączona.",
+
     "commands.numbersonly.embedTitle": "Tryb 'tylko liczby' został {state}.",
-    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Musisz sprecyzować opcję. Opcje: `włączony`, `wyłączony`.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> Nie znaleziono opcji. Opcje: `włączony`, `wyłączony`.",
+
     "commands.disablemaths.embedTitle": "Matematyka jest {state}.",
+
     "commands.vote.embedTitle": "Zagłosuj na counting, aby otrzymać save'y",
     "commands.vote.embedDescription": "Aktualnie masz **{saves:g}/{saveSlots:g}** save'ów.",
-    "commands.vote.embedField.discords.name": "Zagłosuj na Discords.com, aby otrzymać 0,25 save'a",
-    "commands.vote.embedField.discords.value.canVote": "✅ Możesz zagłosować teraz. [Vote](https://discords.com/bots/bot/510016054391734273/vote)",
-    "commands.vote.embedField.discords.value.cannotVote": "❌ Już zagłosowałeś/aś.\nMożesz zagłosować ponownie za **{hoursLeft:g} godzin**.",
-    "commands.vote.embedField.topgg.name": "Zagłosuj na top.gg, aby otrzymać 0,25 save'a",
-    "commands.vote.embedField.topgg.value.canVote": "✅ Możesz zagłosować teraz. [Głosuj](https://discordbots.org/bot/510016054391734273/vote)",
-    "commands.vote.embedField.topgg.value.cannotVote": "❌ Już zagłosowałeś/aś.\nMożesz zagłosować ponownie za **{hoursLeft:g} godzin**.",
     "commands.vote.embedField.name": "Głosuj na {websiteName}, aby zdobyć {voteReward} zapisów",
     "commands.vote.embedField.value.canVote": "Możesz teraz głosować. [**Zagłosuj tutaj.**]({voteURL})",
     "commands.vote.embedField.value.cannotVote": "Już zagłosowałeś.\nMożesz zagłosować ponownie {timeLeft}.",
+
     "commands.language.embedTitle": "Język bota został zmieniony na `{arg}` w tej gildii.",
     "commands.language.argumentMissing.embedTitle": "Dostępne języki:",
     "commands.language.argumentMissing.embedField.codes.name": "Kod języka",
     "commands.language.argumentMissing.embedField.descriptions.name": "Opis",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "Potrzebuje tłumaczenia",
     "commands.language.error.invalidCode": "Nieznany kod języka: `{arg}`",
+    
     "commands.calc.error.failedToEvaluate": "Nie udało się ocenić.",
+    
     "commands.invite.embedDescription" : "Oto link do zaproszenia {{ .botName }}."
 }

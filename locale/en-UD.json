@@ -2,7 +2,6 @@
     "countProcess.failReason.numbersOnly": "**˙ǝpoɯ ʎןuo-ɹǝqɯnu uı sı ןǝuuɐɥɔ ƃuıʇunoɔ sıɥ⊥**",
     "countProcess.failReason.doubleCount": "**˙ʍoɹ ɐ uı sɹǝqɯnu oʍʇ ʇunoɔ ʇ,uɐɔ noʎ**",
     "countProcess.failReason.wrongNumber": "**˙ɹǝqɯnu ƃuoɹM**",
-    "countProcess.warning.wrongNumberAlreadyZero": "**˙0 sɐʍ ɹǝqɯnu ʇuǝɹɹnɔ ǝɥʇ ǝɔuıs pǝƃuɐɥɔ uǝǝq ǝʌɐɥ sʇɐʇs oN** ˙`1` sı ɹǝqɯnu ʇxǝu ǝɥ⊥ ¡ɹǝqɯnu ʇɔǝɹɹoɔuI",
     "countProcess.warning.memberSaveUsed": "˙ʇɟǝן **{savesLeft:g}** ǝʌɐɥ noʎ ˙sǝʌɐs ɹnoʎ ɟo **1** pǝsn ǝʌɐɥ noʎ <@{authorId}>",
     "countProcess.warning.guildSaveUsed": "˙ʇɟǝן sǝʌɐs pןınƃ **2/{savesLeft:g}** ǝɹɐ ǝɹǝɥ⊥ ¡ǝʌɐs pןınƃ **1** pǝsn ǝʌɐɥ noʎ <@{authorId}>",
     "countProcess.warning.nextNumberIs": "˙**{nextNumber:,d}** sᴉ ɹǝqɯnu ʇxǝu ǝɥ┴",
@@ -10,42 +9,45 @@
     "countProcess.failAlert.embedDescription": "˙`{helpCmd}` ǝǝS ˙ǝɯıʇ ʇxǝu ƃuıʇunoɔ ǝnuıʇuoɔ uɐɔ noʎ os sǝʌɐs uɹɐǝ oʇ [ǝɹǝɥ](https://countingbot.com/vote) ǝʇoΛ",
     "countProcess.failAlert.messageContent": "{failReason} ˙**1** sı ɹǝqɯnu ʇxǝN ¡¡**{number:,d}** ⊥∀ ⊥I ᗡƎNI∩ᴚ <@{authorId}>",
     "countProcess.newHighScore.messageContent": "¡**{highScore:,d}** ɟo ǝɹoɔs ɥƃᴉɥ ʍǝN",
+
     "messageDeleted.messageContent": "```{deletedNumber:,d}``` :ɹǝqɯnu ɹᴉǝɥʇ pǝʇǝlǝp sɐɥ <@{userID}>",
+
     "commands.generic.error.embedTitle": "˙ɹoɹɹƎ",
     "commands.generic.error.missingAdministrator": "˙puɐɯɯoɔ sıɥʇ ǝsn oʇ suoıssıɯɹǝd `ɹoʇɐɹʇsıuıɯp∀` ǝʌɐɥ ʇsnɯ noʎ <@{authorId}>",
     "commands.generic.error.userNotFoundInDatabase": "(¿ʇǝʎ pǝʇunoɔ ʇoN) ˙ǝsɐqɐʇɐp uı punoɟ ʇou ɹǝsn pǝıɟıɔǝdS",
     "commands.generic.error.badUserConversion": "`{arg}` :ɹǝsn pǝıɟıɔǝds ʇɹǝʌuoɔ oʇ ǝןqɐu∩",
     "commands.generic.enabled": "pǝןqɐuǝ",
     "commands.generic.disabled": "pǝןqɐsıp",
+
     "commands.stats.embedTitle": "sʇɐʇS ʇoq",
     "commands.stats.embedField.global.name": "ןɐqoןƃ",
     "commands.stats.embedField.global.value": "`{mps}` **: SԀW ʇuǝɹɹnϽ**\n`{shards}` **: spɹɐɥS ʇoq ןɐʇo⊥**\n`{guilds}` **: spןınƃ ʇoq ןɐʇo⊥**",
     "commands.stats.embedField.clusterMember.name": "({assignedShards} spɹɐɥS) ɹǝqɯǝW ɹǝʇsnlƆ sᴉɥ┴",
     "commands.stats.embedField.clusterMember.value": "`{shardId}` **:pI pɹɐɥs s,plᴉnƃ sᴉɥ┴**\n`{mps}` **:SԀW ʇuǝɹɹnƆ**\n`{uptime}` **:pǝʇɹɐʇS**\n`{guildCount}`** :spɹɐɥs pǝuƃᴉssɐ ssoɹɔɐ splᴉnפ**",
+
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "s{uptime:,d} :ǝɯıʇd∩ | {guilds:,d} :spןınƃ | 8642#8642ʇʇ ʎq pǝuıɐʇuıɐW '1000#ʞɔnᗡ ʎq ǝpɐW",
+
     "commands.channel.content": "˙<#{channelID}> oʇ ʇǝs uǝǝq sɐɥ lǝuuɐɥɔ ƃuᴉʇunoɔ ǝɥ┴",
+
     "commands.user.embedField.global.name": "sʇɐʇS ןɐqoןƃ",
-    "commands.user.embedField.global.value": "**{saveSlots:g}/{saves:g}** :sǝʌɐS\n**({rank:,d}#) {score:,d}** :ǝɹoɔS\n**{totalIncorrect:,d}** :ʇɔǝɹɹoɔuı ןɐʇo⊥\n**{totalCorrect:,d}** :ʇɔǝɹɹoɔ ןɐʇo⊥\n**{correctRate}** :ǝʇɐɹ ʇɔǝɹɹoϽ",
     "commands.user.embedField.local.name": "`{guildName}` uı sʇɐʇS",
-    "commands.user.embedField.local.value": "**{savesUsed:,d}** :pǝs∩ sǝʌɐS\n**({highestCountTime}) {highestCount:,d}** :ʇunoϽ pıןɐΛ ʇsǝɥƃıH\n**{lastActive}** :ǝʌıʇɔ∀ ʇsɐ˥\n**{totalIncorrect:,d}** :ʇɔǝɹɹoɔuı ןɐʇo⊥\n**{totalCorrect:,d}** :ʇɔǝɹɹoɔ ןɐʇo⊥\n**{correctRate}** :ǝʇɐɹ ʇɔǝɹɹoϽ",
     "commands.user.correctRate": "ǝʇɐɹ ʇɔǝɹɹoϽ:",
     "commands.user.score": "ǝɹoɔS:",
     "commands.user.saves": "sǝʌɐS:",
     "commands.user.lastActive": "ǝʌıʇɔ∀ ʇsɐ˥:",
     "commands.user.highestCount": "ʇunoϽ pıןɐΛ ʇsǝɥƃıH:",
     "commands.user.savesUsed": "pǝs∩ sǝʌɐS:",
-    "commands.server.embedTitle": "`{guildName}` ɹoɟ oɟuI",
-    "commands.server.embedDescription": "**{numbersOnly}** :ǝpoW ʎןuO sɹǝqɯnN\n**{savesUsed:,d}** :pǝs∩ sǝʌɐS\n**{totalGuildEntries:,d}/{currentRank:,d}** :ʞuɐᴚ\n**({highScoreTime}) {highScore:,d}** :ǝɹoɔS ɥƃıH\n**2/{guildSaves:g}** :sǝʌɐS pןınƃ\n<@{lastMember}> :ʎq pǝʇunoɔ ʇsɐ˥\n**{currentNumber:,d}** :ɹǝqɯnN ʇuǝɹɹnϽ",
+
     "commands.server.currentNumber": "ɹǝqɯnN ʇuǝɹɹnϽ:",
     "commands.server.lastCounter": "ʎq pǝʇunoɔ ʇsɐ˥:",
     "commands.server.guildSaves": "sǝʌɐS pןınƃ:",
     "commands.server.highScore": "ǝɹoɔS ɥƃıH:",
     "commands.server.totalScore": "ǝɹoɔS lɐʇo┴:",
-    "commands.server.rank": "ʞuɐᴚ:",
     "commands.server.savesUsed": "pǝs∩ sǝʌɐS:",
     "commands.server.numbersOnly": "ǝpoW ʎןuO sɹǝqɯnN:",
     "commands.server.maths": "sɥʇɐW:",
+
     "commands.lb.empty": "˙ʍoɥs oʇ ƃuᴉɥʇoN",
     "commands.lb.embedTitle": "*SƎᴚOϽS HƃIH*",
     "commands.lb.embedFooter": "{page} ǝƃɐԀ | {helpCmd}",
@@ -53,44 +55,47 @@
     "commands.tlb.embedTitle": "*SƎɹOƆS ˥∀┴O┴*",
     "commands.ulb.embedTitle": "*SᴚƎS∩ ԀO⊥*",
     "commands.slb.embedTitle": "*`{guildName}` NI SᴚƎS∩ ԀO⊥*",
+
     "commands.donatesave.embedTitle": "¡pǝʇɐuop ǝʌɐS",
     "commands.donatesave.embedDescription": "˙ʇɟǝן sǝʌɐs `{memberSaves:g}` ǝʌɐɥ noʎ\n\n˙sǝʌɐs pןınƃ `2/{guildSaves:g}` ɟo ןɐʇoʇ ɐ ɹoɟ 'sǝʌɐs sʇı oʇ `{addedSaves:g}` ƃuıppɐ 'pןınƃ sıɥʇ oʇ pǝʇɐuop uǝǝq ǝʌɐɥ sǝʌɐs ɹnoʎ ɟo `{donatedSaves:g}`",
     "commands.donatesave.error.notEnoughSaves": "˙ǝʇɐuop oʇ ɹǝpɹo uı ǝʌɐs `1` ʇsɐǝן ʇɐ ǝʌɐɥ oʇ pǝǝu noʎ",
     "commands.donatesave.error.maxSavesReached": "(2) ¡sǝʌɐs ɟo ʇunoɯɐ ɯnɯıxɐɯ ǝɥʇ sɐɥ ʎpɐǝɹןɐ pןınƃ sıɥ⊥",
+
     "commands.transfersave.embedTitle": "¡pǝɹɹǝɟsuɐɹʇ ǝʌɐS",
     "commands.transfersave.embedDescription": "˙ʇɟǝן sǝʌɐs `{savesLeft:g}` ǝʌɐɥ noʎ\n\n˙ʇunoɔɔɐ ɹnoʎ ɯoɹɟ pǝʇɔnpǝp uǝǝq ǝʌɐɥ sǝʌɐs `{deductedSaves:g}` ˙<@{targetId}> oʇ sǝʌɐs `{transferredSaves:g}` pǝɹɹǝɟsuɐɹʇ ǝʌɐɥ noʎ",
     "commands.transfersave.error.noTargetSpecified": "˙oʇ ǝʌɐs ɐ ǝʌıƃ oʇ ɹǝsn ɐ ʎɟıɔǝds ʇsnɯ noʎ",
     "commands.transfersave.error.notEnoughSaves": "˙ɹǝɟsuɐɹʇ oʇ ɹǝpɹo uı sǝʌɐs `{minimumSaves}` ʇsɐǝן ʇɐ ǝʌɐɥ oʇ pǝǝu noʎ",
     "commands.transfersave.error.cannotSelfTransfer": "¡ɟןǝsɹnoʎ oʇ sǝʌɐs ɹǝɟsuɐɹʇ ʇouuɐɔ noʎ",
     "commands.transfersave.error.targetHasMaxSaves": "¡sǝʌɐs ɟo ʇunoɯɐ ɯnɯıxɐɯ sɐɥ ʎpɐǝɹןɐ ɹǝsn ʇǝƃɹɐ⊥",
+
     "commands.failrole.roleDisabledMessage": "˙pǝןqɐsıp uǝǝq sɐɥ ǝןoɹ ןıɐɟ ǝɥ⊥",
     "commands.failrole.roleEnabledMessage": "˙<@&{roleID}> oʇ ʇǝs uǝǝq sɐɥ ǝloɹ lᴉɐɟ ǝɥ┴",
     "commands.failrole.error.botMissingPermissions": "˙suoıssıɯɹǝd `sǝןoɹ‾ǝƃɐuɐɯ` ǝʌɐɥ ʇ,uop I",
     "commands.failrole.error.roleNotFound": "`{arg}` :ǝןoɹ ƃuıʇsıxǝ puıɟ oʇ ǝןqɐu∩",
     "commands.failrole.error.cannotApplyRole": "˙ʇsıן ǝɥʇ uı ɹǝʍoן ǝןoɹ ǝɥʇ ƃuıʌoɯ ʎɹ⊥ ˙ʇı ʎןddɐ oʇ suoıssıɯɹǝd ǝʌɐɥ ʇ,uop I ʇnq `{arg}` ɹoɟ ǝןoɹ punoℲ",
     "commands.failrole.error.failedToAddRole": "˙pǝlqɐsᴉp uǝǝq sɐɥ ǝloɹ lᴉɐɟ ǝɥ┴ ˙sǝloɹ ppɐ oʇ uoᴉssᴉɯɹǝd ǝɥʇ ƃuᴉssᴉɯ ǝq ʎɐɯ ʇoq ǝɥ┴ ˙pǝppɐ ǝq ʇou plnoɔ <@&{roleID}> ǝloɹ lᴉɐɟ ǝɥ┴",
+
     "commands.numbersonly.embedTitle": ".{state} uǝǝq sɐɥ ǝpoɯ ʎןuo-sɹǝqɯnN",
-    "commands.numbersonly.error.missingModeArgument": "˙`ǝןqɐsıp` '`ǝןqɐuǝ` :sǝpoW ˙ǝpoɯ ɐ ʎɟıɔǝds ʇsnɯ noʎ <@{authorId}>",
     "commands.numbersonly.error.invalidMode": "˙`ǝןqɐsıp` '`ǝןqɐuǝ` :sǝpoW ˙punoɟ ʇou ǝpoɯ pıןɐΛ <@{authorId}>",
+
     "commands.disablemaths.embedTitle": "˙{state} sᴉ sɥʇɐW",
+
     "commands.vote.embedTitle": "Sǝʌɐs uɹɐǝ oʇ ƃuᴉʇunoɔ ɹoɟ ǝʇoΛ",
     "commands.vote.embedDescription": "˙sǝʌɐs **{saveSlots:g}/{saves:g}** ǝʌɐɥ ʎlʇuǝɹɹnɔ no⅄.",
-    "commands.vote.embedField.discords.name": "sǝʌɐs ϛᄅ˙0 uɹɐǝ oʇ ɯoɔ˙spɹoɔsᴉp uo ǝʇoΛ",
-    "commands.vote.embedField.discords.value.canVote": "[Vote](https://discords.com/bots/bot/510016054391734273/vote) ˙ʍou ǝʇoʌ uɐɔ no⅄",
-    "commands.vote.embedField.discords.value.cannotVote": "˙**sɹnoɥ {hoursLeft:g}** uᴉ uᴉɐƃɐ ǝʇoʌ uɐɔ no⅄\n˙pǝʇoʌ ʎpɐǝɹlɐ ǝʌɐɥ no⅄ ❌.",
-    "commands.vote.embedField.topgg.name": "Sǝʌɐs ϛᄅ˙0 uɹɐǝ oʇ ƃƃ˙doʇ uo ǝʇoΛ",
-    "commands.vote.embedField.topgg.value.canVote": "[Vote](https://discords.com/bots/bot/510016054391734273/vote) ˙ʍou ǝʇoʌ uɐɔ no⅄",
-    "commands.vote.embedField.topgg.value.cannotVote": "˙**sɹnoɥ {hoursLeft:g}** uᴉ uᴉɐƃɐ ǝʇoʌ uɐɔ no⅄\n˙pǝʇoʌ ʎpɐǝɹlɐ ǝʌɐɥ no⅄ ❌.",
     "commands.vote.embedField.name": "sǝʌɐs {voteReward} uɹɐǝ oʇ {websiteName} uo ǝʇoΛ",
     "commands.vote.embedField.value.canVote": "({voteURL})[**˙ǝɹǝɥ ǝʇoΛ**] ˙ʍou ǝʇoʌ uɐɔ no⅄",
     "commands.vote.embedField.value.cannotVote": "˙{timeLeft} uᴉɐƃɐ ǝʇoʌ uɐɔ no⅄\n˙pǝʇoʌ ʎpɐǝɹlɐ ǝʌɐɥ no⅄",
+
     "commands.language.embedTitle": "˙pןınƃ sıɥʇ uı `{arg}` oʇ pǝƃuɐɥɔ uǝǝq sɐɥ ǝƃɐnƃuɐן ʇoq ǝɥ⊥",
     "commands.language.argumentMissing.embedTitle": ":sǝƃɐnƃuɐן ǝןqɐןıɐʌ∀",
     "commands.language.argumentMissing.embedField.codes.name": "ǝpoϽ ǝƃɐnƃuɐ˥",
     "commands.language.argumentMissing.embedField.descriptions.name": "uoıʇdıɹɔsǝᗡ",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "uoıʇɐןsuɐɹ⊥ spǝǝN",
     "commands.language.error.invalidCode": "`{arg}` :ǝpoɔ ǝƃɐnƃuɐן uʍouʞu∩",
+
     "commands.calc.error.failedToEvaluate": "˙ǝʇɐnlɐʌǝ oʇ pǝlᴉɐℲ",
+
     "commands.invite.embedDescription" : "˙{{ .botName }} ǝʇᴉʌuᴉ oʇ ʞuᴉl ɐ s,ǝɹǝH",
+    
     "variables.helpMessage": "(https://countingbot.com/invite)[˙plᴉnƃ uʍo ɹnoʎ oʇ ʇoq ǝɥʇ ǝʇᴉʌuI]\n\n˙ɥɔunq ɐ sn sdlǝɥ ʇI (https://www.patreon.com/counting)[˙uoǝɹʇɐԀ ɥʇᴉʍ ƃuᴉʇnqᴉɹʇuoɔ ɹǝpᴉsuoƆ ¿ʇoq ǝɥʇ ǝʞᴉ˥]\n˙suoᴉʇsǝnb ʎuɐ ǝʌɐɥ noʎ ɟᴉ (https://discord.gg/rMQDwMH)[pɹoɔsᴉp ɹno uᴉoſ]\n\nplᴉnƃ ɹnoʎ uᴉ uᴉ spuodsǝɹ ʇoq ǝɥʇ ʇɐɥʇ ǝƃɐnƃuɐl ǝɥʇ ʇǝS - `[languageCode]¿ ǝƃɐnƃuɐl¡ɔ` •\n*puɐɯɯoɔ ʇoq* ɹo *ɹǝqɯnu* pᴉlɐʌ ɐ ɹǝɥʇᴉǝ ʇou sᴉ ʇᴉ ɟᴉ ʇuǝs sᴉ ǝƃɐssǝɯ ʎuɐ ɟᴉ ʇunoɔ ǝɥʇ suᴉnɹ ˙ǝpoɯ ʎluo-sɹǝqɯnu ǝlqɐuƎ - `[ɟɟo/uo] ʎluosɹǝqɯnu¡ɔ` •\n`ƃuᴉʇunoɔ#` lǝuuɐɥɔ ʇlnɐɟǝp ǝɥʇ ɟo pɐǝʇsuᴉ 'lǝuuɐɥɔ ɔᴉɟᴉɔǝds ɐ uᴉ uǝʇsᴉl oʇ ʇoq ǝɥʇ ǝɹnƃᴉɟuoƆ - `lǝuuɐɥɔ¡ɔ` •\nǝloɹ ɐ ƃuᴉʎɟᴉɔǝds ʇnoɥʇᴉʍ puɐɯɯoɔ unɹ 'ǝlqɐsᴉp o┴ ˙ʇunoɔ ɐ uᴉnɹ oɥʍ sɹǝqɯǝɯ oʇ ppɐ oʇ ʇoq ǝɥʇ ɹoɟ ǝloɹ ɐ ʇǝS - `[@role/role id] ǝloɹlᴉɐɟ¡ɔ` •\n**:spuɐɯɯoƆ uᴉɯp∀**\n\npɹɐɥs ʇuǝɹɹnɔ ɹnoʎ puɐ ʇoq ǝɥʇ uo sɔᴉʇsᴉʇɐʇs ʍoɥS - `sʇɐʇs¡ɔ` •\nsǝʌɐs ʇǝƃ puɐ ʇoq ǝɥʇ ɹoɟ ǝʇoΛ - `ǝʇoʌ¡ɔ` •\n`ϛ˙0` ɟo xɐʇ ɐ ɥʇᴉʍ ɹǝsn ɹǝɥʇouɐ oʇ ǝɔuɐlɐq ɹnoʎ ɯoɹɟ ǝʌɐs ǝuo ʇɟᴉפ - `[@user/userId] ǝʌɐsɹǝɟsuɐɹʇ¡ɔ` •\n(ǝʌɐs plᴉnƃ ɐ ɟo `ᄅ˙0` spp∀) ˙plᴉnƃ ʇuǝɹɹnɔ ǝɥʇ oʇ ǝʌɐs ɐ ǝʇɐuop - `ǝʌɐsǝʇɐuop¡ɔ` •\nsʇɐʇs s,ɹǝʌɹǝs ʇuǝɹɹnɔ ǝɥʇ ʇǝפ - `ɹǝʌɹǝs¡ɔ` •\nsʇɐʇs s,ɹǝsn ɐ ʇǝפ - `[@user/userId]¿ ɹǝsn¡ɔ` •\nplᴉnƃ ɹnoʎ uᴉ sɹǝsn uǝʇ doʇ ǝɥʇ ʍǝᴉΛ - `[pageNumber]¿ qls¡ɔ` •\nsɹǝsn uǝʇ doʇ ǝɥʇ ʍǝᴉΛ - `[pageNumber]¿ qln¡ɔ` •\nsǝɹoɔs lɐʇoʇ uǝʇ doʇ ǝɥʇ ʍǝᴉΛ - `[ɹǝqɯnNǝƃɐd]¿ qlʇ¡ɔ` •\nsǝɹoɔs ɥƃᴉɥ uǝʇ doʇ ǝɥʇ ʍǝᴉΛ - `[pageNumber]¿ ql¡ɔ` •\nsǝɹoɔs ʇuǝɹɹnɔ uǝʇ doʇ ǝɥʇ ʍǝᴉΛ - `[pageNumber]¿ sɔ¡ɔ` •\n*lɐuoᴉʇdo ǝɹɐ `¿` ɐ ɥʇᴉʍ pǝxᴉɟǝɹd splǝᴉɟ ʇnduI* **:spuɐɯɯoƆ ɹǝs∩**\n__MESSAGE_BREAK__\n˙ƃuoɹʍ ɹǝqɯnu ɐ ǝdʎʇ noʎ uǝɥʍ ƃuᴉʇunoɔ ǝnuᴉʇuoɔ uɐɔ noʎ 'ǝʌɐs ǝuo ʇsɐǝl ʇɐ ǝʌɐɥ noʎ ɟI •\n˙`ǝʇoʌ¡ɔ` ɥʇᴉʍ sǝʌɐs ɟo ʇunoɯɐ ɹnoʎ ʞɔǝɥƆ ˙sǝʌɐs ǝɹoɯ uɹɐǝ oʇ [here](https://countingbot.com/vote) ǝʇoΛ •\n**:sǝʌɐS**\n\n˙ʇǝsǝɹ llᴉʍ ʇunoɔ ǝɥʇ 'ǝsᴉʍɹǝɥʇO ˙ʎuɐ ǝʌɐɥ noʎ ɟᴉ ʇunoɔ ǝʌɐs ɹnoʎ ɯoɹɟ pǝʞɔop ǝq llᴉʍ ,,ǝʌɐs,, ɐ 'ʇunoɔ ʞɐǝɹq noʎ ɟI •\n˙ƃuᴉʇʇoq oN •\n(pǝɹᴉnbǝɹ sᴉ ɹǝuʇɹɐd/puǝᴉɹɟ ∀) ˙ʍoɹ ɐ uᴉ sɹǝqɯnu oʍʇ ʇunoɔ ʇ,uɐɔ uosɹǝd ǝuO •\n**:sǝlnɹ ƃuᴉʇunoƆ**\n\n˙`Ɩ` ɥʇᴉʍ ƃuᴉuuᴉƃǝq 'lǝuuɐɥɔ ǝɥʇ uᴉ ƃuᴉʇunoɔ ʇɹɐʇS ˙ᄅ\n(suoᴉssᴉɯɹǝd `ɹoʇɐɹʇsᴉuᴉɯp∀` ǝʌɐɥ ʇsnɯ no⅄) `lǝuuɐɥɔ ʇɐɥʇ uᴉ ,lǝuuɐɥɔ¡ɔ` ǝdʎ┴ ˙Ɩ\n˙uᴉ ʇunoɔ oʇ ǝʞᴉl plnoʍ noʎ ʇɐɥʇ lǝuuɐɥɔ ɐ ǝʇɐǝɹƆ ˙Ɩ\n**:dnʇǝS**\n"
 }

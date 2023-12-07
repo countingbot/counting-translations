@@ -2,7 +2,6 @@
     "countProcess.failReason.numbersOnly": "**Dieser Zählkanal ist im \"Nur-Zahlen-Modus\".**",
     "countProcess.failReason.doubleCount": "**Du darfst nicht zweimal hintereinander zählen.**",
     "countProcess.failReason.wrongNumber": "**Falsche Zahl.**",
-    "countProcess.warning.wrongNumberAlreadyZero": "Falsche Zahl! Die nächste Zahl ist `1`. **Es hat sich nichts geändert seit die aktuelle Zahl 0 war.**",
     "countProcess.warning.memberSaveUsed": "<@{authorId}> Du hast **1** deiner Saves verwendet. Du hast noch **{savesLeft:g}** übrig.",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Du hast **1** Serversave benutzt! Der Server hat noch **{savesLeft:g}/2**.",
     "countProcess.warning.nextNumberIs": "Die nächste Zahl ist **{nextNumber:,d}**.",
@@ -10,42 +9,45 @@
     "countProcess.failAlert.embedDescription": "Stimme [hier](https://countingbot.com/vote) für den Bot ab und erhalte Saves, sodass du nächstes Mal weiterzählen kannst. Siehe `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> HAT DIE REIHE BEI **{number}** ZERSTÖRT!! Die nächste Zahl ist **1**. {failReason}",
     "countProcess.newHighScore.messageContent": "Der neue Highscore ist **{highScore:,d}**!",
+
     "messageDeleted.messageContent": "<@{userID}> hat seine Nummer gelöscht: ```{deletedNumber:,d}```",
+
     "commands.generic.error.embedTitle": "Fehler.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Du brauchst die `Administrator`-Berechtigung, damit du diesen Befehl ausführen kannst.",
     "commands.generic.error.userNotFoundInDatabase": "Der angegebene Nutzer wurde nicht gefunden. (Noch nicht gezählt?)",
     "commands.generic.error.badUserConversion": "Der angegebene Nuzer konnte nicht umgewandelt werden: `{arg}`",
     "commands.generic.enabled": "Aktiviert",
     "commands.generic.disabled": "Deaktiviert",
+
     "commands.stats.embedTitle": "Statistiken vom Bot",
     "commands.stats.embedField.global.name": "Global",
     "commands.stats.embedField.global.value": "**Alle Guilds:** `{guilds}`\n**Alle Shards:** `{shards}`\n**Aktuelle MPS:** `{mps}`",
     "commands.stats.embedField.clusterMember.name": "This Cluster Member (Shards {assignedShards})",
     "commands.stats.embedField.clusterMember.value": "**Guilds across assigned shards:** `{guildCount}`\n **Started:** `{uptime}`\n**Current MPS:** `{mps}`\n**This guild's shard ID:** `{shardId}`",
+
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "Wurde erstellt von Duck#0001; wird betrieben von tt2468#2468 | Server: {guilds:,d} | Online seit: {uptime:,d}s",
+
     "commands.channel.content": "Der Zählkanal wurde auf <#{channelID}> eingestellt.",
+
     "commands.user.embedField.global.name": "Globale Statistiken",
-    "commands.user.embedField.global.value": "Erfolgsquote: **{correctRate}**\nInsgesamt richtig: **{totalCorrect:,d}**\nInsgesamt falsch: **{totalIncorrect:,d}**\nPunkte: **{score:,d} (#{rank:,d})**\nSaves: **{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "Statistik für `{guildName}`",
-    "commands.user.embedField.local.value": "Erfolgsquote: **{correctRate}**\nInsgesamt richtig: **{totalCorrect:,d}**\nInsgesamt falsch: **{totalIncorrect:,d}**\nZuletzt aktiv: **{lastActive}**\nHöchste richtige Zahl: **{highestCount:,d} ({highestCountTime})**\nGenutzte Saves: **{savesUsed:,d}**",
     "commands.user.correctRate": "Erfolgsquote:",
     "commands.user.score": "Punkte:",
     "commands.user.saves": "Saves:",
     "commands.user.lastActive": "Zuletzt aktiv:",
     "commands.user.highestCount": "Höchste richtige Zahl:",
     "commands.user.savesUsed": "Genutzte Saves:",
-    "commands.server.embedTitle": "Info für `{guildName}`",
-    "commands.server.embedDescription": "Aktuelle Zahl: **{currentNumber:,d}**\nLetzte Zahl von: <@{lastMember}>\nServersaves: **{guildSaves}/2**\nHöchste Zahl: **{highScore:,d} ({highScoreTime})**\nRang: **{currentRank:,d}/{totalGuildEntries:,d}**\nGenutzte Saves: **{savesUsed:,d}**\n Nur-Zahlen-Modus: **{numbersOnly}**",
+
     "commands.server.currentNumber": "Aktuelle Zahl:",
     "commands.server.lastCounter": "Letzte Zahl von:",
     "commands.server.guildSaves": "Serversaves:",
     "commands.server.highScore": "Höchste Zahl:",
     "commands.server.totalScore": "Gesamtergebnis:",
-    "commands.server.rank": "Rang:",
     "commands.server.savesUsed": "Genutzte Saves:",
     "commands.server.numbersOnly": "Nur-Zahlen-Modus:",
     "commands.server.maths": "Mathe:",
+
     "commands.lb.empty": "Nichts zu zeigen.",
     "commands.lb.embedTitle": "*HÖCHSTE ZAHLEN*",
     "commands.lb.embedFooter": "{helpCmd} | Seite {page}",
@@ -53,37 +55,37 @@
     "commands.tlb.embedTitle": "*GESAMTERGEBNISSE*",
     "commands.ulb.embedTitle": "*BESTE SPIELER*",
     "commands.slb.embedTitle": "*BESTE SPIELER IN `{guildName}`*",
+
     "commands.donatesave.embedTitle": "Save gespendet!",
     "commands.donatesave.embedDescription": "`{donatedSaves}` von deinen Saves wurde an diesen Server gespendet. Durch das Hinzufügen von `{addedSaves}` Saves hat dieser Server nun insgesamt `{guildSaves}/2` Serversaves.\n\nDu hast noch `{memberSaves}` übrig.",
     "commands.donatesave.error.notEnoughSaves": "Du musst mindestens `1` Save besitzen um spenden zu können.",
     "commands.donatesave.error.maxSavesReached": "Dieser Server hat bereits das Maximum an Serversaves erreicht! (2)",
+
     "commands.transfersave.embedTitle": "Save übertragen!",
     "commands.transfersave.embedDescription": "Du hast `{transferredSaves}` Saves an <@{targetId}> übertragen. Es wurden `{deductedSaves}` Saves von deinem Account abgezogen.\n\nDu hast noch `{savesLeft}` übrig.",
     "commands.transfersave.error.noTargetSpecified": "Du musst einen Nutzer angeben, dem du Saves übertragen möchtest.",
     "commands.transfersave.error.notEnoughSaves": "Du musst mindestens `{minimumSaves}` Saves besitzen, um diese zu spenden.",
     "commands.transfersave.error.cannotSelfTransfer": "Du kannst dir selbst keine Saves spenden!",
     "commands.transfersave.error.targetHasMaxSaves": "Der angegebene Nutzer hat bereits das Maximum an Saves!",
+
     "commands.failrole.roleDisabledMessage": "Die Fehlerrolle wurde deaktiviert.",
     "commands.failrole.roleEnabledMessage": "Die Fail-Rolle wurde auf <@&{roleID}> gesetzt.",
     "commands.failrole.error.botMissingPermissions": "Ich habe nicht die `Rollen verwalten`-Berechtigung.",
     "commands.failrole.error.roleNotFound": "Die angegebene Rolle wurde nicht gefunden: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "Es wurde die angegebene Rolle gefunden (`{arg}`), aber ich habe nicht die Berechtigung um diese zu verwenden. Versuche die Rolle weiter nach unten zu verschieben.",
     "commands.failrole.error.failedToAddRole": "Die Fail-Rolle <@&{roleID}> konnte nicht hinzugefügt werden. Dem Bot fehlt möglicherweise die Berechtigung zum Hinzufügen von Rollen. Die Fail-Rolle wurde deaktiviert.",
+
     "commands.numbersonly.embedTitle": "Der \"Nur-Zahlen-Modus\" wurde aktualisiert. Jetzt: {state}",
-    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Du musst einen Modus angeben. Möglich sind: `aktivieren`, `deaktivieren`.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> Ungültiger Modus. Möglich sind: `aktivieren`, `deaktivieren`.",
+
     "commands.disablemaths.embedTitle": "Mathe ist {state}.",
+
     "commands.vote.embedTitle": "Stimme für Counting ab um Saves zu erhalten",
     "commands.vote.embedDescription": "Momentan hast du **{saves:g}/{saveSlots:g}** Saves.",
-    "commands.vote.embedField.discords.name": "Stimme auf Discords.com ab, um 0.25 Saves zu erhalten",
-    "commands.vote.embedField.discords.value.canVote": "✅ Du kannst jetzt abstimmen. [Vote](https://discordbots.org/bot/510016054391734273/vote)",
-    "commands.vote.embedField.discords.value.cannotVote": "❌ Du hast bereits abgestimmt.\nDu kannst in **{hoursLeft:g} Stunden** wieder abstimmen.",
-    "commands.vote.embedField.topgg.name": "Stimme auf top.gg ab, um 0.25 Saves zu erhalten",
-    "commands.vote.embedField.topgg.value.canVote": "✅ Du kannst jetzt abstimmen. [Vote](https://discordbots.org/bot/510016054391734273/vote)",
-    "commands.vote.embedField.topgg.value.cannotVote": "Du hast bereits abgestimmt. Du kannst in **{hoursLeft:g} Stunden** wieder erneut abstimmen.",
     "commands.vote.embedField.name": "Stimme auf {websiteName} ab, um {voteReward} Saves zu erhalten",
     "commands.vote.embedField.value.canVote": "Du kannst jetzt abstimmen. [**Vote**]({voteURL})",
     "commands.vote.embedField.value.cannotVote": "Du hast bereits abgestimmt.\nDu kannst wieder abstimmen {timeLeft}.",
+
     "commands.language.embedTitle": "Die Sprache vom Bot wurde zu `{arg}` auf diesem Server geändert.",
     "commands.language.argumentMissing.embedTitle": "Verfügbare Sprachen:",
     "commands.language.argumentMissing.embedDescription": "Füge einen Sprachcode in den Befehl ein, um die Sprache des Bots für diesen Server festzulegen. `c!language [code]`\nUm bei der Übersetzung des Bots zu helfen drücke [hier](https://github.com/tt2468/counting-translations/blob/main/README.md).\nWenn du Probleme mit einer Übersetzung melden möchtest, rufe `#report-translation-issues` auf unserem [Support Server](https://discord.gg/2saFDCd) auf.",
@@ -91,7 +93,10 @@
     "commands.language.argumentMissing.embedField.descriptions.name": "Beschreibung",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "Übersetzung benötigt",
     "commands.language.error.invalidCode": "Unbekannter Sprachcode: `{arg}`",
+
     "commands.calc.error.failedToEvaluate": "Bewertung fehlgeschlagen.",
+
     "commands.invite.embedDescription" : "Hier ist ein Link, um {{ .botName }} einzuladen.",
+    
     "variables.helpMessage": "**Einrichtung:**\r\n1. Erstelle einen Zählkanal.\r\n1. Gebe `c!channel` in dem Kanal ein. (Du benötigst dafür die `Administrator`-Berechtigung.)\r\n2. Beginne mit dem Zählen. Fange bei `1` an.\r\n\r\n**Zählregeln:**\r\n• Eine Person kann nicht zweimal nacheinander zählen. (Ein Freund/Partner wird benötigt)\r\n• Automatisierung (Botting) ist verboten.\r\n• Wenn du eine Reihe zerstörst wird ein \"Save\" von deinem Konto abgezogen, falls du einen hast. Falls du keinen hast, wird die Reihe auf 1 zurückgesetzt.\r\n\r\n**Saves:**\r\n• Stimme [hier](https://countingbot.com/vote) ab, um die Anzahl deiner Saves zu erhöhen. Überprüfe die Anzahl mit `c!vote`.\r\n• Wenn du mindestens einen Save hast, kannst du nach einer falschen Nummer weiterzählen.\r\n__MESSAGE_BREAK__\r\n**Commands für Nutzer:** *Eingaben beginnend mit einem `?` sind optional*\r\n• `c!cs ?[pageNumber]` - Schau dir die besten 10 aktuellen Reihen an\r\n• `c!lb ?[pageNumber]` - Schau dir die besten 10 Reihen an\r\n• `c!tlb ?[pageNumber]` - Zeige die zehn besten Gesamtpunktzahlen.\r\n• `c!ulb ?[pageNumber]` - Schau dir die besten 10 Nutzer an\r\n• `c!slb ?[pageNumber]` - Schau dir die besten 10 Nutzer in deinem Server an\r\n• `c!user ?[@user/userId]` - Schau dir die Statistiken eines Nutzers an\r\n• `c!server` - Schau dir die Statistiken deines Servers an\r\n• `c!donatesave` - Spende einen Save an den Server (Fügt `0.2` Serversaves hinzu)\r\n• `c!transfersave [@user/userId]` - Spende einen Save an einen Nutzer mit einer Gebühr von `0.5`\r\n• `c!vote` - Stimme für den Bot ab und erhalte Saves\r\n• `c!stats` - Schau dir Statistiken des Bots und des Shards an\r\n\r\n**Commands für Administratoren:**\r\n• `c!failrole [@role/role id]` - Lege eine Fehlerrole für Nutzer, die die Zählreihe zerstören, fest. Um dies zu deaktivieren, nutze den Command ohne eine Rolle.\r\n• `c!channel` - Lege einen Kanal für den Bot fest\r\n• `c!disablemaths [on/off]` - Deaktiviere das Zählen mit Mathematik. Nachrichten wie `1+1` werden nicht als gültige Zahl gezählt.\r\n• `c!numbersonly [on/off]` - Aktiviere den Nur-Zahlen-Modus. Wenn eine Nachricht keine Nummer ist, ist diese falsch.\r\n• `c!language ?[languageCode]` - Lege die Sprache des Bots fest\r\n\r\n[Trete dem Support Server bei](https://discord.gg/rMQDwMH), falls du Fragen hast.\r\n[Gefällt dir der Bot? Unterstütze uns auf Patreon.](https://www.patreon.com/counting) Es hilft uns weiter.\r\n\r\n[Füge den Bot deinem Server hinzu.](https://countingbot.com/invite)\r\n\r\nUnsere Datenschutzerklärung: [Hier](https://gist.github.com/tt2468/2fa093d75aa3ad5a6a32d42729931c33)"
   }

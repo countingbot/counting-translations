@@ -2,7 +2,6 @@
     "countProcess.failReason.numbersOnly": "**Dit telkanaal heeft 'alleen nummers' modus aan staan.**",
     "countProcess.failReason.doubleCount": "**Je kan niet twee keer achter elkaar tellen.**",
     "countProcess.failReason.wrongNumber": "**Verkeerd nummer.**",
-    "countProcess.warning.wrongNumberAlreadyZero": "Verkeerd nummer! Het volgende nummber is `1`. **Je hebt geen fout erbij omdat het huidige nummer 0 was.**",
     "countProcess.warning.memberSaveUsed": "<@{authorId}> Je hebt **1** van je saves gebruikt. Je hebt nog **{savesLeft:g}** *saves* over.",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Je hebt **1** groepssave gebruikt! Er zijn nog **{savesLeft:g}/2** groepssaves over.",
     "countProcess.warning.nextNumberIs": "Het volgende nummer is **{nextNumber:,d}**.",
@@ -10,41 +9,44 @@
     "countProcess.failAlert.embedDescription": "Stem [hier](https://countingbot.com/vote) om saves te verdienen, zodat je de volgende keer door kan blijven tellen. Zie `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> HEEFT HET VERPEST OP **{number:,d}**!! Het volgende nummer is **1**. {failReason}",
     "countProcess.newHighScore.messageContent": "Nieuwe topscore van **{highScore:,d}**!",
+
     "messageDeleted.messageContent": "<@{userID}> heeft hun nummer verwijderd: ```{deletedNumber:,d}```",
+
     "commands.generic.error.embedTitle": "Fout.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Je moet `Administrator` rechten hebben om dit commando uit te kunnen voeren.",
     "commands.generic.error.userNotFoundInDatabase": "Betreffende gebruiker is nog niet in de database gevonden (Heeft hij al geteld?)",
     "commands.generic.error.badUserConversion": "De gebruiker `{arg}` kon niet omgezet worden.",
     "commands.generic.enabled": "ingeschakeld",
     "commands.generic.disabled": "uitgeschakeld",
+
     "commands.stats.embedTitle": "Bot Info",
     "commands.stats.embedField.global.name": "Globaal",
     "commands.stats.embedField.global.value": "**Totaal aantal bot guilds:** `{guilds}`\n**Totaal aantal bot shards:** `{shards}`\n**Huidige MPS:** `{mps}`",
     "commands.stats.embedField.clusterMember.name": "Dit Cluster lid (Shards {assignedShards})",
+
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "Gemaakt door Duck#0001, Onderhouden door tt2468#2468 | Groepen: {guilds:,d} | Bedrijfstijd: {uptime:,d}s",
+
     "commands.channel.content": "Het telkanaal is ingesteld op <#{channelID}>.",
+
     "commands.user.embedField.global.name": "Globale Stats",
-    "commands.user.embedField.global.value": "Correct ratio: **{correctRate}**\nTotaal correct: **{totalCorrect:,d}**\nTotaal incorrect: **{totalIncorrect:,d}**\nScore: **{score:,d} (#{rank:,d})**\nSaves: **{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "Stats in `{guildName}`",
-    "commands.user.embedField.local.value": "Correct ratio: **{correctRate}**\nTotaal correct: **{totalCorrect:,d}**\nTotaal incorrect: **{totalIncorrect:,d}**\nLaatst Actief: **{lastActive}**\nHoogst Getelde Nummer: **{highestCount:,d} ({highestCountTime})**\nSaves Gebruikt: **{savesUsed:,d}**",
     "commands.user.correctRate": "Correct ratio:",
     "commands.user.score": "Score:",
     "commands.user.saves": "Saves:",
     "commands.user.lastActive": "Laatst Actief:",
     "commands.user.highestCount": "Hoogst Getelde Nummer:",
     "commands.user.savesUsed": "Saves Gebruikt:",
-    "commands.server.embedTitle": "Info voor `{guildName}`",
-    "commands.server.embedDescription": "Huidig Nummer: **{currentNumber:,d}**\nLaatst geteld door: <@{lastMember}>\nGroepssaves: **{guildSaves:g}/2**\nHigh Score: **{highScore:,d} ({highScoreTime})**\nRank: **{currentRank:,d}/{totalGuildEntries:,d}**\nSaves Gebruikt: **{savesUsed:,d}**\nAlleen Nummers Mode: **{numbersOnly}**",
+
     "commands.server.currentNumber": "Huidig Nummer:",
     "commands.server.lastCounter": "Laatst geteld door:",
     "commands.server.guildSaves": "Groepssaves:",
     "commands.server.highScore": "High Score:",
     "commands.server.totalScore": "Totaalscore:",
-    "commands.server.rank": "Rank:",
     "commands.server.savesUsed": "Saves Gebruikt:",
     "commands.server.numbersOnly": "Alleen Nummers Mode:",
     "commands.server.maths": "Wiskunde:",
+
     "commands.lb.empty": "Niets om te laten zien.",
     "commands.lb.embedTitle": "*HIGH SCORES*",
     "commands.lb.embedFooter": "{helpCmd} | Pagina {page}",
@@ -52,37 +54,37 @@
     "commands.tlb.embedTitle": "*TOTAALSCORES*",
     "commands.ulb.embedTitle": "*TOP GEBRUIKERS*",
     "commands.slb.embedTitle": "*TOP GEBRUIKERS IN `{guildName}`*",
+
     "commands.donatesave.embedTitle": "Save gedoneerd!",
     "commands.donatesave.embedDescription": "`{donatedSaves:g}` van je saves zijn gedoneerd aan de groep, waardoor er `{addedSaves:g}` groepssaves bij zijn gekomen. Er zijn nu in totaal `{guildSaves:g}/2` groepssaves.\n\nJe hebt `{memberSaves:g}` saves over.",
     "commands.donatesave.error.notEnoughSaves": "Je hebt minstens `1` save nodig om te doneren.",
     "commands.donatesave.error.maxSavesReached": "Deze groep heeft al het maximale aantal groepssaves! (2)",
+
     "commands.transfersave.embedTitle": "Save cadeau gegeven!",
     "commands.transfersave.embedDescription": "Je hebt `{transferredSaves:g}` saves aan <@{targetId}> gegeven. Er zijn `{deductedSaves:g}` saves van je account af gegaan.\n\nJe hebt nog `{savesLeft:g}` saves over.",
     "commands.transfersave.error.noTargetSpecified": "Je moet specificeren aan wie je een save wilt geven.",
     "commands.transfersave.error.notEnoughSaves": "Je moet ten minste `{minimumSaves}` saves hebben om een save cadeau te kunnen doen.",
     "commands.transfersave.error.cannotSelfTransfer": "Je kan jezelf geen saves geven!",
     "commands.transfersave.error.targetHasMaxSaves": "Deze gebruiker heeft al het maximale aantal saves!",
+
     "commands.failrole.roleDisabledMessage": "De faalrol is uitgeschakeld.",
     "commands.failrole.roleEnabledMessage": "De mislukte rol is ingesteld op <@&{roleID}>.",
     "commands.failrole.error.botMissingPermissions": "Ik ben niet gemachtigd om rollen te beheren. Geef me de `Rollen Beheren` permission.",
     "commands.failrole.error.roleNotFound": "Ik kan deze rol niet vinden: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "Ik heb de rol `{arg}` gevonden, maar ik kan hem niet toepassen. Probeer `arg` lager in de rollenlijst te zetten.",
     "commands.failrole.error.failedToAddRole": "De mislukte rol <@&{roleID}> kon niet worden toegevoegd. De bot mist mogelijk de toestemming om rollen toe te voegen. De mislukte rol is uitgeschakeld.",
+
     "commands.numbersonly.embedTitle": "Alleen-nummers modus is {state}.",
-    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Je moet een modus specificeren. De mogelijkheden zijn: `ingeschakeld`, `uitgeschakeld`.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> Modus niet gevonden. De mogelijkheden zijn: `ingeschakeld`, `uitgeschakeld`.",
+
     "commands.disablemaths.embedTitle": "Wiskunde is {state}.",
+
     "commands.vote.embedTitle": "Stem op counting om reddingen te verdienen",
     "commands.vote.embedDescription": "Je hebt momenteel **{saves:g}/{saveSlots:g}** reddingen.",
-    "commands.vote.embedField.discords.name": "Stem op Discords.com om 0.25 reddingen te verdienen",
-    "commands.vote.embedField.discords.value.canVote": "✅ Je kan nu stemmen. [Vote](https://discords.com/bots/bot/510016054391734273/vote)",
-    "commands.vote.embedField.discords.value.cannotVote": "❌ Je hebt al gestemd.\nJe kan opnieuw stemmen over **{hoursLeft:g} uur**.",
-    "commands.vote.embedField.topgg.name": "Stem op top.gg om 0.25 reddingen te verdienen",
-    "commands.vote.embedField.topgg.value.canVote": "✅ Je kan nu stemmen. [Vote](https://discordbots.org/bot/510016054391734273/vote)",
-    "commands.vote.embedField.topgg.value.cannotVote": "❌ Je hebt al gestemd.\nJe kan opnieuw stemmen over **{hoursLeft:g} uur**.",
     "commands.vote.embedField.name": "Stem op {websiteName} om {voteReward} opslagen te verdienen",
     "commands.vote.embedField.value.canVote": "Je kunt nu stemmen. [**Stem hier.**]({voteURL})",
     "commands.vote.embedField.value.cannotVote": "Je hebt al gestemd.\nJe kunt opnieuw stemmen {timeLeft}.",
+
     "commands.language.embedTitle": "De taal van de bot is veranderd naar `{arg}` in deze server.",
     "commands.language.argumentMissing.embedTitle": "Mogelijke talen:",
     "commands.language.argumentMissing.embedDescription": "Gebruik de corresponderende taalcode in jouw commando om de robot taal in deze guild te aan te passen. `c!language [code]`\nOm mee te helpen aan de vertaling van de robot in jouw taal, kijk [here](https://github.com/tt2468/counting-translations/blob/main/README.md). Als je problemen met een vertaling zou willen melden, ga naar `#report-translation-issues` in onze [support server](https://discord.gg/2saFDCd).",
@@ -90,7 +92,10 @@
     "commands.language.argumentMissing.embedField.descriptions.name": "Beschrijving",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "Vertaling Nodig",
     "commands.language.error.invalidCode": "Onbekende taalcode: `{arg}`",
+
     "commands.calc.error.failedToEvaluate": "Kan niet evalueren.",
+
     "commands.invite.embedDescription" : "Hier is een link om {{ .botName }} uit te nodigen.",
+    
     "variables.helpMessage": "**Setup:**\n1. Create a channel that you would like to count in.\n1. Type `c!channel` in that channel. (You must have `Administrator` permissions)\n2. Start counting in the channel, beginning with `1`.\n\n**Tel regels:**\n• Je kan niet twee keer achter elkaar tellen. (Je moet een partner hebben om mee te spelen)\n• Gebruikt geen robots om voor je te tellen.\n• Als je verkeerd telt, wordt er een save gebruikt als je die hebt. Als je die niet hebt, moet je opnieuw beginnen.\n\n**Saves:**\n• Stem [hier](https://countingbot.com/vote) om meer saves te verdienen. Check hoeveel je hebt met `c!vote`.\n• Als je tenminste één save hebt, kan je doorgaan met tellen nadat je een verkeerd nummer gestuurd hebt.\n__MESSAGE_BREAK__\n**Gebruiker Commando's:** *Waar `?` staat, is iets invullen optioneel.*\n• `c!cs ?[paginanummer]` - Bekijk de huidige top tien van serverscores.\n• `c!lb ?[paginanummer]` - Bekijk de top tien server high scores.\n• `c!tlb ?[paginanummer]` - Bekijk de top tien totale scores.\n• `c!ulb ?[paginanummer]` - Bekijk de top tien gebruikers.\n• `c!slb ?[paginanummer]` - Bekijk de top tien gebruikers in jouw groep.\n• `c!user ?[@gebruiker/gebruiker's Id]` - Bekijk de stats van een gebruiker.\n• `c!server` - Bekijk de stats van de server waar je in bent.\n• `c!donatesave` - Doneer een save aan de server waar je in bent. (voegt `0.2` van een groepssave toe)\n• `c!transfersave [@gebruiker/gebruiker's Id]` - Geef een save cadeau aan een andere gebruiker. Dit kost `0.5` save.\n• `c!vote` - Stem voor de bot en ontvang saves.\n• `c!stats` - Bekijk de statistieken voor de bot en de huidige shard.\n\n**Beheerder Commando's:**\n• `c!failrole [@rol/rol id]` - Bepaal een rol die gebruikers krijgen als ze verkeerd tellen. Stuur dit commando zonder een rol om dit terug te draaien.\n• `c!channel` - Maak van het huidige kanaal het telkanaal. Stuur dit commando in het kanaal waar je in wilt tellen, taggen (#) werkt niet.\n• `c!disablemaths [on/off]` - Tel niet met wiskunde. Berichten zoals `1+1` worden niet als een geldig nummer geteld.\n• `c!numbersonly [on/off]` - Schakel de alleen-nummers mode om. Dit zorgt ervoor dat je opnieuw moet beginnen als er een bericht gestuurd wordt dat niet een commando of een correct nummer is.\n• `c!language ?[code van de taal]` - Stel de taal van de bot in.\n\n[Join onze Discord](https://discord.gg/rMQDwMH) als je vragen hebt.\nVind je de bot leuk? [Overweeg te doneren met Patreon](https://www.patreon.com/counting). Het helpt ons enorm.\n\n[Voeg de bot toe aan je eigen server.](https://countingbot.com/invite)\n"
 }

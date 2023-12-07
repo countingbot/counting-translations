@@ -2,7 +2,6 @@
     "countProcess.failReason.numbersOnly": "**Ez a számoló csatorna csak számokat fogad el.**",
     "countProcess.failReason.doubleCount": "**Egymást követően nem számolhatsz két számot.**",
     "countProcess.failReason.wrongNumber": "**Rossz szám.**",
-    "countProcess.warning.wrongNumberAlreadyZero": "Nem megfelelő szám! A következő szám `1`. **Nem változtak statisztikák, mióta az aktuális szám 0 volt.**",
     "countProcess.warning.memberSaveUsed": "<@{authorId}> **1** mentési lehetőséget felhasználtál. **{savesLeft:g}** mentési lehetőséged maradt.",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> **1** szervermentési lehetőséget felhasználtál! **{savesLeft:g}/2** szervermentési lehetőséged maradt.",
     "countProcess.warning.nextNumberIs": "A következő szám **{nextNumber:,d}**.",
@@ -11,9 +10,7 @@
     "countProcess.failAlert.messageContent": "<@{authorId}> ELRONTOTTA ITT: **{number:,d}**!! A következő szám **1**. {failReason}",
     "countProcess.newHighScore.messageContent":  "Új legmagasabb pontszám: **{highScore:,d}**!",
 
-
     "messageDeleted.messageContent": "<@{userID}> törölte a számát: ```{deletedNumber:,d}```",
-
 
     "commands.generic.error.embedTitle": "Hiba.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> ennek a parancsnak a használatához `Administrator` jogogosultság szükséges.",
@@ -34,9 +31,7 @@
     "commands.channel.content": "A számláló csatorna beállítva erre: <#{channelID}>.",
 
     "commands.user.embedField.global.name": "Globális statisztikák",
-    "commands.user.embedField.global.value": "Helyességi ráta: **{correctRate}**\nÖsszhelyesség: **{totalCorrect:,d}**\nÖsszhelytelenség: **{totalIncorrect:,d}**\nPontszám: **{score:,d} (#{rank:,d})**\nMentések: **{saves:g}/{saveSlots:g}**",
     "commands.user.embedField.local.name": "Statisztikák `{guildName}` szerveren",
-    "commands.user.embedField.local.value": "Helyességi ráta: **{correctRate}**\nÖsszhelyesség: **{totalCorrect:,d}**\nÖsszhelytelenség: **{totalIncorrect:,d}**\nUtoljára aktív: **{lastActive}**\nLegnagyobb helyes számolás: **{highestCount:,d} ({highestCountTime})**\nHasznált mentések: **{savesUsed:,d}**",
     "commands.user.correctRate": "Helyességi ráta:",
     "commands.user.score": "Pontszám:",
     "commands.user.saves": "Mentések:",
@@ -44,29 +39,21 @@
     "commands.user.highestCount": "Legnagyobb helyes számolás:",
     "commands.user.savesUsed": "Használt mentések:",
 
-    "commands.server.embedTitle": "Információ `{guildName}` szerverről",
-    "commands.server.embedDescription": "Jelenlegi szám: **{currentNumber:,d}**\nUtolsó számoló: <@{lastMember}>\nSzerver mentések: **{guildSaves:g}/2**\nLegnagyobb pontszám: **{highScore:,d} ({highScoreTime})**\nRang: **{currentRank:,d}/{totalGuildEntries:,d}**\nHasznált mentések: **{savesUsed:,d}**\nCsak-számok mód: **{numbersOnly}**",
     "commands.server.currentNumber": "Jelenlegi szám:",
     "commands.server.lastCounter": "Utolsó számoló:",
     "commands.server.guildSaves": "Szerver mentések:",
     "commands.server.highScore": "Legmagasabb pontszámok:",
     "commands.server.totalScore": "Teljes pontszám:",
-    "commands.server.rank": "Rang:",
     "commands.server.savesUsed": "Használt mentések:",
     "commands.server.numbersOnly": "Csak-számok mód:",
     "commands.server.maths": "Matek:",
 
     "commands.lb.empty": "Nincs megjeleníthető tartalom.",
-
     "commands.lb.embedTitle": "*LEGNAGYOBB PONTSZÁMOK*",
     "commands.lb.embedFooter": "{helpCmd} | Oldalszám {page}",
-
     "commands.cs.embedTitle": "*JELENLEGI PONTSZÁMOK*",
-
     "commands.tlb.embedTitle": "*ÖSSZESÍTETT PONTSZÁMOK*",
-
     "commands.ulb.embedTitle": "*LEGJOBB FELHASZNÁLÓK*",
-
     "commands.slb.embedTitle": "*LEGJOBBAK `{guildName}` SZERVEREN*",
 
     "commands.donatesave.embedTitle": "Mentés átadományozva!",
@@ -89,19 +76,12 @@
     "commands.failrole.error.failedToAddRole": "A hibás szerep <@&{roleID}> nem adható hozzá. A botnak lehet, hogy nincs jogosultsága szerepek hozzáadásához. A hibás szerep letiltva lett.",
 
     "commands.numbersonly.embedTitle": "A csak-számok mód {state}.",
-    "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Meg kell határoznod egy módot. Módok: `bekapcsolva`, `kikapcsolva`.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> Ilyen mód nem található. Módok: `bekapcsolva`, `kikapcsolva`.",
 
     "commands.disablemaths.embedTitle": "A matek {state}.",
 
     "commands.vote.embedTitle": "Szavazz a botra hogy mentéseket szerezz",
     "commands.vote.embedDescription": "Jelenleg **{saves:g}/{saveSlots:g}** mentésed van.",
-    "commands.vote.embedField.discords.name": "Szavazz a Discords.com oldalon, hogy 0.25 mentést szerezz",
-    "commands.vote.embedField.discords.value.canVote": "✅ Már szavazhatsz. [Vote](https://discords.com/bots/bot/510016054391734273/vote)",
-    "commands.vote.embedField.discords.value.cannotVote": "❌ Már szavaztál.\n **{hoursLeft:g} órán belül** újra szavazhatsz.",
-    "commands.vote.embedField.topgg.name": "Szavazz a top.gg oldalon, hogy 0.25 mentést szerezz",
-    "commands.vote.embedField.topgg.value.canVote": "✅ Már szavazhatsz. [Vote](https://discordbots.org/bot/510016054391734273/vote)",
-    "commands.vote.embedField.topgg.value.cannotVote": "❌ Már szavaztál.\n **{hoursLeft:g} órán belül** újra szavazhatsz.",
     "commands.vote.embedField.name": "Szavazz a {websiteName} oldalon, hogy {voteReward} mentést szerezz",
     "commands.vote.embedField.value.canVote": "Már szavazhatsz. [**Vote here.**]({voteURL})",
     "commands.vote.embedField.value.cannotVote": "Már szavaztál.\n {timeLeft} órán belül újra szavazhatsz.",
