@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "このカウントチャンネルは数字のみのモードです。",
+    "countProcess.failReason.numbersOnly": "**このカウントチャンネルは数字のみのモードです。**",
     "countProcess.failReason.doubleCount": "**2つの数を連続して数えることはできません。**",
     "countProcess.failReason.wrongNumber": "番号が違う",
     "countProcess.warning.wrongNumberAlreadyZero": "番号が間違っています！次の番号は `1`です。 **現在の番号が0であったため、統計は変更されていません。**",

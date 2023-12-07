@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "Dieser Zählkanal ist im \"Nur-Zahlen-Modus\".",
+    "countProcess.failReason.numbersOnly": "**Dieser Zählkanal ist im \"Nur-Zahlen-Modus\".**",
     "countProcess.failReason.doubleCount": "**Du darfst nicht zweimal hintereinander zählen.**",
     "countProcess.failReason.wrongNumber": "**Falsche Zahl.**",
     "countProcess.warning.wrongNumberAlreadyZero": "Falsche Zahl! Die nächste Zahl ist `1`. **Es hat sich nichts geändert seit die aktuelle Zahl 0 war.**",

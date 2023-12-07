@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "Ez a számoló csatorna csak számokat fogad el.",
+    "countProcess.failReason.numbersOnly": "**Ez a számoló csatorna csak számokat fogad el.**",
     "countProcess.failReason.doubleCount": "**Egymást követően nem számolhatsz két számot.**",
     "countProcess.failReason.wrongNumber": "**Rossz szám.**",
     "countProcess.warning.wrongNumberAlreadyZero": "Nem megfelelő szám! A következő szám `1`. **Nem változtak statisztikák, mióta az aktuális szám 0 volt.**",

@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "Ten kanał do liczenia jest w trybie 'tylko liczby'.",
+    "countProcess.failReason.numbersOnly": "**Ten kanał do liczenia jest w trybie 'tylko liczby'.**",
     "countProcess.failReason.doubleCount": "**Nie możesz liczyć dwukrotnie pod rząd.**",
     "countProcess.failReason.wrongNumber": "**Niewłaściwa liczba.**",
     "countProcess.warning.wrongNumberAlreadyZero": "Niewłaściwa liczba! Następną liczbą jest `1`. **Statystyki nie uległy zmianie, jako że aktualną liczbą było 0.**",

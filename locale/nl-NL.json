@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "Dit telkanaal heeft 'alleen nummers' modus aan staan.",
+    "countProcess.failReason.numbersOnly": "**Dit telkanaal heeft 'alleen nummers' modus aan staan.**",
     "countProcess.failReason.doubleCount": "**Je kan niet twee keer achter elkaar tellen.**",
     "countProcess.failReason.wrongNumber": "**Verkeerd nummer.**",
     "countProcess.warning.wrongNumberAlreadyZero": "Verkeerd nummer! Het volgende nummber is `1`. **Je hebt geen fout erbij omdat het huidige nummer 0 was.**",

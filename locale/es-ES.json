@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "Este canal de chatear de conteo está en modo de sólo números.",
+    "countProcess.failReason.numbersOnly": "**Este canal de chatear de conteo está en modo de sólo números.**",
     "countProcess.failReason.doubleCount": "**No puedes contar dos números en una fila.**",
     "countProcess.failReason.wrongNumber": "**Número incorrecto.**",
     "countProcess.warning.wrongNumberAlreadyZero": "¡Número incorrecto! El siguiente número es `1`. **No se han cambiado las estadísticas desde que el número actual era 0.**",

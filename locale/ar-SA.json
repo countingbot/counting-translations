@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "هذه الروم خاصة فقط للأرقام.",
+    "countProcess.failReason.numbersOnly": "**هذه الروم خاصة فقط للأرقام.**",
     "countProcess.failReason.doubleCount": "**لا يمكنك عد عددين على التوالي.**",
     "countProcess.failReason.wrongNumber": "**رقم غير صحيح.**",
     "countProcess.warning.wrongNumberAlreadyZero": "الرقم غير صحيح! الرقم التالي هوَ `1`. **لم يتم تغيير أي إحصائيات لأن الرقم الحالي كان 0.**",

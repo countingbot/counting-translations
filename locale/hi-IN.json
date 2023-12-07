@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "इस गिनती चैनल मई केवल अंक भेजने की अनुमति है।",
+    "countProcess.failReason.numbersOnly": "**इस गिनती चैनल मई केवल अंक भेजने की अनुमति है।**",
     "countProcess.failReason.doubleCount": "**एक खिलाडी लगातार दो संख्या नहीं भेज सकता।**",
     "countProcess.failReason.wrongNumber": "**गलत संख्या।**",
     "countProcess.warning.wrongNumberAlreadyZero": "गलत संख्या! अगला संख्या `1` है। **आपके स्टैट्स मई कोई बदलाव नहीं आया है क्यूंकि पिछले संख्या 0 था।**",

@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "Ce canal de compteurs est en mode Nombre-Exclusif.",
+    "countProcess.failReason.numbersOnly": "**Ce canal de compteurs est en mode Nombre-Exclusif.**",
     "countProcess.failReason.doubleCount": "**Vous ne pouvez pas compter deux fois d'affilée.**",
     "countProcess.failReason.wrongNumber": "**Nombre invalide.**",
     "countProcess.warning.wrongNumberAlreadyZero": "Nombre incorrect! Le prochain nombre est `1`. **Aucune stat n'a été changée puisque le nombre actuel était zéro.**",

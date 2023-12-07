@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "Этот канал находится в режиме \"только числа\".",
+    "countProcess.failReason.numbersOnly": "**Этот канал находится в режиме \"только числа\".**",
     "countProcess.failReason.doubleCount": "**Вы не можете считать два раза подряд.**",
     "countProcess.failReason.wrongNumber": "**Не то число.**",
     "countProcess.warning.wrongNumberAlreadyZero": "Не то число! Следующее число - `1`. **Так как текущее число было 0, это не повлияло на статистику.**",

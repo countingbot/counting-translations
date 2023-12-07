@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "이 숫자 세기 채널은 숫자 전용 모드입니다.",
+    "countProcess.failReason.numbersOnly": "**이 숫자 세기 채널은 숫자 전용 모드입니다.**",
     "countProcess.failReason.doubleCount": "**두 개의 숫자를 연속으로 셀 수 없습니다.**",
     "countProcess.failReason.wrongNumber": "**잘못된 숫자입니다.**",
     "countProcess.warning.wrongNumberAlreadyZero": "잘못된 숫자입니다! 다음 숫자는 `1` 입니다. **이전 숫자가 0이었기 때문에 통계에 저장되지 않았습니다.**",

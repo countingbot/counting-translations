@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "这个数数频道是在只数字模式。",
+    "countProcess.failReason.numbersOnly": "**这个数数频道是在只数字模式。**",
     "countProcess.failReason.doubleCount": "**你不能连数两个数字。**",
     "countProcess.failReason.wrongNumber": "**错数。**",
     "countProcess.warning.wrongNumberAlreadyZero": "错误数字！ 下一个数字是“ 1”。**统计没变因为当前的号码是0。**",

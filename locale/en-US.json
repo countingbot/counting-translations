@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "This counting channel is in numbers-only mode.",
+    "countProcess.failReason.numbersOnly": "**This counting channel is in numbers-only mode.**",
     "countProcess.failReason.doubleCount": "**You can't count two numbers in a row.**",
     "countProcess.failReason.wrongNumber": "**Wrong number.**",
     "countProcess.warning.wrongNumberAlreadyZero": "Incorrect number! The next number is `1`. **No stats have been changed since the current number was 0.**",

@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "此頻道啟用了數字限定模式。",
+    "countProcess.failReason.numbersOnly": "**此頻道啟用了數字限定模式。**",
     "countProcess.failReason.doubleCount": "**你不能連續數兩個數字。**",
     "countProcess.failReason.wrongNumber": "**數錯了。**",
     "countProcess.warning.wrongNumberAlreadyZero": "數錯了！下一個數字是 `1`。**由於當前的數字為 0 ，所以玩家數據並未改變**",

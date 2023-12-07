@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "Kênh đếm này thuộc chế độ Chỉ-có-số.",
+    "countProcess.failReason.numbersOnly": "**Kênh đếm này thuộc chế độ Chỉ-có-số.**",
     "countProcess.failReason.doubleCount": "**Bạn không thể đếm hai số liên tiếp được.**",
     "countProcess.failReason.wrongNumber": "**Đếm sai số.**",
     "countProcess.warning.wrongNumberAlreadyZero": "Đếm sai số rồi! Số tiếp theo là `1`. **Không có thông số nào bị thay đổi vì số hiện tại là 0.**",

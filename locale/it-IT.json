@@ -1,5 +1,5 @@
 {
-    "countProcess.failReason.numbersOnly": "Questo canale di conteggio è in modalità solo numeri.",
+    "countProcess.failReason.numbersOnly": "**Questo canale di conteggio è in modalità solo numeri.**",
     "countProcess.failReason.doubleCount": "**Non puoi contare due numeri di seguito.**",
     "countProcess.failReason.wrongNumber": "**Numero sbagliato.**",
     "countProcess.warning.wrongNumberAlreadyZero": "Numero errato! Il prossimo numero è `1`. **Le statistiche non sono state modificate perché il numero corrente era 0.**",
