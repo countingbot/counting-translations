@@ -59,19 +59,15 @@
     "commands.lb.empty": "Nothing to show.",
 
     "commands.lb.embedTitle": "*HIGH SCORES*",
-    "commands.lb.embedFooter": "c!help | Page {page}",
+    "commands.lb.embedFooter": "{helpCmd} | Page {page}",
 
     "commands.cs.embedTitle": "*CURRENT SCORES*",
-    "commands.cs.embedFooter": "c!help | Page {page}",
 
     "commands.tlb.embedTitle": "*TOTAL SCORES*",
-    "commands.tlb.embedFooter": "c!help | Page {page}",
 
     "commands.ulb.embedTitle": "*TOP USERS*",
-    "commands.ulb.embedFooter": "c!help | Page {page}",
 
     "commands.slb.embedTitle": "*TOP USERS IN `{guildName}`*",
-    "commands.slb.embedFooter": "c!help | Page {page}",
 
     "commands.donatesave.embedTitle": "Save donated!",
     "commands.donatesave.embedDescription": "`{donatedSaves:g}` of your saves have been donated to this guild, adding `{addedSaves:g}` to its saves, for a total of `{guildSaves:g}/2` guild saves.\n\nYou have `{memberSaves:g}` saves left.",

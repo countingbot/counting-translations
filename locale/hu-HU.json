@@ -59,19 +59,15 @@
     "commands.lb.empty": "Nincs megjeleníthető tartalom.",
 
     "commands.lb.embedTitle": "*LEGNAGYOBB PONTSZÁMOK*",
-    "commands.lb.embedFooter": "c!help | Oldalszám {page}",
+    "commands.lb.embedFooter": "{helpCmd} | Oldalszám {page}",
 
     "commands.cs.embedTitle": "*JELENLEGI PONTSZÁMOK*",
-    "commands.cs.embedFooter": "c!help | Oldalszám {page}",
 
     "commands.tlb.embedTitle": "*ÖSSZESÍTETT PONTSZÁMOK*",
-    "commands.tlb.embedFooter": "c!help | Oldalszám {page}",
 
     "commands.ulb.embedTitle": "*LEGJOBB FELHASZNÁLÓK*",
-    "commands.ulb.embedFooter": "c!help | Oldalszám {page}",
 
     "commands.slb.embedTitle": "*LEGJOBBAK `{guildName}` SZERVEREN*",
-    "commands.slb.embedFooter": "c!help | Oldalszám {page}",
 
     "commands.donatesave.embedTitle": "Mentés átadományozva!",
     "commands.donatesave.embedDescription": "`{donatedSaves:g}` mentési lehetőséged át lett adományozva ennek a szervernek, hozzáadva `{addedSaves:g}` a mentési lehetőségeihez, így összesen `{guildSaves:g}/2` mentési lehetőség lett.\n\n`{memberSaves:g}` mentési lehetőséged van.",

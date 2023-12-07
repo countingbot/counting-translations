@@ -59,19 +59,15 @@
     "commands.lb.empty": "Nada a exibir.",
 
     "commands.lb.embedTitle": "*RECORDS*",
-    "commands.lb.embedFooter": "c!help | Página {page}",
+    "commands.lb.embedFooter": "{helpCmd} | Página {page}",
 
     "commands.cs.embedTitle": "*PONTUAÇÕES ATUAIS*",
-    "commands.cs.embedFooter": "c!help | Página {page}",
 
     "commands.tlb.embedTitle": "*PONTUAÇÕES TOTAIS*",
-    "commands.tlb.embedFooter": "c!help | Página {page}",
 
     "commands.ulb.embedTitle": "*MELHORES USUÁRIOS*",
-    "commands.ulb.embedFooter": "c!help | Página {page}",
 
     "commands.slb.embedTitle": "*MELHORES USUÁRIOS EM `{guildName}`*",
-    "commands.slb.embedFooter": "c!help | Página {page}",
 
     "commands.donatesave.embedTitle": "Save doado!",
     "commands.donatesave.embedDescription": "`{donatedSaves:g}` dos seus saves foram doados para este servidor, adicionando `{addedSaves:g}` aos saves dela, totalizando `{guildSaves:g}/2` saves do servidor.\n\nVocê tem `{memberSaves:g}` saves restantes.",
