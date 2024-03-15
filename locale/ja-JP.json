@@ -16,6 +16,7 @@
     "commands.generic.error.missingAdministrator": "<@{authorId}> このコマンドを使用するには、`管理者`権限が必要です。",
     "commands.generic.error.userNotFoundInDatabase": "指定されたユーザーがデータベースに見つかりませんでした。(まだカウントしていませんか?)",
     "commands.generic.error.badUserConversion": "指定されたユーザーを変換できません: `{arg}`",
+    "commands.generic.error.timeDurationParseFail": "期間の読み取りに失敗しました。",
     "commands.generic.enabled": "有効",
     "commands.generic.disabled": "無効",
 
@@ -67,10 +68,12 @@
 
     "commands.failrole.roleDisabledMessage": "失敗の役割は無効になっています。",
     "commands.failrole.roleEnabledMessage": "失敗の役割は <@&{roleID}> に設定されています。",
+    "commands.failrole.roleEnabledWithTimeoutMessage": "失敗ロールは <@&{roleID}> に設定されました (タイムアウト: {timeout})",
     "commands.failrole.error.botMissingPermissions": "`ロールの管理`権限がありません。",
     "commands.failrole.error.roleNotFound": "既存の役割が見つかりません： `{arg}`",
     "commands.failrole.error.cannotApplyRole": "`{arg}`のロールが見つかりましたが、適用する権限がありません。ロールをリストの下の方に移動してみてください。",
     "commands.failrole.error.failedToAddRole": "失敗したロール <@&{roleID}> を追加できませんでした。 ボットにロールを追加する権限がない可能性があります。 失敗の役割は無効になっています。",
+    "commands.failrole.error.timeoutOutOfRange": "タイムアウトは `{low}` と `{high}` の間である必要があります。",
 
     "commands.numbersonly.embedTitle": "ナンバーオンリーモードは{state}です。",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> 有効なモードが見つかりませんでした。モード: `1`, `0`。",

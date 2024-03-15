@@ -16,6 +16,7 @@
     "commands.generic.error.missingAdministrator": "˙puɐɯɯoɔ sıɥʇ ǝsn oʇ suoıssıɯɹǝd `ɹoʇɐɹʇsıuıɯp∀` ǝʌɐɥ ʇsnɯ noʎ <@{authorId}>",
     "commands.generic.error.userNotFoundInDatabase": "(¿ʇǝʎ pǝʇunoɔ ʇoN) ˙ǝsɐqɐʇɐp uı punoɟ ʇou ɹǝsn pǝıɟıɔǝdS",
     "commands.generic.error.badUserConversion": "`{arg}` :ɹǝsn pǝıɟıɔǝds ʇɹǝʌuoɔ oʇ ǝןqɐu∩",
+    "commands.generic.error.timeDurationParseFail": "˙uoᴉʇɐɹnp ǝɯᴉʇ pɐǝɹ oʇ pǝlᴉɐℲ",
     "commands.generic.enabled": "pǝןqɐuǝ",
     "commands.generic.disabled": "pǝןqɐsıp",
 
@@ -70,10 +71,12 @@
 
     "commands.failrole.roleDisabledMessage": "˙pǝןqɐsıp uǝǝq sɐɥ ǝןoɹ ןıɐɟ ǝɥ⊥",
     "commands.failrole.roleEnabledMessage": "˙<@&{roleID}> oʇ ʇǝs uǝǝq sɐɥ ǝloɹ lᴉɐɟ ǝɥ┴",
+    "commands.failrole.roleEnabledWithTimeoutMessage": "˙`{timeout}` ɟo ʇnoǝɯᴉʇ ɐ ɥʇᴉʍ <@&{roleID}> oʇ ʇǝs uǝǝq sɐɥ ǝloɹ lᴉɐɟ ǝɥ┴",
     "commands.failrole.error.botMissingPermissions": "˙suoıssıɯɹǝd `sǝןoɹ‾ǝƃɐuɐɯ` ǝʌɐɥ ʇ,uop I",
     "commands.failrole.error.roleNotFound": "`{arg}` :ǝןoɹ ƃuıʇsıxǝ puıɟ oʇ ǝןqɐu∩",
     "commands.failrole.error.cannotApplyRole": "˙ʇsıן ǝɥʇ uı ɹǝʍoן ǝןoɹ ǝɥʇ ƃuıʌoɯ ʎɹ⊥ ˙ʇı ʎןddɐ oʇ suoıssıɯɹǝd ǝʌɐɥ ʇ,uop I ʇnq `{arg}` ɹoɟ ǝןoɹ punoℲ",
     "commands.failrole.error.failedToAddRole": "˙pǝlqɐsᴉp uǝǝq sɐɥ ǝloɹ lᴉɐɟ ǝɥ┴ ˙sǝloɹ ppɐ oʇ uoᴉssᴉɯɹǝd ǝɥʇ ƃuᴉssᴉɯ ǝq ʎɐɯ ʇoq ǝɥ┴ ˙pǝppɐ ǝq ʇou plnoɔ <@&{roleID}> ǝloɹ lᴉɐɟ ǝɥ┴",
+    "commands.failrole.error.timeoutOutOfRange": "˙`{high}` puɐ `{low}` uǝǝʍʇǝq ǝq ʇsnɯ ʇnoǝɯᴉʇ ǝɥ┴",
 
     "commands.numbersonly.embedTitle": ".{state} uǝǝq sɐɥ ǝpoɯ ʎןuo-sɹǝqɯnN",
     "commands.numbersonly.error.invalidMode": "˙`ǝןqɐsıp` '`ǝןqɐuǝ` :sǝpoW ˙punoɟ ʇou ǝpoɯ pıןɐΛ <@{authorId}>",

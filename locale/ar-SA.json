@@ -16,6 +16,7 @@
     "commands.generic.error.missingAdministrator": "<@{authorId}> يجب أن تملك صلاحية `Administrator` لاستعمال هذا الأمر.",
     "commands.generic.error.userNotFoundInDatabase": "المستخدم المحدد غير موجود في قاعدة البيانات. (ألم تقم بالعد بعد؟)",
     "commands.generic.error.badUserConversion": "غير قادر على تحويل المستخدم المحدد: `{arg}`",
+    "commands.generic.error.timeDurationParseFail": "فشل في قراءة مدة الزمن.",
     "commands.generic.enabled": "مُفعل",
     "commands.generic.disabled": "معطل",
 
@@ -69,10 +70,12 @@
 
     "commands.failrole.roleDisabledMessage": "تم تعطيل رتبة الفشل.",
     "commands.failrole.roleEnabledMessage": "تم تعيين دور الفشل على <@&{roleID}>.",
+    "commands.failrole.roleEnabledWithTimeoutMessage": "تم تعيين دور الفشل إلى <@&{roleID}> مع مهلة زمنية مقدارها `{timeout}`.",
     "commands.failrole.error.botMissingPermissions": "أنا لا أمتلك خاصية `manage_roles`.",
     "commands.failrole.error.roleNotFound": "تعذر العثور على هذه الرتبة: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "تم العثور على رتبة إلى `{arg}` لكن ليس لدي الإذن للتطبيق، حاول بتحريك الرتبة إلى الأسفل.",
     "commands.failrole.error.failedToAddRole": "تعذر إضافة دور الإخفاق <@&{roleID}>. قد يفتقد الروبوت إذن لإضافة الأدوار. تم تعطيل دور الفشل.",
+    "commands.failrole.error.timeoutOutOfRange": "وقت المهلة يجب أن يكون بين `{low}` و `{high}`.",
 
     "commands.numbersonly.embedTitle": "حالة وضع الأرقام فقط {state}.",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> الوضع الصالح غير موجود. الأوضاع: `0`، `1`.",

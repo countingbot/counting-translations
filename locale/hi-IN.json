@@ -16,6 +16,7 @@
     "commands.generic.error.missingAdministrator": "<@{authorId}> इस कमांड का उपयोग करने के लिए आपके पास एडमिनिस्ट्रेटर अनुमति होनी चाहिए।",
     "commands.generic.error.userNotFoundInDatabase": "निर्दिष्ट यूजर डेटाबेस में नहीं मिल पाए। (अभी तक गिनती नहीं की ?)",
     "commands.generic.error.badUserConversion": "निर्दिष्ट यूजर को परिवर्तित करने में असफल: `{arg}`",
+    "commands.generic.error.timeDurationParseFail": "समय अवधि पढ़ने में त्रुटि।",
     "commands.generic.enabled": "सक्षम",
     "commands.generic.disabled": "असक्षम",
 
@@ -66,10 +67,12 @@
 
     "commands.failrole.roleDisabledMessage": "फ़ैल रोले हटा दिया गया है।",
     "commands.failrole.roleEnabledMessage": "विफल भूमिका को <@&{roleID}> पर सेट कर दिया गया है।",
+    "commands.failrole.roleEnabledWithTimeoutMessage": "<@&{roleID}> को विफल भूमिका के रूप में सेट किया गया है, जिसमें टाइमआउट `{timeout}`।",
     "commands.failrole.error.botMissingPermissions": "मेरे पास `manage_roles` की अनुमति नहीं है।",
     "commands.failrole.error.roleNotFound": "मौजूदा रोल को खोजने में असफल: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "`{arg}` के लिए रोल मिल गया पर लगाने के लिए अनुमति नहीं है। उससे लिस्ट में नीचे लाइए।",
     "commands.failrole.error.failedToAddRole": "विफल भूमिका <@&{roleID}> जोड़ी नहीं जा सकी। हो सकता है कि बॉट में भूमिकाएं जोड़ने की अनुमति न हो. विफल भूमिका अक्षम कर दी गई है।",
+    "commands.failrole.error.timeoutOutOfRange": "समय सीमा `{low}` और `{high}` के बीच होनी चाहिए।",
 
     "commands.numbersonly.embedTitle": "केवल अंक मोड अभी {state} है।",
     "commands.numbersonly.error.invalidMode": "<@{authorId}> मान्य मोड नहीं मिल पाया। मोड: `1`, `0`.",
