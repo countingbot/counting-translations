@@ -105,7 +105,7 @@
     "commands.resetme.warning.embedDescription": "Bist du sicher, dass du deine Daten vom Bot löschen möchtest? **Dies kann nicht rückgängig gemacht werden.**",
     "commands.resetme.success.embedDescription": "Deine Daten wurden gelöscht.",
 
-    "commands.resetserver.warning.embedDescription": "Sind Sie sicher, dass Sie die Daten dieses Servers aus dem Bot löschen möchten? **Dieser Vorgang kann nicht rückgängig gemacht werden.**",
+    "commands.resetserver.warning.embedDescription": "Bist du sicher, dass du die Daten dieses Servers aus dem Bot löschen möchtest? **Dieser Vorgang kann nicht rückgängig gemacht werden.**",
     "commands.resetserver.success.embedDescription": "Die Daten dieses Servers wurden gelöscht.",
 
     "commands.invite.embedDescription" : "Hier ist ein Link, um {{ .botName }} einzuladen.",
