@@ -13,6 +13,7 @@
     "messageDeleted.messageContent": "<@{userID}> heeft hun nummer verwijderd: ```{deletedNumber:,d}```",
 
     "commands.generic.error.embedTitle": "Fout.",
+    "commands.generic.error.notServerOwner": "U moet de eigenaar van de server zijn om dit te doen.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Je moet `Administrator` rechten hebben om dit commando uit te kunnen voeren.",
     "commands.generic.error.userNotFoundInDatabase": "Betreffende gebruiker is nog niet in de database gevonden (Heeft hij al geteld?)",
     "commands.generic.error.badUserConversion": "De gebruiker `{arg}` kon niet omgezet worden.",

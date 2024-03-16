@@ -13,6 +13,7 @@
     "messageDeleted.messageContent": "<@{userID}> 删除了他们的号码：```{deletedNumber:,d}```",
 
     "commands.generic.error.embedTitle": "错误。",
+    "commands.generic.error.notServerOwner": "您必须是服务器所有者才能执行此操作。",
     "commands.generic.error.missingAdministrator": "<@{authorId}> 你必须具备 `管理员` 权力才可以使用此指令。",
     "commands.generic.error.userNotFoundInDatabase": "在资料库中找不到指定的用户。 （还没统计？）",
     "commands.generic.error.badUserConversion": "无法更换指定用户：`{arg}`",

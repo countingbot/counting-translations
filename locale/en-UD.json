@@ -13,6 +13,7 @@
     "messageDeleted.messageContent": "```{deletedNumber:,d}``` :ɹǝqɯnu ɹᴉǝɥʇ pǝʇǝlǝp sɐɥ <@{userID}>",
 
     "commands.generic.error.embedTitle": "˙ɹoɹɹƎ",
+    "commands.generic.error.notServerOwner": "˙sᴉɥʇ op oʇ ɹǝuʍo ɹǝʌɹǝs ǝɥʇ ǝq ʇsnɯ no⅄",
     "commands.generic.error.missingAdministrator": "˙puɐɯɯoɔ sıɥʇ ǝsn oʇ suoıssıɯɹǝd `ɹoʇɐɹʇsıuıɯp∀` ǝʌɐɥ ʇsnɯ noʎ <@{authorId}>",
     "commands.generic.error.userNotFoundInDatabase": "(¿ʇǝʎ pǝʇunoɔ ʇoN) ˙ǝsɐqɐʇɐp uı punoɟ ʇou ɹǝsn pǝıɟıɔǝdS",
     "commands.generic.error.badUserConversion": "`{arg}` :ɹǝsn pǝıɟıɔǝds ʇɹǝʌuoɔ oʇ ǝןqɐu∩",

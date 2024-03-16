@@ -13,6 +13,7 @@
     "messageDeleted.messageContent": "<@{userID}> ha eliminado su número: ```{deletedNumber:,d}```",
 
     "commands.generic.error.embedTitle": "Error.",
+    "commands.generic.error.notServerOwner": "Debes ser el propietario del servidor para hacer esto.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Debes tener permisos de `Administrador` para usar este comando.",
     "commands.generic.error.userNotFoundInDatabase": "Usuario especificado no encontrado en la base de datos. (¿Aún no se ha contado?)",
     "commands.generic.error.badUserConversion": "No se puede convertir el usuario especificado: `{arg}`",

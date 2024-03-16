@@ -13,6 +13,7 @@
     "messageDeleted.messageContent": "<@{userID}> は番号を削除しました: ```{deletedNumber:,d}```",
 
     "commands.generic.error.embedTitle": "エラー。",
+    "commands.generic.error.notServerOwner": "この操作を行うには、サーバーの所有者である必要があります。",
     "commands.generic.error.missingAdministrator": "<@{authorId}> このコマンドを使用するには、`管理者`権限が必要です。",
     "commands.generic.error.userNotFoundInDatabase": "指定されたユーザーがデータベースに見つかりませんでした。(まだカウントしていませんか?)",
     "commands.generic.error.badUserConversion": "指定されたユーザーを変換できません: `{arg}`",

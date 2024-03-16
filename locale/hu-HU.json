@@ -13,6 +13,7 @@
     "messageDeleted.messageContent": "<@{userID}> törölte a számát: ```{deletedNumber:,d}```",
 
     "commands.generic.error.embedTitle": "Hiba.",
+    "commands.generic.error.notServerOwner": "A művelet végrehajtásához Önnek a szerver tulajdonosának kell lennie.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> ennek a parancsnak a használatához `Administrator` jogogosultság szükséges.",
     "commands.generic.error.userNotFoundInDatabase": "Az adott felhasználó nem található az adatbázisban. (Még nem számolt?)",
     "commands.generic.error.badUserConversion": "Az adott felhasználó nem konvertálható: `{arg}`",

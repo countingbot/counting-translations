@@ -13,6 +13,7 @@
     "messageDeleted.messageContent": "قام <@{userID}> بحذف رقمه: ```{deletedNumber:,d}```",
 
     "commands.generic.error.embedTitle": "خطأ.",
+    "commands.generic.error.notServerOwner": "يجب أن تكون مالك الخادم للقيام بذلك.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> يجب أن تملك صلاحية `Administrator` لاستعمال هذا الأمر.",
     "commands.generic.error.userNotFoundInDatabase": "المستخدم المحدد غير موجود في قاعدة البيانات. (ألم تقم بالعد بعد؟)",
     "commands.generic.error.badUserConversion": "غير قادر على تحويل المستخدم المحدد: `{arg}`",

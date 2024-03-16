@@ -13,6 +13,7 @@
     "messageDeleted.messageContent": "<@{userID}> đã xóa số của họ: ```{deletedNumber:,d}```",
 
     "commands.generic.error.embedTitle": "Lỗi.",
+    "commands.generic.error.notServerOwner": "Bạn phải là chủ sở hữu của máy chủ để thực hiện việc này.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Bạn phải có quyền `Người Quản Lý` để sử dụng câu lệnh này.",
     "commands.generic.error.userNotFoundInDatabase": "Người dùng đó không có trên cơ sở dữ liệu. (Chưa đếm chăng?)",
     "commands.generic.error.badUserConversion": "Không thể Chuyển đổi người dùng đã chọn: `{arg}`",

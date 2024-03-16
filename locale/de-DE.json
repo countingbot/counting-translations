@@ -13,6 +13,7 @@
     "messageDeleted.messageContent": "<@{userID}> hat seine Nummer gelöscht: ```{deletedNumber:,d}```",
 
     "commands.generic.error.embedTitle": "Fehler.",
+    "commands.generic.error.notServerOwner": "Sie müssen der Serverbesitzer sein, um dies tun zu können.",
     "commands.generic.error.missingAdministrator": "<@{authorId}> Du brauchst die `Administrator`-Berechtigung, damit du diesen Befehl ausführen kannst.",
     "commands.generic.error.userNotFoundInDatabase": "Der angegebene Nutzer wurde nicht gefunden. (Noch nicht gezählt?)",
     "commands.generic.error.badUserConversion": "Der angegebene Nuzer konnte nicht umgewandelt werden: `{arg}`",
