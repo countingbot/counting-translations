@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "فشل في قراءة مدة الزمن.",
     "commands.generic.enabled": "مُفعل",
     "commands.generic.disabled": "معطل",
+    "commands.generic.reset": "إعادة تعيين",
+    "commands.generic.cancel": "إلغاء",
+    "commands.generic.cancelled": "تم الإلغاء.",
 
     "commands.stats.embedTitle": "إحصائيات البوت",
     "commands.stats.embedField.global.name": "عالمي",
@@ -96,6 +99,12 @@
     "commands.language.error.invalidCode": "هذا رمز اللغة الذي قمت بإدخاله غير معروف: `{arg}`",
 
     "commands.calc.error.failedToEvaluate": "فشل التقييم.",
+
+    "commands.resetme.warning.embedDescription": "هل أنت متأكد من أنك تريد مسح بياناتك من البوت؟ **لا يمكن التراجع عن هذا الإجراء.**",
+    "commands.resetme.success.embedDescription": "تم مسح بياناتك.",
+
+    "commands.resetserver.warning.embedDescription": "هل أنت متأكد أنك تريد مسح بيانات هذه الخادم من الروبوت؟ **لا يمكن التراجع عن هذا الإجراء.**",
+    "commands.resetserver.success.embedDescription": "تم مسح بيانات هذا الخادم.",
     
     "commands.invite.embedDescription" : "إليك رابط لدعوة {{ .botName }}."
 }

@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "Nie udało się odczytać czasu trwania.",
     "commands.generic.enabled": "włączony",
     "commands.generic.disabled": "wyłączony",
+    "commands.generic.reset": "Zresetować",
+    "commands.generic.cancel": "Anuluj",
+    "commands.generic.cancelled": "Anulowano.",
 
     "commands.stats.embedTitle": "Statystyki bota",
     "commands.stats.embedField.global.name": "Globalne",
@@ -94,6 +97,12 @@
     "commands.language.error.invalidCode": "Nieznany kod języka: `{arg}`",
     
     "commands.calc.error.failedToEvaluate": "Nie udało się ocenić.",
+
+    "commands.resetme.warning.embedDescription": "Czy na pewno chcesz wyczyścić swoje dane z bota? **Tej operacji nie można cofnąć.**",
+    "commands.resetme.success.embedDescription": "Twoje dane zostały wyczyszczone.",
+
+    "commands.resetserver.warning.embedDescription": "Czy na pewno chcesz wyczyścić dane tego serwera z bota? **Tej czynności nie można cofnąć.**",
+    "commands.resetserver.success.embedDescription": "Dane tego serwera zostały wyczyszczone.",
     
     "commands.invite.embedDescription" : "Oto link do zaproszenia {{ .botName }}."
 }

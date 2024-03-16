@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "Không thể đọc được thời gian.",
     "commands.generic.enabled": "bật",
     "commands.generic.disabled": "tắt",
+    "commands.generic.reset": "Thiết lập lại",
+    "commands.generic.cancel": "Huỷ",
+    "commands.generic.cancelled": "Đã hủy.",
 
     "commands.stats.embedTitle": "Thông số Bot",
     "commands.stats.embedField.global.name": "Tổng thể",
@@ -98,6 +101,12 @@
     "commands.language.error.invalidCode": "Mã ngôn ngữ không rõ: `{arg}`",
 
     "commands.calc.error.failedToEvaluate": "Không đánh giá được.",
+
+    "commands.resetme.warning.embedDescription": "Bạn có chắc chắn muốn xóa dữ liệu của mình khỏi bot không? **Thao tác này không thể hoàn tác.**",
+    "commands.resetme.success.embedDescription": "Dữ liệu của bạn đã được xóa.",
+
+    "commands.resetserver.warning.embedDescription": "Bạn có chắc chắn muốn xóa dữ liệu của máy chủ này khỏi bot không? **Hành động này không thể hoàn tác.**",
+    "commands.resetserver.success.embedDescription": "Dữ liệu của máy chủ này đã được xóa.",
 
     "commands.invite.embedDescription" : "Đây là liên kết để mời {{ .botName }}.",
     

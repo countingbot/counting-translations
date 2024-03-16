@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "Het lezen van de tijdsduur is mislukt.",
     "commands.generic.enabled": "ingeschakeld",
     "commands.generic.disabled": "uitgeschakeld",
+    "commands.generic.reset": "Resetten",
+    "commands.generic.cancel": "Annuleren",
+    "commands.generic.cancelled": "Geannuleerd.",
 
     "commands.stats.embedTitle": "Bot Info",
     "commands.stats.embedField.global.name": "Globaal",
@@ -97,6 +100,12 @@
     "commands.language.error.invalidCode": "Onbekende taalcode: `{arg}`",
 
     "commands.calc.error.failedToEvaluate": "Kan niet evalueren.",
+
+    "commands.resetme.warning.embedDescription": "Weet je zeker dat je je gegevens van de bot wilt verwijderen? **Dit kan niet ongedaan gemaakt worden.**",
+    "commands.resetme.success.embedDescription": "Je gegevens zijn verwijderd.",
+
+    "commands.resetserver.warning.embedDescription": "Weet u zeker dat u de gegevens van deze server uit de bot wilt wissen? **Deze actie kan niet ongedaan worden gemaakt.**",
+    "commands.resetserver.success.embedDescription": "De gegevens van deze server zijn gewist.",
 
     "commands.invite.embedDescription" : "Hier is een link om {{ .botName }} uit te nodigen.",
     

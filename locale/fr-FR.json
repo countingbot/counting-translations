@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "Échec de la lecture de la durée.",
     "commands.generic.enabled": "activé",
     "commands.generic.disabled": "désactivé",
+    "commands.generic.reset": "Réinitialiser",
+    "commands.generic.cancel": "Annuler",
+    "commands.generic.cancelled": "Annulé.",
 
     "commands.stats.embedTitle": "Statistiques du bot",
     "commands.stats.embedField.global.name": "Global",
@@ -98,6 +101,12 @@
     "commands.language.error.invalidCode": "Code langue inconnu: `{arg}`",
 
     "commands.calc.error.failedToEvaluate": "Échec de l'évaluation.",
+
+    "commands.resetme.warning.embedDescription": "Êtes-vous sûr de vouloir effacer vos données du bot ? **Cette action est irréversible.**",
+    "commands.resetme.success.embedDescription": "Vos données ont été effacées.",
+    
+    "commands.resetserver.warning.embedDescription": "Voulez-vous vraiment supprimer les données de ce serveur du bot ? **Cette action est irréversible.**",
+    "commands.resetserver.success.embedDescription": "Les données de ce serveur ont été effacées.",
 
     "commands.invite.embedDescription" : "Voici un lien pour inviter {{ .botName }}.",
     

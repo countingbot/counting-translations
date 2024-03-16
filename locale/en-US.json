@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "Failed to read time duration.",
     "commands.generic.enabled": "enabled",
     "commands.generic.disabled": "disabled",
+    "commands.generic.reset": "Reset",
+    "commands.generic.cancel": "Cancel",
+    "commands.generic.cancelled": "Cancelled.",
 
     "commands.stats.embedTitle": "Bot Stats",
     "commands.stats.embedField.global.name": "Global",
@@ -98,6 +101,12 @@
     "commands.language.error.invalidCode": "Unknown language code: `{arg}`",
 
     "commands.calc.error.failedToEvaluate": "Failed to evaluate.",
+
+    "commands.resetme.warning.embedDescription": "Are you sure you would like to clear your data from the bot? **This cannot be undone.**",
+    "commands.resetme.success.embedDescription": "Your data has been cleared.",
+
+    "commands.resetserver.warning.embedDescription": "Are you sure you would like to clear this server's data from the bot? **This cannot be undone.**",
+    "commands.resetserver.success.embedDescription": "This server's data has been cleared.",
 
     "commands.invite.embedDescription" : "Click here to invite {{ .botName }}.",
 

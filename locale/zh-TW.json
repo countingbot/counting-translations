@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "無法讀取時間長度。",
     "commands.generic.enabled": "已啟用",
     "commands.generic.disabled": "已停用",
+    "commands.generic.reset": "重置",
+    "commands.generic.cancel": "取消",
+    "commands.generic.cancelled": "已取消",
 
     "commands.stats.embedTitle": "機器人數據",
     "commands.stats.embedField.global.name": "整體",
@@ -98,6 +101,12 @@
     "commands.language.error.invalidCode": "未知語言代碼：`{arg}`",
 
     "commands.calc.error.failedToEvaluate": "評價失敗。",
+
+    "commands.resetme.warning.embedDescription": "您確定要從機器人中清除您的資料嗎？ **此操作無法復原。**",
+    "commands.resetme.success.embedDescription": "您的資料已清除。",
+
+    "commands.resetserver.warning.embedDescription": "您確定要從機器人中清除此伺服器的資料嗎？ **此操作無法復原。**",
+    "commands.resetserver.success.embedDescription": "此伺服器的資料已清除。",
 
     "commands.invite.embedDescription" : "這是邀請 {{ .botName }} 的鏈接。",
     

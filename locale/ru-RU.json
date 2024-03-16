@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "Не удалось прочитать продолжительность времени.",
     "commands.generic.enabled": "включено",
     "commands.generic.disabled": "отключено",
+    "commands.generic.reset": "Сбросить",
+    "commands.generic.cancel": "Отменить",
+    "commands.generic.cancelled": "Отменено.",
 
     "commands.stats.embedTitle": "Статистика бота",
     "commands.stats.embedField.global.name": "Общие",
@@ -98,6 +101,12 @@
     "commands.language.error.invalidCode": "Неизвестный код языка: `{arg}`",
 
     "commands.calc.error.failedToEvaluate": "Не удалось оценить.",
+
+    "commands.resetme.warning.embedDescription": "Вы уверены, что хотите удалить свои данные из бота? **Это действие нельзя отменить.**",
+    "commands.resetme.success.embedDescription": "Ваши данные были очищены.",
+
+    "commands.resetserver.warning.embedDescription": "Вы уверены, что хотите очистить данные этого сервера из бота? **Это действие нельзя отменить.**",
+    "commands.resetserver.success.embedDescription": "Данные этого сервера были очищены.",
 
     "commands.invite.embedDescription" : "Вот ссылка для приглашения {{ .botName }}.",
     

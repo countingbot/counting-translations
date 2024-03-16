@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "˙uoᴉʇɐɹnp ǝɯᴉʇ pɐǝɹ oʇ pǝlᴉɐℲ",
     "commands.generic.enabled": "pǝןqɐuǝ",
     "commands.generic.disabled": "pǝןqɐsıp",
+    "commands.generic.reset": "ʇǝsǝɹ",
+    "commands.generic.cancel": "lǝɔuɐƆ",
+    "commands.generic.cancelled": "˙pǝllǝɔuɐƆ",
 
     "commands.stats.embedTitle": "sʇɐʇS ʇoq",
     "commands.stats.embedField.global.name": "ןɐqoןƃ",
@@ -97,6 +100,12 @@
     "commands.language.error.invalidCode": "`{arg}` :ǝpoɔ ǝƃɐnƃuɐן uʍouʞu∩",
 
     "commands.calc.error.failedToEvaluate": "˙ǝʇɐnlɐʌǝ oʇ pǝlᴉɐℲ",
+
+    "commands.resetme.warning.embedDescription": "**˙ǝuopun ǝq ʇouuɐɔ sᴉɥ┴** ¿ʇoq ǝɥʇ ɯoɹɟ ɐʇɐp ɹnoʎ ɹɐǝlɔ oʇ ǝʞᴉl plnoʍ noʎ ǝɹns noʎ ǝɹ∀",
+    "commands.resetme.success.embedDescription": "˙pǝɹɐǝlɔ uǝǝq sɐɥ ɐʇɐp ɹno⅄",
+
+    "commands.resetserver.warning.embedDescription": "**˙ǝuopun ǝq ʇouuɐɔ sᴉɥ┴** ¿ʇoq ǝɥʇ ɯoɹɟ ɐʇɐp s,ɹǝʌɹǝs sᴉɥʇ ɹɐǝlɔ oʇ ǝʞᴉl plnoʍ noʎ ǝɹns noʎ ǝɹ∀",
+    "commands.resetserver.success.embedDescription": "˙pǝɹɐǝlɔ uǝǝq sɐɥ ɐʇɐp s,ɹǝʌɹǝs sᴉɥ┴",
 
     "commands.invite.embedDescription" : "˙{{ .botName }} ǝʇᴉʌuᴉ oʇ ʞuᴉl ɐ s,ǝɹǝH",
     

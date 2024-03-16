@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "समय अवधि पढ़ने में त्रुटि।",
     "commands.generic.enabled": "सक्षम",
     "commands.generic.disabled": "असक्षम",
+    "commands.generic.reset": "रीसेट करें",
+    "commands.generic.cancel": "रद्द करें",
+    "commands.generic.cancelled": "रद्द कर दिया गया।",
 
     "commands.stats.embedTitle": "बोत स्टैट्स",
     "commands.stats.embedField.global.name": "विश्व",
@@ -93,6 +96,12 @@
     "commands.language.error.invalidCode": "अनजान भाषा कोड: `{arg}`",
 
     "commands.calc.error.failedToEvaluate": "मूल्यांकन करने में विफल रहा।",
+
+    "commands.resetme.warning.embedDescription": "क्या आप वाकई बॉट से अपना डेटा हटाना चाहते हैं? **इसे पूर्ववत नहीं किया जा सकता है।**",
+    "commands.resetme.success.embedDescription": "आपका डेटा हटा दिया गया है।",
+
+    "commands.resetserver.warning.embedDescription": "क्या आप वाकई इस सर्वर का डेटा बॉट से हटाना चाहते हैं? **यह कार्रवाई पूर्ववत नहीं की जा सकती है।**",
+    "commands.resetserver.success.embedDescription": "इस सर्वर का डेटा हटा दिया गया है।",
     
     "commands.invite.embedDescription" : "{{ .botName }} को आमंत्रित करने के लिए यहां एक लिंक दिया गया है।"
 }

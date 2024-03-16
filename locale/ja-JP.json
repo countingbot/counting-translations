@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "期間の読み取りに失敗しました。",
     "commands.generic.enabled": "有効",
     "commands.generic.disabled": "無効",
+    "commands.generic.reset": "リセット",
+    "commands.generic.cancel": "キャンセル",
+    "commands.generic.cancelled": "キャンセルされました",
 
     "commands.stats.embedTitle": "ボット統計",
     "commands.stats.embedField.global.name": "グローバル",
@@ -95,6 +98,12 @@
     "commands.language.error.invalidCode": "不明な言語コード: `{arg}`",
 
     "commands.calc.error.failedToEvaluate": "評価に失敗しました。",
+
+    "commands.resetme.warning.embedDescription": "ボットからデータを消去してもよろしいですか？ **これは元に戻せません。**",
+    "commands.resetme.success.embedDescription": "データが消去されました。",
+
+    "commands.resetserver.warning.embedDescription": "このサーバーのデータをボットから削除してもよろしいですか？ **この操作は元に戻せません。**",
+    "commands.resetserver.success.embedDescription": "このサーバーのデータが消去されました。",
     
     "commands.invite.embedDescription" : "ここに{{ .botName }}を招待するためのリンクがあります。"
 }

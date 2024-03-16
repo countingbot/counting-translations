@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "시간 지속 기간을 읽을 수 없습니다.",
     "commands.generic.enabled": "활성화됨",
     "commands.generic.disabled": "비활성화됨",
+    "commands.generic.reset": "재설정",
+    "commands.generic.cancel": "취소",
+    "commands.generic.cancelled": "취소되었습니다.",
 
     "commands.stats.embedTitle": "봇 통계",
     "commands.stats.embedField.global.name": "전체",
@@ -98,6 +101,12 @@
     "commands.language.error.invalidCode": "알 수 없는 언어 코드: `{arg}`",
 
     "commands.calc.error.failedToEvaluate": "평가하지 못했습니다.",
+
+    "commands.resetme.warning.embedDescription": "봇에서 데이터를 지우시겠습니까? **이 작업은 되돌릴 수 없습니다.**",
+    "commands.resetme.success.embedDescription": "데이터가 삭제되었습니다.",
+
+    "commands.resetserver.warning.embedDescription": "봇에서 이 서버의 데이터를 삭제하시겠습니까? **이 작업은 취소할 수 없습니다.**",
+    "commands.resetserver.success.embedDescription": "이 서버의 데이터가 삭제되었습니다.",
 
     "commands.invite.embedDescription" : "{{ .botName }} 초대 링크입니다.",
     

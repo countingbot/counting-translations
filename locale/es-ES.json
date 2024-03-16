@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "Error al leer la duración del tiempo.",
     "commands.generic.enabled": "activado",
     "commands.generic.disabled": "desactivado",
+    "commands.generic.reset": "Reiniciar",
+    "commands.generic.cancel": "Cancelar",
+    "commands.generic.cancelled": "Cancelado.",
 
     "commands.stats.embedTitle": "Estadísticas de bot",
     "commands.stats.embedField.global.name": "Global",
@@ -98,6 +101,12 @@
     "commands.language.error.invalidCode": "Código de idioma desconocido: `{arg}`",
 
     "commands.calc.error.failedToEvaluate": "Error al evaluar.",
+
+    "commands.resetme.warning.embedDescription": "¿Estás seguro de que quieres borrar tus datos del bot? **Esta acción no se puede deshacer.**",
+    "commands.resetme.success.embedDescription": "Tus datos han sido borrados.",
+
+    "commands.resetserver.warning.embedDescription": "¿Está seguro de que desea borrar los datos de este servidor del bot? **Esta acción no se puede deshacer.**",
+    "commands.resetserver.success.embedDescription": "Los datos de este servidor han sido borrados.",
 
     "commands.invite.embedDescription" : "Aquí hay un enlace para invitar a {{ .botName }}.",
     

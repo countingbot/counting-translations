@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "Nem sikerült leolvasni az időtartamot.",
     "commands.generic.enabled": "bekapcsolva",
     "commands.generic.disabled": "kikapcsolva",
+    "commands.generic.reset": "Visszaállít",
+    "commands.generic.cancel": "Mégsem",
+    "commands.generic.cancelled": "Mégsemítve.",
 
     "commands.stats.embedTitle": "Bot statisztikák",
     "commands.stats.embedField.global.name": "Globális",
@@ -98,6 +101,12 @@
     "commands.language.error.invalidCode": "Ismeretlen nyelvi kód: `{arg}`",
 
     "commands.calc.error.failedToEvaluate": "Értékelés sikertelen.",
+
+    "commands.resetme.warning.embedDescription": "Biztosan törölni szeretnéd az adataidat a botról? **Ez a művelet nem visszavonható.**",
+    "commands.resetme.success.embedDescription": "Az adataid törölve lettek.",
+
+    "commands.resetserver.warning.embedDescription": "Biztosan törölni szeretné a szerver adatait a botból? **Ez a művelet nem visszavonható.**",
+    "commands.resetserver.success.embedDescription": "A szerver adatai törölve lettek.",
 
     "commands.invite.embedDescription" : "Kattints ide a(z) {{ .botName }} meghívásához.",
 

@@ -19,6 +19,9 @@
     "commands.generic.error.timeDurationParseFail": "无法读取时间长度。",
     "commands.generic.enabled": "启用了",
     "commands.generic.disabled": "禁用",
+    "commands.generic.reset": "重置",
+    "commands.generic.cancel": "取消",
+    "commands.generic.cancelled": "已取消",
 
     "commands.stats.embedTitle": "机器人统计",
     "commands.stats.embedField.global.name": "全球",
@@ -98,6 +101,12 @@
     "commands.language.error.invalidCode": "未知语言代码: `{arg}`",
 
     "commands.calc.error.failedToEvaluate": "评价失败。",
+
+    "commands.resetme.warning.embedDescription": "您确定要从机器人中清除您的数据吗？ **此操作无法撤消。**",
+    "commands.resetme.success.embedDescription": "您的数据已清除。",
+
+    "commands.resetserver.warning.embedDescription": "您确定要从机器人中清除此服务器的数据吗？ **此操作无法撤消。**",
+    "commands.resetserver.success.embedDescription": "此服务器的数据已清除。",
 
     "commands.invite.embedDescription" : "这是邀请 {{ .botName }} 的链接。",
     
