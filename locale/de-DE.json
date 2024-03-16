@@ -73,12 +73,12 @@
     "commands.transfersave.error.targetHasMaxSaves": "Der angegebene Nutzer hat bereits das Maximum an Saves!",
 
     "commands.failrole.roleDisabledMessage": "Die Fehlerrolle wurde deaktiviert.",
-    "commands.failrole.roleEnabledMessage": "Die Fail-Rolle wurde auf <@&{roleID}> gesetzt.",
-    "commands.failrole.roleEnabledWithTimeoutMessage": "Die Fehlerrolle wurde auf <@&{roleID}> mit einem Timeout von `{timeout}`.",
+    "commands.failrole.roleEnabledMessage": "Die Fehlerrolle wurde auf <@&{roleID}> gesetzt.",
+    "commands.failrole.roleEnabledWithTimeoutMessage": "Die Fehlerrolle wurde auf <@&{roleID}> mit einem Timeout von `{timeout}` gesetzt.",
     "commands.failrole.error.botMissingPermissions": "Ich habe nicht die `Rollen verwalten`-Berechtigung.",
     "commands.failrole.error.roleNotFound": "Die angegebene Rolle wurde nicht gefunden: `{arg}`",
     "commands.failrole.error.cannotApplyRole": "Es wurde die angegebene Rolle gefunden (`{arg}`), aber ich habe nicht die Berechtigung um diese zu verwenden. Versuche die Rolle weiter nach unten zu verschieben.",
-    "commands.failrole.error.failedToAddRole": "Die Fail-Rolle <@&{roleID}> konnte nicht hinzugefügt werden. Dem Bot fehlt möglicherweise die Berechtigung zum Hinzufügen von Rollen. Die Fail-Rolle wurde deaktiviert.",
+    "commands.failrole.error.failedToAddRole": "Die Fehlerrolle <@&{roleID}> konnte nicht hinzugefügt werden. Dem Bot fehlt möglicherweise die Berechtigung zum Hinzufügen von Rollen. Die Fehlerrolle wurde deaktiviert.",
     "commands.failrole.error.timeoutOutOfRange": "Das Timeout muss zwischen `{low}` und `{high}` liegen.",
 
     "commands.numbersonly.embedTitle": "Der \"Nur-Zahlen-Modus\" wurde aktualisiert. Jetzt: {state}",
