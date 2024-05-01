@@ -42,7 +42,3 @@ Contributing is simple. If you are fluent in a language, we could use your help!
 - Open a PR for your changes to be merged!
 
 If you are new to using Crowdin, the interface should give you a helpful walkthrough. We understand that this is a fairly high barrier to entry, however this is the best way for us to stay organized.
-
-Notes:
-- Discord limits messages to a maximum of 2000 characters. At the moment, the only relevant string for this is the help message, so be careful when translating to stay under this limit!
- - If a string/variable is over 2000 characters, find a suitable part of the translation that can be split, and add `__MESSAGE_BREAK__` to its own line where you want to split. This will tell the bot to send multiple messages.
