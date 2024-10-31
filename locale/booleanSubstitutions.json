@@ -76,5 +76,15 @@
 		"끄기": false,
 		"활성화": true,
 		"비활성화": false
+	},
+	"zh-TW": {
+		"啟用": true,
+		"停用": false,
+		"開啟": true,
+		"關閉": false,
+		"是": true,
+		"否": false,
+		"開": true,
+		"關": false
 	}
 }
