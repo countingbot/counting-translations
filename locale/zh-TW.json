@@ -7,7 +7,7 @@
     "countProcess.warning.nextNumberIs": "下一個數字是 **{nextNumber:,d}**。",
     "countProcess.warning.waitForSomeoneElse": "等待其他人傳送 **{nextNumber:,d}**。",
     "countProcess.failAlert.embedDescription": "在[這裡](https://countingbot.com/vote)投票以獲得復活機會，以便下次繼續數數。請參閱 `{helpCmd}`。",
-    "countProcess.failAlert.messageContent": "<@{authorId}> 在**{number:,d}** 搞砸了！！下一個數字是**1**。{failReason}",
+    "countProcess.failAlert.messageContent": "<@{authorId}> 在 **{number:,d}** 搞砸了！！下一個數字是 **1**。{failReason}",
     "countProcess.newHighScore.messageContent": "新的最高分 **{highScore:,d}**!",
 
     "messageDeleted.messageContent": "<@{userID}> 刪除了數字：```{deletedNumber:,d}```",
@@ -28,7 +28,7 @@
     "commands.stats.embedField.global.name": "全域",
     "commands.stats.embedField.global.value": "**機器人總伺服器數：**`{guilds}`\n**機器人總分片數：**`{shards}`\n**目前每秒訊息數：** `{mps}`",
     "commands.stats.embedField.clusterMember.name": "這個叢集成員（分片 {assignedShards}）",
-    "commands.stats.embedField.clusterMember.value": "**已分配分片中的伺服器數：**`{guildCount}`\n**啟動時間：**`{uptime}` \n**目前每秒訊息數：**`{mps}`\n**這個伺服器的分片 ID：**`{shardId}`",
+    "commands.stats.embedField.clusterMember.value": "**已分配分片中的伺服器數：**`{guildCount}`\n**啟動時間：**`{uptime}`\n**目前每秒訊息數：**`{mps}`\n**這個伺服器的分片 ID：**`{shardId}`",
 
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.embedFooter": "由 @quaaack 製作，由 @tt2468 維護 | 伺服器數量：{guilds:,d} | 運作時間：{uptime:,d} 秒",
