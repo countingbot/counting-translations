@@ -49,6 +49,14 @@
 		"marche": true,
 		"arrêt": false
 	},
+	"id-ID": {
+		"benar": true,
+		"b": true,
+		"ya": true,
+		"salah": false,
+		"s": false,
+		"tidak": false
+	},
 	"nl-NL": {
 		"ingeschakeld": true,
 		"uitgeschakeld": false,
