@@ -1,0 +1,115 @@
+{
+    "countProcess.failReason.numbersOnly": "**Kanal berhitung ini berada dalam mode hanya angka saja.**",
+    "countProcess.failReason.doubleCount": "**Kamu tidak bisa berhitung dua angka sekaligus.**",
+    "countProcess.failReason.wrongNumber": "**Angka salah.**",
+    "countProcess.warning.memberSaveUsed": "<@{authorId}> Kamu telah menggunakan **1** pertolongan. Kamu masih punya sisa **{savesLeft:g}**.",
+    "countProcess.warning.guildSaveUsed": "<@{authorId}> Kamu telah menggunakan **1** pertolongan kelompok! Masih ada **{savesLeft:g}/2** pertolongan kelompok yang tersisa.",
+    "countProcess.warning.nextNumberIs": "Angka selanjutnya adalah **{nextNumber:,d}**.",
+    "countProcess.warning.waitForSomeoneElse": "Tunggu orang lain untuk mengirimkan **{nextNumber:,d}**.",
+    "countProcess.failAlert.embedDescription": "Pilih kami [di sini](https://countingbot.com/vote) untuk mendapatkan pertolongan supaya kamu bisa lanjut berhitung lain kali. Lihat `{helpCmd}`.",
+    "countProcess.failAlert.messageContent": "<@{authorId}> MERUSAKNYA DI **{number:,d}**!! Angka selanjutnya adalah **1**. {failReason}",
+    "countProcess.newHighScore.messageContent": "Skor tertinggi baru yaitu **{highScore:,d}**!",
+
+    "messageDeleted.messageContent": "<@{userID}> telah menghapus angkanya yaitu: ```{deletedNumber:,d}```",
+
+    "commands.generic.error.embedTitle": "Eror.",
+    "commands.generic.error.notServerOwner": "Kamu harus merupakan pemilik server untuk melakukan hal ini.",
+    "commands.generic.error.missingAdministrator": "<@{authorId}> Kamu harus memiliki izin `Administrator` untuk menggunakan perintah ini.",
+    "commands.generic.error.userNotFoundInDatabase": "Pengguna yang tertera tidak ditemukan di basis data. (Belum berhitung?)",
+    "commands.generic.error.badUserConversion": "Tidak bisa mengonversi pengguna ini: `{arg}`",
+    "commands.generic.error.timeDurationParseFail": "Gagal membaca durasi waktu.",
+    "commands.generic.enabled": "dinyalakan",
+    "commands.generic.disabled": "dimatikan",
+    "commands.generic.reset": "Atur Ulang",
+    "commands.generic.cancel": "Batalkan",
+    "commands.generic.cancelled": "Dibatalkan.",
+
+    "commands.stats.embedTitle": "Statistik Bot",
+    "commands.stats.embedField.global.name": "Global",
+    "commands.stats.embedField.global.value": "**Total kelompok bot:** `{guilds}`\n**Total shard bot:** `{shards}`\n**MPS saat ini:** `{mps}`",
+    "commands.stats.embedField.clusterMember.name": "Anggota Kluster Ini (Shard {assignedShards})",
+    "commands.stats.embedField.clusterMember.value": "**Kelompok yang tersebar di shard yang telah ditentukan:** `{guildCount}`\n**Mulai:** `{uptime}`\n**MPS saat ini:** `{mps}`\n**ID shard kelompok ini:** `{shardId}`",
+
+    "commands.help.embedDescription": "__helpMessage__",
+    "commands.help.embedFooter": "Dibuat oleh Duck#0001, Dipelihara oleh tt2468#2468 | Kelompok: {guilds:,d} | Uptime: {uptime:,d}s",
+
+    "commands.channel.content": "Kanal berhitung telah diatur menjadi <#{channelID}>.",
+
+    "commands.user.embedField.global.name": "Statistik Global",
+    "commands.user.embedField.local.name": "Statistik di `{guildName}`",
+    "commands.user.correctRate": "Nilai Benar:",
+    "commands.user.score": "Skor:",
+    "commands.user.saves": "Pertolongan:",
+    "commands.user.lastActive": "Terakhir Aktif:",
+    "commands.user.highestCount": "Hitungan Valid Tertinggi:",
+    "commands.user.savesUsed": "Penggunaan Pertolongan:",
+
+    "commands.server.currentNumber": "Angka Saat Ini:",
+    "commands.server.lastCounter": "Hitungan terakhir oleh:",
+    "commands.server.guildSaves": "Pertolongan Kelompok:",
+    "commands.server.highScore": "Skor Tertinggi:",
+    "commands.server.totalScore": "Skor Total:",
+    "commands.server.savesUsed": "Penggunaan Pertolongan:",
+    "commands.server.numbersOnly": "Mode Angka Saja:",
+    "commands.server.maths": "Matematika:",
+
+    "commands.lb.empty": "Tidak ada apa-apa.",
+    "commands.lb.embedTitle": "*SKOR TERTINGGI*",
+    "commands.lb.embedFooter": "{helpCmd} | Halaman {page}",
+    "commands.cs.embedTitle": "*SKOR SAAT INI*",
+    "commands.tlb.embedTitle": "*TOTAL SKOR*",
+    "commands.ulb.embedTitle": "*PENGGUNA TERATAS*",
+    "commands.slb.embedTitle": "*PENGGUNA TERATAS DI `{guildName}`*",
+
+    "commands.donatesave.embedTitle": "Pertolongan telah disumbangkan!",
+    "commands.donatesave.embedDescription": "`{donatedSaves:g}` pertolonganmu telah disumbangkan untuk kelompok ini dan menambahkan `{addedSaves:g}` ke total pertolongannya sehingga menjadi `{guildSaves:g}/2` pertolongan kelompok.\n\nKamu memiliki `{memberSaves:g}` pertolongan tersisa.",
+    "commands.donatesave.error.notEnoughSaves": "Kamu memerlukan setidaknya `1` pertolongan untuk bisa ikut menyumbang.",
+    "commands.donatesave.error.maxSavesReached": "Kelompok ini telah memiliki jumlah pertolongan maksimal! (2)",
+
+    "commands.transfersave.embedTitle": "Pertolongan telah ditransfer!",
+    "commands.transfersave.embedDescription": "Kamu telah mentransfer `{transferredSaves:g}` pertolongan ke <@{targetId}>. `{deductedSaves:g}` pertolongan telah dikurangi dari akun kamu.\n\nKamu memiliki `{savesLeft:g}` pertolongan tersisa.",
+    "commands.transfersave.error.noTargetSpecified": "Kamu harus menyatakan pengguna yang akan diberikan pertolongan.",
+    "commands.transfersave.error.notEnoughSaves": "Kamu harus memiliki setidaknya `{minimumSaves}` pertolongan untuk bisa mentransfer.",
+    "commands.transfersave.error.cannotSelfTransfer": "Kamu tidak bisa mentransfer pertolongan kepada dirimu sendiri!",
+    "commands.transfersave.error.targetHasMaxSaves": "Pengguna target telah memiliki jumlah pertolongan maksimal!",
+
+    "commands.failrole.roleDisabledMessage": "Peran gagal telah dimatikan.",
+    "commands.failrole.roleEnabledMessage": "Peran gagal telah diatur menjadi <@&{roleID}>.",
+    "commands.failrole.roleEnabledWithTimeoutMessage": "Peran gagal telah diatur menjadi <@&{roleID}> dengan timeout `{timeout}`.",
+    "commands.failrole.error.botMissingPermissions": "Saya tidak memiliki izin `manage_roles`.",
+    "commands.failrole.error.roleNotFound": "Tidak bisa menemukan peran yang sudah ada: `{arg}`",
+    "commands.failrole.error.cannotApplyRole": "Menemukan peran untuk `{arg}` tetapi saya tidak memiliki izin untuk menerapkannya. Coba pindahkan perannya menjadi lebih bawah pada daftarnya.",
+    "commands.failrole.error.failedToAddRole": "Peran gagal <@&{roleID}> tidak bisa ditambahkan. Bot mungkin tidak memiliki izin untuk menambahkan peran. Peran gagal telah dimatikan.",
+    "commands.failrole.error.timeoutOutOfRange": "Timeout harus di antara `{low}` dan `{high}`.",
+
+    "commands.numbersonly.embedTitle": "Mode angka saja telah {state}.",
+    "commands.numbersonly.error.invalidMode": "<@{authorId}> Tidak ditemukan mode yang valid. Mode: `enable`, `disable`.",
+
+    "commands.disablemaths.embedTitle": "Matematika adalah {state}.",
+
+    "commands.vote.embedTitle": "Pilih counting untuk mendapatkan pertolongan",
+    "commands.vote.embedDescription": "Saat ini kamu memiliki **{saves:g}/{saveSlots:g}** pertolongan.",
+    "commands.vote.embedField.name": "Pilih kami di {websiteName} untuk mendapatkan {voteReward} pertolongan",
+    "commands.vote.embedField.value.canVote": "Kamu bisa memilih sekarang. [**Pilih di sini.**]({voteURL})",
+    "commands.vote.embedField.value.cannotVote": "Kamu sudah memilih.\nKamu bisa memilih lagi {timeLeft}.",
+
+    "commands.language.embedTitle": "Bahasa bot telah diganti menjadi `{arg}` di kelompok ini.",
+    "commands.language.argumentMissing.embedTitle": "Bahasa yang tersedia:",
+    "commands.language.argumentMissing.embedDescription": "Gunakan kode bahasa yang sesuai di perintah Anda untuk mengatur bahasa bot di kelompok ini. `c!language [code]`\nUntuk membantu menerjemahkan botnya ke bahasa Anda, lihat [here](https://github.com/tt2468/counting-translations/blob/main/README.md). Jika kamu ingin melaporkan kesalahan penerjemahan, silakan pergi ke `#report-translation-issues` di [server pendukung](https://discord.gg/2saFDCd) kami.",
+    "commands.language.argumentMissing.embedField.codes.name": "Kode Bahasa",
+    "commands.language.argumentMissing.embedField.descriptions.name": "Deskripsi",
+    "commands.language.argumentMissing.embedField.needsTranslation.name": "Memerlukan Terjemahan",
+    "commands.language.error.invalidCode": "Kode bahasa tidak dikenali: `{arg}`",
+
+    "commands.calc.error.failedToEvaluate": "Gagal mengevaluasi.",
+
+    "commands.resetme.warning.embedDescription": "Apakah kamu yakin kamu ingin menghapus data kamu dari botnya? **Data ini tidak bisa dikembalikan.**",
+    "commands.resetme.success.embedDescription": "Datamu telah dihapus.",
+
+    "commands.resetserver.warning.embedDescription": "Apakah kamu yakin kamu ingin menghapus data server ini dari botnya? **Data ini tidak bisa dikembalikan.**",
+    "commands.resetserver.success.embedDescription": "Data server ini telah dihapus.",
+
+    "commands.invite.embedDescription" : "Klik di sini untuk mengundang {{ .botName }}.",
+
+    "variables.helpMessage": "**Pengaturan:**\r\n1. Buatlah sebuah kanal sebagai tempat kamu untuk berhitung.\r\n1. Ketik `c!channel` pada kanal tersebut. (Kamu harus memiliki izin `Administrator`)\r\n2. Mulai berhitung di kanalnya dari `1`.\r\n\r\n**Aturan berhitung:**\r\n\u2022 Satu orang tidak boleh berhitung dua angka berturut-turut. (Seorang teman\/rekan diperlukan)\r\n\u2022 Tidak boleh ada bot.\r\n\u2022 Jika kamu salah berhitung, sebuah \"pertolongan\" akan diambil dari jumlah pertolongan yang kamu punya jika ada. Jika tidak, hitungannya akan diatur ulang.\r\n\r\n**Pertolongan:**\r\n\u2022 Pilih kami [di sini](https:\/\/countingbot.com\/vote) untuk mendapatkan lebih banyak pertolongan. Cek jumlah pertolongan kamu menggunakan `c!vote`.\r\n\u2022 Jika kamu punya setidaknya satu pertolongan, kamu bisa lanjut berhitung meskipun kamu ada salah hitung sebelumnya.\r\n**Perintah Pengguna:** *Kolom input dengan awalan `?` opsional*\r\n\u2022 `c!cs ?[pageNumber]` - Lihat sepuluh skor tertinggi saat ini\r\n\u2022 `c!lb ?[pageNumber]` - Lihat sepuluh skor tertinggi\r\n\u2022 `c!tlb ?[pageNumber]` - Lihat sepuluh skor total tertinggi\r\n\u2022 `c!ulb ?[pageNumber]` - Lihat sepuluh pemain tertinggi\r\n\u2022 `c!slb ?[pageNumber]` - Lihat sepuluh pemain tertinggi di kelompokmu\r\n\u2022 `c!user ?[@user\/userId]` - Dapatkan statistik pengguna\r\n\u2022 `c!server` - Dapatkan statistik server ini\r\n\u2022 `c!donatesave` - Sumbang pertolongan untuk kelompok ini. (Menambahkan pertolongan kelompok sebanyak `0.2`)\r\n\u2022 `c!transfersave [@user\/userId]` - Berikan satu pertolongan dari saldomu ke pengguna lain dengan pajak `0.5`\r\n\u2022 `c!vote` - Pilih botnya dan dapatkan pertolongan\r\n\u2022 `c!calc` - Menghitung sebuah operasi matematika\r\n\u2022 `c!stats` - Menampilkan statistik bot dan shard kamu\r\n\r\n**Perintah Admin:**\r\n\u2022 `c!failrole [@role\/role id] ?[timeout]` - Mengatur peran supaya botnya bisa menambahkan anggota yang salah hitung. Untuk dinonaktifkan, jalankan perintah tanpa perlu mengisi perannya\r\n\u2022 `c!channel` - Mengonfigurasi botnya supaya mendengar kanal tertentu, alih-alih menggunakan kanal bawaan `#counting`\r\n\u2022 `c!disablemaths [on\/off]` - Menonaktifkan perhitungan dengan operasi matematika. Pesan seperti `1+1` tidak dianggap sebagai angka yang valid.\r\n\u2022 `c!numbersonly [on\/off]` - Mengaktifkan mode angka saja. Pesan yang bukan *angka* atau *bot command* yang valid akan mengacaukan perhitungan\r\n\u2022 `c!language ?[languageCode]` - Atur bahasa yang bot gunakan untuk merespons pada kelompokmu\r\n\r\n[Bergabunglah dengan Discord kami](https:\/\/discord.gg\/rMQDwMH) jika kamu memiliki pertanyaan.\r\n[Menyukai botnya? Pertimbangkanlah untuk berkontribusi dengan Patreon.](https:\/\/www.patreon.com\/counting) Ini sangat membantu kami.\r\n\r\n[Undang botnya ke kelompokmu.](https:\/\/countingbot.com\/invite)\r\n\r\nKebijakan Privasi Kami: [Di Sini](https://gist.github.com/tt2468/2fa093d75aa3ad5a6a32d42729931c33)"
+}
