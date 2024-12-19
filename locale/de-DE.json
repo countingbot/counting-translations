@@ -5,6 +5,7 @@
     "countProcess.warning.memberSaveUsed": "<@{authorId}> Du hast **1** deiner Saves verwendet. Du hast noch **{savesLeft:g}** übrig.",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Du hast **1** Serversave benutzt! Der Server hat noch **{savesLeft:g}/2**.",
     "countProcess.warning.nextNumberIs": "Die nächste Zahl ist **{nextNumber:,d}**.",
+    "countProcess.warning.accountTooYoung": "Sorry, dein account muss mindestens `7` Tage alt sein um zählen zu können.",
     "countProcess.warning.waitForSomeoneElse": "Warte, bis jemand anderes **{nextNumber:,d}** sendet.",
     "countProcess.failAlert.embedDescription": "Stimme [hier](https://countingbot.com/vote) für den Bot ab und erhalte Saves, sodass du nächstes Mal weiterzählen kannst. Siehe `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> HAT DIE REIHE BEI **{number}** ZERSTÖRT!! Die nächste Zahl ist **1**. {failReason}",

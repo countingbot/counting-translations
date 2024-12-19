@@ -5,6 +5,7 @@
     "countProcess.warning.memberSaveUsed": "<@{authorId}> Kamu telah menggunakan **1** pertolongan. Kamu masih punya sisa **{savesLeft:g}**.",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Kamu telah menggunakan **1** pertolongan kelompok! Masih ada **{savesLeft:g}/2** pertolongan kelompok yang tersisa.",
     "countProcess.warning.nextNumberIs": "Angka selanjutnya adalah **{nextNumber:,d}**.",
+    "countProcess.warning.accountTooYoung": "Maaf, akun Anda harus berusia minimal `7` hari agar dapat dihitung.",
     "countProcess.warning.waitForSomeoneElse": "Tunggu orang lain untuk mengirimkan **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "Pilih kami [di sini](https://countingbot.com/vote) untuk mendapatkan pertolongan supaya kamu bisa lanjut berhitung lain kali. Lihat `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> MERUSAKNYA DI **{number:,d}**!! Angka selanjutnya adalah **1**. {failReason}",

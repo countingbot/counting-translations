@@ -5,6 +5,7 @@
     "countProcess.warning.memberSaveUsed": "<@{authorId}> 你用了 **1** 個復活機會。你還剩下 **{savesLeft:g}** 個復活機會。",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> 你用了 **1** 個伺服器復活機會。還剩下 **{savesLeft:g}/2** 個伺服器復活機會。",
     "countProcess.warning.nextNumberIs": "下一個數字是 **{nextNumber:,d}**。",
+    "countProcess.warning.accountTooYoung": "抱歉，您的帳戶必須至少存在`7`天才能計算。",
     "countProcess.warning.waitForSomeoneElse": "等待其他人傳送 **{nextNumber:,d}**。",
     "countProcess.failAlert.embedDescription": "在[這裡](https://countingbot.com/vote)投票以獲得復活機會，以便下次繼續數數。請參閱 `{helpCmd}`。",
     "countProcess.failAlert.messageContent": "<@{authorId}> 在 **{number:,d}** 搞砸了！！下一個數字是 **1**。{failReason}",

@@ -5,6 +5,7 @@
     "countProcess.warning.memberSaveUsed": "<@{authorId}> ने अपने **1** सेव का उपयोग कर लिया है। आपके पास **{savesLeft:g}** बाकी है।",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> ने **1** समाज सेव का उपयोग कर लिया है! अब **{savesLeft:g}/2** समाज सावेश बाकी है।",
     "countProcess.warning.nextNumberIs": "अगली संख्या **{nextNumber:,d}** है।",
+    "countProcess.warning.accountTooYoung": "क्षमा करें, गिनती के लिए आपका खाता कम से कम `7` दिन पुराना होना चाहिए।",
     "countProcess.warning.waitForSomeoneElse": "किसी और व्यक्ति की प्रतीक्षा करें जो **{nextNumber:,d}** भेजता है।",
     "countProcess.failAlert.embedDescription": "[here](https://countingbot.com/vote) इधर वोट करे ताकि आप सेव पाए और अगली बार गिनती जारी रख सके। `{helpCmd}` को देखे।",
     "countProcess.failAlert.messageContent": "<@{authorId}> ने गिनती **{number:,d}** पर तबाह की!! अगली संख्या **1** है। {failReason}",

@@ -5,6 +5,7 @@
     "countProcess.warning.memberSaveUsed": "<@{authorId}> Has usado **1** de tus salvos. Te quedan **{savesLeft:g}**.",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Has usado **1** de tus salvados. Te quedan **{savesLeft:g}/2**.",
     "countProcess.warning.nextNumberIs": "El siguiente número es **{nextNumber:,d}**.",
+    "countProcess.warning.accountTooYoung": "Lo sentimos, su cuenta debe tener al menos `7` días de antigüedad para contar.",
     "countProcess.warning.waitForSomeoneElse": "Espera a que alguien más envíe **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "Vota [here](https://countingbot.com/vote) para ganar salvos para que puedas seguir contando la próxima vez. Mira `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> LO ARRUINASTE EN **{number:,d}**!! El siguiente número es **1**. {failReason}",

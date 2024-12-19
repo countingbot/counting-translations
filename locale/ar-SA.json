@@ -5,6 +5,7 @@
     "countProcess.warning.memberSaveUsed": "<@{authorId}> لقد استخدمت **1** من إجمالي حفظاتك. لديك **{savesLeft:g}** متبقي.",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> لقد استخدمت **1** حفظة للنقابة! هناك **{savesLeft:g}/2** حفظات للنقابة متبقية.",
     "countProcess.warning.nextNumberIs": "الرقم التالي هو **{nextNumber:,d}**.",
+    "countProcess.warning.accountTooYoung": "عذراً، يجب أن يكون عمر حسابك `7` أيام على الأقل حتى يتم احتسابه.",
     "countProcess.warning.waitForSomeoneElse": "انتظر شخصًا آخر يرسل **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "صوت [here](https://countingbot.com/vote) لكسب فرصة المساعدة حتى تتمكن من متابعة العد في المرة القادمة. شاهد `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> لقد قمت بالتخريب تحديدًا في **{number:,d}**!! المرة القادمة الرقم هو **1**. {failReason}",

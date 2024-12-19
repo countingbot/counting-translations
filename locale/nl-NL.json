@@ -5,6 +5,7 @@
     "countProcess.warning.memberSaveUsed": "<@{authorId}> Je hebt **1** van je saves gebruikt. Je hebt nog **{savesLeft:g}** *saves* over.",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Je hebt **1** groepssave gebruikt! Er zijn nog **{savesLeft:g}/2** groepssaves over.",
     "countProcess.warning.nextNumberIs": "Het volgende nummer is **{nextNumber:,d}**.",
+    "countProcess.warning.accountTooYoung": "Sorry, uw account moet minimaal `7` dagen oud zijn om te tellen.",
     "countProcess.warning.waitForSomeoneElse": "Wacht tot iemand anders **{nextNumber:,d}** stuurt.",
     "countProcess.failAlert.embedDescription": "Stem [hier](https://countingbot.com/vote) om saves te verdienen, zodat je de volgende keer door kan blijven tellen. Zie `{helpCmd}`.",
     "countProcess.failAlert.messageContent": "<@{authorId}> HEEFT HET VERPEST OP **{number:,d}**!! Het volgende nummer is **1**. {failReason}",
