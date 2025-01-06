@@ -1,11 +1,11 @@
 {
-    "countProcess.failReason.numbersOnly": "**このカウントチャンネルは数字のみのモードです。**",
-    "countProcess.failReason.doubleCount": "**2つの数を連続して数えることはできません。**",
-    "countProcess.failReason.wrongNumber": "番号が違う",
+    "countProcess.failReason.numbersOnly": "**このチャンネルは数字のみのモードです。**",
+    "countProcess.failReason.doubleCount": "**一人で2つの数を連続して数えることはできません。**",
+    "countProcess.failReason.wrongNumber": "番号が違います",
     "countProcess.warning.memberSaveUsed": "<@{authorId}> セーブの** 1 **を使用しました。 ** {savesLeft:g} **が残っています。",
-    "countProcess.warning.guildSaveUsed": "<@{authorId}> ** 1 **ギルドセーブを使用しました！ ** {savesLeft:g} / 2 **ギルドセーブが残っています。",
-    "countProcess.warning.nextNumberIs": "次の数字は **{nextNumber:,d}** です。",
-    "countProcess.warning.accountTooYoung": "申し訳ありませんが、カウントするにはアカウントが少なくとも `7` 日間経過している必要があります。",
+    "countProcess.warning.guildSaveUsed": "<@{authorId}> ** 1 **サーバーセーブを使用しました！ ** {savesLeft:g} / 2 **サーバーセーブが残っています。",
+    "countProcess.warning.nextNumberIs": "次は**{nextNumber:,d}** から数え始めてください。",
+    "countProcess.warning.accountTooYoung": "申し訳ありませんが、カウントするにはアカウントが少なくとも作成日から `7` 日間経過している必要があります。",
     "countProcess.warning.waitForSomeoneElse": "他の人が **{nextNumber:,d}** を送るのを待ってください。",
     "countProcess.failAlert.embedDescription": "[ここ](https://countingbot.com/vote)に投票してセーブを獲得し、次はカウントを続けられるようにしましょう。`{helpCmd}`を参照。",
     "countProcess.failAlert.messageContent": "<@{authorId}> ** {number:,d} **で台無しになりました!! 次の番号は** 1 **です。 {failReason}",
@@ -13,8 +13,8 @@
 
     "messageDeleted.messageContent": "<@{userID}> は番号を削除しました: ```{deletedNumber:,d}```",
 
-    "commands.generic.error.embedTitle": "エラー。",
-    "commands.generic.error.notServerOwner": "この操作を行うには、サーバーの所有者である必要があります。",
+    "commands.generic.error.embedTitle": "エラー",
+    "commands.generic.error.notServerOwner": "この操作を行うには、サーバーの管理者である必要があります。",
     "commands.generic.error.missingAdministrator": "<@{authorId}> このコマンドを使用するには、`管理者`権限が必要です。",
     "commands.generic.error.userNotFoundInDatabase": "指定されたユーザーがデータベースに見つかりませんでした。(まだカウントしていませんか?)",
     "commands.generic.error.badUserConversion": "指定されたユーザーを変換できません: `{arg}`",
@@ -28,29 +28,29 @@
     "commands.stats.embedTitle": "ボット統計",
     "commands.stats.embedField.global.name": "グローバル",
     "commands.stats.embedField.clusterMember.name": "このクラスターメンバー（Shards {assignedShards}）",
-    "commands.stats.embedField.clusterMember.value": "**割り当てられたシャード全体のギルド：** `{guildCount}`\n **開始：** `{uptime}`\n**現在のMPS：** `{mps}`\n**このギルドのシャードID：** `{shardId}`",
+    "commands.stats.embedField.clusterMember.value": "**割り当てられたシャード全体のサーバー：** `{guildCount}`\n **開始：** `{uptime}`\n**現在のMPS：** `{mps}`\n**このサーバーのシャードID：** `{shardId}`",
 
     "commands.help.embedDescription": "__helpMessage__",
-    "commands.help.embedFooter": "Duck＃0001製、tt2468＃2468による保守|ギルド：{guilds:,d} |稼働時間：{uptime:,d}s",
+    "commands.help.embedFooter": "Duck＃0001製、tt2468＃2468による保守|サーバー：{guilds:,d} |稼働時間：{uptime:,d}s",
 
-    "commands.channel.content": "カウント チャネルは <#{channelID}> に設定されています。",
+    "commands.channel.content": "カウントチャンネルは <#{channelID}> に設定されました。",
 
     "commands.user.embedField.global.name": "グローバル統計",
     "commands.user.embedField.local.name": "`{guildName}`の統計",
-    "commands.user.correctRate": "正しいレート：",
+    "commands.user.correctRate": "正しい割合：",
     "commands.user.score": "スコア：",
     "commands.user.saves": "セーブ：",
-    "commands.user.lastActive": "最後にログインした時：",
-    "commands.user.highestCount": "最大有効数：",
+    "commands.user.lastActive": "最後にカウントした時：",
+    "commands.user.highestCount": "カウントした最大値：",
     "commands.user.savesUsed": "使用されたセーブ：",
 
     "commands.server.currentNumber": "現在の数：",
     "commands.server.lastCounter": "最後にカウントしたユーザー：",
-    "commands.server.guildSaves": "ギルドセーブ：",
+    "commands.server.guildSaves": "サーバーセーブ：",
     "commands.server.highScore": "ハイスコア：",
     "commands.server.totalScore": "合計スコア：",
     "commands.server.savesUsed": "使用したセーブ：",
-    "commands.server.numbersOnly": "ナンバーオンリーモード：",
+    "commands.server.numbersOnly": "数字のみのモード：",
     "commands.server.maths": "数学：",
 
     "commands.lb.empty": "何も表示されません。",
@@ -61,9 +61,9 @@
     "commands.ulb.embedTitle": "*トップユーザー*",
     "commands.slb.embedTitle": "* `{guildName}`のトップユーザー*",
 
-    "commands.donatesave.embedTitle": "セーブが寄付されました!",
+    "commands.donatesave.embedTitle": "セーブがサーバーに寄付されました!",
     "commands.donatesave.error.notEnoughSaves": "セーブを寄付するには、少なくとも`1`セーブが必要です。",
-    "commands.donatesave.error.maxSavesReached": "このギルドは既に最大数のセーブを持っています! (2)",
+    "commands.donatesave.error.maxSavesReached": "このサーバーには既に最大数のセーブを持っています! (2)",
 
     "commands.transfersave.embedTitle": "セーブが転送されました!",
     "commands.transfersave.error.noTargetSpecified": "セーブを転送するユーザーを指定する必要があります。",
@@ -85,26 +85,26 @@
 
     "commands.disablemaths.embedTitle": "数学は {state}。",
 
-    "commands.vote.embedTitle": "セーブを獲得するためにカウントに投票する",
+    "commands.vote.embedTitle": "セーブを獲得するために投票する",
     "commands.vote.embedDescription": "現在、**{saves:g}/{saveSlots:g} **のセーブがあります。",
     "commands.vote.embedField.name": "{websiteName} で投票して {voteReward} セーブを獲得する",
     "commands.vote.embedField.value.canVote": "今すぐ投票できます。[**ここで投票してください。**]({voteURL})",
     "commands.vote.embedField.value.cannotVote": "既に投票済みです。\n{timeLeft} に再度投票できます。",
 
-    "commands.language.embedTitle": "このギルドでのボットの言語は`{arg}`に変更されました。",
+    "commands.language.embedTitle": "このサーバーでのボットの言語は`{arg}`に変更されました。",
     "commands.language.argumentMissing.embedTitle": "利用可能な言語:",
-    "commands.language.argumentMissing.embedDescription": "コマンドで対応する言語コードを使用して、このギルドでボット言語を設定します。 `c!language \n[code]`\nボットをあなたの言語に翻訳するのを手伝うために、を見てください [here](https://github.com/tt2468/countingtranslations/blob/main/README.md). 翻訳に関する問題を報告したい場合は、にアクセスしてください。`#report-translation-issues` 私たちの [support server](https://discord.gg/2saFDCd).",
+    "commands.language.argumentMissing.embedDescription": "コマンドで対応する言語コードを使用して、このサーバーでボット言語を設定します。 `c!language \n[code]`\nボットをあなたの言語に翻訳するのを手伝うために、見てください [here](https://github.com/tt2468/countingtranslations/blob/main/README.md). 翻訳に関する問題を報告したい場合は、アクセスしてください。`#report-translation-issues` 私たちの [サポートサーバー](https://discord.gg/2saFDCd).",
     "commands.language.argumentMissing.embedField.codes.name": "言語コード",
     "commands.language.argumentMissing.embedField.descriptions.name": "説明",
     "commands.language.argumentMissing.embedField.needsTranslation.name": "翻訳が必要",
     "commands.language.error.invalidCode": "不明な言語コード: `{arg}`",
 
-    "commands.calc.error.failedToEvaluate": "評価に失敗しました。",
+    "commands.calc.error.failedToEvaluate": "計算に失敗しました。",
 
-    "commands.resetme.warning.embedDescription": "ボットからデータを消去してもよろしいですか？ **これは元に戻せません。**",
+    "commands.resetme.warning.embedDescription": "ボットからデータを消去してもよろしいですか？ **この操作を取り消すことはできません。**",
     "commands.resetme.success.embedDescription": "データが消去されました。",
 
-    "commands.resetserver.warning.embedDescription": "このサーバーのデータをボットから削除してもよろしいですか？ **この操作は元に戻せません。**",
+    "commands.resetserver.warning.embedDescription": "このサーバーのデータをボットから削除してもよろしいですか？ **この操作を取り消すことはできまません。**",
     "commands.resetserver.success.embedDescription": "このサーバーのデータが消去されました。",
     
     "commands.invite.embedDescription" : "ここに{{ .botName }}を招待するためのリンクがあります。"
