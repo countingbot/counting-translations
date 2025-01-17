@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "在资料库中找不到指定的用户。 （还没统计？）",
     "commands.generic.error.badUserConversion": "无法更换指定用户：`{arg}`",
     "commands.generic.error.timeDurationParseFail": "无法读取时间长度。",
+    "commands.generic.error.wrongUser": "只有 {user} 可以执行此操作。",
     "commands.generic.enabled": "启用了",
     "commands.generic.disabled": "禁用",
     "commands.generic.reset": "重置",

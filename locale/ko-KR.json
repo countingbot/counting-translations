@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "해당 사용자가 데이터베이스에서 발견되지 않았습니다. (해당 사용자가 센 적이 있는지 확인해주세요.)",
     "commands.generic.error.badUserConversion": "사용자 `{arg}` 을(를) 컨버팅 하는데 실패했습니다.",
     "commands.generic.error.timeDurationParseFail": "시간 지속 기간을 읽을 수 없습니다.",
+    "commands.generic.error.wrongUser": "{user}만 이 작업을 수행할 수 있습니다.",
     "commands.generic.enabled": "활성화됨",
     "commands.generic.disabled": "비활성화됨",
     "commands.generic.reset": "재설정",

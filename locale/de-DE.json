@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "Der angegebene Nutzer wurde nicht gefunden. (Noch nicht gezählt?)",
     "commands.generic.error.badUserConversion": "Der angegebene Nuzer konnte nicht umgewandelt werden: `{arg}`",
     "commands.generic.error.timeDurationParseFail": "Fehler beim Lesen der Zeitdauer.",
+    "commands.generic.error.wrongUser": "Nur {user} kann dies tun.",
     "commands.generic.enabled": "Aktiviert",
     "commands.generic.disabled": "Deaktiviert",
     "commands.generic.reset": "Zurücksetzen",

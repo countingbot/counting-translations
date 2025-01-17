@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "Betreffende gebruiker is nog niet in de database gevonden (Heeft hij al geteld?)",
     "commands.generic.error.badUserConversion": "De gebruiker `{arg}` kon niet omgezet worden.",
     "commands.generic.error.timeDurationParseFail": "Het lezen van de tijdsduur is mislukt.",
+    "commands.generic.error.wrongUser": "Alleen {user} kan dit doen.",
     "commands.generic.enabled": "ingeschakeld",
     "commands.generic.disabled": "uitgeschakeld",
     "commands.generic.reset": "Resetten",

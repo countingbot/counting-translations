@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "Usuário especificado não encontrado no banco de dados. (Ainda não contou?)",
     "commands.generic.error.badUserConversion": "Não foi possível converter o usuário especificado: `{arg}`",
     "commands.generic.error.timeDurationParseFail": "Falha ao ler a duração do tempo.",
+    "commands.generic.error.wrongUser": "Somente {user} pode fazer isso.",
     "commands.generic.enabled": "habilitado",
     "commands.generic.disabled": "desabilitado",
     "commands.generic.reset": "Reiniciar",

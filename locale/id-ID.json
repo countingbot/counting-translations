@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "Pengguna yang tertera tidak ditemukan di basis data. (Belum berhitung?)",
     "commands.generic.error.badUserConversion": "Tidak bisa mengonversi pengguna ini: `{arg}`",
     "commands.generic.error.timeDurationParseFail": "Gagal membaca durasi waktu.",
+    "commands.generic.error.wrongUser": "Hanya {user} yang dapat melakukan ini.",
     "commands.generic.enabled": "dinyalakan",
     "commands.generic.disabled": "dimatikan",
     "commands.generic.reset": "Atur Ulang",

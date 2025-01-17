@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "在資料庫中找不到指定的使用者。（還沒數數過？）",
     "commands.generic.error.badUserConversion": "無法轉換指定的使用者：`{arg}`",
     "commands.generic.error.timeDurationParseFail": "無法讀取時間長度。",
+    "commands.generic.error.wrongUser": "只有 {user} 可以執行此操作。",
     "commands.generic.enabled": "已啟用",
     "commands.generic.disabled": "已停用",
     "commands.generic.reset": "重設",

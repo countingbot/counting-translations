@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "指定されたユーザーがデータベースに見つかりませんでした。(まだカウントしていませんか?)",
     "commands.generic.error.badUserConversion": "指定されたユーザーを変換できません: `{arg}`",
     "commands.generic.error.timeDurationParseFail": "期間の読み取りに失敗しました。",
+    "commands.generic.error.wrongUser": "これを実行できるのは {user} のみです。",
     "commands.generic.enabled": "有効",
     "commands.generic.disabled": "無効",
     "commands.generic.reset": "リセット",

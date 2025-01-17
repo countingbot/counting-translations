@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "Wymieniony użytkownik nie znaleziony w bazie danych (Jeszcze nie liczył/a?)",
     "commands.generic.error.badUserConversion": "Nie udało się skonwertować użytkownika `{arg}`",
     "commands.generic.error.timeDurationParseFail": "Nie udało się odczytać czasu trwania.",
+    "commands.generic.error.wrongUser": "Tylko {user} może to zrobić.",
     "commands.generic.enabled": "włączony",
     "commands.generic.disabled": "wyłączony",
     "commands.generic.reset": "Zresetować",

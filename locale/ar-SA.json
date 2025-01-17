@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "المستخدم المحدد غير موجود في قاعدة البيانات. (ألم تقم بالعد بعد؟)",
     "commands.generic.error.badUserConversion": "غير قادر على تحويل المستخدم المحدد: `{arg}`",
     "commands.generic.error.timeDurationParseFail": "فشل في قراءة مدة الزمن.",
+    "commands.generic.error.wrongUser": "فقط {user} يمكنه القيام بذلك.",
     "commands.generic.enabled": "مُفعل",
     "commands.generic.disabled": "معطل",
     "commands.generic.reset": "إعادة تعيين",

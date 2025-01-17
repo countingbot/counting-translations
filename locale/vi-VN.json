@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "Người dùng đó không có trên cơ sở dữ liệu. (Chưa đếm chăng?)",
     "commands.generic.error.badUserConversion": "Không thể Chuyển đổi người dùng đã chọn: `{arg}`",
     "commands.generic.error.timeDurationParseFail": "Không thể đọc được thời gian.",
+    "commands.generic.error.wrongUser": "Chỉ có {user} mới có thể thực hiện việc này.",
     "commands.generic.enabled": "bật",
     "commands.generic.disabled": "tắt",
     "commands.generic.reset": "Thiết lập lại",

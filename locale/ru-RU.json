@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "Этот пользователь не был найден в базе данных. (Возможно, он ещё не считал)",
     "commands.generic.error.badUserConversion": "Не удалось преобразовать пользователя `{arg}`",
     "commands.generic.error.timeDurationParseFail": "Не удалось прочитать продолжительность времени.",
+    "commands.generic.error.wrongUser": "Это может сделать только {user}.",
     "commands.generic.enabled": "включено",
     "commands.generic.disabled": "отключено",
     "commands.generic.reset": "Сбросить",

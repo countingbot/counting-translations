@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "निर्दिष्ट यूजर डेटाबेस में नहीं मिल पाए। (अभी तक गिनती नहीं की ?)",
     "commands.generic.error.badUserConversion": "निर्दिष्ट यूजर को परिवर्तित करने में असफल: `{arg}`",
     "commands.generic.error.timeDurationParseFail": "समय अवधि पढ़ने में त्रुटि।",
+    "commands.generic.error.wrongUser": "केवल {user} ही ऐसा कर सकता है.",
     "commands.generic.enabled": "सक्षम",
     "commands.generic.disabled": "असक्षम",
     "commands.generic.reset": "रीसेट करें",

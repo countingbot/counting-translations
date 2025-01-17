@@ -19,6 +19,7 @@
     "commands.generic.error.userNotFoundInDatabase": "Az adott felhasználó nem található az adatbázisban. (Még nem számolt?)",
     "commands.generic.error.badUserConversion": "Az adott felhasználó nem konvertálható: `{arg}`",
     "commands.generic.error.timeDurationParseFail": "Nem sikerült leolvasni az időtartamot.",
+    "commands.generic.error.wrongUser": "Ezt csak {user} tudja megtenni.",
     "commands.generic.enabled": "bekapcsolva",
     "commands.generic.disabled": "kikapcsolva",
     "commands.generic.reset": "Visszaállít",
