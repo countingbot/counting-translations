@@ -25,6 +25,7 @@
     "commands.generic.reset": "重設",
     "commands.generic.cancel": "取消",
     "commands.generic.cancelled": "已取消",
+    "commands.generic.useOtherCommand": "請使用指令 {commandName}。",
 
     "commands.stats.embedTitle": "機器人統計資料",
     "commands.stats.embedField.global.name": "全域",

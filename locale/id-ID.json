@@ -25,6 +25,7 @@
     "commands.generic.reset": "Atur Ulang",
     "commands.generic.cancel": "Batalkan",
     "commands.generic.cancelled": "Dibatalkan.",
+    "commands.generic.useOtherCommand": "Silakan gunakan perintah {commandName}.",
 
     "commands.stats.embedTitle": "Statistik Bot",
     "commands.stats.embedField.global.name": "Global",

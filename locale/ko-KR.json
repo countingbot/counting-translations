@@ -25,6 +25,7 @@
     "commands.generic.reset": "재설정",
     "commands.generic.cancel": "취소",
     "commands.generic.cancelled": "취소되었습니다.",
+    "commands.generic.useOtherCommand": "{commandName} 명령어를 사용하세요.",
 
     "commands.stats.embedTitle": "봇 통계",
     "commands.stats.embedField.global.name": "전체",

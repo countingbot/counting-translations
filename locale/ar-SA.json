@@ -25,6 +25,7 @@
     "commands.generic.reset": "إعادة تعيين",
     "commands.generic.cancel": "إلغاء",
     "commands.generic.cancelled": "تم الإلغاء.",
+    "commands.generic.useOtherCommand": "الرجاء استخدام الأمر {commandName}.",
 
     "commands.stats.embedTitle": "إحصائيات البوت",
     "commands.stats.embedField.global.name": "عالمي",

@@ -25,6 +25,7 @@
     "commands.generic.reset": "ʇǝsǝɹ",
     "commands.generic.cancel": "lǝɔuɐƆ",
     "commands.generic.cancelled": "˙pǝllǝɔuɐƆ",
+    "commands.generic.useOtherCommand": "˙{commandName} puɐɯɯoɔ ǝɥʇ ǝsn ǝsɐǝlԀ",
 
     "commands.stats.embedTitle": "sʇɐʇS ʇoq",
     "commands.stats.embedField.global.name": "ןɐqoןƃ",

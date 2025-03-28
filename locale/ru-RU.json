@@ -25,6 +25,7 @@
     "commands.generic.reset": "Сбросить",
     "commands.generic.cancel": "Отменить",
     "commands.generic.cancelled": "Отменено.",
+    "commands.generic.useOtherCommand": "Пожалуйста, используйте команду {commandName}.",
 
     "commands.stats.embedTitle": "Статистика бота",
     "commands.stats.embedField.global.name": "Общие",

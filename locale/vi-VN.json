@@ -25,6 +25,7 @@
     "commands.generic.reset": "Thiết lập lại",
     "commands.generic.cancel": "Huỷ",
     "commands.generic.cancelled": "Đã hủy.",
+    "commands.generic.useOtherCommand": "Vui lòng sử dụng lệnh {commandName}.",
 
     "commands.stats.embedTitle": "Thông số Bot",
     "commands.stats.embedField.global.name": "Tổng thể",

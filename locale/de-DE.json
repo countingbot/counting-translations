@@ -25,6 +25,7 @@
     "commands.generic.reset": "Zurücksetzen",
     "commands.generic.cancel": "Abbrechen",
     "commands.generic.cancelled": "Abgebrochen.",
+    "commands.generic.useOtherCommand": "Bitte verwenden Sie den Befehl {commandName}.",
 
     "commands.stats.embedTitle": "Statistiken vom Bot",
     "commands.stats.embedField.global.name": "Global",

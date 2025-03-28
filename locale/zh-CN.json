@@ -25,6 +25,7 @@
     "commands.generic.reset": "重置",
     "commands.generic.cancel": "取消",
     "commands.generic.cancelled": "已取消",
+    "commands.generic.useOtherCommand": "请使用命令 {commandName}。",
 
     "commands.stats.embedTitle": "机器人统计",
     "commands.stats.embedField.global.name": "全球",

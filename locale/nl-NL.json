@@ -25,6 +25,7 @@
     "commands.generic.reset": "Resetten",
     "commands.generic.cancel": "Annuleren",
     "commands.generic.cancelled": "Geannuleerd.",
+    "commands.generic.useOtherCommand": "Gebruik de opdracht {commandName}.",
 
     "commands.stats.embedTitle": "Bot Info",
     "commands.stats.embedField.global.name": "Globaal",

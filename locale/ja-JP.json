@@ -25,6 +25,7 @@
     "commands.generic.reset": "リセット",
     "commands.generic.cancel": "キャンセル",
     "commands.generic.cancelled": "キャンセルされました",
+    "commands.generic.useOtherCommand": "コマンド {commandName} を使用してください。",
 
     "commands.stats.embedTitle": "ボット統計",
     "commands.stats.embedField.global.name": "グローバル",

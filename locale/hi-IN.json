@@ -25,6 +25,7 @@
     "commands.generic.reset": "रीसेट करें",
     "commands.generic.cancel": "रद्द करें",
     "commands.generic.cancelled": "रद्द कर दिया गया।",
+    "commands.generic.useOtherCommand": "कृपया {commandName} कमांड का उपयोग करें.",
 
     "commands.stats.embedTitle": "बोत स्टैट्स",
     "commands.stats.embedField.global.name": "विश्व",

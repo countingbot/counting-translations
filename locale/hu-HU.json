@@ -25,6 +25,7 @@
     "commands.generic.reset": "Visszaállít",
     "commands.generic.cancel": "Mégsem",
     "commands.generic.cancelled": "Mégsemítve.",
+    "commands.generic.useOtherCommand": "Kérjük, használja a {commandName} parancsot.",
 
     "commands.stats.embedTitle": "Bot statisztikák",
     "commands.stats.embedField.global.name": "Globális",
