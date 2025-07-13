@@ -70,6 +70,7 @@
     "commands.help.embedFooter": "Creato da Duck#0001, Manutenzione a carico di tt2468#2468 | Guilds: {guilds:,d} | Uptime: {uptime:,d}s",
 
     "commands.channel.content": "Il canale di conteggio è stato impostato su <#{channelID}>.",
+    "commands.channel.missingPermissions": "<@{botID}> mancano i seguenti permessi in questo canale:",
 
     "commands.user.embedField.global.name": "Statistiche Globali",
     "commands.user.embedField.local.name": "Statistiche di `{guildName}`",
@@ -146,6 +147,11 @@
     "commands.resetserver.success.embedDescription": "I dati di questo server sono stati eliminati.",
 
     "commands.invite.embedDescription" : "Ecco un link per invitare {{ .botName }}.",
+
+    "permissions.sendMessages": "Invia Messaggi",
+    "permissions.embedLinks": "Incorpora Link",
+    "permissions.addReactions": "Aggiungi Reazioni",
+    "permissions.readMessageHistory": "Leggi Cronologia Messaggi",
     
     "variables.helpMessage": "**Configurazione:**\n1. Creare un canale in cui si considera contare.\n2. Digitare `c!channel` in quel canale. (Sono necessari i permessi di `Administratore`)\n3. Iniziare a contare in quel canale partendo da `1`.\n\n**Regolamento counting:**\n• Un utente non può contare due numeri di seguito. (È necessario un amico/partner)\n• No botting.\n• Se si interrompe la conta, un \"save\" verrà detratto dal proprio account se disponibili. Altrimenti la conta verrà resettata.\n\n**Saves:**\n• Vota [qui](https://countingbot.com/vote) per ottenere saves. È possibile controllare il saldo con `c!vote`.\n• Se si ha almeno un save, è possibile continuare a contare dopo aver inviato un numero sbagliato.\n**Comandi utente:** *I campi prefissati con `?` sono opzionali*\n• `c!cs ?[pageNumber]` - Visualizza la top ten dei punteggi attuali\n• `c!lb ?[pageNumber]` - Visualizza la top ten dei punteggi migliori\n• `c!tlb ?[pageNumber]` - Visualizza i dieci punteggi totali migliori\n• `c!ulb ?[pageNumber]` - Visualizza la top ten degli utenti\n• `c!slb ?[pageNumber]` - Visualizza la top ten degli utenti nel proprio server\n• `c!user ?[@user/userId]` - Ottiene le statistiche di un utente\n• `c!server` - Ottiene le statistiche sul proprio server\n• `c!donatesave` - Dona un save nella guild corrente. (Aggiunge `0.2` guild saves)\n• `c!transfersave [@user/userId]` - Regala un save dal proprio saldo a un altro utente con una tassa di `0.5`\n• `c!vote` - Vota il bot e ottieni saves\n• `c!calc` - Valutare un'espressione matematica\n• `c!stats` - Mostra le statistiche del bot e sulla propria guild corrente\n\n**Comandi Admin:**\n• `c!failrole [@role/role id] ?[timeout]` - Imposta un ruolo per assegnare tutti i membri che rovineranno la conta. Per disattivarlo, eseguire di nuovo il comando senza specificare il ruolo.\n• `c!channel` - Configura il bot per assegnarlo su un canale specifico, invece del canale predefinito `#counting`\n• `c!disablemaths [on/off]` - Disabilita il conteggio con la matematica. I messaggi come `1+1` non verranno considerati come un numero valido.\n• `c!numbersonly [on/off]` - Imposta la modalità solo numeri. Rovina la conta se qualsiasi messaggio invitato non è un valido *numero* o *comando bot*.\n• `c!language ?[languageCode]` - Imposta la lingua del bot nella guild corrente\n\n[Unisciti al nostro Discord](https://discord.gg/rMQDwMH) per assistenza sul bot.\n[Ti piace il bot? Considera contribuire al Patreon.](https://www.patreon.com/counting) Ci aiuterà un sacco.\n\n[Invita il bot nel tuo server.](https://countingbot.com/invite)\n"
 }

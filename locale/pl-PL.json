@@ -67,6 +67,7 @@
     "commands.help.embedFooter": "Stworzony przez Duck#0001, utrzymywany przez tt2468#2468 | Gildie: {guilds:,d} | Od uruchomienia: {uptime:,d}s",
 
     "commands.channel.content": "Kanał zliczania został ustawiony na <#{channelID}>.",
+    "commands.channel.missingPermissions": "<@{botID}> brakuje następujących uprawnień w tym kanale:",
     
     "commands.user.embedField.global.name": "Globalne statystyki",
     "commands.user.embedField.local.name": "Statystyki w `{guildName}`",
@@ -141,5 +142,10 @@
     "commands.resetserver.warning.embedDescription": "Czy na pewno chcesz wyczyścić dane tego serwera z bota? **Tej czynności nie można cofnąć.**",
     "commands.resetserver.success.embedDescription": "Dane tego serwera zostały wyczyszczone.",
     
-    "commands.invite.embedDescription" : "Oto link do zaproszenia {{ .botName }}."
+    "commands.invite.embedDescription" : "Oto link do zaproszenia {{ .botName }}.",
+
+    "permissions.sendMessages": "Wysyłaj wiadomości",
+    "permissions.embedLinks": "Osadzaj linki",
+    "permissions.addReactions": "Dodawaj reakcje",
+    "permissions.readMessageHistory": "Czytaj historię wiadomości"
 }

@@ -67,6 +67,7 @@
     "commands.help.embedFooter": "Duck#0001 द्वारा बनाया गया, tt2468#2468 द्वारा संभाला गया | समाज: {guilds:,d} | अपटाइम: {uptime:,d}s",
 
     "commands.channel.content": "मतगणना चैनल को <#{channelID}> पर सेट किया गया है।",
+    "commands.channel.missingPermissions": "<@{botID}> इस चैनल में निम्नलिखित अनुमतियाँ गायब हैं:",
 
     "commands.user.embedField.global.name": "विश्व स्टैट्स",
     "commands.user.embedField.local.name": "`{guildName}` समाज में स्टैट्स",
@@ -140,5 +141,10 @@
     "commands.resetserver.warning.embedDescription": "क्या आप वाकई इस सर्वर का डेटा बॉट से हटाना चाहते हैं? **यह कार्रवाई पूर्ववत नहीं की जा सकती है।**",
     "commands.resetserver.success.embedDescription": "इस सर्वर का डेटा हटा दिया गया है।",
     
-    "commands.invite.embedDescription" : "{{ .botName }} को आमंत्रित करने के लिए यहां एक लिंक दिया गया है।"
+    "commands.invite.embedDescription" : "{{ .botName }} को आमंत्रित करने के लिए यहां एक लिंक दिया गया है।",
+
+    "permissions.sendMessages": "संदेश भेजें",
+    "permissions.embedLinks": "लिंक एम्बेड करें",
+    "permissions.addReactions": "प्रतिक्रियाएँ जोड़ें",
+    "permissions.readMessageHistory": "संदेश इतिहास पढ़ें"
 }

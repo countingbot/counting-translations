@@ -69,6 +69,7 @@
     "commands.help.embedFooter": "Duck＃0001製、tt2468＃2468による保守|サーバー：{guilds:,d} |稼働時間：{uptime:,d}s",
 
     "commands.channel.content": "カウントチャンネルは <#{channelID}> に設定されました。",
+    "commands.channel.missingPermissions": "<@{botID}> このチャンネルで以下の権限が不足しています：",
 
     "commands.user.embedField.global.name": "グローバル統計",
     "commands.user.embedField.local.name": "`{guildName}`の統計",
@@ -142,5 +143,10 @@
     "commands.resetserver.warning.embedDescription": "このサーバーのデータをボットから削除してもよろしいですか？ **この操作を取り消すことはできまません。**",
     "commands.resetserver.success.embedDescription": "このサーバーのデータが消去されました。",
     
-    "commands.invite.embedDescription" : "ここに{{ .botName }}を招待するためのリンクがあります。"
+    "commands.invite.embedDescription" : "ここに{{ .botName }}を招待するためのリンクがあります。",
+
+    "permissions.sendMessages": "メッセージを送信",
+    "permissions.embedLinks": "リンクを埋め込む",
+    "permissions.addReactions": "リアクションを追加",
+    "permissions.readMessageHistory": "メッセージ履歴を読み取る"
 }

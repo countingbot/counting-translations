@@ -70,6 +70,7 @@
     "commands.help.embedFooter": "Dibuat oleh Duck#0001, Dipelihara oleh tt2468#2468 | Kelompok: {guilds:,d} | Uptime: {uptime:,d}s",
 
     "commands.channel.content": "Kanal berhitung telah diatur menjadi <#{channelID}>.",
+    "commands.channel.missingPermissions": "<@{botID}> kehilangan izin berikut di saluran ini:",
 
     "commands.user.embedField.global.name": "Statistik Global",
     "commands.user.embedField.local.name": "Statistik di `{guildName}`",
@@ -146,6 +147,11 @@
     "commands.resetserver.success.embedDescription": "Data server ini telah dihapus.",
 
     "commands.invite.embedDescription" : "Klik di sini untuk mengundang {{ .botName }}.",
+
+    "permissions.sendMessages": "Kirim Pesan",
+    "permissions.embedLinks": "Sematkan Tautan",
+    "permissions.addReactions": "Tambahkan Reaksi",
+    "permissions.readMessageHistory": "Baca Riwayat Pesan",
 
     "variables.helpMessage": "**Pengaturan:**\r\n1. Buatlah sebuah kanal sebagai tempat kamu untuk berhitung.\r\n1. Ketik `c!channel` pada kanal tersebut. (Kamu harus memiliki izin `Administrator`)\r\n2. Mulai berhitung di kanalnya dari `1`.\r\n\r\n**Aturan berhitung:**\r\n\u2022 Satu orang tidak boleh berhitung dua angka berturut-turut. (Seorang teman\/rekan diperlukan)\r\n\u2022 Tidak boleh ada bot.\r\n\u2022 Jika kamu salah berhitung, sebuah \"pertolongan\" akan diambil dari jumlah pertolongan yang kamu punya jika ada. Jika tidak, hitungannya akan diatur ulang.\r\n\r\n**Pertolongan:**\r\n\u2022 Pilih kami [di sini](https:\/\/countingbot.com\/vote) untuk mendapatkan lebih banyak pertolongan. Cek jumlah pertolongan kamu menggunakan `c!vote`.\r\n\u2022 Jika kamu punya setidaknya satu pertolongan, kamu bisa lanjut berhitung meskipun kamu ada salah hitung sebelumnya.\r\n**Perintah Pengguna:** *Kolom input dengan awalan `?` opsional*\r\n\u2022 `c!cs ?[pageNumber]` - Lihat sepuluh skor tertinggi saat ini\r\n\u2022 `c!lb ?[pageNumber]` - Lihat sepuluh skor tertinggi\r\n\u2022 `c!tlb ?[pageNumber]` - Lihat sepuluh skor total tertinggi\r\n\u2022 `c!ulb ?[pageNumber]` - Lihat sepuluh pemain tertinggi\r\n\u2022 `c!slb ?[pageNumber]` - Lihat sepuluh pemain tertinggi di kelompokmu\r\n\u2022 `c!user ?[@user\/userId]` - Dapatkan statistik pengguna\r\n\u2022 `c!server` - Dapatkan statistik server ini\r\n\u2022 `c!donatesave` - Sumbang pertolongan untuk kelompok ini. (Menambahkan pertolongan kelompok sebanyak `0.2`)\r\n\u2022 `c!transfersave [@user\/userId]` - Berikan satu pertolongan dari saldomu ke pengguna lain dengan pajak `0.5`\r\n\u2022 `c!vote` - Pilih botnya dan dapatkan pertolongan\r\n\u2022 `c!calc` - Menghitung sebuah operasi matematika\r\n\u2022 `c!stats` - Menampilkan statistik bot dan shard kamu\r\n\r\n**Perintah Admin:**\r\n\u2022 `c!failrole [@role\/role id] ?[timeout]` - Mengatur peran supaya botnya bisa menambahkan anggota yang salah hitung. Untuk dinonaktifkan, jalankan perintah tanpa perlu mengisi perannya\r\n\u2022 `c!channel` - Mengonfigurasi botnya supaya mendengar kanal tertentu, alih-alih menggunakan kanal bawaan `#counting`\r\n\u2022 `c!disablemaths [on\/off]` - Menonaktifkan perhitungan dengan operasi matematika. Pesan seperti `1+1` tidak dianggap sebagai angka yang valid.\r\n\u2022 `c!numbersonly [on\/off]` - Mengaktifkan mode angka saja. Pesan yang bukan *angka* atau *bot command* yang valid akan mengacaukan perhitungan\r\n\u2022 `c!language ?[languageCode]` - Atur bahasa yang bot gunakan untuk merespons pada kelompokmu\r\n\r\n[Bergabunglah dengan Discord kami](https:\/\/discord.gg\/rMQDwMH) jika kamu memiliki pertanyaan.\r\n[Menyukai botnya? Pertimbangkanlah untuk berkontribusi dengan Patreon.](https:\/\/www.patreon.com\/counting) Ini sangat membantu kami.\r\n\r\n[Undang botnya ke kelompokmu.](https:\/\/countingbot.com\/invite)\r\n\r\nKebijakan Privasi Kami: [Di Sini](https://gist.github.com/tt2468/2fa093d75aa3ad5a6a32d42729931c33)"
 }

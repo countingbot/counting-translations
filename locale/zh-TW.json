@@ -70,6 +70,7 @@
     "commands.help.embedFooter": "由 @quaaack 製作，由 @tt2468 維護 | 伺服器數量：{guilds:,d} | 運作時間：{uptime:,d} 秒",
 
     "commands.channel.content": "已將數數頻道設為 <#{channelID}>。",
+    "commands.channel.missingPermissions": "<@{botID}> 在此頻道中缺少以下權限：",
 
     "commands.user.embedField.global.name": "全域統計資料",
     "commands.user.embedField.local.name": "在 `{guildName}` 中的統計資料",
@@ -146,6 +147,11 @@
     "commands.resetserver.success.embedDescription": "這個伺服器的資料已刪除。",
 
     "commands.invite.embedDescription" : "按這裡邀請 {{ .botName }}。",
+
+    "permissions.sendMessages": "發送訊息",
+    "permissions.embedLinks": "嵌入連結",
+    "permissions.addReactions": "新增反應",
+    "permissions.readMessageHistory": "讀取訊息歷史記錄",
     
     "variables.helpMessage": "**設定方法：**\r\n1. 建立一個你要數數的頻道。\r\n2. 在頻道輸入 `c!channel`。(你必須要有「管理者」權限)\r\n3. 從 `1` 開始數數！\r\n\r\n**遊戲規則：**\r\n\u2022 一個人不能連續數兩個數字。（需要朋友／夥伴）\r\n\u2022 禁止使用機器人。\r\n\u2022 如果你數錯了，會扣掉你一個復活機會。如果你沒有復活機會，就要重數。\r\n\r\n**復活機會：**\r\n\u2022 在[這裡](https://countingbot.com/vote)投票可以獲得更多復活機會。使用 `c!vote` 可以查看你還有多少復活機會。\r\n\u2022 如果你至少有一個復活機會，你可以在數錯時繼續數數。\r\n**使用者指令：前面有 `?` 的表示是選填的**\r\n\u2022 `c!cs ?[頁碼]` - 查看目前分數排行榜前十名\r\n\u2022 `c!lb ?[頁碼]` - 查看最高分排行榜前十名\r\n\u2022 `c!tlb ?[頁碼]` - 查看總分排行榜前十名\r\n\u2022 `c!ulb ?[頁碼]` - 查看最高分使用者前十名\r\n\u2022 `c!slb ?[頁碼]` - 查看這個伺服器的最高分使用者前十名\r\n\u2022 `c!user ?[@user/userId]` - 查看某個使用者的統計資料\r\n\u2022 `c!server` - 查看這個伺服器的統計資料\r\n\u2022 `c!donatesave` - 捐贈一個復活機會給這個伺服器。（增加 `0.2` 個伺服器復活機會）\r\n\u2022 `c!transfersave [@user/userId]` - 送一個復活機會給另一個使用者，會扣 `0.5` 個當作手續費\r\n\u2022 `c!vote` - 投票給機器人並獲得復活機會\r\n\u2022 `c!calc` - 計算數學式\r\n\u2022 `c!stats` - 顯示機器人和目前分片的統計資料\r\n\r\n**管理員指令：**\r\n\u2022 `c!failrole [@role/role id] ?[timeout]` - 設定一個身分組，讓機器人在使用者數錯時，將這個身分組新增到該使用者身上。要停用的話，執行指令時不要輸入身分組。\r\n\u2022 `c!channel` - 設定機器人監聽的頻道，預設頻道是 `#counting`\r\n\u2022 `c!disablemaths [on/off]` - 關閉數學功能。像是 `1+1` 這樣的訊息就不會被算作有效的數字。\r\n\u2022 `c!numbersonly [on/off]` - 啟用純數字模式。除了有效的*數字*和*機器人指令*之外，任何訊息都會讓數數重來。\r\n\u2022 `c!language ?[languageCode]` - 設定這個伺服器機器人回覆的語言\r\n\r\n[加入我們的 Discord](https://discord.gg/rMQDwMH) 如果你有任何問題。\r\n[喜歡這個機器人嗎？考慮在 Patreon 上贊助我們。](https://www.patreon.com/counting)這對我們很有幫助。\r\n\r\n[邀請機器人到你的伺服器。](https://countingbot.com/invite)\r\n\r\n我們的隱私權政策：[在這裡](https://gist.github.com/tt2468/2fa093d75aa3ad5a6a32d42729931c33)"
 }

@@ -70,6 +70,7 @@
     "commands.help.embedFooter": "Hecho por Duck#0001, Mantenido por tt2468#2468 | Guilds: {guilds:,d} | Tiempo Restante: {uptime:,d}s",
 
     "commands.channel.content": "El canal de conteo se ha establecido en <#{channelID}>.",
+    "commands.channel.missingPermissions": "<@{botID}> le faltan los siguientes permisos en este canal:",
     
     "commands.user.embedField.global.name": "Estadísticas Global",
     "commands.user.embedField.local.name": "Estadísticas en `{guildName}`",
@@ -146,6 +147,11 @@
     "commands.resetserver.success.embedDescription": "Los datos de este servidor han sido borrados.",
 
     "commands.invite.embedDescription" : "Aquí hay un enlace para invitar a {{ .botName }}.",
+
+    "permissions.sendMessages": "Enviar mensajes",
+    "permissions.embedLinks": "Insertar enlaces",
+    "permissions.addReactions": "Añadir reacciones",
+    "permissions.readMessageHistory": "Leer el historial de mensajes",
     
     "variables.helpMessage": "**Configuración:**\n1. Create a channel that you would like to count in.\n1. Type `c!channel` in that channel. (You must have `Administrator` permissions)\n2. Start counting in the channel, beginning with `1`.\n\n**Reglas de Counting:**\n• Una persona no puede contar dos veces consecutivas. (Un amigo/compañero es necesario)\n• Sin bots.\n• Si usted rompe la cuenta, una \"salvada\" puede ser utilizada para proteger el contador de salvada, si es que posee alguno. En otro caso, la cuenta se reiniciara.\n\n**Salvadas:**\n• Vote [aquí](https://countingbot.com/vote) para obtener mas salvadas. Revise el numero de salvadas con `c!vote`.\n• Si usted tiene al menos una salvada, usted podra continuan contando aunque ingrese un numero equivocado.\n**Comandos de usuarios:** *Los argumentos con el prefijo `?` son opcionales*\n• `c!cs ?[pageNumber]` - Ve los actuales 10 puntajes más altos\n• `c!lb ?[pageNumber]` - Ve los 10 puntajes más altos de todos los tiempos\n• `c!tlb ?[pageNumber]` - Ver las diez mejores puntuaciones totales\n• `c!ulb ?[pageNumber]` - Ve los 10 usuarios con puntajes más altos\n• `c!slb ?[pageNumber]` - Ve los 10 usuarios con puntajes más altos de tu servidor\n• `c!user ?[@user/userId]` - Obten las estadisticas del usuario\n• `c!server` - Obten las estadisticas del servidor actual\n• `c!donatesave` - Dona una salvada en el servidor actual. (Agrega `0.2` salvadas de servidor)\n• `c!transfersave [@user/userId]` - Transfiere una salvada de tus disponibles a otro usuario con un impuesto de `0.5`\n• `c!vote` - Vota por este bot y obten salvadas\n• `c!stats` - Muestra las estadisticas de este bot y de su actual nodo compartido\n\n**Comandos administrativos:**\n• `c!failrole [@role/role id] ?[tiempo límite]` - Configura un rol que el bot agrega a los miembros que fallan en el conteo. Para desactivar, ejecute el comando sin indicar un rol en especifico\n• `c!channel` - Configura el bot para escuchar un canal especifico, por defecto el canal es `#counting`\n• `c!disablemaths [on/off]` - Desactivar el conteo con matemáticas. Mensajes como `1+1` no se contarán como un número válido.\n• `c!numbersonly [on/off]` - Activa el modo solo numeros. Interrumpe la cuenta si en el mensaje no se envia un *numero* valido o un *comando de bot*\n• `c!language ?[languageCode]` - Configura el idioma que el bot usara para responder en tu servidor\n\n[Únete a nuestro Discord](https://discord.gg/rMQDwMH) si tienes alguna pregunta.\n[¿Te gusta el bot? Considera contribuir en Patreon.](https://www.patreon.com/counting) Ayudanos con un bunch.\n\n[Invita al bot a tu propio servidor.](https://countingbot.com/invite)\n"
 }

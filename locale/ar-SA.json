@@ -69,6 +69,7 @@
     "commands.help.embedFooter": "صنع بواسطة Duck#0001، تم إصلاحه بواسطة tt2468#2468 | النقابات: {guilds:,d} | مدة التشغيل {uptime:,d}ث",
 
     "commands.channel.content": "تم ضبط قناة العد على <#{channelID}>.",
+    "commands.channel.missingPermissions": "<@{botID}> يفتقد الصلاحيات التالية في هذه القناة:",
 
     "commands.user.embedField.global.name": "الإحصائيات العالمية",
     "commands.user.embedField.local.name": "الإحصائيات في `{guildName}`",
@@ -143,5 +144,10 @@
     "commands.resetserver.warning.embedDescription": "هل أنت متأكد أنك تريد مسح بيانات هذه الخادم من الروبوت؟ **لا يمكن التراجع عن هذا الإجراء.**",
     "commands.resetserver.success.embedDescription": "تم مسح بيانات هذا الخادم.",
     
-    "commands.invite.embedDescription" : "إليك رابط لدعوة {{ .botName }}."
+    "commands.invite.embedDescription" : "إليك رابط لدعوة {{ .botName }}.",
+
+    "permissions.sendMessages": "إرسال الرسائل",
+    "permissions.embedLinks": "تضمين الروابط",
+    "permissions.addReactions": "إضافة ردود فعل",
+    "permissions.readMessageHistory": "قراءة سجل الرسائل"
 }
