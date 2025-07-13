@@ -146,7 +146,7 @@
     "commands.resetserver.warning.embedDescription": "Voulez-vous vraiment supprimer les données de ce serveur du bot ? **Cette action est irréversible.**",
     "commands.resetserver.success.embedDescription": "Les données de ce serveur ont été effacées.",
 
-    "commands.invite.embedDescription" : "Voici un lien pour inviter {{ .botName }}.",
+    "commands.invite.embedDescription" : "Voici un lien pour inviter {botName}.",
 
     "permissions.sendMessages": "Envoyer des messages",
     "permissions.embedLinks": "Intégrer des liens",

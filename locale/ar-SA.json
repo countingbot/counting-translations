@@ -144,7 +144,7 @@
     "commands.resetserver.warning.embedDescription": "هل أنت متأكد أنك تريد مسح بيانات هذه الخادم من الروبوت؟ **لا يمكن التراجع عن هذا الإجراء.**",
     "commands.resetserver.success.embedDescription": "تم مسح بيانات هذا الخادم.",
     
-    "commands.invite.embedDescription" : "إليك رابط لدعوة {{ .botName }}.",
+    "commands.invite.embedDescription" : "إليك رابط لدعوة {botName}.",
 
     "permissions.sendMessages": "إرسال الرسائل",
     "permissions.embedLinks": "تضمين الروابط",

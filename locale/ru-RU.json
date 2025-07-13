@@ -146,7 +146,7 @@
     "commands.resetserver.warning.embedDescription": "Вы уверены, что хотите очистить данные этого сервера из бота? **Это действие нельзя отменить.**",
     "commands.resetserver.success.embedDescription": "Данные этого сервера были очищены.",
 
-    "commands.invite.embedDescription" : "Вот ссылка для приглашения {{ .botName }}.",
+    "commands.invite.embedDescription" : "Вот ссылка для приглашения {botName}.",
 
     "permissions.sendMessages": "Отправлять сообщения",
     "permissions.embedLinks": "Встраивать ссылки",

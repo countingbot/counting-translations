@@ -143,7 +143,7 @@
     "commands.resetserver.warning.embedDescription": "このサーバーのデータをボットから削除してもよろしいですか？ **この操作を取り消すことはできまません。**",
     "commands.resetserver.success.embedDescription": "このサーバーのデータが消去されました。",
     
-    "commands.invite.embedDescription" : "ここに{{ .botName }}を招待するためのリンクがあります。",
+    "commands.invite.embedDescription" : "ここに{botName}を招待するためのリンクがあります。",
 
     "permissions.sendMessages": "メッセージを送信",
     "permissions.embedLinks": "リンクを埋め込む",

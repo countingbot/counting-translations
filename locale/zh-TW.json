@@ -146,7 +146,7 @@
     "commands.resetserver.warning.embedDescription": "確定要刪除這個伺服器在機器人中的資料嗎？**這項操作無法復原。**",
     "commands.resetserver.success.embedDescription": "這個伺服器的資料已刪除。",
 
-    "commands.invite.embedDescription" : "按這裡邀請 {{ .botName }}。",
+    "commands.invite.embedDescription" : "按這裡邀請 {botName}。",
 
     "permissions.sendMessages": "發送訊息",
     "permissions.embedLinks": "嵌入連結",

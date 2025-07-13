@@ -145,7 +145,7 @@
     "commands.resetserver.warning.embedDescription": "Weet u zeker dat u de gegevens van deze server uit de bot wilt wissen? **Deze actie kan niet ongedaan worden gemaakt.**",
     "commands.resetserver.success.embedDescription": "De gegevens van deze server zijn gewist.",
 
-    "commands.invite.embedDescription" : "Hier is een link om {{ .botName }} uit te nodigen.",
+    "commands.invite.embedDescription" : "Hier is een link om {botName} uit te nodigen.",
 
     "permissions.sendMessages": "Berichten Verzenden",
     "permissions.embedLinks": "Links Insluiten",

@@ -146,7 +146,7 @@
     "commands.resetserver.warning.embedDescription": "Apakah kamu yakin kamu ingin menghapus data server ini dari botnya? **Data ini tidak bisa dikembalikan.**",
     "commands.resetserver.success.embedDescription": "Data server ini telah dihapus.",
 
-    "commands.invite.embedDescription" : "Klik di sini untuk mengundang {{ .botName }}.",
+    "commands.invite.embedDescription" : "Klik di sini untuk mengundang {botName}.",
 
     "permissions.sendMessages": "Kirim Pesan",
     "permissions.embedLinks": "Sematkan Tautan",

@@ -142,7 +142,7 @@
     "commands.resetserver.warning.embedDescription": "Czy na pewno chcesz wyczyścić dane tego serwera z bota? **Tej czynności nie można cofnąć.**",
     "commands.resetserver.success.embedDescription": "Dane tego serwera zostały wyczyszczone.",
     
-    "commands.invite.embedDescription" : "Oto link do zaproszenia {{ .botName }}.",
+    "commands.invite.embedDescription" : "Oto link do zaproszenia {botName}.",
 
     "permissions.sendMessages": "Wysyłaj wiadomości",
     "permissions.embedLinks": "Osadzaj linki",

@@ -146,7 +146,7 @@
     "commands.resetserver.warning.embedDescription": "Bist du sicher, dass du die Daten dieses Servers aus dem Bot löschen möchtest? **Dieser Vorgang kann nicht rückgängig gemacht werden.**",
     "commands.resetserver.success.embedDescription": "Die Daten dieses Servers wurden gelöscht.",
 
-    "commands.invite.embedDescription" : "Hier ist ein Link, um {{ .botName }} einzuladen.",
+    "commands.invite.embedDescription" : "Hier ist ein Link, um {botName} einzuladen.",
 
     "permissions.sendMessages": "Nachrichten senden",
     "permissions.embedLinks": "Links einbetten",

@@ -146,7 +146,7 @@
     "commands.resetserver.warning.embedDescription": "Are you sure you would like to clear this server's data from the bot? **This cannot be undone.**",
     "commands.resetserver.success.embedDescription": "This server's data has been cleared.",
 
-    "commands.invite.embedDescription" : "Click here to invite {{ .botName }}.",
+    "commands.invite.embedDescription" : "Click here to invite {botName}.",
 
     "permissions.sendMessages": "Send Messages",
     "permissions.embedLinks": "Embed Links",

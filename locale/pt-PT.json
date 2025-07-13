@@ -146,7 +146,7 @@
     "commands.resetserver.warning.embedDescription": "Tem a certeza de que pretende limpar os dados deste servidor do bot? **Esta ação não pode ser desfeita.**",
     "commands.resetserver.success.embedDescription": "Os dados deste servidor foram limpos.",
 
-    "commands.invite.embedDescription" : "Aqui está um link para convidar {{ .botName }}.",
+    "commands.invite.embedDescription" : "Aqui está um link para convidar {botName}.",
 
     "permissions.sendMessages": "Enviar Mensagens",
     "permissions.embedLinks": "Incorporar Ligações",

@@ -145,7 +145,7 @@
     "commands.resetserver.warning.embedDescription": "**˙ǝuopun ǝq ʇouuɐɔ sᴉɥ┴** ¿ʇoq ǝɥʇ ɯoɹɟ ɐʇɐp s,ɹǝʌɹǝs sᴉɥʇ ɹɐǝlɔ oʇ ǝʞᴉl plnoʍ noʎ ǝɹns noʎ ǝɹ∀",
     "commands.resetserver.success.embedDescription": "˙pǝɹɐǝlɔ uǝǝq sɐɥ ɐʇɐp s,ɹǝʌɹǝs sᴉɥ┴",
 
-    "commands.invite.embedDescription" : "˙{{ .botName }} ǝʇᴉʌuᴉ oʇ ʞuᴉl ɐ s,ǝɹǝH",
+    "commands.invite.embedDescription" : "˙{botName} ǝʇᴉʌuᴉ oʇ ʞuᴉl ɐ s,ǝɹǝH",
 
     "permissions.sendMessages": "sǝƃɐssǝW puǝS",
     "permissions.embedLinks": "sʞuᴉ˥ pǝqɯƎ",

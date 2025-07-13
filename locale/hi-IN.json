@@ -141,7 +141,7 @@
     "commands.resetserver.warning.embedDescription": "क्या आप वाकई इस सर्वर का डेटा बॉट से हटाना चाहते हैं? **यह कार्रवाई पूर्ववत नहीं की जा सकती है।**",
     "commands.resetserver.success.embedDescription": "इस सर्वर का डेटा हटा दिया गया है।",
     
-    "commands.invite.embedDescription" : "{{ .botName }} को आमंत्रित करने के लिए यहां एक लिंक दिया गया है।",
+    "commands.invite.embedDescription" : "{botName} को आमंत्रित करने के लिए यहां एक लिंक दिया गया है।",
 
     "permissions.sendMessages": "संदेश भेजें",
     "permissions.embedLinks": "लिंक एम्बेड करें",

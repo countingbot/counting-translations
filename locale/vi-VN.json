@@ -146,7 +146,7 @@
     "commands.resetserver.warning.embedDescription": "Bạn có chắc chắn muốn xóa dữ liệu của máy chủ này khỏi bot không? **Hành động này không thể hoàn tác.**",
     "commands.resetserver.success.embedDescription": "Dữ liệu của máy chủ này đã được xóa.",
 
-    "commands.invite.embedDescription" : "Đây là liên kết để mời {{ .botName }}.",
+    "commands.invite.embedDescription" : "Đây là liên kết để mời {botName}.",
 
     "permissions.sendMessages": "Gửi tin nhắn",
     "permissions.embedLinks": "Nhúng liên kết",

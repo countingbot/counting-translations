@@ -146,7 +146,7 @@
     "commands.resetserver.warning.embedDescription": "Biztosan törölni szeretné a szerver adatait a botból? **Ez a művelet nem visszavonható.**",
     "commands.resetserver.success.embedDescription": "A szerver adatai törölve lettek.",
 
-    "commands.invite.embedDescription" : "Kattints ide a(z) {{ .botName }} meghívásához.",
+    "commands.invite.embedDescription" : "Kattints ide a(z) {botName} meghívásához.",
 
     "permissions.sendMessages": "Üzenetek küldése",
     "permissions.embedLinks": "Linkek beágyazása",

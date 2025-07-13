@@ -146,7 +146,7 @@
     "commands.resetserver.warning.embedDescription": "您确定要从机器人中清除此服务器的数据吗？ **此操作无法撤消。**",
     "commands.resetserver.success.embedDescription": "此服务器的数据已清除。",
 
-    "commands.invite.embedDescription" : "这是邀请 {{ .botName }} 的链接。",
+    "commands.invite.embedDescription" : "这是邀请 {botName} 的链接。",
 
     "permissions.sendMessages": "发送消息",
     "permissions.embedLinks": "嵌入链接",

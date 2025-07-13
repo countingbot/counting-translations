@@ -146,7 +146,7 @@
     "commands.resetserver.warning.embedDescription": "¿Está seguro de que desea borrar los datos de este servidor del bot? **Esta acción no se puede deshacer.**",
     "commands.resetserver.success.embedDescription": "Los datos de este servidor han sido borrados.",
 
-    "commands.invite.embedDescription" : "Aquí hay un enlace para invitar a {{ .botName }}.",
+    "commands.invite.embedDescription" : "Aquí hay un enlace para invitar a {botName}.",
 
     "permissions.sendMessages": "Enviar mensajes",
     "permissions.embedLinks": "Insertar enlaces",
