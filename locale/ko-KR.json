@@ -148,6 +148,7 @@
 
     "commands.invite.embedDescription" : "{botName} 초대 링크입니다.",
 
+    "permissions.viewChannel": "채널 보기",
     "permissions.sendMessages": "메시지 보내기",
     "permissions.embedLinks": "링크 포함",
     "permissions.addReactions": "반응 추가",

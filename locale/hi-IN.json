@@ -143,6 +143,7 @@
     
     "commands.invite.embedDescription" : "{botName} को आमंत्रित करने के लिए यहां एक लिंक दिया गया है।",
 
+    "permissions.viewChannel": "चैनल देखें",
     "permissions.sendMessages": "संदेश भेजें",
     "permissions.embedLinks": "लिंक एम्बेड करें",
     "permissions.addReactions": "प्रतिक्रियाएँ जोड़ें",

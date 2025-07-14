@@ -148,6 +148,7 @@
 
     "commands.invite.embedDescription" : "这是邀请 {botName} 的链接。",
 
+    "permissions.viewChannel": "查看频道",
     "permissions.sendMessages": "发送消息",
     "permissions.embedLinks": "嵌入链接",
     "permissions.addReactions": "添加反应",

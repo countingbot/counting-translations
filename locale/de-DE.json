@@ -148,6 +148,7 @@
 
     "commands.invite.embedDescription" : "Hier ist ein Link, um {botName} einzuladen.",
 
+    "permissions.viewChannel": "Kanal anzeigen",
     "permissions.sendMessages": "Nachrichten senden",
     "permissions.embedLinks": "Links einbetten",
     "permissions.addReactions": "Reaktionen hinzufügen",

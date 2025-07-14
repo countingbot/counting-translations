@@ -146,6 +146,7 @@
     
     "commands.invite.embedDescription" : "إليك رابط لدعوة {botName}.",
 
+    "permissions.viewChannel": "عرض القناة",
     "permissions.sendMessages": "إرسال الرسائل",
     "permissions.embedLinks": "تضمين الروابط",
     "permissions.addReactions": "إضافة ردود فعل",

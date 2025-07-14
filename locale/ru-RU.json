@@ -148,6 +148,7 @@
 
     "commands.invite.embedDescription" : "Вот ссылка для приглашения {botName}.",
 
+    "permissions.viewChannel": "Просмотр канала",
     "permissions.sendMessages": "Отправлять сообщения",
     "permissions.embedLinks": "Встраивать ссылки",
     "permissions.addReactions": "Добавлять реакции",

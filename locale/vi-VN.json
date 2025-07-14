@@ -148,6 +148,7 @@
 
     "commands.invite.embedDescription" : "Đây là liên kết để mời {botName}.",
 
+    "permissions.viewChannel": "Xem kênh",
     "permissions.sendMessages": "Gửi tin nhắn",
     "permissions.embedLinks": "Nhúng liên kết",
     "permissions.addReactions": "Thêm phản ứng",

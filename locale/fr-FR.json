@@ -148,6 +148,7 @@
 
     "commands.invite.embedDescription" : "Voici un lien pour inviter {botName}.",
 
+    "permissions.viewChannel": "Voir le salon",
     "permissions.sendMessages": "Envoyer des messages",
     "permissions.embedLinks": "Intégrer des liens",
     "permissions.addReactions": "Ajouter des réactions",

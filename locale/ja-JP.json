@@ -145,6 +145,7 @@
     
     "commands.invite.embedDescription" : "ここに{botName}を招待するためのリンクがあります。",
 
+    "permissions.viewChannel": "チャンネルを表示",
     "permissions.sendMessages": "メッセージを送信",
     "permissions.embedLinks": "リンクを埋め込む",
     "permissions.addReactions": "リアクションを追加",

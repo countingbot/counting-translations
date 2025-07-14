@@ -148,6 +148,7 @@
 
     "commands.invite.embedDescription" : "按這裡邀請 {botName}。",
 
+    "permissions.viewChannel": "查看頻道",
     "permissions.sendMessages": "發送訊息",
     "permissions.embedLinks": "嵌入連結",
     "permissions.addReactions": "新增反應",

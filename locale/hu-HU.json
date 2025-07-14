@@ -148,6 +148,7 @@
 
     "commands.invite.embedDescription" : "Kattints ide a(z) {botName} meghívásához.",
 
+    "permissions.viewChannel": "Csatorna megtekintése",
     "permissions.sendMessages": "Üzenetek küldése",
     "permissions.embedLinks": "Linkek beágyazása",
     "permissions.addReactions": "Reakciók hozzáadása",

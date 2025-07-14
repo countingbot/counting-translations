@@ -147,6 +147,7 @@
 
     "commands.invite.embedDescription" : "Hier is een link om {botName} uit te nodigen.",
 
+    "permissions.viewChannel": "Kanaal Bekijken",
     "permissions.sendMessages": "Berichten Verzenden",
     "permissions.embedLinks": "Links Insluiten",
     "permissions.addReactions": "Reacties Toevoegen",

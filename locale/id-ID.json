@@ -148,6 +148,7 @@
 
     "commands.invite.embedDescription" : "Klik di sini untuk mengundang {botName}.",
 
+    "permissions.viewChannel": "Lihat Saluran",
     "permissions.sendMessages": "Kirim Pesan",
     "permissions.embedLinks": "Sematkan Tautan",
     "permissions.addReactions": "Tambahkan Reaksi",

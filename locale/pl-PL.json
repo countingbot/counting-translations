@@ -144,6 +144,7 @@
     
     "commands.invite.embedDescription" : "Oto link do zaproszenia {botName}.",
 
+    "permissions.viewChannel": "Wyświetl kanał",
     "permissions.sendMessages": "Wysyłaj wiadomości",
     "permissions.embedLinks": "Osadzaj linki",
     "permissions.addReactions": "Dodawaj reakcje",
