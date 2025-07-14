@@ -70,7 +70,7 @@
     "commands.help.embedFooter": "Tạo bởi Duck#0001, Duy trì bởi tt2468#2468 | Máy chủ: {guilds:,d} | Thời gian hoạt động: {uptime:,d}s",
 
     "commands.channel.content": "Kênh đếm đã được đặt thành <#{channelID}>.",
-    "commands.channel.missingPermissions": "<@{botID}> thiếu các quyền sau trong kênh này:",
+    "commands.channel.missingPermissions": "<@{botID}> thiếu các quyền sau trong <#{channelID}>:",
 
     "commands.user.embedField.global.name": "Thông số Tổng thể",
     "commands.user.embedField.local.name": "Thông số trong `{guildName}`",

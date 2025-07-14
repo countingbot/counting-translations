@@ -70,7 +70,7 @@
     "commands.help.embedFooter": "Codé par Duck#0001, Maintenu par tt2468#2468 | Guildes: {guilds:,d} | Démarré depuis: {uptime:,d}s",
 
     "commands.channel.content": "Le canal de comptage a été défini sur <#{channelID}>.",
-    "commands.channel.missingPermissions": "<@{botID}> il manque les permissions suivantes dans ce salon :",
+    "commands.channel.missingPermissions": "<@{botID}> il manque les permissions suivantes dans <#{channelID}> :",
 
     "commands.user.embedField.global.name": "Stastistiques Globales",
     "commands.user.embedField.local.name": "Statistiques pour `{guildName}`",

@@ -70,7 +70,7 @@
     "commands.help.embedFooter": "Made by Duck#0001, Maintained by tt2468#2468 | Guilds: {guilds:,d} | Uptime: {uptime:,d}s",
 
     "commands.channel.content": "The counting channel has been set to <#{channelID}>.",
-    "commands.channel.missingPermissions": "<@{botID}> is missing the following permissions in this channel:",
+    "commands.channel.missingPermissions": "<@{botID}> is missing the following permissions in <#{channelID}>:",
 
     "commands.user.embedField.global.name": "Global Stats",
     "commands.user.embedField.local.name": "Stats in `{guildName}`",

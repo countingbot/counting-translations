@@ -70,7 +70,7 @@
     "commands.help.embedFooter": "Wurde erstellt von Duck#0001; wird betrieben von tt2468#2468 | Server: {guilds:,d} | Online seit: {uptime:,d}s",
 
     "commands.channel.content": "Der Zählkanal wurde auf <#{channelID}> eingestellt.",
-    "commands.channel.missingPermissions": "<@{botID}> fehlen die folgenden Berechtigungen in diesem Kanal:",
+    "commands.channel.missingPermissions": "<@{botID}> fehlen die folgenden Berechtigungen in <#{channelID}>:",
 
     "commands.user.embedField.global.name": "Globale Statistiken",
     "commands.user.embedField.local.name": "Statistik für `{guildName}`",

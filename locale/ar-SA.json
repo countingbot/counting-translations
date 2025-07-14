@@ -69,7 +69,7 @@
     "commands.help.embedFooter": "صنع بواسطة Duck#0001، تم إصلاحه بواسطة tt2468#2468 | النقابات: {guilds:,d} | مدة التشغيل {uptime:,d}ث",
 
     "commands.channel.content": "تم ضبط قناة العد على <#{channelID}>.",
-    "commands.channel.missingPermissions": "<@{botID}> يفتقد الصلاحيات التالية في هذه القناة:",
+    "commands.channel.missingPermissions": "<@{botID}> يفتقد الصلاحيات التالية في <#{channelID}>:",
 
     "commands.user.embedField.global.name": "الإحصائيات العالمية",
     "commands.user.embedField.local.name": "الإحصائيات في `{guildName}`",

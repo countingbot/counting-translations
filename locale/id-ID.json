@@ -70,7 +70,7 @@
     "commands.help.embedFooter": "Dibuat oleh Duck#0001, Dipelihara oleh tt2468#2468 | Kelompok: {guilds:,d} | Uptime: {uptime:,d}s",
 
     "commands.channel.content": "Kanal berhitung telah diatur menjadi <#{channelID}>.",
-    "commands.channel.missingPermissions": "<@{botID}> kehilangan izin berikut di saluran ini:",
+    "commands.channel.missingPermissions": "<@{botID}> kehilangan izin berikut di <#{channelID}>:",
 
     "commands.user.embedField.global.name": "Statistik Global",
     "commands.user.embedField.local.name": "Statistik di `{guildName}`",

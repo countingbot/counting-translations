@@ -70,7 +70,7 @@
     "commands.help.embedFooter": "Készítette: Duck#0001, Fenntartja: tt2468#2468 | Szerverek: {guilds:,d} | Üzemidő: {uptime:,d}s",
 
     "commands.channel.content": "A számláló csatorna beállítva erre: <#{channelID}>.",
-    "commands.channel.missingPermissions": "<@{botID}> a következő engedélyek hiányoznak ebben a csatornában:",
+    "commands.channel.missingPermissions": "<@{botID}> a következő engedélyek hiányoznak a <#{channelID}> csatornában:",
 
     "commands.user.embedField.global.name": "Globális statisztikák",
     "commands.user.embedField.local.name": "Statisztikák `{guildName}` szerveren",

@@ -67,7 +67,7 @@
     "commands.help.embedFooter": "Duck#0001 द्वारा बनाया गया, tt2468#2468 द्वारा संभाला गया | समाज: {guilds:,d} | अपटाइम: {uptime:,d}s",
 
     "commands.channel.content": "मतगणना चैनल को <#{channelID}> पर सेट किया गया है।",
-    "commands.channel.missingPermissions": "<@{botID}> इस चैनल में निम्नलिखित अनुमतियाँ गायब हैं:",
+    "commands.channel.missingPermissions": "<@{botID}> <#{channelID}> में निम्नलिखित अनुमतियाँ गायब हैं:",
 
     "commands.user.embedField.global.name": "विश्व स्टैट्स",
     "commands.user.embedField.local.name": "`{guildName}` समाज में स्टैट्स",

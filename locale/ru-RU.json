@@ -70,7 +70,7 @@
     "commands.help.embedFooter": "Сделано Duck#0001, поддерживается tt2468#2468 | Серверов: {guilds:,d} | Время работы: {uptime:,d}с",
 
     "commands.channel.content": "Канал подсчета установлен на <#{channelID}>.",
-    "commands.channel.missingPermissions": "<@{botID}> отсутствуют следующие разрешения в этом канале:",
+    "commands.channel.missingPermissions": "<@{botID}> отсутствуют следующие разрешения в <#{channelID}>:",
 
     "commands.user.embedField.global.name": "Глобальная статистика",
     "commands.user.embedField.local.name": "Статистика в `{guildName}`",

@@ -70,7 +70,7 @@
     "commands.help.embedFooter": "s{uptime:,d} :ǝɯıʇd∩ | {guilds:,d} :spןınƃ | 8642#8642ʇʇ ʎq pǝuıɐʇuıɐW '1000#ʞɔnᗡ ʎq ǝpɐW",
 
     "commands.channel.content": "˙<#{channelID}> oʇ ʇǝs uǝǝq sɐɥ lǝuuɐɥɔ ƃuᴉʇunoɔ ǝɥ┴",
-    "commands.channel.missingPermissions": ":lǝuuɐɥɔ sᴉɥʇ uᴉ suoᴉssᴉɯɹǝd ƃuᴉʍolloɟ ǝɥʇ ƃuᴉssᴉɯ sᴉ <@{botID}>",
+    "commands.channel.missingPermissions": ":<#{channelID}> uᴉ suoᴉssᴉɯɹǝd ƃuᴉʍolloɟ ǝɥʇ ƃuᴉssᴉɯ sᴉ <@{botID}>",
 
     "commands.user.embedField.global.name": "sʇɐʇS ןɐqoןƃ",
     "commands.user.embedField.local.name": "`{guildName}` uı sʇɐʇS",

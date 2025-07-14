@@ -69,7 +69,7 @@
     "commands.help.embedFooter": "Gemaakt door Duck#0001, Onderhouden door tt2468#2468 | Groepen: {guilds:,d} | Bedrijfstijd: {uptime:,d}s",
 
     "commands.channel.content": "Het telkanaal is ingesteld op <#{channelID}>.",
-    "commands.channel.missingPermissions": "<@{botID}> mist de volgende rechten in dit kanaal:",
+    "commands.channel.missingPermissions": "<@{botID}> mist de volgende rechten in <#{channelID}>:",
 
     "commands.user.embedField.global.name": "Globale Stats",
     "commands.user.embedField.local.name": "Stats in `{guildName}`",

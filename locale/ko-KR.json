@@ -70,7 +70,7 @@
     "commands.help.embedFooter": "제작: Duck#0001, 지원: tt2468#2468 | {guilds:,d} 개의 서버 | {uptime:,d} 초 동안 작동 중",
 
     "commands.channel.content": "카운팅 채널이 <#{channelID}> 로 설정되었습니다.",
-    "commands.channel.missingPermissions": "<@{botID}> 이 채널에서 다음 권한이 누락되었습니다:",
+    "commands.channel.missingPermissions": "<@{botID}> <#{channelID}>에서 다음 권한이 누락되었습니다:",
 
     "commands.user.embedField.global.name": "전체 통계",
     "commands.user.embedField.local.name": "`{guildName}` 의 통계",

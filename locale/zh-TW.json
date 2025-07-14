@@ -70,7 +70,7 @@
     "commands.help.embedFooter": "由 @quaaack 製作，由 @tt2468 維護 | 伺服器數量：{guilds:,d} | 運作時間：{uptime:,d} 秒",
 
     "commands.channel.content": "已將數數頻道設為 <#{channelID}>。",
-    "commands.channel.missingPermissions": "<@{botID}> 在此頻道中缺少以下權限：",
+    "commands.channel.missingPermissions": "<@{botID}> 在 <#{channelID}> 中缺少以下權限：",
 
     "commands.user.embedField.global.name": "全域統計資料",
     "commands.user.embedField.local.name": "在 `{guildName}` 中的統計資料",

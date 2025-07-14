@@ -70,7 +70,7 @@
     "commands.help.embedFooter": "由 Duck#0001 制作，由 tt2468#2468 维护，由 Ker#1193 翻译此语言 | 群主: {guilds:,d} | 在线时间:  {uptime:,d}",
 
     "commands.channel.content": "计数通道已设置为 <#{channelID}>。",
-    "commands.channel.missingPermissions": "<@{botID}> 在此频道中缺少以下权限：",
+    "commands.channel.missingPermissions": "<@{botID}> 在 <#{channelID}> 中缺少以下权限：",
 
     "commands.user.embedField.global.name": "全球统计",
     "commands.user.embedField.local.name": "`{guildName}` 统计数据",

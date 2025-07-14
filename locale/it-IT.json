@@ -70,7 +70,7 @@
     "commands.help.embedFooter": "Creato da Duck#0001, Manutenzione a carico di tt2468#2468 | Guilds: {guilds:,d} | Uptime: {uptime:,d}s",
 
     "commands.channel.content": "Il canale di conteggio è stato impostato su <#{channelID}>.",
-    "commands.channel.missingPermissions": "<@{botID}> mancano i seguenti permessi in questo canale:",
+    "commands.channel.missingPermissions": "<@{botID}> mancano i seguenti permessi in <#{channelID}>:",
 
     "commands.user.embedField.global.name": "Statistiche Globali",
     "commands.user.embedField.local.name": "Statistiche di `{guildName}`",

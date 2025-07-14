@@ -67,7 +67,7 @@
     "commands.help.embedFooter": "Stworzony przez Duck#0001, utrzymywany przez tt2468#2468 | Gildie: {guilds:,d} | Od uruchomienia: {uptime:,d}s",
 
     "commands.channel.content": "Kanał zliczania został ustawiony na <#{channelID}>.",
-    "commands.channel.missingPermissions": "<@{botID}> brakuje następujących uprawnień w tym kanale:",
+    "commands.channel.missingPermissions": "<@{botID}> brakuje następujących uprawnień w <#{channelID}>:",
     
     "commands.user.embedField.global.name": "Globalne statystyki",
     "commands.user.embedField.local.name": "Statystyki w `{guildName}`",
