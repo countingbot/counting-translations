@@ -30,8 +30,8 @@
     "commands.stats.embedTitle": "Статистика бота",
     "commands.stats.embedField.global.name": "Общие",
     "commands.stats.embedField.global.value": "**Всего серверов бота:** `{guilds}`\n**Всего шардов бота:** `{shards}`\n**Текущий MPS:** `{mps}`",
-    "commands.stats.embedField.clusterMember.name": "Этот Член Кластера (Осколки {assignedShards})",
-    "commands.stats.embedField.clusterMember.value": "**Гильдии по назначенным осколкам:** `{guildCount}`\n **Начатый:** `{uptime}`\n**Нынешние депутаты:** `{mps}`\n**Идентификатор осколка этой гильдии:** `{shardId}`",
+    "commands.stats.embedField.clusterMember.name": "Этот Член Кластера (Шарды {assignedShards})",
+    "commands.stats.embedField.clusterMember.value": "**Гильдии по назначенным осколкам:** `{guildCount}`\n **Запущен:** `{uptime}`\n**Текущий MPS:** `{mps}`\n**Идентификатор шарда этой гильдии:** `{shardId}`",
 
     "commands.help.embedDescription": "__helpMessage__",
     "commands.help.setup.title": "Настройка",
