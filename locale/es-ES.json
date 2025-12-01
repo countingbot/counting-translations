@@ -1,6 +1,6 @@
 {
-    "countProcess.failReason.numbersOnly": "**Este canal de chatear de conteo está en modo de sólo números.**",
-    "countProcess.failReason.doubleCount": "**No puedes contar dos números en una fila.**",
+    "countProcess.failReason.numbersOnly": "**Este canal de contar está en modo de solo números.**",
+    "countProcess.failReason.doubleCount": "**No puedes contar dos números seguidos.**",
     "countProcess.failReason.wrongNumber": "**Número incorrecto.**",
     "countProcess.warning.memberSaveUsed": "<@{authorId}> Has usado **1** de tus salvos. Te quedan **{savesLeft:g}**.",
     "countProcess.warning.guildSaveUsed": "<@{authorId}> Has usado **1** de tus salvados. Te quedan **{savesLeft:g}/2**.",
@@ -8,7 +8,7 @@
     "countProcess.warning.accountTooYoung": "Lo sentimos, su cuenta debe tener al menos `7` días de antigüedad para contar.",
     "countProcess.warning.waitForSomeoneElse": "Espera a que alguien más envíe **{nextNumber:,d}**.",
     "countProcess.failAlert.embedDescription": "Vota [here](https://countingbot.com/vote) para ganar salvos para que puedas seguir contando la próxima vez. Mira `{helpCmd}`.",
-    "countProcess.failAlert.messageContent": "<@{authorId}> LO ARRUINASTE EN **{number:,d}**!! El siguiente número es **1**. {failReason}",
+    "countProcess.failAlert.messageContent": "¡¡<@{authorId}> LO ARRUINASTE EN **{number:,d}**!! El siguiente número es **1**. {failReason}",
     "countProcess.newHighScore.messageContent": "¡Nuevo récord de puntuación de **{highScore:,d}**!",
 
     "messageDeleted.messageContent": "<@{userID}> ha eliminado su número: ```{deletedNumber:,d}```",
