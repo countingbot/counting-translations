@@ -66,7 +66,7 @@
     "commands.help.patreon": "[هل أعجبك البوت؟ فكر في المساهمة عبر باتريون.]({patreonURL}) إنه يساعدنا كثيرًا.",
     "commands.help.inviteBot": "[ادعُ البوت إلى خادمك هنا.]({botInviteURL})",
     "commands.help.privacyPolicy": "[اطلع على سياسة الخصوصية الخاصة بنا هنا.]({privacyPolicyURL})",
-    "commands.help.embedFooter": "صنع بواسطة Duck#0001، تم إصلاحه بواسطة tt2468#2468 | النقابات: {guilds:,d} | مدة التشغيل {uptime:,d}ث",
+    "commands.help.embedFooter": "النقابات: {guilds:,d} | مدة التشغيل {uptime:,d}ث",
 
     "commands.channel.content": "تم ضبط قناة العد على <#{channelID}>.",
     "commands.channel.missingPermissions": "<@{botID}> يفتقد الصلاحيات التالية في <#{channelID}>:",

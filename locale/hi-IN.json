@@ -64,7 +64,7 @@
     "commands.help.patreon": "[क्या बॉट पसंद है? पैट्रियन के माध्यम से योगदान करने पर विचार करें।]({patreonURL}) यह हमारी बहुत मदद करता है।",
     "commands.help.inviteBot": "[बॉट को अपने सर्वर पर यहाँ आमंत्रित करें।]({botInviteURL})",
     "commands.help.privacyPolicy": "[हमारी गोपनीयता नीति यहाँ देखें।]({privacyPolicyURL})",
-    "commands.help.embedFooter": "Duck#0001 द्वारा बनाया गया, tt2468#2468 द्वारा संभाला गया | समाज: {guilds:,d} | अपटाइम: {uptime:,d}s",
+    "commands.help.embedFooter": "समाज: {guilds:,d} | अपटाइम: {uptime:,d}s",
 
     "commands.channel.content": "मतगणना चैनल को <#{channelID}> पर सेट किया गया है।",
     "commands.channel.missingPermissions": "<@{botID}> <#{channelID}> में निम्नलिखित अनुमतियाँ गायब हैं:",

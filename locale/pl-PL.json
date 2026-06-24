@@ -64,7 +64,7 @@
     "commands.help.patreon": "[Podoba ci się bot? Rozważ wsparcie na Patreonie.]({patreonURL}) To nam bardzo pomaga.",
     "commands.help.inviteBot": "[Zaproś bota na swój serwer tutaj.]({botInviteURL})",
     "commands.help.privacyPolicy": "[Zapoznaj się z naszą polityką prywatności tutaj.]({privacyPolicyURL})",
-    "commands.help.embedFooter": "Stworzony przez Duck#0001, utrzymywany przez tt2468#2468 | Gildie: {guilds:,d} | Od uruchomienia: {uptime:,d}s",
+    "commands.help.embedFooter": "Gildie: {guilds:,d} | Od uruchomienia: {uptime:,d}s",
 
     "commands.channel.content": "Kanał zliczania został ustawiony na <#{channelID}>.",
     "commands.channel.missingPermissions": "<@{botID}> brakuje następujących uprawnień w <#{channelID}>:",
